@@ -508,6 +508,23 @@ TB1 <br>
 ### 2.3.4. Empathy Mapping
 
 ### 2.3.5. As-is Scenario Mapping
+**Segmento emprendedores y PYMES**
+<br/>**Escenario principal:** Adquirir freelancers para el desarrollo de proyecto de software
+<br/>**Fases**: Búsqueda y selección de candidatos. Negociación y acuerdo. Colaboración y seguimiento. Evaluación y cierre.
+
+<img src="./assets/chapter-III/As-is Emprendedores y PYMES.jpg" alt="Segmento emprendedores y PYMES ">
+
+Enlace a Miro: https://miro.com/app/board/uXjVIA0Hwb4=/?moveToWidget=3458764625322270209&cot=14 
+
+**Segmento Desarrolladores Freelance**
+<br/>**Escenario Principal:** Adquirir un proyecto cuyo desarrollo sea remunerado
+<br/>**Fases:** Búsqueda de proyectos de software. Elección y contacto con el jefe del proyecto. Desarrollo del proyecto. Entrega y pago final.
+
+<img src="./assets/chapter-III/As-is Desarrollador Freelance.jpg" alt="Segmento Desarrolladores Freelance ">
+
+
+Enlace a Miro: https://miro.com/app/board/uXjVIA0Hwb4=/?moveToWidget=3458764625320099091&cot=14 
+
 
 ## 2.4. Ubiquitous Language
 
@@ -516,6 +533,22 @@ TB1 <br>
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
+**Segmento emprendedores y PYMES**
+<br/>**Escenario principal:** Adquirir freelancers para el desarrollo de proyecto de software
+<br/>**Fases**: Búsqueda y selección de candidatos. Negociación y acuerdo. Colaboración y seguimiento. Evaluación y cierre.
+
+<img src="./assets/chapter-III/To-be Emprendedores y PYMES.jpg" alt="Segmento emprendedores y PYMES ">
+
+Enlace a Miro: https://miro.com/app/board/uXjVIA0Hwb4=/?moveToWidget=3458764625325230193&cot=14 
+
+**Segmento Desarrolladores Freelance**
+<br/>**Escenario Principal:** Adquirir un proyecto cuyo desarrollo sea remunerado
+<br/>**Fases:** Búsqueda de proyectos de software. Elección y contacto con el jefe del proyecto. Desarrollo del proyecto. Entrega y pago final.
+
+<img src="./assets/chapter-III/To-be Desarrollador Freelance.jpg" alt="Segmento Desarrolladores Freelance ">
+
+
+Enlace a Miro: https://miro.com/app/board/uXjVIA0Hwb4=/?moveToWidget=3458764625325170755&cot=14 
 
 ## 3.2. User Stories
 
