@@ -545,12 +545,509 @@ Enlace a Miro: https://miro.com/app/board/uXjVIA0Hwb4=/?moveToWidget=34587646253
 <br/>**Escenario Principal:** Adquirir un proyecto cuyo desarrollo sea remunerado
 <br/>**Fases:** Búsqueda de proyectos de software. Elección y contacto con el jefe del proyecto. Desarrollo del proyecto. Entrega y pago final.
 
-<img src="./assets/chapter-III/To-be Desarrollador Freelance.jpg" alt="Segmento Desarrolladores Freelance ">
+<img src="./assets/chapter-III/" alt="Segmento Desarrolladores Freelance ">
 
 
 Enlace a Miro: https://miro.com/app/board/uXjVIA0Hwb4=/?moveToWidget=3458764625325170755&cot=14 
 
 ## 3.2. User Stories
+
+<table>
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 15%" />
+<col style="width: 21%" />
+<col style="width: 39%" />
+<col style="width: 11%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Epic / Story ID</td>
+<td>Título</td>
+<td>Descripción</td>
+<td>Criterios de Aceptación</td>
+<td>Relación Epic ID</td>
+</tr>
+
+<tr class="header">
+<td colspan="5" style="text-align: center"><strong>Epic 1: Autenticación de usuario</strong><br>
+<strong>Como</strong> empresario o freelancer<br>
+<strong>Quiero</strong> autenticarme y configurar mi perfil del usuario<br>
+<strong>Para</strong> ingresar a la aplicación de forma segura y personalizar mi experiencia</td>
+</tr>
+
+<tr class="even">
+<td>E1-US101</td>
+<td>Registrar usuario</td>
+<td><p><strong>Como</strong> empresario o freelancer</p>
+<p><strong>quiero</strong> tener un apartado de registro en la aplicación</p>
+<p><strong>para</strong> que mi información se guarde y pueda acceder a mi cuenta</p></td>
+<td><p><strong>Escenario 1: Acceder a la pantalla de registro</strong></p>
+<p><strong>Dado que</strong> el empresario o freelancer está en la pantalla de inicio de sesión</p>
+<p><strong>Cuando</strong> seleccione la opción "Crear Cuenta"</p>
+<p><strong>Entonces</strong> se le mostrará un formulario de registro donde podrá ingresar su nombre de usuario, correo electrónico, contraseña y tipo de cuenta.</p>
+<p><strong>Escenario 2: Registrarse exitosamente</strong></p>
+<p><strong>Dado que</strong> el empresario o desarrollador ha completado todos los campos requeridos en el formulario de registro</p>
+<p><strong>Y</strong> se han validado los datos</p>
+<p><strong>Cuando</strong> presione la opción "Crear cuenta"</p>
+<p><strong>Entonces</strong> el sistema guardará la información del usuario de manera segura, creará una cuenta nueva y redirigirá al usuario a la pantalla de inicio de sesión.</p></td>
+<td>1</td>
+</tr>
+
+<tr class="odd">
+<td>E1-US102</td>
+<td>Iniciar sesión</td>
+<td><p><strong>Como</strong> empresario o desarrollador usuario de la aplicación</p>
+<p><strong>quiero</strong> ingresar con mi cuenta con la cual me registre</p>
+<p><strong>para</strong> usar las herramientas a mi disposición.</p></td>
+<td><p><strong>Escenario 1: Iniciar sesión exitosamente</strong></p>
+<p><strong>Dado que</strong> el empresario o desarrollador se encuentra en la pantalla de "Inicio de sesión"</p>
+<p><strong>Cuando</strong> ingrese el correo electrónico y contraseña correctos</p>
+<p><strong>Y</strong> presione el botón de "Iniciar sesión"</p>
+<p><strong>Y</strong> los datos sean validados correctamente</p>
+<p><strong>Entonces</strong> se le redirigirá a la página principal de la aplicación</p>
+<p><strong>Escenario 2: Iniciar sesión erróneamente</strong></p>
+<p><strong>Dado que</strong> el empresario o desarrollador se encuentra en la pantalla de "Inicio de sesión"</p>
+<p><strong>Cuando</strong> ingrese un correo electrónico o una contraseña incorrectos</p>
+<p><strong>Y</strong> presione el botón "Iniciar sesión"</p>
+<p><strong>Y</strong> los datos no sean validados correctamente</p>
+<p><strong>Entonces</strong> el sistema mostrará un mensaje de error en rojo bajo el campo de la contraseña con el texto "Las credenciales son incorrectas"</p></td>
+<td>1</td>
+</tr>
+
+<tr class="even">
+<td>E1-US103</td>
+<td>Recuperar contraseña</td>
+<td><p><strong>Como</strong> usuario quiero que la aplicación ofrezca una opción para recuperar mi contraseña</p>
+<p><strong>para</strong> poder acceder a mi cuenta si olvido la contraseña</p></td>
+<td><p><strong>Escenario 1: Solicitar de recuperación de contraseña</strong></p>
+<p><strong>Dado que</strong> el empresario o freelancer ha olvidado su contraseña y no puede iniciar sesión</p>
+<p><strong>Cuando</strong> seleccione la opción "Olvidé mi contraseña" en la pantalla de inicio de sesión</p>
+<p><strong>Y</strong> presione el botón "Enviar enlace de recuperación"</p>
+<p><strong>Entonces</strong> la aplicación enviará un correo electrónico con un enlace para restablecer la contraseña al correo registrado</p>
+<p><strong>Escenario 2: Recuperar contraseña tras múltiples intentos fallidos</strong></p>
+<p><strong>Dado que</strong> el empresario o desarrollador está en la pantalla de inicio de sesión</p>
+<p><strong>Cuando</strong> intente iniciar sesión con una contraseña incorrecta más de 4 veces</p>
+<p><strong>Entonces</strong> la aplicación mostrará un aviso de recuperación de contraseña</p>
+<p><strong>Y</strong> el aviso incluirá un enlace para que el usuario pueda recibir instrucciones para restablecer su contraseña al correo electrónico registrado</p>
+<p><strong>Y</strong> el aviso tendrá un botón "Enviar enlace de recuperación" para proceder con la solicitud.</p></td>
+<td>1</td>
+</tr>
+
+<tr class="header">
+<td colspan="5" style="text-align: center"><strong>Epic 2: Funcionalidades como empresario</strong><br>
+<strong>Como</strong> empresario<br>
+<strong>Quiero</strong> poder gestionar proyectos de desarrollo de software de forma eficiente<br>
+<strong>Para</strong> encontrar freelancers adecuados, hacer seguimiento al trabajo realizado y calificar el trabajo</td>
+</tr>
+
+<tr class="odd">
+<td>E2-US101</td>
+<td>Visualizar proyectos en la pantalla de inicio</td>
+<td><p><strong>Como</strong> empresario</p>
+<p><strong>quiero</strong> visualizar todos los proyectos publicados</p>
+<p><strong>para</strong> poder ver fácilmente el progreso de los mismos</p></td>
+<td><p><strong>Escenario 1: Visualizar proyectos en la pantalla de inicio</strong></p>
+<p><strong>Dado que</strong> el empresario se encuentre en la pantalla principal de la aplicación</p>
+<p><strong>Cuando</strong> presione el logo de la aplicación que dice "Inicio"</p>
+<p><strong>Entonces</strong> podrá ver todos los proyectos que he publicado</p>
+<p><strong>Y</strong> cada proyecto estará representado por una tarjeta con el nombre del proyecto, número de postulantes o el indicador de progreso.</p>
+<p><strong>Escenario 2: Visualizar detalles de un proyecto</strong></p>
+<p><strong>Dado que</strong> el empresario está en la pantalla de inicio</p>
+<p><strong>Cuando</strong> seleccione un proyecto específico de la lista</p>
+<p><strong>Entonces</strong> se abrirá una vista detallada del proyecto</p>
+<p><strong>Y</strong> el empresario podrá ver información adicional como la descripción, los entregables y las fechas de entrega.</p></td>
+<td>2</td>
+</tr>
+
+<tr class="even">
+<td>E2-US102</td>
+<td>Gestionar una propuesta de proyecto de software</td>
+<td><p><strong>Como</strong> empresario que necesita una solución de software</p>
+<p><strong>quiero</strong> utilizar la aplicación para publicar propuesta de proyecto de desarrollo de software</p>
+<p><strong>para</strong> que los freelancers interesados puedan contactarme</p></td>
+<td><p><strong>Escenario 1: Publicar solicitud de proyecto de software</strong></p>
+<p><strong>Dado que</strong> el empresario se encuentre en cualquier página de la aplicación</p>
+<p><strong>Cuando</strong> seleccione la opción "Publicar Proyecto"</p>
+<p><strong>Y</strong> complete el formulario con los detalles del proyecto</p>
+<p><strong>Y</strong> presione el botón "Publicar proyecto"</p>
+<p><strong>Y</strong> luego presione el botón "Aceptar"</p>
+<p><strong>Entonces</strong> el proyecto debe aparecer en la lista de proyectos disponibles.</p>
+<p><strong>Escenario 2: Cancelar la publicación del proyecto</strong></p>
+<p><strong>Dado que</strong> el empresario ha iniciado el proceso de publicación del proyecto</p>
+<p><strong>Cuando</strong> decida no continuar con la publicación</p>
+<p><strong>Y</strong> seleccione algún botón de la barra de navegación</p>
+<p><strong>Entonces</strong> se le redirigirá a la página de la opción seleccionada sin guardar la propuesta</p>
+<p><strong>Y</strong> la solicitud de publicación del proyecto no se guardará ni se mostrará en la lista de proyectos.</p></td>
+<td>2</td>
+</tr>
+
+<tr class="odd">
+<td>E2-US103</td>
+<td>Gestionar lista de postulantes</td>
+<td><p><strong>Como</strong> empresario</p>
+<p><strong>quiero</strong> un sistema de gestión de mi lista de postulantes</p>
+<p><strong>para</strong> gestionar las postulaciones de los freelancers a mis proyectos activos</p></td>
+<td><p><strong>Escenario 1: Aceptar postulación</strong></p>
+<p><strong>Dado que</strong> el empresario ha recibido solicitudes de postulación</p>
+<p><strong>Cuando</strong> se encuentre en la página de aplicantes de un proyecto</p>
+<p><strong>Y</strong> presione el botón con el "tick" verde en la carta de un postulante</p>
+<p><strong>Entonces</strong> se asignará ese proyecto al desarrollador aceptado</p>
+<p><strong>Y</strong> se le notificará al desarrollador que ha sido aceptado</p>
+<p><strong>Escenario 2: Rechazar postulación</strong></p>
+<p><strong>Dado que</strong> el empresario ha recibido solicitudes de postulación</p>
+<p><strong>Cuando</strong> se encuentre en la página de aplicantes de un proyecto</p>
+<p><strong>Y</strong> presione el botón con la "equis" roja en la carta de un postulante</p>
+<p><strong>Entonces</strong> se eliminará ese postulante de la lista</p>
+<p><strong>Y</strong> se le notificará al desarrollador que ha sido rechazado</p></td>
+<td>2</td>
+</tr>
+
+<tr class="even">
+<td>E2-US104</td>
+<td>Visualizar y dar calificación a desarrolladores</td>
+<td><p><strong>Como</strong> empresario</p>
+<p><strong>quiero</strong> un sistema de calificación</p>
+<p><strong>para</strong> conocer la fiabilidad de los desarrolladores web</p></td>
+<td><p><strong>Escenario 1: Visualizar calificaciones</strong></p>
+<p><strong>Dado que</strong> el empresario se encuentre en la página de aplicantes de un proyecto</p>
+<p><strong>Cuando</strong> presione la foto de perfil de un desarrollador</p>
+<p><strong>Entonces</strong> entrará al perfil del freelancer y visualizará su calificación representada con estrellas</p>
+<p><strong>Escenario 2: Dar una calificación</strong></p>
+<p><strong>Dado que</strong> el empresario ha trabajado en un proyecto con un desarrollador</p>
+<p><strong>Cuando</strong> el proyecto finalice y acceda a la pantalla de detalles</p>
+<p><strong>Entonces</strong> verá una opción para calificar al freelancer con estrellas (1-5) y podrá enviar la evaluación</p></td>
+<td>2</td>
+</tr>
+
+<tr class="odd">
+<td>E2-US105</td>
+<td>Visualizar el repositorio de un desarrollador</td>
+<td><p><strong>Como</strong> empresario</p>
+<p><strong>quiero</strong> visualizar una lista con los trabajos realizados por un desarrollador</p>
+<p><strong>para</strong> tener mayor confianza al contactarlo</p></td>
+<td><p><strong>Escenario 1: Ver lista de trabajos realizados</strong></p>
+<p><strong>Dado que</strong> el empresario está en la pantalla de lista de aplicantes</p>
+<p><strong>Cuando</strong> presione la foto de perfil de un freelancer</p>
+<p><strong>Entonces</strong> verá en su perfil la sección "Repositorio" con los trabajos previos</p>
+<p><strong>Escenario 2: Ver trabajo específico</strong></p>
+<p><strong>Dado que</strong> el empresario está en el perfil de un desarrollador</p>
+<p><strong>Cuando</strong> seleccione un trabajo del repositorio</p>
+<p><strong>Entonces</strong> se abrirá en nueva pestaña el trabajo deployado o su repositorio original</p></td>
+<td>2</td>
+</tr>
+
+<tr class="even">
+<td>E2-US106</td>
+<td>Crear y gestionar entregables</td>
+<td><p><strong>Como</strong> empresario</p>
+<p><strong>quiero</strong> un sistema de entregables</p>
+<p><strong>para</strong> establecer los aspectos que debe enviar el desarrollador</p></td>
+<td><p><strong>Escenario 1: Crear entregables</strong></p>
+<p><strong>Dado que</strong> el empresario está en la pantalla de "Cronograma de entregables"</p>
+<p><strong>Cuando</strong> presione el botón "+"</p>
+<p><strong>Entonces</strong> podrá crear un nuevo entregable con título, descripción y fecha límite</p>
+<p><strong>Escenario 2: Editar entregable</strong></p>
+<p><strong>Dado que</strong> el empresario selecciona un entregable existente</p>
+<p><strong>Cuando</strong> elija "Editar"</p>
+<p><strong>Entonces</strong> podrá modificar sus detalles y guardar cambios</p>
+<p><strong>Escenario 3: Eliminar entregable</strong></p>
+<p><strong>Dado que</strong> el empresario selecciona "Eliminar" en un entregable</p>
+<p><strong>Cuando</strong> confirme la acción</p>
+<p><strong>Entonces</strong> el entregable será removido del cronograma</p></td>
+<td>2</td>
+</tr>
+
+<tr class="odd">
+<td>E2-US107</td>
+<td>Gestionar fechas de entregables en el calendario</td>
+<td><p><strong>Como</strong> empresario</p>
+<p><strong>quiero</strong> un sistema de calendario</p>
+<p><strong>para</strong> ver, asignar, actualizar y eliminar fechas de entregables</p></td>
+<td><p><strong>Escenario 1: Asignar fecha</strong></p>
+<p><strong>Dado que</strong> el empresario está creando/editando un entregable</p>
+<p><strong>Cuando</strong> seleccione una fecha en el calendario emergente</p>
+<p><strong>Entonces</strong> la fecha se asignará al entregable</p>
+<p><strong>Escenario 2: Actualizar fecha</strong></p>
+<p><strong>Dado que</strong> el empresario edita un entregable existente</p>
+<p><strong>Cuando</strong> cambie la fecha y guarde</p>
+<p><strong>Entonces</strong> se actualizará en el calendario</p>
+<p><strong>Escenario 3: Eliminar fecha</strong></p>
+<p><strong>Dado que</strong> el empresario selecciona "Eliminar" en la fecha de un entregable</p>
+<p><strong>Cuando</strong> confirme la acción</p>
+<p><strong>Entonces</strong> la fecha será removida</p></td>
+<td>2</td>
+</tr>
+
+<tr class="even">
+<td>E2-US108</td>
+<td>Obtener status de verificado como empresario</td>
+<td><p><strong>Como</strong> empresario premium</p>
+<p><strong>quiero</strong> el sistema de verificado</p>
+<p><strong>para</strong> dar mayor fiabilidad a los desarrolladores freelancer</p></td>
+<td><p><strong>Escenario 1: Obtener el estatus de verificado</strong></p>
+<p><strong>Dado que</strong> el empresario ha pagado la suscripción premium</p>
+<p><strong>Cuando</strong> acceda a su perfil</p>
+<p><strong>Entonces</strong> se mostrará un indicador de verificación</p>
+<p><strong>Escenario 2: Mayor visibilidad</strong></p>
+<p><strong>Dado que</strong> el empresario es verificado</p>
+<p><strong>Cuando</strong> publique un proyecto</p>
+<p><strong>Entonces</strong> aparecerá el icono de verificado junto a su nombre</p></td>
+<td>2</td>
+</tr>
+
+<tr class="odd">
+<td>E2-US109</td>
+<td>Navegar por la aplicación como empresario</td>
+<td><p><strong>Como</strong> empresario</p>
+<p><strong>quiero</strong> un sistema de navegación eficiente</p>
+<p><strong>para</strong> acceder fácilmente a las secciones</p></td>
+<td><p><strong>Escenario 1: Acceder a Buscar Desarrolladores</strong></p>
+<p><strong>Dado que</strong> el empresario ha iniciado sesión</p>
+<p><strong>Cuando</strong> presione "Explorar Desarrolladores"</p>
+<p><strong>Entonces</strong> será dirigido a esa sección</p>
+<p><strong>Escenario 2: Acceder a Mensajes</strong></p>
+<p><strong>Dado que</strong> el empresario ha iniciado sesión</p>
+<p><strong>Cuando</strong> seleccione "Mensajes"</p>
+<p><strong>Entonces</strong> verá el formulario de mensajería</p>
+<p><strong>Escenario 3: Cerrar sesión</strong></p>
+<p><strong>Dado que</strong> el empresario ha iniciado sesión</p>
+<p><strong>Cuando</strong> presione "Salir"</p>
+<p><strong>Entonces</strong> regresará a la pantalla de inicio de sesión</p></td>
+<td>2</td>
+</tr>
+
+<tr class="even">
+<td>E2-US110</td>
+<td>Estadísticas del proyecto</td>
+<td><p><strong>Como</strong> empresa</p>
+<p><strong>quiero</strong> acceder a un panel de estadísticas</p>
+<p><strong>para</strong> visualizar el estado, rendimiento y puntualidad del freelancer</p></td>
+<td><p><strong>Escenario 1: Visualizar progreso</strong></p>
+<p><strong>Dado que</strong> hay un proyecto en curso</p>
+<p><strong>Cuando</strong> acceda a estadísticas</p>
+<p><strong>Entonces</strong> verá un gráfico de progreso por entregables</p>
+<p><strong>Escenario 2: Entregables a tiempo vs retrasados</strong></p>
+<p><strong>Dado que</strong> hay entregables completados</p>
+<p><strong>Cuando</strong> revise estadísticas</p>
+<p><strong>Entonces</strong> verá un gráfico comparando entregas puntuales y retrasadas</p>
+<p><strong>Escenario 3: Evaluar riesgo de retraso</strong></p>
+<p><strong>Dado que</strong> el proyecto está en progreso</p>
+<p><strong>Cuando</strong> analice fechas límite vs avance</p>
+<p><strong>Entonces</strong> verá indicadores de riesgo</p></td>
+<td>2</td>
+</tr>
+
+<tr class="header">
+<td colspan="5" style="text-align: center"><strong>Epic 3: Funcionalidades como desarrollador freelancer</strong><br>
+<strong>Como</strong> desarrollador freelancer<br>
+<strong>Quiero</strong> encontrar proyectos adecuados, postularme fácilmente y gestionar mis entregas<br>
+<strong>Para</strong> trabajar de forma organizada y recibir una remuneración por mi trabajo</td>
+</tr>
+
+<tr class="even">
+<td>E3-US101</td>
+<td>Visualizar y gestionar proyectos asignados</td>
+<td><p><strong>Como</strong> freelancer</p>
+<p><strong>quiero</strong> visualizar todos los proyectos en los que soy desarrollador en la pantalla de inicio</p>
+<p><strong>para</strong> facilitar el seguimiento y el envío de los avances</p></td>
+<td><p><strong>Escenario 1: Visualizar proyectos en la pantalla de inicio</strong></p>
+<p><strong>Dado que</strong> el desarrollador freelancer ha iniciado sesión en la aplicación</p>
+<p><strong>Cuando</strong> presione el logo de la aplicación en la barra de navegación superior</p>
+<p><strong>Entonces</strong> deberá ver su perfil, así como una lista de todos los proyectos en los que está asignado como desarrollador</p>
+<p><strong>Escenario 2: Acceder a detalles de un proyecto</strong></p>
+<p><strong>Dado que</strong> el desarrollador freelancer esté en la pantalla de inicio</p>
+<p><strong>Cuando</strong> toque el nombre de un proyecto en la lista de proyectos asignados</p>
+<p><strong>Entonces</strong> será dirigido a la pantalla de Detalles del Proyecto</p>
+<p><strong>Y</strong> podrá ver información detallada del proyecto como su descripción y los entregables</p></td>
+<td>3</td>
+</tr>
+
+<tr class="odd">
+<td>E3-US102</td>
+<td>Buscar proyectos</td>
+<td><p><strong>Como</strong> freelancer</p>
+<p><strong>quiero</strong> buscar proyectos</p>
+<p><strong>para</strong> encontrar proyectos que se alineen con mis habilidades e intereses</p></td>
+<td><p><strong>Escenario 1: Buscar Proyecto</strong></p>
+<p><strong>Dado que</strong> el desarrollador se encuentra en la pantalla principal de la aplicación</p>
+<p><strong>Cuando</strong> seleccione la opción de "Explorar Proyectos" la barra de navegación</p>
+<p><strong>Entonces</strong> es dirigido a la sección de buscar proyectos</p></td>
+<td>3</td>
+</tr>
+
+<tr class="odd">
+<td>E3-US103</td>
+<td>Postular a proyectos de desarrollo de software</td>
+<td><p><strong>Como</strong> freelancer</p>
+<p><strong>quiero</strong> postularme a desarrollar un proyecto</p>
+<p><strong>para</strong> ser aceptado como desarrollador</p></td>
+<td><p><strong>Escenario 1: Postular a un proyecto</strong></p>
+<p><strong>Dado que</strong> el freelancer encuentra un proyecto de interés</p>
+<p><strong>Cuando</strong> toque "Postular a Proyecto"</p>
+<p><strong>Entonces</strong> aparecerá una ventana de confirmación</p>
+<p><strong>Y</strong> al aceptar, se enviará la postulación</p>
+<p><strong>Escenario 2: Postulaciones ilimitadas (premium)</strong></p>
+<p><strong>Dado que</strong> el freelancer tiene suscripción premium</p>
+<p><strong>Cuando</strong> postule a proyectos</p>
+<p><strong>Entonces</strong> no tendrá límites en postulaciones</p>
+<p><strong>Escenario 3: Prioridad en listas (premium)</strong></p>
+<p><strong>Dado que</strong> el freelancer es premium</p>
+<p><strong>Cuando</strong> postule</p>
+<p><strong>Entonces</strong> su postulación aparecerá en posición más alta</p></td>
+<td>3</td>
+</tr>
+
+<tr class="even">
+<td>E3-US104</td>
+<td>Obtener status de verificado como freelancer</td>
+<td><p><strong>Como</strong> freelancer premium</p>
+<p><strong>quiero</strong> obtener una verificación en mi cuenta</p>
+<p><strong>para</strong> generar mayor confianza</p></td>
+<td><p><strong>Escenario 1: Obtener verificado</strong></p>
+<p><strong>Dado que</strong> el freelancer paga suscripción premium</p>
+<p><strong>Cuando</strong> complete el proceso</p>
+<p><strong>Entonces</strong> aparecerá icono de verificado en su perfil</p>
+<p><strong>Escenario 2: Confirmación de verificación</strong></p>
+<p><strong>Dado que</strong> el freelancer es premium</p>
+<p><strong>Cuando</strong> acceda a su perfil</p>
+<p><strong>Entonces</strong> recibirá notificación de verificación</p></td>
+<td>3</td>
+</tr>
+
+<tr class="odd">
+<td>E3-US105</td>
+<td>Navegar por la aplicación como freelancer</td>
+<td><p><strong>Como</strong> freelancer</p>
+<p><strong>quiero</strong> un menú con accesos directos</p>
+<p><strong>para</strong> navegar fluidamente</p></td>
+<td><p><strong>Escenario 1: Acceder a Inicio</strong></p>
+<p><strong>Dado que</strong> el freelancer ha iniciado sesión</p>
+<p><strong>Cuando</strong> presione el logo de la app</p>
+<p><strong>Entonces</strong> verá su perfil y proyectos asignados</p>
+<p><strong>Escenario 2: Acceder a Mensajes</strong></p>
+<p><strong>Dado que</strong> el freelancer ha iniciado sesión</p>
+<p><strong>Cuando</strong> seleccione "Mensajes"</p>
+<p><strong>Entonces</strong> podrá enviar/recepcionar mensajes</p>
+<p><strong>Escenario 3: Cerrar sesión</strong></p>
+<p><strong>Dado que</strong> el freelancer ha iniciado sesión</p>
+<p><strong>Cuando</strong> presione "Salir"</p>
+<p><strong>Entonces</strong> regresará al inicio de sesión</p></td>
+<td>3</td>
+</tr>
+
+<tr class="even">
+<td>E3-US106</td>
+<td>Gestionar entregables de un proyecto</td>
+<td><p><strong>Como</strong> freelancer</p>
+<p><strong>quiero</strong> explorar y revisar los entregables</p>
+<p><strong>para</strong> verificar los tiempos de entrega</p></td>
+<td><p><strong>Escenario 1: Revisar entregables</strong></p>
+<p><strong>Dado que</strong> el freelancer está asignado a un proyecto</p>
+<p><strong>Cuando</strong> acceda a "Entregables"</p>
+<p><strong>Entonces</strong> verá la lista con descripciones y fechas</p>
+<p><strong>Escenario 2: Notificaciones anticipadas</strong></p>
+<p><strong>Dado que</strong> un entregable tiene fecha próxima</p>
+<p><strong>Cuando</strong> falten 3 días</p>
+<p><strong>Entonces</strong> recibirá una notificación recordatoria</p></td>
+<td>3</td>
+</tr>
+
+<tr class="header">
+<td colspan="5" style="text-align: center"><strong>Epic 4: Preferencias en la aplicación</strong><br>
+<strong>Como</strong> empresa o desarrollador freelancer<br>
+<strong>Quiero</strong> configurar preferencias en la aplicación<br>
+<strong>Para</strong> tener una mejor experiencia en la aplicación según mis preferencias</td>
+</tr>
+
+<tr class="even">
+<td>E4-US101</td>
+<td>Seleccionar idioma</td>
+<td><p><strong>Como</strong> empresario o freelance</p>
+<p><strong>quiero</strong> configurar preferencias de idioma</p>
+<p><strong>para</strong> utilizar la aplicación según mi preferencia de idioma.</p></td>
+<td><p><strong>Escenario 1: Modo predeterminado de preferencia de idioma</strong></p>
+<p><strong>Dado que</strong> el empresario o desarrollador freelancer no haya realizado cambios de preferencias de idioma a la aplicación</p>
+<p><strong>Cuando</strong> ingrese a la aplicación</p>
+<p><strong>Entonces</strong> el idioma predeterminado es inglés</p>
+<p><strong>Escenario 2: Cambio de preferencias de idioma en la aplicación</strong></p>
+<p><strong>Dado que</strong> el empresario o postulante se encuentra en la sección de configuraciones de idioma</p>
+<p><strong>Cuando</strong> selecciona un idioma</p>
+<p><strong>Entonces</strong> el idioma de la aplicación se cambia al idioma seleccionado.</p></td>
+<td>4</td>
+</tr>
+
+<tr class="even">
+<td>E4-US102</td>
+<td>Manejar y reportar errores</td>
+<td><p><strong>Como</strong> empresario o freelancer</p>
+<p><strong>quiero</strong> ser informado de errores</p>
+<p><strong>para</strong> que se puedan resolver y mejorar la experiencia</p></td>
+<td><p><strong>Escenario 1: Error 404</strong></p>
+<p><strong>Dado que</strong> el usuario accede a una ruta inexistente</p>
+<p><strong>Cuando</strong> la aplicación detecte el error</p>
+<p><strong>Entonces</strong> mostrará pantalla de error con opción a redirigir</p>
+<p><strong>Escenario 2: Reportar bug</strong></p>
+<p><strong>Dado que</strong> el usuario encuentra un problema</p>
+<p><strong>Cuando</strong> acceda a "Soporte" en el menú</p>
+<p><strong>Entonces</strong> podrá enviar un reporte detallado</p></td>
+<td>4</td>
+</tr>
+
+<tr class="odd">
+<td>E4-US103</td>
+<td>Gestionar perfil de usuario</td>
+<td><p><strong>Como</strong> usuario</p>
+<p><strong>quiero</strong> gestionar mi información de perfil</p>
+<p><strong>para</strong> configurarlo a mi gusto</p></td>
+<td><p><strong>Escenario 1: Visualizar perfil</strong></p>
+<p><strong>Dado que</strong> el usuario inicia sesión</p>
+<p><strong>Cuando</strong> acceda a su perfil</p>
+<p><strong>Entonces</strong> verá su información actual</p>
+<p><strong>Escenario 2: Editar perfil</strong></p>
+<p><strong>Dado que</strong> el usuario selecciona "Editar perfil"</p>
+<p><strong>Cuando</strong> modifique datos y guarde</p>
+<p><strong>Entonces</strong> los cambios se reflejarán inmediatamente</p></td>
+<td>4</td>
+</tr>
+
+<tr class="header">
+<td colspan="5"  style="text-align: center"> <strong>Epic 5: Backend API</strong><br>
+<strong>Como</strong> desarrollador<br>
+<strong>Quiero</strong> utilizar un backend API<br>
+<strong>Para</strong> que los usuarios puedan interactuar con la aplicación</td>
+</tr>
+
+<tr class="odd">
+<td>E5-US101</td>
+<td>Seleccionar fechas de entregables en el calendario</td>
+<td><p><strong>Como</strong> desarrollador</p>
+<p><strong>quiero</strong> funciones de información</p>
+<p><strong>para</strong> que los usuarios puedan manipular y observar la fecha de los entregables de los proyectos</p></td>
+<td><p><strong>Escenario 1: Solicitud GET</strong></p>
+<p><strong>Dado que</strong> desarrollador utilice el endpoint</p>
+<p><strong>Cuando</strong> utilice el método GET a los usuarios</p>
+<p><strong>Entonces</strong> consigue las fechas de los entregables</p>
+<p><strong>Escenario 2: Solicitud POST</strong></p>
+<p><strong>Dado que</strong> desarrollador utilice el endpoint</p>
+<p><strong>Cuando</strong> utilice el método POST a los entregables</p>
+<p><strong>Y</strong> los datos son validados</p>
+<p><strong>Entonces</strong> se crea una nueva fecha en el calendario</p>
+<p><strong>Escenario 3: Solicitud PUT</strong></p>
+<p><strong>Dado que</strong> desarrollador utilice el endpoint</p>
+<p><strong>Cuando</strong> utilice el método PUT con el ID del entregable con la fecha a editar</p>
+<p><strong>Y</strong> los datos son validados</p>
+<p><strong>Entonces</strong> se cambia la fecha seleccionada en el calendario</p>
+<p><strong>Escenario 4: Solicitud DELETE</strong></p>
+<p><strong>Dado que</strong> desarrollador utilice el endpoint</p>
+<p><strong>Cuando</strong> utilice el método DELETE con el ID del entregable con la fecha a eliminar</p>
+<p><strong>Y</strong> los datos son validados</p>
+<p><strong>Entonces</strong> se eliminará la fecha del entregable seleccionado del calendario</p></td>
+<td>5</td>
+</tr>
+
+</tbody>
+</table>
 
 ## 3.3. Impact Mapping
 
