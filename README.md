@@ -954,7 +954,7 @@ Enlace a Miro: https://miro.com/app/board/uXjVIA0Hwb4=/?moveToWidget=34587646253
 </tr>
 
 <tr class="header">
-<td colspan="5" style="text-align: center"><strong>Epic 4: Preferencias en la aplicación</strong><br>
+<td colspan="5" style="text-align: center"3.2><strong>Epic 4: Preferencias en la aplicación</strong><br>
 <strong>Como</strong> empresa o desarrollador freelancer<br>
 <strong>Quiero</strong> configurar preferencias en la aplicación<br>
 <strong>Para</strong> tener una mejor experiencia en la aplicación según mis preferencias</td>
@@ -1050,8 +1050,152 @@ Enlace a Miro: https://miro.com/app/board/uXjVIA0Hwb4=/?moveToWidget=34587646253
 </table>
 
 ## 3.3. Impact Mapping
+**Segmento emprendedores y PYMES**
+
+<img src="./assets/chapter-III/Impact-map emprendedores y PYMES.PNG" alt="Impact map del segmento emprendedores y PYMES">
+
+**Segmento desarrolladores freelance**
+
+<img src="./assets/chapter-III/Impact-map Desarrollador Freelance.png" alt="Impact map del segmento desarrolladores freelance">
 
 ## 3.4. Product Backlog
+
+<img src="./assets/chapter-III/Product-backlog.PNG" alt="Product backlog de la aplicación FromZero">
+
+Enlace al tablero de Trello: https://trello.com/b/gNzXJS37/from-zero 
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>User story ID</th>
+      <th>Título</th>
+      <th>Story Points (1 / 2 / 3 / 5 / 8)</th>
+      <th>Sprint</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>E2-US109</td>
+      <td>Navegar por la aplicación como empresario</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E2-US102</td>
+      <td>Gestionar una propuesta de proyecto de software</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E2-US106</td>
+      <td>Crear y gestionar entregables</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E2-US107</td>
+      <td>Gestionar fechas de entregables en el calendario</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E2-US110</td>
+      <td>Estadísticas del proyecto</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E2-US101</td>
+      <td>Visualizar proyectos en la pantalla de inicio</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E2-US104</td>
+      <td>Visualizar y dar calificación a desarrolladores</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E1-US101</td>
+      <td>Registrar usuario</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E1-US102</td>
+      <td>Iniciar sesión</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>E2-US103</td>
+      <td>Gestionar lista de postulantes</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>E5-US101</td>
+      <td>Seleccionar fechas de entregables en el calendario</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>E2-US105</td>
+      <td>Visualizar el repositorio de un desarrollador</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>E2-US108</td>
+      <td>Obtener status de verificado como empresario</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>E3-US104</td>
+      <td>Navegar por la aplicación como freelancer</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>E3-US102</td>
+      <td>Postular a proyectos de desarrollo de software</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>E3-US101</td>
+      <td>Visualizar y gestionar proyectos asignados</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>E3-US103</td>
+      <td>Obtener status de verificado como freelancer</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>E4-US101</td>
+      <td>Seleccionar idioma</td>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>E4-US102</td>
+      <td>Manejar y reportar errores</td>
+      <td>1</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>E1-US103</td>
+      <td>Recuperar contraseña</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
