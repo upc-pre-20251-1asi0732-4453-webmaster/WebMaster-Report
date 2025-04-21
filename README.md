@@ -137,114 +137,123 @@
 
   - [3.4. Product Backlog](#34-product-backlog)
 
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
 
-  - [4.1. Style Guidelines](#41-style-guidelines)
+  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
 
-    - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
+    - [4.1.1. EventStorming](#411-eventstorming)
 
-    - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+      - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
 
-    - [4.1.3. Mobile Style Guidelines.](#413-mobile-style-guidelines)
+      - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
 
-      - [4.1.3.1. iOS Mobile Style Guidelines.](#4131-ios-mobile-style-guidelines)
+      - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
 
-      - [4.1.3.2. Android Mobile Style Guidelines.](#4132-android-mobile-style-guidelines)
+    - [4.1.2. Context Mapping](#412-context-mapping)
 
-  - [4.2. Information Architecture.](#42-information-architecture)
+    - [4.1.3. Software Architecture](#413-software-architecture)
 
-    - [4.2.1. Organization Systems.](#421-organization-systems)
+      - [4.1.3.1. System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
 
-    - [4.2.2. Labeling Systems.](#422-labeling-systems)
+      - [4.1.3.2. Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
 
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+      - [4.1.3.3. Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
 
-    - [4.2.4. Searching Systems.](#424-searching-systems)
+      - [4.1.3.4. Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
 
-    - [4.2.5. Navigation Systems.](#425-navigation-systems)
+  - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
 
-  - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
+    - [4.2.X. Bounded Context](#42x-bounded-context-bounded-context-name)
 
-    - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
+      - [4.2.X.1. Domain Layer](#42x1-domain-layer)
 
-    - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
+      - [4.2.X.2. Interface Layer](#42x2-interface-layer)
 
-  - [4.4. Mobile Applications UX/UI Design.](#44-mobile-applications-uxui-design)
+      - [4.2.X.3. Application Layer](#42x3-application-layer)
 
-    - [4.4.1. Mobile Applications Wireframes.](#441-mobile-applications-wireframes)
+      - [4.2.X.4. Infrastructure Layer](#42x4-infrastructure-layer)
 
-    - [4.4.2. Mobile Applications Wireflow Diagrams.](#442-mobile-applications-wireflow-diagrams)
+      - [4.2.X.5. Component Level Diagrams](#42x5-component-level-diagrams)
 
-    - [4.4.3. Mobile Applications Mock-ups.](#443-mobile-applications-mock-ups)
+      - [4.2.X.6. Code Level Diagrams](#42x6-code-level-diagrams)
 
-    - [4.4.4. Mobile Applications User Flow Diagrams.](#444-mobile-applications-user-flow-diagrams)
+        - [4.2.X.6.1. Domain Layer Class Diagrams](#42x61-domain-layer-class-diagrams)
 
-  - [4.5. Mobile Applications Prototyping.](#45-mobile-applications-prototyping)
+        - [4.2.X.6.2. Database Design Diagram](#42x62-database-design-diagram)
 
-    - [4.5.1. Android Mobile Applications Prototyping.](#451-android-mobile-applications-prototyping)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
 
-    - [4.5.2. iOS Mobile Applications Prototyping.](#452-ios-mobile-applications-prototyping)
+  - [5.1. Style Guidelines](#51-style-guidelines)
 
-  - [4.6. Web Applications UX/UI Design.](#46-web-applications-uxui-design)
+    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
 
-    - [4.6.1. Web Applications Wireframes.](#461-web-applications-wireframes)
+    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
 
-    - [4.6.2. Web Applications Wireflow Diagrams.](#462-web-applications-wireflow-diagrams)
+  - [5.2. Information Architecture](#52-information-architecture)
 
-    - [4.6.3. Web Applications Mock-ups.](#463-web-applications-mock-ups)
+    - [5.2.1. Organization Systems](#521-organization-systems)
 
-    - [4.6.4. Web Applications User Flow Diagrams.](#464-web-applications-user-flow-diagrams)
-    
-  - [4.7. Web Applications Prototyping.](#47-web-applications-prototyping)
+    - [5.2.2. Labeling Systems](#522-labeling-systems)
 
-  - [4.8. Domain-Driven Software Architecture.](#48-domain-driven-software-architecture)
+    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
 
-    - [4.8.1. Software Architecture Context Diagram.](#481-software-architecture-context-diagram)
+    - [5.2.4. Searching Systems](#524-searching-systems)
 
-    - [4.8.2. Software Architecture Container Diagrams.](#482-software-architecture-container-diagrams)
+    - [5.2.5. Navigation Systems](#525-navigation-systems)
 
-    - [4.8.3. Software Architecture Components Diagrams.](#483-software-architecture-components-diagrams)
+  - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
 
-  - [4.9. Software Object-Oriented Design.](#49-software-object-oriented-design)
+    - [5.3.1. Wireframe](#531-wireframe)
 
-    - [4.9.1. Class Diagrams.](#491-class-diagrams)
+    - [5.3.2. Mock-up](#532-mock-up)
 
-    - [4.9.2. Class Dictionary.](#492-class-dictionary)
+  - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
 
-  - [4.10. Database Design.](#410-database-design)
+    - [5.4.1. Wireframes](#541-wireframes)
 
-    - [4.10.1. Relational/Non-Relational Database Diagram.](#4101-relationalnon-relational-database-diagram)
+    - [5.4.2. Wireflow Diagrams](#542-wireflow-diagrams)
 
-- [Capítulo V: Product Implementation](#capítulo-v-product-implementation)
+    - [5.4.3. Mock-ups](#543-mock-ups)
 
-  - [5.1. Software Configuration Management.](#51-software-configuration-management)
+    - [5.4.4. User Flow Diagrams](#544-user-flow-diagrams)
 
-    - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
+  - [5.5. Applications Prototyping](#55-applications-prototyping)
 
-    - [5.1.2. Source Code Management.](#512-source-code-management)
+- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
 
-    - [5.1.3. Source Code Style Guide & Conventions.](#513-source-code-style-guide--conventions)
+  - [6.1. Software Configuration Management](#61-software-configuration-management)
 
-    - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
+    - [6.1.1. Development Environment Configuration](#611-development-environment-configuration)
 
-  - [5.2. Product Implementation & Deployment.](#52-product-implementation--deployment)
+    - [6.1.2. Source Code Management](#612-source-code-management)
 
-    - [5.2.1. Sprint Backlogs.](#521-sprint-backlogs)
+    - [6.1.3. Style Guide & Conventions](#613-style-guide--conventions)
 
-    - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
+    - [6.1.4. Deployment Configuration](#614-deployment-configuration)
 
-    - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
+  - [6.2. Implementation](#62-implementation)
 
-    - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
+    - [6.2.X. Sprint n](#62x-sprint-n)
 
-    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
+      - [6.2.X.1. Sprint Planning](#62x1-sprint-planning)
 
-    - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
+      - [6.2.X.2. Aspect Leaders and Collaborators](#62x2-aspect-leaders-and-collaborators)
 
-    - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+      - [6.2.X.3. Sprint Backlog](#62x3-sprint-backlog)
 
-  - [5.3. Video About-the-Product.](#53-video-about-the-product)
+      - [6.2.X.4-8. Sprint Review Evidences](#62x4-8-sprint-review-evidences)
 
+      - [6.2.X.9. Team Collaboration Insights](#62x9-team-collaboration-insights)
+
+  - [6.3. Validation Interviews](#63-validation-interviews)
+
+    - [6.3.1. Diseño](#631-diseño)
+
+    - [6.3.2. Registro](#632-registro)
+
+    - [6.3.3. Evaluaciones](#633-evaluaciones)
+
+  - [6.4. Video About-the-Product](#64-video-about-the-product)
 
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 
@@ -516,64 +525,129 @@ TB1 <br>
 
 ---
 
-# Capítulo IV: Product Design
-## 4.1. Style Guidelines
-### 4.1.1. General Style Guidelines.
-### 4.1.2. Web Style Guidelines.
-### 4.1.3. Mobile Style Guidelines.
-#### 4.1.3.1. iOS Mobile Style Guidelines.
-#### 4.1.3.2. Android Mobile Style Guidelines.
-## 4.2. Information Architecture.
-### 4.2.1. Organization Systems.
-### 4.2.2. Labeling Systems.
-### 4.2.3. SEO Tags and Meta Tags
-### 4.2.4. Searching Systems.
-### 4.2.5. Navigation Systems.
-## 4.3. Landing Page UI Design.
-### 4.3.1. Landing Page Wireframe.
-### 4.3.2. Landing Page Mock-up.
-## 4.4. Mobile Applications UX/UI Design.
-### 4.4.1. Mobile Applications Wireframes.
-### 4.4.2. Mobile Applications Wireflow Diagrams.
-### 4.4.3. Mobile Applications Mock-ups.
-### 4.4.4. Mobile Applications User Flow Diagrams.
-## 4.5. Mobile Applications Prototyping.
-### 4.5.1. Android Mobile Applications Prototyping.
-### 4.5.2. iOS Mobile Applications Prototyping.
-## 4.6. Web Applications UX/UI Design.
-### 4.6.1. Web Applications Wireframes.
-### 4.6.2. Web Applications Wireflow Diagrams.
-### 4.6.3. Web Applications Mock-ups.
-### 4.6.4. Web Applications User Flow Diagrams.
-## 4.7. Web Applications Prototyping.
-### 4.8. Domain-Driven Software Architecture.
-### 4.8.1. Software Architecture Context Diagram.
-### 4.8.2. Software Architecture Container Diagrams.
-### 4.8.3. Software Architecture Components Diagrams.
-## 4.9. Software Object-Oriented Design.
-### 4.9.1. Class Diagrams.
-### 4.9.2. Class Dictionary.
-## 4.10. Database Design.
-### 4.10.1. Relational/Non-Relational Database Diagram.
+# Capítulo IV: Solution Software Design
+
+## 4.1. Strategic-Level Domain-Driven Design
+
+### 4.1.1. EventStorming
+
+#### 4.1.1.1. Candidate Context Discovery
+
+#### 4.1.1.2. Domain Message Flows Modeling
+
+#### 4.1.1.3. Bounded Context Canvases
+
+### 4.1.2. Context Mapping
+
+### 4.1.3. Software Architecture
+
+#### 4.1.3.1. Software Architecture System Landscape Diagram
+
+#### 4.1.3.2. Software Architecture Context Level Diagrams
+
+#### 4.1.3.3. Software Architecture Container Level Diagrams
+
+#### 4.1.3.4. Software Architecture Deployment Diagrams
+
+## 4.2. Tactical-Level Domain-Driven Design
+
+### 4.2.X. Bounded Context: <Bounded Context Name>
+
+#### 4.2.X.1. Domain Layer
+
+#### 4.2.X.2. Interface Layer
+
+#### 4.2.X.3. Application Layer
+
+#### 4.2.X.4. Infrastructure Layer
+
+#### 4.2.X.5. Component Level Diagrams
+
+#### 4.2.X.6. Code Level Diagrams
+
+##### 4.2.X.6.1. Domain Layer Class Diagrams
+
+##### 4.2.X.6.2. Database Design Diagram
 
 ---
 
-# Capítulo V: Product Implementation
-## 5.1. Software Configuration Management.
-### 5.1.1. Software Development Environment Configuration.
-### 5.1.2. Source Code Management.
-### 5.1.3. Source Code Style Guide & Conventions.
-### 5.1.4. Software Deployment Configuration.
-## 5.2. Product Implementation & Deployment.
-### 5.2.1. Sprint Backlogs.
-### 5.2.2. Implemented Landing Page Evidence
-### 5.2.3. Implemented Frontend-Web Application Evidence
-### 5.2.4. Implemented Native-Mobile Application Evidence
-### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
-### 5.2.6. RESTful API documentation
-### 5.2.7. Team Collaboration Insights
-## 5.3. Video About-the-Product.
+# Capítulo V: Solution UI/UX Design
 
+## 5.1. Style Guidelines
+
+### 5.1.1. General Style Guidelines
+
+### 5.1.2. Web, Mobile and IoT Style Guidelines
+
+## 5.2. Information Architecture
+
+### 5.2.1. Organization Systems
+
+### 5.2.2. Labeling Systems
+
+### 5.2.3. SEO Tags and Meta Tags
+
+### 5.2.4. Searching Systems
+
+### 5.2.5. Navigation Systems
+
+## 5.3. Landing Page UI Design
+
+### 5.3.1. Wireframe
+
+### 5.3.2. Mock-up
+
+## 5.4. Applications UX/UI Design
+
+### 5.4.1. Wireframes
+
+### 5.4.2. Wireflow Diagrams
+
+### 5.4.3. Mock-ups
+
+### 5.4.4. User Flow Diagrams
+
+## 5.5. Applications Prototyping
+
+---
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management
+
+### 6.1.1. Development Environment Configuration
+
+### 6.1.2. Source Code Management
+
+### 6.1.3. Style Guide & Conventions
+
+### 6.1.4. Deployment Configuration
+
+## 6.2. Implementation
+
+### 6.2.X. Sprint n
+
+#### 6.2.X.1. Sprint Planning
+
+#### 6.2.X.2. Aspect Leaders and Collaborators
+
+#### 6.2.X.3. Sprint Backlog
+
+#### 6.2.X.4-8. Sprint Review Evidences
+
+#### 6.2.X.9. Team Collaboration Insights
+
+## 6.3. Validation Interviews
+
+### 6.3.1. Diseño
+
+### 6.3.2. Registro
+
+### 6.3.3. Evaluaciones
+
+## 6.4. Video About-the-Product
+
+---
 
 # Conclusiones y Recomendaciones
 
