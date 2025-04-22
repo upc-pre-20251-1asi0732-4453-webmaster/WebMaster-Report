@@ -1521,7 +1521,7 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 **SumofStoryPoints** | 23
 ### 5.2.2. Implemented Landing Page Evidence
 
-<img src="./assets/chapter-V/landing-page.png" alt="Landing Page de la aplicación FromZero" width="500">
+<img src="./assets/chapter-V/Landing-page.png" alt="Landing Page de la aplicación FromZero" width="500">
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 <img src="./assets/chapter-V/Webapp.png" alt="Web application" width="500">
