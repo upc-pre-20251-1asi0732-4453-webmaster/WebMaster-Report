@@ -1272,28 +1272,284 @@ Enlace al tablero de Trello: https://trello.com/b/gNzXJS37/from-zero
 # Capítulo V: Product Implementation
 
 ## 5.1. Software Configuration Management.
-
 ### 5.1.1. Software Development Environment Configuration.
+#### Project Management
+- Trello [https://trello.com](https://trello.com):
+ Trello es una aplicación web de gestión de proyectos compatible con la mayoria de navegadores. Se utilizó Trello para la organización y registro de las tareas por hacer, las que están en proceso y las realizadas. De esta forma podemos tener control acerca del avance del proyecto y las actividades de cada uno de los miembros del equipo.
+
+#### Product UX/UI Design
+- Miro [https://miro.com](https://miro.com):
+ Miro ha sido empleado en el desarrollo de los escenarios mapping y escenario mapping para ambos segmentos objetivos.
+
+- Figma [https://figma.com](https://figma.com):
+ Esta herramienta fue de vital importancia para la creación de los wireframes, mockups y mobile applications prototyping de manera colaborativa. Asimismo, su acceso es gratuito al contar con una cuenta registrada.
+
+#### Software Developement
+- Landing Page:
+El desarrollo del landing page se llevó a cabo con las tecnologías básicas para esta misma: HTML5, CSS3 y JavaScript.
+- Frontend Web Application:
+Se ha utilizado a Vue como framework de Javascript. En adición, para la implementación de componentes reutilizables y accesibles se usó PrimeVue como biblioteca de componentes UI.
+
+
+#### IDE's de desarrollo
+- IntelliJ IDEA [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/):
+IntelliJ IDEA es un entorno de desarrollo integrado (IDE) creado por JetBrains. Este entorno de desarrollo nos proporcionará distintas herramientas para agilizar el proceso de desarrollo
+
+- WebStorm [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/): Para el front se utilizó WebStorm, un IDE de JavaScript y TypeScript. Este IDE es muy útil para el desarrollo de aplicaciones web, ya que cuenta con herramientas para la depuración, pruebas y análisis de código.
+
+#### Software Testing
+- Para las pruebas de testeo software, tanto de la landing page como de la aplicación web, se emplearon las herramientas de desarrollador de los principales navegadores web como Google Chrome [https://www.google.com/chrome/](https://www.google.com/chrome/), Microsoft Edge [https://www.microsoft.com/en-us/edge](https://www.microsoft.com/en-us/edge) y Mozilla Firefox [https://www.mozilla.org/en-US/firefox/browsers/](https://www.mozilla.org/en-US/firefox/browsers/). Estos navegadores cuentan con aplicaciones desktop y móviles las cuáles son totalmente gratuitas. En el caso de desktop podemos instalarlos desde sus sitios oficiales, en el caso de móvil, desde la tienda de aplicaciones del sistema operativo en cuestión.
+
+#### Software Deployment
+- **Vercel** [https://vercel.com](https://vercel.com):
+es una plataforma en la nube que ofrece herramientas integrales para el desarrollo, implementación y alojamiento de aplicaciones web, permitiendo a los desarrolladores crear y lanzar sitios estáticos o dinámicos de manera eficiente y escalable.
+
+#### Software Documentation
+- Markdown [https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax):
+Markdown es un lenguaje de marcado ligero que nos permite formatear texto de manera sencilla utilizando un formato de texto plano. De esta forma documentamos la información importante acerca del contexto, organización, producción y creacíon del proyecto.
+- Structurizr [https://structurizr.com/](https://structurizr.com/):
+Esta herramienta permite crear los diagramas C4 de manera rápida con una sintaxis similar a un lenguaje de programación. Para utilizar esta aplicación web hace falta tener una cuenta registrada.
+
+- Vertabelo: [https://www.vertabelo.com/](https://www.vertabelo.com/)
+Es una aplicación web colaborativa que facilita el diseño e implementación de bases de datos en una amplia variedad de motores.
 
 ### 5.1.2. Source Code Management.
+Repositorios:<br>
+- Url del repositorio del La web app: [Url del repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/webmaster-app)
+- Url del repositorio de la Api RESTful: [Url del repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/FromZeroAPI)
+- Url del repositorio de la Landing Page: [Url del repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/WebMaster-LandingPage)
+
+Git Flow:<br>
+<img src="./assets/chapter-V/Gitflow-example.png" alt="Git flow del proyecto FromZero" width="500">
+
+Se aplicará GitFlow utilizando el artículo de Vincent Driessen, “A successful Git branching model”. A continuación se dará una explicación de cada Branch que se utiliza en el modelo GitFlow.
+
+- MASTER: Se utilizara esta rama como la versión estable y lista para producción. Todos los cambios que se fusionan aquí ya se consideran seguros y listos para implementar.
+
+- DEVELOP: Esta rama es donde se trabajarán nuevas características y correcciones de errores. Es la rama principal de desarrollo.
+
+- FEATURE BRANCHES: Son ramas de características para trabajar en nuevas funciones. Cada característica tendrá su propia rama, para que se trabaje de manera aislada, luego se fusiona con la rama DEVELOP.
+
+- RELEASE BRANCHES: Son las ramas de lanzamiento que sirven para preparar una nueva versión del software. Se corrigen errores, pruebas finales y se prepara para fusionarse con MASTER y DEVELOP.
+
+- HOTFIX BRANCHES: Son esenciales cuando ocurren errores en la producción. Se crean directamente desde MASTER, se solucionan los problemas y se fusionan los cambios en las ramas de MASTER y DEVELOP.
+<br>
+
+Commit Conventions
+Para el formato de los COMMITS se aplicará lo siguiente: \<type>:\<description> Donde:
+
+TYPE: Solo pueden ser 3 tipos, sea BREAKING que se relaciona con X, luego FEAT que se relaciona con Y y por último FIX que se relaciona con Z.
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
+**HTML**: https://www.w3schools.com/html/html5_syntax.asp
+           
+**Index.html**
+
+Es la página por defecto dentro de los directorios de los servidores de cualquier sitio web que se carga siempre que se solicita un dominio y no se especifica el nombre de un archivo en específico. Y en la mayoría de los casos el propio servidor web es el que se encarga de buscar el archivo index.
+
+**Convenciones de HTML**:
+
+- Se debe declarar el tipo de documento en la primera línea: `<!DOCTYPE html>`
+- Se recomienda usar minúsculas en las etiquetas y estructuras: `<body>` `<p>`
+- Se recomienda cerrar todas las etiquetas y estructuras: `<p>This is a paragraph.</p>`
+- Se recomienda usar minúsculas en los atributos: `<a href="https://www.google.com/html/">`
+- Se recomienda usar comillas en los valores de atributo: `<table class="striped">`
+- Se debe especificar el alt, ancho y alto de las imágenes: `<img src="html5.gif" alt="HTML5" style="width:128px;height:128px">`
+- Se recomienda no usar espacios a la hora de usar el signo “=”: `<link rel="stylesheet" href="styles.css">`
+- Solo se debe usar líneas en blaco para facilitar la lectura de bloques de códigos grandes o lógicos.
+- No se debe omitir el elemento `<title>` ya que es vital para el motor de búsqueda, así como también se recomienda que el contenido de los `<title>` sea preciso y significativo: `<title>HTML Style Guide and Coding Conventions</title>`
+- No se recomienda omitir las etiquetas `<html>` y `<body>` ya que puede producir errores en navegadores antiguos y puede bloquear el software DOM y XML.
+- Se debe usar el atributo lang para declarar el idioma de la página web: `<html lang="en-us">`
+- Se debe utilizar el atributo meta para una interpretación adecuada e indexación correcta en los motores de búsqueda: `<meta charset="UTF-8">`
+
+**CSS**: https://google.github.io/styleguide/htmlcssguide.html
+           
+**Style.css**
+
+El estilo de cascada (CSS) se puede usar para estilos de texto, por ejemplo, cambiar de color y el tamaño de los encabezados, enlaces, entre otras cosas.
+
+**Convenciones de CSS**:
+
+- Utilizar el protocolo HTTPS para imágenes y otros archivos multimedia: `@import 'https://fonts.googleapis.com/css?family=Open+Sans'` ; Todo el código debe estar en minúsculas como nombres de elementos HTML, atributos, valores de atributo, entre otros: `color : #e5e5e5;`
+- El nombre de una clase debe transmitir lo que hace de la forma más breve posible ya que de esta manera se apoya la comprensibilidad y eficiencia del código: navegación {} . autor {} Se debe separar los nombres de las clases con un guión (“-”): navegación {} . autor {}
+- Se recomienda usar propiedades abreviadas cuando sea posible: `border - top : 0 ;`
+- Se recomienda usar la notación hexadecimal de 3 caracteres en colores que lo permitan: `color : #ebc;`
+- Se recomienda ordenar las declaraciones de propiedades y características en orden alfabético
+- Se debe usar un “;” después de cada declaración: `pantalla : bloque ;`
+- Se debe usar un espacio después de los “:” de cada nombre de la propiedad: `font - weight : bold ;`
+- Se debe usar un espacio entre el último sector y la llave “{ “ que comienza el bloque de declaración:. vídeo {.....}
+- Se debe usar las comillas simples (‘ ‘) para los atributos y valores de propiedad: `familia de fuentes : ' open sans' , arial , sans - serif ;`
+
+**Gherkin**: https://cucumber.io/docs/gherkin/reference/
+
+**`<usertStoryID>`.featrue** :
+
+En este archivo de formato feature estarán las historias de usuario como características de la aplicación. Asimismo se pueden encontrar los criterios de aceptación para las diversas situaciones.
+
+**Convenciones de Gherkin**:
+
+- Se utiliza la palabra Feature para introducir una descripción de alto nivel de una función de software y agruparlos en escenarios relacionados
+- Example o Scenario sirven para plantear una situación
+- Se utiliza Given para describir el contexto inicial, When para describir un evento y Then para describir un resultado esperado y And para adicionar información. Given,When,Then y And se usan para describir un escenario
+- El carácter “|” sirve para formar una tabla datos, las cuales son útiles para pasar una lista de valores a una definición de paso.
+
+**Java**: https://google.github.io/styleguide/javaguide.html 
+
+**Convenciones de Java**:
+
+- Los nombres de clases y tipos deben ser sustantivos en mayúscula inicial.
+- Los nombres de los métodos deben ser minúsculas.
+- El nombre de las variables debe ser en minúsculas y usar camel case.
+- Para las sentencias if,else,for,do y while se deben usar “ { } “.
+- Los nombres de variables que son Constantes deben ir en mayúsculas.
+
+**JavaScript**: https://google.github.io/styleguide/jsguide.html. 
+
+**Convenciones de JavaScript**:
+
+- Se debe usar Camelcase para los nombres de variables y funciones.
+- Se debe usar Pascalcase para los nombres de constructores o clases.
+- Se debe usar mayúsculas y guiones bajos para los nombres de la constantes, por ejemplo UPPER_CASE_WITH_UNDERSCORES..
+- Se debe usar let y const para definir las variables, var debe evitarse.
+- Para los comentarios de una sola línea debe usar “ // ” y para bloques de comentario se debe usar  “ /* */ ”.
+Se debe incluir un punto y coma al final de cada instrucción.
+
+**TypeScript**: https://google.github.io/styleguide/tsguide.html
+
+**Convenciones de TypeScript**:
+
+- Se debe usar Camelcase para los nombres de variables y funciones.
+- Se debe usar Pascalcase para los nombres de interfaces o clases.
+- Se debe usar number para valores numéricos, string para cadenas de texto y boolean para los valores booleanos.
+- Se debe usar const para las constantes.
+- Se debe usar extends para la herencia 
+- Se debe usar implements para la implementación de interfaces
+- Se debe usar por imports y exports para modularizar el código
+- Se debe usar “ | ” para la unión y “ & ” para las intersecciones
+
+**Spring Boot** : https://docs.spring.io/spring-boot/docs/current/reference/html/features.html
+
+**Convenciones de Spring Boot**:
+
+- Se debe emplear `@Controller`, `@Service`, `@Repository`, `@Component`, `@Autowired`, entre otros más, para poder definir y gestionar los componentes de Spring.
+- Para el manejo de excepciones se debe hacer uso de `@ControllerAdvice` y `@ExceptionHandler` para poder gestionar los errores de manera consistente.
+- Se debe usar `@Transactional` para gestionar las transacciones.
+- En el caso que se quiera gestionar la autenticación y autorización de una aplicación, se debe usar Spring Security.
+- Se debe usar nombre de paquetes y clases descriptivas que reflejan la funcionalidad de los componentes.
+
+**Vue.js**: https://vuejs.org/v2/style-guide/
+
+**Convenciones de Vue.js**:
+- Usar PascalCase para nombrar componentes (`UserCard.vue`).
+- Usar kebab-case para usar componentes en plantillas (`<user-card />`).
+- Un componente por archivo `.vue`.
+- Estructurar los archivos `.vue` con `<template>`, `<script>`, y `<style>` en ese orden.
+- Usar `scoped` en estilos si solo deben afectar al componente.
+- Usar camelCase para las props en JS (`userName`).
+- Usar kebab-case para las props en HTML (`:user-name="..."`).
+- Usar kebab-case para nombres de eventos personalizados (`@user-clicked="..."`).
+- Ordenar las opciones del componente de forma consistente (`name`, `props`, `data`, `computed`, `methods`, etc.).
+- Definir vistas en PascalCase (`HomeView.vue`, `AboutView.vue`).
+- Importar vistas en rutas usando `() => import(...)` para lazy loading.
+- Agrupar componentes por funcionalidad en carpetas (`components/`, `views/`, etc.).
+
 ### 5.1.4. Software Deployment Configuration.
+En esta sección abordaremos el despliegue de nuestro Landing Page mediante el servicio de Netlify, a continuación se describirán los pasos a seguir
+
+- Nos situamos en el apartado principal como organización
+Como organización contamos con un repositorio del landing page, es la cual se estuvo desarrollando la implementación del código. Y este repositorio será el que se vincula a Netlify.
+    <img src="./assets/chapter-V/Landing Implementation/step1.png">
+- Luego procedemos a iniciar sesión (o crear una cuenta) en https://www.netlify.com. Una vez ingresemos, buscaremos la sección de sitios y le daremos a la opcion de: “Add new site” y luego a “Import from Git”
+    <img src="./assets/chapter-V/Landing Implementation/step2.png">
+- Una vez estemos seleccionando el proveedor de Git, escogeremos Github
+    <img src="./assets/chapter-V/Landing Implementation/step3.png">
+- Por último, seleccionaremos el repositorio e indicaremos cual es la branch donde se realizará el deploy y le damos al botón de Deploy.
+    <img src="./assets/chapter-V/Landing Implementation/step4.png">
+    <img src="./assets/chapter-V/Landing Implementation/step5.png">
 
 ## 5.2. Product Implementation & Deployment.
-
 ### 5.2.1. Sprint Backlogs.
 
+**Web Application Sprint Backlog**
+---
+|Sprint # | Sprint 1|
+|---------|---------|
+**SprintPlanningBackground** | Implementación de la interfaz base: landing, navegación, login, registro, perfil, listado de proyectos.
+**Date** | 2025-04-07
+**Time** | 10:00AM–12:00PM
+**Location** | Virtual (Google Meet)
+**PreparedBy** | Equipo FromZero
+**Attendees(to planning meeting)** | Equipo FromZero
+**Sprintn–0ReviewSummary** | Se completaron bocetos exploratorios para la interfaz web, sin planificación formal previa.
+**Sprintn–1RetrospectiveSummary** | Se acordó crear endpoints mockeados para agilizar desarrollo frontend.
+**SprintGoalandUserStories** | Objetivo: Interfaz base web. Usuarios: landing, login/registro, perfil, vista de proyectos.
+**Sprint1Velocity** | 26 puntos
+**SumofStoryPoints** | 26
+<br>
+
+**API Sprint Backlog**
+---
+|Sprint # | Sprint 2|
+|---------|---------|
+**SprintPlanningBackground** | Desarrollo inicial del API: autenticación, usuarios, proyectos, entregables.
+**Date** | 2025-04-07
+**Time** | 3:00PM–5:00PM
+**Location** | Virtual (Google Meet)
+**PreparedBy** | Equipo FromZero
+**Attendees(to planning meeting)** | Equipo FromZero
+**Sprintn–0ReviewSummary** | Se exploró el uso de librerías de auth y se configuró la estructura base.
+**Sprintn–1RetrospectiveSummary** | Necesidad de estandarizar documentación desde el primer día.
+**SprintGoalandUserStories** | Objetivo: Implementar endpoints clave para el core. Usuarios: login, signup, proyectos CRUD.
+**Sprint1Velocity** | 26 puntos
+**SumofStoryPoints** | 26
+
+**Mobile Application Sprint Backlog**
+---
+|Sprint # | Sprint 3|
+|---------|---------|
+**SprintPlanningBackground** | Creación inicial de la app en Kotlin: navegación, login, registro, proyectos.
+**Date** | 2025-04-08
+**Time** | 9:00AM–11:00AM
+**Location** | Virtual (Google Meet)
+**PreparedBy** | Equipo FromZero
+**Attendees(to planning meeting)** | Equipo FromZero
+**Sprintn–0ReviewSummary** | Pruebas de conexión API y configuración del entorno Flutter.
+**Sprintn–1RetrospectiveSummary** | Recomendación: crear componentes reutilizables desde el inicio.
+**SprintGoalandUserStories** | Objetivo: App funcional con pantallas de auth, listado de proyectos y perfil.
+**Sprint1Velocity** | 23 puntos
+**SumofStoryPoints** | 23
 ### 5.2.2. Implemented Landing Page Evidence
 
+<img src="./assets/chapter-V/landing-page.png" alt="Landing Page de la aplicación FromZero" width="500">
+
 ### 5.2.3. Implemented Frontend-Web Application Evidence
+<img src="./assets/chapter-V/Webapp.png" alt="Web application" width="500">
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
+<img src="./assets/chapter-V/Mobile-app.png" alt="Mobile application" width="500">
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
+
 ### 5.2.6. RESTful API documentation
+En esta sección se presentan los endpoints desarrollados en el
+presente sprint y se adjuntan capturas de las acciones CRUD
+realizadas con Api. En el alcance del sprint, se han desarrollado los
+bounded context de autenticación, perfil, actividades, reclutamiento y
+organizaciones. Se adjunta el link del repositorio de la API en Github:
+[Api](https://github.com/WebMastersUPC/WebMasterAPI)
+
+| **Bounded Context** | **Endpoint Url**                  |**Swagger**|
+|---------------------|-----------------------------------|-----------|
+| Authentication      | /api/v1/authentication/           |<img src="./assets/chapter-V/Swagger/auth.png" alt="auth" width="600">|
+| Enterprises         | /api/v1/enterprises/              |<img src="./assets/chapter-V/Swagger/enterprise.png" alt="enterprises" width="600">|
+| Developers          | /api/v1/developers/               |<img src="./assets/chapter-V/Swagger/devs.png" alt="devs" width="600">|
+| Projects            | /api/v1/projects/                 |<img src="./assets/chapter-V/Swagger/projects.png" alt="projects" width="600">|
+| Users               | /api/v1/users/                    |<img src="./assets/chapter-V/Swagger/users.png" alt="users" width="600">|
+| Deliverables        | /api/v1/deliverables/             |<img src="./assets/chapter-V/Swagger/deliverables.png" alt="deliverables" width="600">|
+| Messages            | /api/v1/messages/                 |<img src="./assets/chapter-V/Swagger/messages.png" alt="messages" width="600">|
+| Support Tickets     | /api/v1/support-tickets/          |<img src="./assets/chapter-V/Swagger/support-tickets.png" alt="support-tickets" width="600">|
 
 ### 5.2.7. Team Collaboration Insights
 
