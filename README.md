@@ -27,8 +27,8 @@
             <td>U20211A046</td>
         </tr>
         <tr>
-            <td> Apellidos, nombres</td>
-            <td> Código </td>
+            <td> Elias Sanchez, Harold Miguel</td>
+            <td> U202212684</td>
         </tr>
         <tr>
             <td>Ramirez Contreras, Zaid Valentino</td>
@@ -62,7 +62,7 @@
         <tr>
             <td align = "center">TB1</td>
             <td>18/04/2025</td>
-            <td> Alvarez Araguache, Samira Jetzabel<br><br>Apellidos y nombres<br><br>Apellidos y nombres<br><br>Apellidos y nombres<br><br>Apellidos y nombres<br>
+            <td> Alvarez Araguache, Samira Jetzabel<br><br>Elias Sanchez, Harold Miguel<br><br>Apellidos y nombres<br><br>Apellidos y nombres<br><br>Apellidos y nombres<br>
             <td>Se agregó el contenido del capítulo 1, apartados 1.1, 1.2 y 1.3; el contenido del capítulo 2, apartados 2.1, 2.2, 2.3, 2.4; el contenido del capítulo 3, apartados 3.1, 3.2, 3.3 y 3.4; el contenido del capítulo 4, apartados 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7 y 4.8; y el contenido del capítulo 5, apartados 5.1, 5.2, 5.3 y 5.4</td>
         </tr>
 </table>
@@ -330,6 +330,18 @@ TB1 <br>
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
+FromZero es una startup fundada en 2024 por un equipo de cinco estudiantes de la Universidad Peruana de Ciencias Aplicadas. Esta iniciativa nace como respuesta a la creciente necesidad de empresas que buscan soluciones digitales eficientes y personalizadas, y al mismo tiempo, a la demanda de desarrolladores freelance que desean aplicar sus conocimientos en proyectos reales y generar ingresos.
+
+Nuestro principal producto, **WebMaster**, es una plataforma web diseñada para conectar de forma ágil a empresas que desean publicar proyectos de software con desarrolladores freelance interesados en colaborar. La plataforma busca optimizar el proceso de reclutamiento y desarrollo, promoviendo una experiencia intuitiva, accesible y eficiente para ambas partes.
+
+Nos enfocamos en brindar una solución práctica que beneficie tanto a empresas en búsqueda de talento especializado como a programadores freelance que buscan crecer profesionalmente a través de proyectos retadores y bien remunerados.
+#### Misión
+
+Impulsar la colaboración digital entre empresas y desarrolladores freelance mediante una plataforma transparente, eficiente y centrada en la calidad. En FromZero, aspiramos a facilitar la creación de proyectos tecnológicos que generen valor real, contribuyendo al desarrollo profesional de los usuarios y al crecimiento de las organizaciones que confían en nuestra solución.
+
+#### Visión
+
+Convertirnos en la plataforma líder en Latinoamérica que conecta empresas con desarrolladores freelance altamente calificados, consolidando una comunidad basada en la confianza, la innovación y la eficiencia. Buscamos ser la opción preferida por aquellos que desean construir soluciones digitales de alto impacto.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -360,12 +372,12 @@ TB1 <br>
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="" alt="" style="margin-bottom: 5px;" width="150"/>
+            <img src="https://raw.githubusercontent.com/SkillSwapINC/TutorMatch-Report/main/Images/harold.png" alt="Harold Elias" style="margin-bottom: 5px;" width="150"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
             <br>            
-            Nombre apellido
+            Harold Miguel Elias Sanchez
         </td>
     </tr>
     <tr>
@@ -377,7 +389,7 @@ TB1 <br>
     </tr>
     <tr>
         <td align="left">
-        <b>Acerca de:</b>
+        <br>Soy un estudiante que se encuentra en el séptimo ciclo de la carrera de ingeniería de software. Mi conocimiento técnico abarca el lenguaje C++ y Python, que manejo de manera intermedia. Además, poseo habilidades básicas que me permiten contribuir efectivamente en equipos, aportando ideas y trabajando en colaboración para alcanzar nuestras metas conjuntas.</br>
         <br>
         </td>
     </tr>
@@ -456,18 +468,192 @@ TB1 <br>
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
+#### What / ¿Qué?
+
+El contexto que enfrentan las microempresas peruanas después del COVID-19 fue determinante, llevando a muchas de ellas a iniciar un proceso de transformación digital. Según una investigación de **Microsoft (2023)**, el 95% de las Pymes peruanas aceleraron este proceso. Sin embargo, según **Movistar Empresas (2023)**, el 73% de las Pymes señala enfrentar dificultades en la digitalización de sus negocios.
+
+
+#### Why / ¿Por qué?
+
+Existen varios factores que contribuyen a estas dificultades en la digitalización de los negocios, principalmente el desconocimiento de las herramientas digitales necesarias, la falta de personal capacitado y los altos costos de inversión.
+
+
+
+#### Who / ¿Quién?
+
+Esta problemática afecta a cualquier microempresario o emprendedor independiente mayor de 18 años, especialmente a aquellos con poco conocimiento de herramientas digitales para tener una página web propia y virtualizar su empresa. Además, también impacta a los desarrolladores freelance que buscan oportunidades de trabajo en proyectos de software.
+
+
+#### When / ¿Cuándo?
+
+Esta problemática afecta a los microempresarios todos los días, ya que al ser un negocio en funcionamiento, no pueden detener su producción sin riesgos financieros. Además, el 95% de aceleración en la transformación digital de empresas genera presión constante para adaptarse.
+
+
+#### Where / ¿Dónde?
+
+El problema se encuentra en cualquier entorno donde las empresas operan sin presencia digital sólida. La falta de uso de herramientas tecnológicas puede ser un obstáculo para el crecimiento y competitividad, especialmente para las micro y pequeñas empresas.
+
+
+#### How / ¿Cómo?
+
+El problema surge cuando los microempresarios buscan mejorar sus ventas mediante herramientas digitales sin contar con conocimientos técnicos. Esto puede llevar a inversiones mal dirigidas, herramientas inadecuadas y falta de resultados. Según **Microsoft (2023)**, el 43% de líderes empresariales reconoce que la tecnología permite abrir nuevos mercados y clientes.
+
+
+#### How much / ¿Cuánto?
+
+El impacto económico es considerable. Según **EY (2021)**, el 50% de las empresas asigna menos del 5% de su presupuesto a tecnología. Además, el **CIEN (2023)** destaca que el 74.4% del total de empresas en el Perú son microempresas, y más del 90% cree que la transformación digital impacta positivamente en su negocio. Sin embargo, la falta de inversión y apoyo limita este potencial.
 
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-#### 1.2.2.2. Lean UX Assumptions
+### Segmento objetivo: PYMEs y emprendimientos
 
-#### 1.2.2.3. Lean UX Hypothesis Statements
+En Perú, tanto las PYMEs como los emprendimientos en crecimiento enfrentan grandes dificultades para digitalizarse. Muchas de estas empresas luchan por establecer una presencia digital debido a la falta de conocimientos técnicos para desarrollar plataformas o herramientas de software. La educación digital deficiente en el país agrava esta situación, lo que afecta directamente su competitividad en un entorno cada vez más digitalizado.
 
-#### 1.2.2.4. Lean UX Canvas
+**Problema:** ¿Cómo podríamos crear una solución accesible y profesional para el desarrollo de plataformas digitales dirigidas a propietarios de PYMEs y emprendimientos que están atravesando un proceso de transformación digital?
+
+### Segmento objetivo: Desarrolladores Freelance
+
+En Perú, existe una comunidad activa de desarrolladores freelance que busca constantemente oportunidades de trabajo en proyectos de software. Sin embargo, estos desarrolladores enfrentan desafíos para encontrar proyectos que se alineen con sus habilidades y preferencias. A menudo, los proyectos disponibles no cubren sus necesidades específicas ni ofrecen la flexibilidad que valoran.
+
+**Problema:** ¿Cómo podríamos crear una plataforma que conecte a los desarrolladores freelance con oportunidades de proyectos de software, garantizando que estos proyectos coincidan con sus habilidades y preferencias, mientras les brindamos una experiencia flexible y profesional?
+
+### 1.2.2.2. Lean UX Assumptions
+#### Segmento objetivo: PYMEs y emprendimientos
+
+**Creo que mis clientes necesitan:**  
+Soluciones digitales personalizadas que mejoren la eficiencia operativa y la experiencia del cliente.
+
+**Estas necesidades se pueden resolver con:**  
+Una plataforma donde los empresarios puedan publicar sus proyectos y contratar desarrolladores para hacerlos realidad.
+
+**Mis clientes iniciales serán:**  
+Pequeñas y medianas empresas que buscan expandir su presencia en línea o mejorar sus procesos comerciales.
+
+**El valor #1 que un cliente quiere de nuestro servicio es:**  
+Soluciones digitales de alta calidad que les permitan mantenerse competitivos en un mercado en constante crecimiento.
+
+**Obtendremos la mayoría de nuestros clientes a través de:**  
+Estrategias de marketing digital dirigidas a empresas emergentes, redes sociales y plataformas en línea.
+
+**Haremos dinero a través de:**  
+Tarifas de suscripción para acceder a ventajas exclusivas en nuestra plataforma.
+
+**Mi competencia principal es:**  
+Plataformas de freelancers y agencias de empleo que conectan a profesionales independientes con oportunidades de trabajo.
+
+**Los venceremos:**  
+Ofreciendo una plataforma intuitiva, transparente y centrada en el cliente que satisfaga las necesidades específicas de las PYMEs, brindando una amplia gama de proyectos atractivos, una experiencia de usuario sólida y un soporte dedicado para los profesionales independientes.
+
+**Mi mayor riesgo es:**  
+La falta de adopción por parte de las PYMEs debido a la resistencia al cambio o la percepción de que las soluciones digitales son costosas o difíciles de implementar.
+
+**Resolveremos esto:**  
+Destacando los beneficios y la accesibilidad de nuestras soluciones digitales, así como ofreciendo un soporte continuo para facilitar el cambio y la adopción del producto.
+
+
+#### Segmento objetivo: Desarrolladores Freelance
+
+**Creo que mis clientes necesitan:**  
+Oportunidades para aplicar sus habilidades en proyectos que les permitan expandir sus habilidades y generar ingresos.
+
+**Estas necesidades se pueden resolver con:**  
+Una plataforma que brinde acceso a una amplia variedad de proyectos interesantes y desafiantes, donde los desarrolladores puedan demostrar su experiencia y generar ingresos.
+
+**Mis clientes iniciales serán:**  
+Profesionales independientes con experiencia en desarrollo de software, que desean formar parte de proyectos desafiantes y diversificados.
+
+**El valor #1 que un cliente quiere de nuestro servicio es:**  
+Oportunidades para trabajar en proyectos interesantes y desafiantes que les permitan expandir sus habilidades y generar ingresos significativos.
+
+**Obtendremos la mayoría de nuestros clientes a través de:**  
+Redes sociales, plataformas en línea y marketing digital dirigido a desarrolladores freelance.
+
+**Haremos dinero a través de:**  
+Tarifas de suscripción para acceder a ventajas exclusivas en nuestra plataforma, como mejores oportunidades de proyectos y funcionalidades adicionales.
+
+**Mi competencia principal es:**  
+Plataformas de freelancers como Upwork, Freelancer.com y otras agencias de empleo.
+
+**Los venceremos:**  
+Brindando una plataforma que se enfoca en la flexibilidad, transparencia y la calidad de los proyectos, asegurando que los desarrolladores puedan encontrar trabajos que coincidan con sus habilidades y preferencias.
+
+**Mi mayor riesgo es:**  
+La falta de adopción por parte de los desarrolladores freelance debido a la competencia existente y la necesidad de construir una base sólida de usuarios.
+
+**Resolveremos esto:**  
+A través de estrategias de marketing efectivas, soporte dedicado y mejoras constantes en la plataforma basadas en retroalimentación de los usuarios y análisis de datos.
+
+### 1.2.2.3. Lean UX Hypothesis Statements
+#### Hipótesis 1: Conexión de desarrolladores y emprendimientos
+
+**Creemos que:**  
+Al conectar desarrolladores freelance con microempresas y emprendimientos, facilitaremos la creación o mejora de proyectos digitales, ayudando a satisfacer las necesidades específicas de los clientes.  
+
+**Sabremos que hemos tenido éxito cuando:**  
+En los primeros seis meses, más del 80% de los emprendimientos que se pusieron en contacto con un desarrollador hayan completado y lanzado su proyecto digital.
+
+
+
+#### Hipótesis 2: Perfiles de desarrolladores y visibilidad de sus trabajos anteriores
+
+**Creemos que:**  
+Al permitir que los desarrolladores creen perfiles completos y exhiban sus trabajos previos, los clientes podrán tener una mejor visión de sus capacidades y tomar decisiones informadas sobre la contratación.  
+
+**Sabremos que esto es cierto cuando:**  
+Más del 50% de los usuarios que utilicen la aplicación dentro de los primeros tres meses completen proyectos o inicien conversaciones con algún desarrollador.
+
+
+
+#### Hipótesis 3: Impacto en las estrategias de marketing digital de los emprendimientos
+
+**Creemos que:**  
+Nuestra plataforma fortalecerá las estrategias de marketing digital de diversos emprendimientos, ayudándolos a mejorar su visibilidad en línea.  
+
+**Sabremos que hemos tenido éxito cuando:**  
+Más del 20% de los nuevos usuarios lleguen a la plataforma a través de recomendaciones de otros usuarios dentro de los primeros diez meses.
+
+
+#### Hipótesis 4: Mejora en la creación y mejora de sitios web
+
+**Creemos que:**  
+Al conectar desarrolladores con microempresas que buscan crear o mejorar sitios web, ayudaremos a que los emprendimientos puedan llevar a cabo estos proyectos de forma eficiente y con soluciones personalizadas.  
+
+**Sabremos que hemos tenido éxito cuando:**  
+Más del 80% de los emprendimientos que se pusieron en contacto con un desarrollador hayan lanzado su nuevo sitio web o mejorado el existente dentro de los primeros seis meses.
+
+
+#### Hipótesis 5: Participación de desarrolladores en proyectos atractivos
+
+**Creemos que:**  
+Al ofrecer una amplia variedad de proyectos interesantes y bien remunerados, aumentaremos la participación activa de los desarrolladores freelance en nuestra plataforma.  
+
+**Sabremos que hemos tenido éxito cuando:**  
+Veamos un aumento en el número de desarrolladores activos, con una mayor frecuencia de participación en proyectos, y una disminución en la tasa de abandono de usuarios.
+
+
+#### Hipótesis 6: Transparencia y eficiencia en el proceso de colaboración
+
+**Creemos que:**  
+La transparencia en el proceso de selección y colaboración entre los desarrolladores y las microempresas aumentará la confianza y satisfacción de los usuarios en nuestra plataforma.  
+
+**Sabremos que hemos tenido éxito cuando:**  
+Veamos una mejora significativa en la calificación de satisfacción de los usuarios, así como un aumento en las recomendaciones y referencias de nuestra plataforma por parte de los usuarios satisfechos.
+
+### 1.2.2.4. Lean UX Canvas
+<img src="./assets/chapter-I&II/Lean UX Canvas.png" alt="Lean UX Canvas FromZero" width="500">
 
 ## 1.3. Segmentos objetivo
+Nuestra plataforma se dirige principalmente a dos segmentos clave de usuarios:
+
+### 1. Microempresas, Emprendimientos y PYMEs
+
+Este grupo está conformado por pequeñas y medianas empresas, startups y emprendedores independientes del mercado peruano. Su objetivo principal es mejorar su presencia digital mediante el desarrollo de páginas web o aplicaciones personalizadas. Reconocen la necesidad de adaptarse a la transformación digital para escalar sus negocios, pero generalmente carecen de los conocimientos técnicos o del equipo necesario para implementar estas soluciones por cuenta propia. Nuestra plataforma les ofrece acceso directo a profesionales que pueden materializar sus ideas de forma eficiente y accesible.
+
+### 2. Desarrolladores Freelance
+
+Incluye a profesionales independientes especializados en tecnologías web y desarrollo de software. Estos desarrolladores buscan oportunidades para aplicar sus habilidades en proyectos reales, ganar experiencia y generar ingresos. Valoran especialmente la libertad de elegir proyectos que se alineen con sus intereses, así como la posibilidad de colaborar de manera remota con emprendimientos dinámicos. Nuestra plataforma les proporciona un espacio para conectar con clientes que necesitan sus servicios, ampliar su portafolio y posicionarse en el mercado freelance.
 
 ---
 
