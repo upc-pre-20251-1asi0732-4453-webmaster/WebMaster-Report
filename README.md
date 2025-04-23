@@ -1694,7 +1694,7 @@ El sistema de etiquetado se fundamentará en imágenes sencillas y fácilmente c
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-#### Web Applications
+### Web Applications
 
 **Meta & SEO (Search Engine Optimization) Tags**  
 These tags are essential for making the website easily discoverable through search engines. They appear in search results and are included within the `<head>` section of the HTML.
@@ -1910,72 +1910,72 @@ https://www.figma.com/board/IE1u1Ga2nGV2Z2uGkbeTXG/User-Flow---Fromzero-Mobile?n
 ### 4.6.1. Web Applications Wireframes.
 
 **Inicio de Sesión**<br>
-<img src="assets/Chapter%20IV/Inicio de Sesion - Develop.png" alt="Login Page">
+<img src="assets/Chapter%20IV/Wireflow-Inicio de Sesion - Develop.png" alt="Login Page">
 
 **Registro**<br>
-<img src="assets/Chapter%20IV/Crear cuenta - Desplegable.png" alt="Sign Up Page">
-<img src="assets/Chapter%20IV/Crear cuenta - Desarrollador.png" alt="Sign Up Empresa Page">
-<img src="assets/Chapter%20IV/Crear cuenta - Empresa.png" alt="Sign Up Dev Page">
+<img src="assets/Chapter%20IV/Wireflow-Crear cuenta - Desplegable.png" alt="Sign Up Page">
+<img src="assets/Chapter%20IV/Wireflow-Crear cuenta - Desarrollador.png" alt="Sign Up Empresa Page">
+<img src="assets/Chapter%20IV/Wireflow-Crear cuenta - Empresa.png" alt="Sign Up Dev Page">
 
 **Cambiar contraseña**
-<img src="assets/Chapter%20IV/Olvidaste tu contraseña.png" alt="Sign Up Page">
-<img src="assets/Chapter%20IV/Olvidaste tu contraseña-1.png" alt="Sign Up Empresa Page">
+<img src="assets/Chapter%20IV/Wireflow-Olvidaste tu contraseña.png" alt="Sign Up Page">
+<img src="assets/Chapter%20IV/Wireflow-Olvidaste tu contraseña-1.png" alt="Sign Up Empresa Page">
 
 ##### Empresas
 **HomePage**<br>
-<img src="assets/Chapter%20IV/Inicio-Empresas.png" alt="Homepage Empresa">
-<img src="assets/Chapter%20IV/Inicio-Empresas-New Project-1.png" alt="Ver Postulante">
-<img src="assets/Chapter%20IV/Inicio-Empresas-Ver_Postulantes.png" alt="Postulaciones">
-<img src="assets/Chapter%20IV/Inicio-Empresas-New Project.png" alt="Nuevo Proyecto">
+<img src="assets/Chapter%20IV/Wireflow-Inicio-Empresas.png" alt="Homepage Empresa">
+<img src="assets/Chapter%20IV/Wireflow-Inicio-Empresas-New Project-1.png" alt="Ver Postulante">
+<img src="assets/Chapter%20IV/Wireflow-Inicio-Empresas-Ver_Postulantes.png" alt="Postulaciones">
+<img src="assets/Chapter%20IV/Wireflow-Inicio-Empresas-New Project.png" alt="Nuevo Proyecto">
 
 **ProjectsPage**<br>
-<img src="assets/Chapter%20IV/Publicar-Proyecto.png" alt="Adding new project">
-<img src="assets/Chapter%20IV/Confirmar-Proyecto.png" alt="Confirm Adding New Project">
+<img src="assets/Chapter%20IV/Wireflow-Publicar-Proyecto.png" alt="Adding new project">
+<img src="assets/Chapter%20IV/Wireflow-Confirmar-Proyecto.png" alt="Confirm Adding New Project">
 
 **Deliverables Timeline**<br>
-<img src="assets/Chapter%20IV/Cronograma-entregables.png" alt="Timeline Deliverables">
-<img src="assets/Chapter%20IV/Cronograma-Crear_Entregable.png" alt="Create Deliverable">
-<img src="assets/Chapter%20IV/Inicio-Empresas-1.png" alt="View Deliverable">
+<img src="assets/Chapter%20IV/Wireflow-Cronograma-entregables.png" alt="Timeline Deliverables">
+<img src="assets/Chapter%20IV/Wireflow-Cronograma-Crear_Entregable.png" alt="Create Deliverable">
+<img src="assets/Chapter%20IV/Wireflow-Inicio-Empresas-1.png" alt="View Deliverable">
 
 **Explore Devs**
-<img src="assets/Chapter%20IV/Explorar-Desarrolladores.png" alt="Exploring Developers">
-<img src="assets/Chapter%20IV/Ver-Perfil-dev.png" alt="See Profile">
+<img src="assets/Chapter%20IV/Wireflow-Explorar-Desarrolladores.png" alt="Exploring Developers">
+<img src="assets/Chapter%20IV/Wireflow-Ver-Perfil-dev.png" alt="See Profile">
 
 **Messages**<br>
-<img src="assets/Chapter%20IV/Mensaje-Desarrollador.png" alt="Message to developer">
+<img src="assets/Chapter%20IV/Wireflow-Mensaje-Desarrollador.png" alt="Message to developer">
 
 **Explorar Proyectos Destacados**
-<img src="assets/Chapter%20IV/Proyectos destacados.png" alt="Proyectos destacados">
+<img src="assets/Chapter%20IV/Wireflow-Proyectos destacados.png" alt="Proyectos destacados">
 
 **Support**<br>
-<img src="assets/Chapter%20IV/Soporte.png" alt="Support Page">
+<img src="assets/Chapter%20IV/Wireflow-Soporte.png" alt="Support Page">
 
 ##### Desarrolladores
 **HomePage**<br>
-<img src="assets/Chapter%20IV/Inicio-Desarrolladores.png" alt="Homepage Dev">
-<img src="assets/Chapter%20IV/Inicio-Desarrolladores-Postulacion.png" alt="Apply for a job">
-<img src="assets/Chapter%20IV/Inicio-Desarrolladores-PostulacionActiva.png" alt="Active Job Application">
+<img src="assets/Chapter%20IV/Wireflow-Inicio-Desarrolladores.png" alt="Homepage Dev">
+<img src="assets/Chapter%20IV/Wireflow-Inicio-Desarrolladores-Postulacion.png" alt="Apply for a job">
+<img src="assets/Chapter%20IV/Wireflow-Inicio-Desarrolladores-PostulacionActiva.png" alt="Active Job Application">
 
 **Browse Projects**<br>
-<img src="assets/Chapter%20IV/Explorar-Proyectos.png" alt="Browse projects">
-<img src="assets/Chapter%20IV/Ver_Perfil-Empresas.png" alt="See Company's profile">
+<img src="assets/Chapter%20IV/Wireflow-Explorar-Proyectos.png" alt="Browse projects">
+<img src="assets/Chapter%20IV/Wireflow-Ver_Perfil-Empresas.png" alt="See Company's profile">
 
 **Apply for Job**<br>
-<img src="assets/Chapter%20IV/Postular-proyecto.png" alt="Application form">
-<img src="assets/Chapter%20IV/Confirmar-postulación.png" alt="Confirm application">
+<img src="assets/Chapter%20IV/Wireflow-Postular-proyecto.png" alt="Application form">
+<img src="assets/Chapter%20IV/Wireflow-Confirmar-postulación.png" alt="Confirm application">
 
 **Deliverables Timeline**<br>
-<img src="assets/Chapter%20IV/Cronograma_entregables-Dev.png" alt="Deliverables">
-<img src="assets/Chapter%20IV/Subir-Entregable.png" alt="Upload deliverable">
+<img src="assets/Chapter%20IV/Wireflow-Cronograma_entregables-Dev.png" alt="Deliverables">
+<img src="assets/Chapter%20IV/Wireflow-Subir-Entregable.png" alt="Upload deliverable">
 
 **Messages**<br>
-<img src="assets/Chapter%20IV/Mensaje-Desarrollador.png" alt="Message for recruiter">
+<img src="assets/Chapter%20IV/Wireflow-Mensaje-Desarrollador.png" alt="Message for recruiter">
 
 **Support**<br>
-<img src="assets/Chapter%20IV/Soporte.png" alt="Support Page">
+<img src="assets/Chapter%20IV/Wireflow-Soporte.png" alt="Support Page">
 
 **Explorar Proyectos Destacados**
-<img src="assets/Chapter%20IV/Proyectos destacados.png" alt="Proyectos destacados">
+<img src="assets/Chapter%20IV/Wireflow-Proyectos destacados.png" alt="Proyectos destacados">
 
 ### 4.6.2. Web Applications Wireflow Diagrams.
 
@@ -2139,8 +2139,6 @@ https://www.figma.com/board/IE1u1Ga2nGV2Z2uGkbeTXG/User-Flow---Fromzero-Mobile?n
 [URL del Prototipo en vista de empresa(Hecho en figma)](https://www.figma.com/proto/59rup67dfioDXBRKEmpxAD/Mockup-From-Zero-Open-Source?type=design&node-id=2-325&t=YuGoXqkU7ZGQ3s2N-0&scaling=scale-down&starting-point-node-id=3254%3A359&show-proto-sidebar=1)
 
 [URL del Prototipo en vista de desarrollador(Hecho en figma)](https://www.figma.com/proto/59rup67dfioDXBRKEmpxAD/Mockup-From-Zero-Open-Source?type=design&node-id=2-325&t=YuGoXqkU7ZGQ3s2N-0&scaling=scale-down&starting-point-node-id=3254%3A319&show-proto-sidebar=1)
-
-[URL de video de flujos de interaccion]()
 
 ### 4.8. Domain-Driven Software Architecture.
 
