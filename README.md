@@ -1609,16 +1609,16 @@ Enlace al tablero de Trello: https://trello.com/b/gNzXJS37/from-zero
 Nuestra marca debe reflejar la esencia de la plataforma: facilitar la coordinación de proyectos de software entre empresas y desarrolladores freelance. Debe transmitir eficiencia, orden y colaboración.  
 El diseño debe ser moderno y profesional, destacando elementos visuales que representen flujo de trabajo, seguimiento y avance. Además debe evocar un entorno donde el desarrollo fluye de forma clara y estructurada, reforzando la idea de conexión y progreso continuo.
 
-![Wireframe2](Chapter%20IV/style1.png)
+![Wireframe2](assets/Chapter%20IV/style1.png)
 
 **Typography**<br>
 La fuente principal de nuestra marca será Lato, seleccionada por su claridad y elegancia. Esta tipografía equilibra un estilo profesional con un toque accesible y acogedor, lo que la hace ideal para diversas aplicaciones y refuerza la sensación de confiabilidad en la marca.
       
-![Wireframe2](Chapter%20IV/style2.png)
+![Wireframe2](assets/Chapter%20IV/style2.png)
     
 También emplearemos Open Sans como tipografía secundaria para destacar detalles y elementos complementarios. Esta elección añade diversidad visual mientras mantiene la armonía y consistencia en el diseño.
 
-![Wireframe2](Chapter%20IV/style3.png)
+![Wireframe2](assets/Chapter%20IV/style3.png)
 
 Por último, se elegirán los tamaños de fuente con especial atención para asegurar tanto una lectura clara como una estructura jerárquica adecuada dentro de la interfaz de usuario.
 
@@ -1636,18 +1636,18 @@ En la esquina superior izquierda de la portada de WebMaster, se presenta un enca
 **Colors**<br>
 La paleta de colores principales incluye Azul (#0072FF), Gris Claro (#F5F7FA) y Verde Acento (#28A745). Estos colores se combinan para ofrecer un equilibrio entre profesionalismo, claridad y dinamismo. El azul, como color predominante, inspira confianza, mientras que el gris claro asegura una lectura cómoda, y el verde resalta los elementos clave de la interfaz.
 
-![Wireframe2](Chapter%20IV/style4.png)
+![Wireframe2](assets/Chapter%20IV/style4.png)
 
 Además, se incorporarán colores secundarios como Naranja Suave (#FFA500), Gris Oscuro (#333333) y Fucsia (#FF00FF), que serán aplicados de forma limitada para destacar componentes clave dentro del aplicativo.
 
-![Wireframe2](Chapter%20IV/style5.png)
+![Wireframe2](assets/Chapter%20IV/style5.png)
 
 ### 4.1.3. Mobile Style Guidelines.
 
 **Colors**<br>
 Nuestra paleta de colores principales, compuesta por Azul violáceo (#6B74B4), Turquesa (#45B7A8) y Blanco (#FFFFFF). La combinación de estos tres colores en la paleta logra un equilibrio entre un aspecto profesional, la claridad necesaria y un toque de dinamismo. 
  
- ![Wireframe2](Chapter%20IV/style1.png)
+ ![Wireframe2](assets/Chapter%20IV/style1.png)
 
 #### 4.1.3.1. iOS Mobile Style Guidelines.
 
@@ -1765,69 +1765,69 @@ En la versión móvil, la aplicación presentará un botón para iniciar sesión
 
 ### 4.3.1. Landing Page Wireframe.
 
-![Wireframe1](Chapter%20IV/Wireframe1.png)
+![Wireframe1](assets/Chapter%20IV/Wireframe1.png)
 
-![Wireframe2](Chapter%20IV/Wireframe2.png)
+![Wireframe2](assets/Chapter%20IV/Wireframe2.png)
 
-![Wireframe3](Chapter%20IV/Wireframe3.png)
+![Wireframe3](assets/Chapter%20IV/Wireframe3.png)
 
 ### 4.3.2. Landing Page Mock-up.
 
-![Mock up 1](Chapter%20IV/MockUp1.png)
+![Mock up 1](assets/Chapter%20IV/MockUp1.png)
 
-![Mock up 2](Chapter%20IV/MockUp2.png)
+![Mock up 2](assets/Chapter%20IV/MockUp2.png)
 
-![Mock up 3](Chapter%20IV/MockUp3.png)
+![Mock up 3](assets/Chapter%20IV/MockUp3.png)
 
-![Mock up 4](Chapter%20IV/MockUp4.png)
+![Mock up 4](assets/Chapter%20IV/MockUp4.png)
 
-![Mock up 5](Chapter%20IV/MockUp5.png)
+![Mock up 5](assets/Chapter%20IV/MockUp5.png)
 
-![Mock up 6](Chapter%20IV/MockUp6.png)
+![Mock up 6](assets/Chapter%20IV/MockUp6.png)
 
-![Mock up 7](Chapter%20IV/MockUp7.png)
+![Mock up 7](assets/Chapter%20IV/MockUp7.png)
 
-![Mock up 8](Chapter%20IV/MockUp8.png)
+![Mock up 8](assets/Chapter%20IV/MockUp8.png)
 
 ## 4.4. Mobile Applications UX/UI Design.
 
 ### 4.4.1. Mobile Applications Wireframes.
 
-![Mock up 3](Chapter%20IV/MobileWireframe1.png)
+![Mock up 3](assets/Chapter%20IV/MobileWireframe1.png)
 
 **Usuario desarrollador**
 
-![Mock up 4](Chapter%20IV/MobileWireframe2.png)
+![Mock up 4](assets/Chapter%20IV/MobileWireframe2.png)
 
 **Usuario empresas**
 
-![Mock up 3](Chapter%20IV/MobileWireframe3.png)
+![Mock up 3](assets/Chapter%20IV/MobileWireframe3.png)
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
 
 **Inicio de aplicación**  
-![Inicio](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wirelfow%20Inicio%20de%20aplicacion.png)
+![Inicio](assets/Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wirelfow%20Inicio%20de%20aplicacion.png)
 
 **Registrar usuario / Reestablecer contraseña**  
-![Registrar usuario](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Registrar%20usuario%20_%20Reestablecer%20contrase%C3%B1a.png)
+![Registrar usuario](assets/Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Registrar%20usuario%20_%20Reestablecer%20contrase%C3%B1a.png)
 
 **Ver información de los desarrolladores**  
-![Información de developers](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Ver%20informacion%20de%20los%20devlopers.png)
+![Información de developers](assets/Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Ver%20informacion%20de%20los%20devlopers.png)
 
 **Explorar y Postular Proyecto**  
-![Postular Proyecto](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wirelfow%20Explorar%20y%20Postular%20Poryecto.png)
+![Postular Proyecto](assets/Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wirelfow%20Explorar%20y%20Postular%20Poryecto.png)
 
 **Empresas Crear proyecto**  
-![Crear proyecto](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Crear%20proyecto.png)
+![Crear proyecto](assets/Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Crear%20proyecto.png)
 
 **Empresas Explorar, ver perfil y contactar con desarrollador**  
-![Explorar perfil](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Explorar,%20ver%20perfil%20y%20contactar%20con%20desarrollador.png)
+![Explorar perfil](assets/Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Explorar,%20ver%20perfil%20y%20contactar%20con%20desarrollador.png)
 
 **Empresas Ver y crear entregables**  
-![Entregables](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Ver%20y%20crear%20entregables.png)
+![Entregables](assets/Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Ver%20y%20crear%20entregables.png)
 
 **Atención al Cliente**  
-![Atención al Cliente](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Atencion%20al%20Cliente.png)
+![Atención al Cliente](assets/Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Atencion%20al%20Cliente.png)
 
 ### 4.4.3. Mobile Applications Mock-ups.
 
@@ -1835,11 +1835,11 @@ En la versión móvil, la aplicación presentará un botón para iniciar sesión
 https://www.figma.com/proto/F9uDpQtivg5tkJt5aA81VP/Mockup-Webmaster-Mobile?node-id=2-325&t=3sAIe7acXLbBfGd5-1
 
 **Inicio de sesión y creación de usuario:**<br>
-| ![Mock up 1](Chapter%20IV/MobileMockUp1.png) | ![Mock up 2](Chapter%20IV/MobileMockUp2.png) |
+| ![Mock up 1](assets/Chapter%20IV/MobileMockUp1.png) | ![Mock up 2](assets/Chapter%20IV/MobileMockUp2.png) |
 |---------------------------------------------|---------------------------------------------|
-| ![Mock up 1](Chapter%20IV/MobileMockUp3.png) | ![Mock up 2](Chapter%20IV/MobileMockUp4.png) |
+| ![Mock up 1](assets/Chapter%20IV/MobileMockUp3.png) | ![Mock up 2](assets/Chapter%20IV/MobileMockUp4.png) |
 
-| ![Mock up 1](Chapter%20IV/MobileMockUp5.png) | ![Mock up 2](Chapter%20IV/MobileMockUp6.png) |
+| ![Mock up 1](assets/Chapter%20IV/MobileMockUp5.png) | ![Mock up 2](assets/Chapter%20IV/MobileMockUp6.png) |
 |---------------------------------------------|---------------------------------------------|
 #### Usuario Desarrollador<br>
 **Página principal:**<br>
@@ -1882,7 +1882,7 @@ https://www.figma.com/proto/F9uDpQtivg5tkJt5aA81VP/Mockup-Webmaster-Mobile?node-
 
 ### 4.4.4. Mobile Applications User Flow Diagrams.
 
-![Mobile User Flow](Chapter%20IV/MobileUserFlow.png)
+![Mobile User Flow](assets/Chapter%20IV/MobileUserFlow.png)
 
 **Link:**<br>
 https://www.figma.com/board/IE1u1Ga2nGV2Z2uGkbeTXG/User-Flow---Fromzero-Mobile?node-id=0-1&t=uwWbBD9adPi6GK0e-1
@@ -1891,7 +1891,7 @@ https://www.figma.com/board/IE1u1Ga2nGV2Z2uGkbeTXG/User-Flow---Fromzero-Mobile?n
 
 ### 4.5.1. Android Mobile Applications Prototyping.
 
-<img src="Chapter%20IV/prototipo-mobile-android.png">
+<img src="assets/Chapter%20IV/prototipo-mobile-android.png">
 
 [URL del Prototipo Android (Hecho en figma)](https://www.figma.com/proto/F9uDpQtivg5tkJt5aA81VP/Mockup-FromZero-Mobile?node-id=4228-204&t=3sAIe7acXLbBfGd5-1&starting-point-node-id=4228%3A204)
 
@@ -1899,7 +1899,7 @@ https://www.figma.com/board/IE1u1Ga2nGV2Z2uGkbeTXG/User-Flow---Fromzero-Mobile?n
 
 ### 4.5.2. iOS Mobile Applications Prototyping.
 
-<img src="Chapter%20IV/prototipo-mobile-ios.png">
+<img src="assets/Chapter%20IV/prototipo-mobile-ios.png">
 
 [URL del Prototipo iOS (Hecho en figma)](https://www.figma.com/proto/F9uDpQtivg5tkJt5aA81VP/Mockup-FromZero-Mobile?node-id=4228-204&t=3sAIe7acXLbBfGd5-1&starting-point-node-id=4228%3A204)
 
@@ -1910,231 +1910,231 @@ https://www.figma.com/board/IE1u1Ga2nGV2Z2uGkbeTXG/User-Flow---Fromzero-Mobile?n
 ### 4.6.1. Web Applications Wireframes.
 
 **Inicio de Sesión**<br>
-<img src="Chapter%20IV/Inicio de Sesion - Develop.png" alt="Login Page">
+<img src="assets/Chapter%20IV/Inicio de Sesion - Develop.png" alt="Login Page">
 
 **Registro**<br>
-<img src="Chapter%20IV/Crear cuenta - Desplegable.png" alt="Sign Up Page">
-<img src="Chapter%20IV/Crear cuenta - Desarrollador.png" alt="Sign Up Empresa Page">
-<img src="Chapter%20IV/Crear cuenta - Empresa.png" alt="Sign Up Dev Page">
+<img src="assets/Chapter%20IV/Crear cuenta - Desplegable.png" alt="Sign Up Page">
+<img src="assets/Chapter%20IV/Crear cuenta - Desarrollador.png" alt="Sign Up Empresa Page">
+<img src="assets/Chapter%20IV/Crear cuenta - Empresa.png" alt="Sign Up Dev Page">
 
 **Cambiar contraseña**
-<img src="Chapter%20IV/Olvidaste tu contraseña.png" alt="Sign Up Page">
-<img src="Chapter%20IV/Olvidaste tu contraseña-1.png" alt="Sign Up Empresa Page">
+<img src="assets/Chapter%20IV/Olvidaste tu contraseña.png" alt="Sign Up Page">
+<img src="assets/Chapter%20IV/Olvidaste tu contraseña-1.png" alt="Sign Up Empresa Page">
 
 ##### Empresas
 **HomePage**<br>
-<img src="Chapter%20IV/Inicio-Empresas.png" alt="Homepage Empresa">
-<img src="Chapter%20IV/Inicio-Empresas-New Project-1.png" alt="Ver Postulante">
-<img src="Chapter%20IV/Inicio-Empresas-Ver_Postulantes.png" alt="Postulaciones">
-<img src="Chapter%20IV/Inicio-Empresas-New Project.png" alt="Nuevo Proyecto">
+<img src="assets/Chapter%20IV/Inicio-Empresas.png" alt="Homepage Empresa">
+<img src="assets/Chapter%20IV/Inicio-Empresas-New Project-1.png" alt="Ver Postulante">
+<img src="assets/Chapter%20IV/Inicio-Empresas-Ver_Postulantes.png" alt="Postulaciones">
+<img src="assets/Chapter%20IV/Inicio-Empresas-New Project.png" alt="Nuevo Proyecto">
 
 **ProjectsPage**<br>
-<img src="Chapter%20IV/Publicar-Proyecto.png" alt="Adding new project">
-<img src="Chapter%20IV/Confirmar-Proyecto.png" alt="Confirm Adding New Project">
+<img src="assets/Chapter%20IV/Publicar-Proyecto.png" alt="Adding new project">
+<img src="assets/Chapter%20IV/Confirmar-Proyecto.png" alt="Confirm Adding New Project">
 
 **Deliverables Timeline**<br>
-<img src="Chapter%20IV/Cronograma-entregables.png" alt="Timeline Deliverables">
-<img src="Chapter%20IV/Cronograma-Crear_Entregable.png" alt="Create Deliverable">
-<img src="Chapter%20IV/Inicio-Empresas-1.png" alt="View Deliverable">
+<img src="assets/Chapter%20IV/Cronograma-entregables.png" alt="Timeline Deliverables">
+<img src="assets/Chapter%20IV/Cronograma-Crear_Entregable.png" alt="Create Deliverable">
+<img src="assets/Chapter%20IV/Inicio-Empresas-1.png" alt="View Deliverable">
 
 **Explore Devs**
-<img src="Chapter%20IV/Explorar-Desarrolladores.png" alt="Exploring Developers">
-<img src="Chapter%20IV/Ver-Perfil-dev.png" alt="See Profile">
+<img src="assets/Chapter%20IV/Explorar-Desarrolladores.png" alt="Exploring Developers">
+<img src="assets/Chapter%20IV/Ver-Perfil-dev.png" alt="See Profile">
 
 **Messages**<br>
-<img src="Chapter%20IV/Mensaje-Desarrollador.png" alt="Message to developer">
+<img src="assets/Chapter%20IV/Mensaje-Desarrollador.png" alt="Message to developer">
 
 **Explorar Proyectos Destacados**
-<img src="Chapter%20IV/Proyectos destacados.png" alt="Proyectos destacados">
+<img src="assets/Chapter%20IV/Proyectos destacados.png" alt="Proyectos destacados">
 
 **Support**<br>
-<img src="Chapter%20IV/Soporte.png" alt="Support Page">
+<img src="assets/Chapter%20IV/Soporte.png" alt="Support Page">
 
 ##### Desarrolladores
 **HomePage**<br>
-<img src="Chapter%20IV/Inicio-Desarrolladores.png" alt="Homepage Dev">
-<img src="Chapter%20IV/Inicio-Desarrolladores-Postulacion.png" alt="Apply for a job">
-<img src="Chapter%20IV/Inicio-Desarrolladores-PostulacionActiva.png" alt="Active Job Application">
+<img src="assets/Chapter%20IV/Inicio-Desarrolladores.png" alt="Homepage Dev">
+<img src="assets/Chapter%20IV/Inicio-Desarrolladores-Postulacion.png" alt="Apply for a job">
+<img src="assets/Chapter%20IV/Inicio-Desarrolladores-PostulacionActiva.png" alt="Active Job Application">
 
 **Browse Projects**<br>
-<img src="Chapter%20IV/Explorar-Proyectos.png" alt="Browse projects">
-<img src="Chapter%20IV/Ver_Perfil-Empresas.png" alt="See Company's profile">
+<img src="assets/Chapter%20IV/Explorar-Proyectos.png" alt="Browse projects">
+<img src="assets/Chapter%20IV/Ver_Perfil-Empresas.png" alt="See Company's profile">
 
 **Apply for Job**<br>
-<img src="Chapter%20IV/Postular-proyecto.png" alt="Application form">
-<img src="Chapter%20IV/Confirmar-postulación.png" alt="Confirm application">
+<img src="assets/Chapter%20IV/Postular-proyecto.png" alt="Application form">
+<img src="assets/Chapter%20IV/Confirmar-postulación.png" alt="Confirm application">
 
 **Deliverables Timeline**<br>
-<img src="Chapter%20IV/Cronograma_entregables-Dev.png" alt="Deliverables">
-<img src="Chapter%20IV/Subir-Entregable.png" alt="Upload deliverable">
+<img src="assets/Chapter%20IV/Cronograma_entregables-Dev.png" alt="Deliverables">
+<img src="assets/Chapter%20IV/Subir-Entregable.png" alt="Upload deliverable">
 
 **Messages**<br>
-<img src="Chapter%20IV/Mensaje-Desarrollador.png" alt="Message for recruiter">
+<img src="assets/Chapter%20IV/Mensaje-Desarrollador.png" alt="Message for recruiter">
 
 **Support**<br>
-<img src="Chapter%20IV/Soporte.png" alt="Support Page">
+<img src="assets/Chapter%20IV/Soporte.png" alt="Support Page">
 
 **Explorar Proyectos Destacados**
-<img src="Chapter%20IV/Proyectos destacados.png" alt="Proyectos destacados">
+<img src="assets/Chapter%20IV/Proyectos destacados.png" alt="Proyectos destacados">
 
 ### 4.6.2. Web Applications Wireflow Diagrams.
 
 **Registrar Usuario_Reestablecer contraseña**
 
-![Registrar usuario y reestablecer contraseña](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Registrar%20usuario%20_%20Reestablecer%20contraseña.jpg)
+![Registrar usuario y reestablecer contraseña](assets/Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Registrar%20usuario%20_%20Reestablecer%20contraseña.jpg)
 
 **Inicio de la aplicación**
 
-![Inicio de la aplicacion](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wirelfow%20Inicio%20de%20aplicacion.jpg)
+![Inicio de la aplicacion](assets/Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wirelfow%20Inicio%20de%20aplicacion.jpg)
 
 **Proyectos Destacados**
 
-![Ver proyectos destacados](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Proyectos%20Destacados.jpg)
+![Ver proyectos destacados](assets/Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Proyectos%20Destacados.jpg)
 
 **Atencion al cliente**
 
-![Atencion al cliente](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20De%20soporte%20técnico%20para%20los%202%20segmentos.jpg)
+![Atencion al cliente](assets/Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20De%20soporte%20técnico%20para%20los%202%20segmentos.jpg)
 
 **Segmento Empresa**
 
 **Ver entregables de proyecto**
 
-![Ver entregables de proyecto](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Ver%20entregables%20de%20proyecto.jpg)
+![Ver entregables de proyecto](assets/Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Ver%20entregables%20de%20proyecto.jpg)
 
 **Explorar, ver perfil y contactar con desarrollador**
 
-![Explorar ver perfil y contactar con desarrollador](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Explorar,%20ver%20perfil%20y%20contactar%20con%20desarrollador.jpg)
+![Explorar ver perfil y contactar con desarrollador](assets/Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Explorar,%20ver%20perfil%20y%20contactar%20con%20desarrollador.jpg)
 
 **Crear proyecto**
 
-![Crear proyecto](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Crear%20proyecto.jpg)
+![Crear proyecto](assets/Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Crear%20proyecto.jpg)
 
 **Segmento Desarrollador**
 
 **Trabajar en proyecto, ver entregables y comunicar con empresa**
 
-![Trabajar en proyecto ver entregables y comunicar con empresa](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Desarrollador%20Trabajar%20en%20proyecto,%20ver%20entregables%20y%20comunicar%20con%20empresa.jpg)
+![Trabajar en proyecto ver entregables y comunicar con empresa](assets/Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Desarrollador%20Trabajar%20en%20proyecto,%20ver%20entregables%20y%20comunicar%20con%20empresa.jpg)
 
 **Explorar y postular a proyecto**
 
-![Explorar y postular proyecto](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Desarrollador%20Explorar%20y%20postular%20a%20proyecto.jpg)
+![Explorar y postular proyecto](assets/Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Desarrollador%20Explorar%20y%20postular%20a%20proyecto.jpg)
 
 ### 4.6.3. Web Applications Mock-ups.
 
 **Inicio de Sesión**<br>
-<img src="Chapter%20IV/Inicio de Sesion - Develop.png" alt="Login Page">
+<img src="assets/Chapter%20IV/Inicio de Sesion - Develop.png" alt="Login Page">
 
 **Registro**<br>
-<img src="Chapter%20IV/Crear cuenta - Desplegable.png" alt="Sign Up Page">
-<img src="Chapter%20IV/Crear cuenta - Desarrollador.png" alt="Sign Up Empresa Page">
-<img src="Chapter%20IV/Crear cuenta - Empresa.png" alt="Sign Up Dev Page">
+<img src="assets/Chapter%20IV/Crear cuenta - Desplegable.png" alt="Sign Up Page">
+<img src="assets/Chapter%20IV/Crear cuenta - Desarrollador.png" alt="Sign Up Empresa Page">
+<img src="assets/Chapter%20IV/Crear cuenta - Empresa.png" alt="Sign Up Dev Page">
 
 **Cambiar contraseña**
-<img src="Chapter%20IV/Olvidaste tu contraseña.png" alt="Sign Up Page">
-<img src="Chapter%20IV/Olvidaste tu contraseña-1.png" alt="Sign Up Empresa Page">
+<img src="assets/Chapter%20IV/Olvidaste tu contraseña.png" alt="Sign Up Page">
+<img src="assets/Chapter%20IV/Olvidaste tu contraseña-1.png" alt="Sign Up Empresa Page">
 
 ##### Empresas
 **HomePage**<br>
-<img src="Chapter%20IV/Inicio-Empresas.png" alt="Homepage Empresa">
-<img src="Chapter%20IV/Inicio-Empresas-New Project-1.png" alt="Ver Postulante">
-<img src="Chapter%20IV/Inicio-Empresas-Ver_Postulantes.png" alt="Postulaciones">
-<img src="Chapter%20IV/Inicio-Empresas-New Project.png" alt="Nuevo Proyecto">
+<img src="assets/Chapter%20IV/Inicio-Empresas.png" alt="Homepage Empresa">
+<img src="assets/Chapter%20IV/Inicio-Empresas-New Project-1.png" alt="Ver Postulante">
+<img src="assets/Chapter%20IV/Inicio-Empresas-Ver_Postulantes.png" alt="Postulaciones">
+<img src="assets/Chapter%20IV/Inicio-Empresas-New Project.png" alt="Nuevo Proyecto">
 
 **ProjectsPage**<br>
-<img src="Chapter%20IV/Publicar-Proyecto.png" alt="Adding new project">
-<img src="Chapter%20IV/Confirmar-Proyecto.png" alt="Confirm Adding New Project">
+<img src="assets/Chapter%20IV/Publicar-Proyecto.png" alt="Adding new project">
+<img src="assets/Chapter%20IV/Confirmar-Proyecto.png" alt="Confirm Adding New Project">
 
 **Deliverables Timeline**<br>
-<img src="Chapter%20IV/Cronograma-entregables.png" alt="Timeline Deliverables">
-<img src="Chapter%20IV/Cronograma-Crear_Entregable.png" alt="Create Deliverable">
-<img src="Chapter%20IV/Inicio-Empresas-1.png" alt="View Deliverable">
+<img src="assets/Chapter%20IV/Cronograma-entregables.png" alt="Timeline Deliverables">
+<img src="assets/Chapter%20IV/Cronograma-Crear_Entregable.png" alt="Create Deliverable">
+<img src="assets/Chapter%20IV/Inicio-Empresas-1.png" alt="View Deliverable">
 
 **Explore Devs**
-<img src="Chapter%20IV/Explorar-Desarrolladores.png" alt="Exploring Developers">
-<img src="Chapter%20IV/Ver-Perfil-dev.png" alt="See Profile">
+<img src="assets/Chapter%20IV/Explorar-Desarrolladores.png" alt="Exploring Developers">
+<img src="assets/Chapter%20IV/Ver-Perfil-dev.png" alt="See Profile">
 
 **Messages**<br>
-<img src="Chapter%20IV/Mensaje-Desarrollador.png" alt="Message to developer">
+<img src="assets/Chapter%20IV/Mensaje-Desarrollador.png" alt="Message to developer">
 
 **Explorar Proyectos Destacados**
-<img src="Chapter%20IV/Proyectos destacados.png" alt="Proyectos destacados">
+<img src="assets/Chapter%20IV/Proyectos destacados.png" alt="Proyectos destacados">
 
 **Support**<br>
-<img src="Chapter%20IV/Soporte.png" alt="Support Page">
+<img src="assets/Chapter%20IV/Soporte.png" alt="Support Page">
 
 ##### Desarrolladores
 **HomePage**<br>
-<img src="Chapter%20IV/Inicio-Desarrolladores.png" alt="Homepage Dev">
-<img src="Chapter%20IV/Inicio-Desarrolladores-Postulacion.png" alt="Apply for a job">
-<img src="Chapter%20IV/Inicio-Desarrolladores-PostulacionActiva.png" alt="Active Job Application">
+<img src="assets/Chapter%20IV/Inicio-Desarrolladores.png" alt="Homepage Dev">
+<img src="assets/Chapter%20IV/Inicio-Desarrolladores-Postulacion.png" alt="Apply for a job">
+<img src="assets/Chapter%20IV/Inicio-Desarrolladores-PostulacionActiva.png" alt="Active Job Application">
 
 **Browse Projects**<br>
-<img src="Chapter%20IV/Explorar-Proyectos.png" alt="Browse projects">
-<img src="Chapter%20IV/Ver_Perfil-Empresas.png" alt="See Company's profile">
+<img src="assets/Chapter%20IV/Explorar-Proyectos.png" alt="Browse projects">
+<img src="assets/Chapter%20IV/Ver_Perfil-Empresas.png" alt="See Company's profile">
 
 **Apply for Job**<br>
-<img src="Chapter%20IV/Postular-proyecto.png" alt="Application form">
-<img src="Chapter%20IV/Confirmar-postulación.png" alt="Confirm application">
-<img src="Chapter%20IV/Ver_Proyecto-trabajar.png" alt="Work with the company">
+<img src="assets/Chapter%20IV/Postular-proyecto.png" alt="Application form">
+<img src="assets/Chapter%20IV/Confirmar-postulación.png" alt="Confirm application">
+<img src="assets/Chapter%20IV/Ver_Proyecto-trabajar.png" alt="Work with the company">
 
 **Deliverables Timeline**<br>
-<img src="Chapter%20IV/Cronograma_entregables-Dev.png" alt="Deliverables">
-<img src="Chapter%20IV/Subir-Entregable.png" alt="Upload deliverable">
+<img src="assets/Chapter%20IV/Cronograma_entregables-Dev.png" alt="Deliverables">
+<img src="assets/Chapter%20IV/Subir-Entregable.png" alt="Upload deliverable">
 
 **Messages**<br>
-<img src="Chapter%20IV/Mensaje-Desarrollador.png" alt="Message for recruiter">
+<img src="assets/Chapter%20IV/Mensaje-Desarrollador.png" alt="Message for recruiter">
 
 **Support**<br>
-<img src="Chapter%20IV/Soporte.png" alt="Support Page">
+<img src="assets/Chapter%20IV/Soporte.png" alt="Support Page">
 
 **Explorar Proyectos Destacados**
-<img src="Chapter%20IV/Proyectos destacados.png" alt="Proyectos destacados">
+<img src="assets/Chapter%20IV/Proyectos destacados.png" alt="Proyectos destacados">
 
 ### 4.6.4. Web Applications User Flow Diagrams.
 
 **Registrar Usuario_Reestablecer contraseña**
 
-![Registrar usuario y reestablecer contraseña](Chapter%20IV/Userflow%20Registrar%20usuario%20_%20Reestablecer%20contraseña.jpg)
+![Registrar usuario y reestablecer contraseña](assets/Chapter%20IV/Userflow%20Registrar%20usuario%20_%20Reestablecer%20contraseña.jpg)
 
 **Inicio de la aplicación**
 
-![Inicio de la aplicacion](Chapter%20IV/Userflow%20Inicio%20de%20aplicacion.jpg)
+![Inicio de la aplicacion](assets/Chapter%20IV/Userflow%20Inicio%20de%20aplicacion.jpg)
 
 **Proyectos Destacados**
 
-![Ver proyectos destacados](Chapter%20IV/Userflow%20Proyectos%20Destacados.jpg)
+![Ver proyectos destacados](assets/Chapter%20IV/Userflow%20Proyectos%20Destacados.jpg)
 
 **Atencion al cliente**
 
-![Atencion al cliente](Chapter%20IV/Userflow%20Atencion%20al%20cliente.jpg)
+![Atencion al cliente](assets/Chapter%20IV/Userflow%20Atencion%20al%20cliente.jpg)
 
 **Segmento Empresa**
 
 **Ver entregables de proyecto**
 
-![Ver entregables de proyecto](Chapter%20IV/Userflow%20Empresas%20Ver%20entregables%20de%20proyecto.jpg)
+![Ver entregables de proyecto](assets/Chapter%20IV/Userflow%20Empresas%20Ver%20entregables%20de%20proyecto.jpg)
 
 **Explorar, ver perfil y contactar con desarrollador**
 
-![Explorar ver perfil y contactar con desarrollador](Chapter%20IV/Userflow%20Empresas%20Explorar,%20ver%20perfil%20y%20contactar%20con%20desarrollador.jpg)
+![Explorar ver perfil y contactar con desarrollador](assets/Chapter%20IV/Userflow%20Empresas%20Explorar,%20ver%20perfil%20y%20contactar%20con%20desarrollador.jpg)
 
 **Crear proyecto**
 
-![Crear proyecto](Chapter%20IV/Userflow%20Empresas%20Crear%20proyecto.jpg)
+![Crear proyecto](assets/Chapter%20IV/Userflow%20Empresas%20Crear%20proyecto.jpg)
 
 **Segmento Desarrollador**
 
 **Trabajar en proyecto, ver entregables y comunicar con empresa**
 
-![Trabajar en proyecto ver entregables y comunicar con empresa](Chapter%20IV/Userflow%20Desarrollador%20Trabajar%20en%20proyecto,%20ver%20entregables%20y%20comunicar%20con%20empresa.jpg)
+![Trabajar en proyecto ver entregables y comunicar con empresa](assets/Chapter%20IV/Userflow%20Desarrollador%20Trabajar%20en%20proyecto,%20ver%20entregables%20y%20comunicar%20con%20empresa.jpg)
 
 **Explorar y postular a proyecto**
 
-![Explorar y postular proyecto](Chapter%20IV/Userflow%20Desarrollador%20Explorar%20y%20postular%20a%20proyecto.jpg)
+![Explorar y postular proyecto](assets/Chapter%20IV/Userflow%20Desarrollador%20Explorar%20y%20postular%20a%20proyecto.jpg)
 
 ## 4.7. Web Applications Prototyping.
 
-<img src="Chapter%20IV/prototipo.png">
+<img src="assets/Chapter%20IV/prototipo.png">
 
 [URL del Prototipo en vista de empresa(Hecho en figma)](https://www.figma.com/proto/59rup67dfioDXBRKEmpxAD/Mockup-From-Zero-Open-Source?type=design&node-id=2-325&t=YuGoXqkU7ZGQ3s2N-0&scaling=scale-down&starting-point-node-id=3254%3A359&show-proto-sidebar=1)
 
