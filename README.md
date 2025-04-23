@@ -1835,50 +1835,50 @@ En la versión móvil, la aplicación presentará un botón para iniciar sesión
 https://www.figma.com/proto/F9uDpQtivg5tkJt5aA81VP/Mockup-Webmaster-Mobile?node-id=2-325&t=3sAIe7acXLbBfGd5-1
 
 **Inicio de sesión y creación de usuario:**<br>
-| ![Mock up 1](assets/Chapter%20IV/MobileMockUp1.png) | ![Mock up 2](assets/Chapter%20IV/MobileMockUp2.png) |
+| ![Mobile Mock Up 1](assets/Chapter%20IV/MobileMockUp1.png) | ![Mobile Mock Up 2](assets/Chapter%20IV/MobileMockUp2.png) |
 |---------------------------------------------|---------------------------------------------|
-| ![Mock up 1](assets/Chapter%20IV/MobileMockUp3.png) | ![Mock up 2](assets/Chapter%20IV/MobileMockUp4.png) |
+| ![Mobile Mock Up 3](assets/Chapter%20IV/MobileMockUp3.png) | ![Mobile Mock Up 4](assets/Chapter%20IV/MobileMockUp4.png) |
 
-| ![Mock up 1](assets/Chapter%20IV/MobileMockUp5.png) | ![Mock up 2](assets/Chapter%20IV/MobileMockUp6.png) |
+| ![Mobile Mock Up 5](assets/Chapter%20IV/MobileMockUp5.png) | ![Mobile Mock Up 6](assets/Chapter%20IV/MobileMockUp6.png) |
 |---------------------------------------------|---------------------------------------------|
 #### Usuario Desarrollador<br>
 **Página principal:**<br>
-![Mock up 1](assets/Chapter%20IV/MobileMockUp7.png) 
+![Mobile Mock Up 7](assets/Chapter%20IV/MobileMockUp7.png) 
 
 **Buscar/postular proyectos:**<br>
-| ![Mock up 1](assets/Chapter%20IV/MobileMockUp8.png) | ![Mock up 2](assets/Chapter%20IV/MobileMockUp9.png) | ![Mock up 3](assets/Chapter%20IV/MobileMockUp10.png) |
+| ![Mobile Mock Up 8](assets/Chapter%20IV/MobileMockUp8.png) | ![Mobile Mock Up 9](assets/Chapter%20IV/MobileMockUp9.png) | ![Mobile Mock Up 10](assets/Chapter%20IV/MobileMockUp10.png) |
 |---------------------------------------------|---------------------------------------------|---------------------------------------------|
 
 **Ver Proyecto/Entregables:**<br>
-![Mock up 1](assets/Chapter%20IV/MobileMockUp11.png) ![Mock up 2](assets/Chapter%20IV/MobileMockUp12.png)
+![Mobile Mock Up 11](assets/Chapter%20IV/MobileMockUp11.png) ![Mobile Mock Up 12](assets/Chapter%20IV/MobileMockUp12.png)
 
 **Mensaje:**<br>
-![Mock up 1](assets/Chapter%20IV/MobileMockUp13.png)
+![Mobile Mock Up 13](assets/Chapter%20IV/MobileMockUp13.png)
 
 **Misceláneos:**<br>
-![Mock up 14](assets/Chapter%20IV/MobileMockUp14.png) ![Mock up 15](assets/Chapter%20IV/MobileMockUp15.png)
+![Mobile Mock Up 14](assets/Chapter%20IV/MobileMockUp14.png) ![Mobile Mock Up 15](assets/Chapter%20IV/MobileMockUp15.png)
 
 #### Usuario Empresa<br>
 **Página principal:**<br>
-![Mock up 16](assets/Chapter%20IV/MobileMockUp16.png)
+![Mobile Mock Up 16](assets/Chapter%20IV/MobileMockUp16.png)
 
 **Buscar desarrolladores:**<br>
-![Mock up 17](assets/Chapter%20IV/MobileMockUp17.png)
+![Mobile Mock Up 17](assets/Chapter%20IV/MobileMockUp17.png)
 
 **Ver entregables:**<br>
-![Mock up 18](assets/Chapter%20IV/MobileMockUp18.png)
+![Mobile Mock Up 18](assets/Chapter%20IV/MobileMockUp18.png)
 
 **Crear entregables:**<br>
-![Mock up 19](assets/Chapter%20IV/MobileMockUp19.png)
+![Mobile Mock Up 19](assets/Chapter%20IV/MobileMockUp19.png)
 
 **Mensaje:**<br>
-![Mock up 20](assets/Chapter%20IV/MobileMockUp20.png)
+![Mobile Mock Up 20](assets/Chapter%20IV/MobileMockUp20.png)
 
 **Misceláneos:**<br>
-![Mock up 21](assets/Chapter%20IV/MobileMockUp21.png) ![Mock up 22](assets/Chapter%20IV/MobileMockUp22.png)
+![Mobile Mock Up 21](assets/Chapter%20IV/MobileMockUp21.png) ![Mobile Mock Up 22](assets/Chapter%20IV/MobileMockUp22.png)
 
 **Crear proyecto:**<br>
-![Mock up 23](assets/Chapter%20IV/MobileMockUp23.png)
+![Mobile Mock Up 23](assets/Chapter%20IV/MobileMockUp23.png)
 
 ### 4.4.4. Mobile Applications User Flow Diagrams.
 
