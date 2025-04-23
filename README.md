@@ -661,27 +661,229 @@ Incluye a profesionales independientes especializados en tecnologías web y desa
 
 ## 2.1. Competidores
 
+Tras analizar el panorama actual de plataformas que conectan a empresas con desarrolladores freelance para el desarrollo de soluciones digitales, hemos identificado a los principales competidores de nuestra startup en el sector. A continuación, se detallan:
+
+### Freelancer
+
+Es una plataforma global que conecta a freelancers con empresas de distintos tamaños que buscan soluciones en áreas como desarrollo de software, diseño, marketing y más. Los profesionales pueden ofertar por proyectos según sus habilidades, mientras que las empresas tienen acceso a una amplia base de talento para contratar de acuerdo a sus necesidades específicas.
+
+### Codementor
+
+Es una plataforma enfocada en desarrolladores que buscan mentoría y oportunidades freelance. Ofrece la posibilidad de recibir tutorías personalizadas por expertos en programación, además de conectar a desarrolladores con proyectos específicos que requieren habilidades técnicas avanzadas.
+
+### Workana
+
+Plataforma latinoamericana que permite a profesionales ofrecer sus servicios en distintas áreas como desarrollo web, diseño gráfico, redacción y más. Es una opción popular en países hispanohablantes, y se ha posicionado como una alternativa accesible y eficiente para contratar talento freelance en la región.
+
 ### 2.1.1. Análisis competitivo
 
+| Competitive Analysis Landscape | |
+| - | - |
+| ¿Por qué llevar a cabo este análisis? | Para conocer el valor que ofrece cada uno de nuestros competidores en este sector |
+
+| | | Freelancer | Codementor | Workana |
+| - | - | - | - | - |
+| Perfil | Overview | Plataforma global que conecta freelancers con empleadores en proyectos de corto o largo plazo. | Plataforma enfocada en conectar a desarrolladores con clientes para sesiones de mentoría o trabajo freelance. | Plataforma latinoamericana donde desarrolladores pueden aplicar a proyectos y empresas pueden contratar freelancers. |
+| | Ventaja competitiva ¿Qué valor ofrece a los clientes? | Permite contratar freelancers para casi cualquier tipo de proyecto, con variedad de rangos de precios y herramientas de seguimiento del progreso. | Cuenta con expertos validados y disponibles bajo demanda. Las sesiones de mentoría y consultas técnicas son altamente valoradas. | Brinda seguridad y confianza entre las partes, con herramientas de gestión y comunicación claras. Facilita la contratación de freelancers con habilidades específicas. |
+| Perfil de marketing | Mercado Objetivo | Empresas, startups y particulares que necesiten completar tareas/proyectos específicos.<br><br>Freelancers que deseen ampliar sus ingresos y trabajar por encargo. | Profesionales, startups o desarrolladores junior que buscan soporte técnico o mentoría especializada.<br><br>Mentores con amplia experiencia que deseen monetizar su conocimiento. | PYMEs que deseen contratar buenos desarrolladores de forma remota en Latinoamérica.<br><br>Desarrolladores en busca de trabajos remotos que impulsen sus carreras. |
+| | Estrategia de Marketing | Publicidad online, SEO y colaboraciones con influencers del mundo tech. | Estrategias inbound como contenido técnico, charlas online, y enfoque educativo. | Promoción en redes sociales y contenido educativo. |
+| Perfil del producto | Productos y servicios | Plataforma de trabajo freelance con sistema de publicaciones y ofertas. | Plataforma de mentoría técnica con opción de proyectos freelance. | Plataforma de trabajo con enfoque en desarrolladores latinoamericanos. |
+| | Precios y costos | Comisión por proyecto completado. Planes premium disponibles para mayor visibilidad. | Cobro por sesión de mentoría o por proyecto.<br>Tarifas dependen del mentor. | Membresías según el nivel del freelancer:<br>- Plus: USD 4.90<br>- Professional: USD 16.90<br>- Premium: USD 24.90 |
+| - | Canales de distribución (Web y/o Móvil) | Página web y aplicación móvil | Página web | Página web |
+| Análisis SWOT | Fortalezas | Gran volumen de usuarios y proyectos activos.<br> Herramientas integradas para gestión del trabajo. | Acceso a expertos en tiempo real para resolución de problemas técnicos. | Transparencia en perfiles de freelancers y variedad de proyectos en la región. |
+| | Debilidades | Alta competencia puede dificultar conseguir proyectos para nuevos usuarios. | No tan conocida como otras plataformas de freelancing general.<br>Enfocada en nicho técnico. | Poca visibilidad global al estar centrada en Latinoamérica. |
+| | Oportunidades | Expansión a nuevos mercados y áreas técnicas.<br> Integración de IA para mejorar matching. | Mayor demanda de mentoría técnica por el auge del aprendizaje autodidacta. | Potencial de expansión en nuevos países de LATAM. |
+| | Amenazas | Plataformas con menor comisión y mayor visibilidad.<br>Falsos perfiles o proyectos fantasmas. | Competencia con plataformas de cursos online y comunidades gratuitas. | Competencia creciente de plataformas internacionales que también apuntan a LATAM. |
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+| Competidores | ¿Qué se puede hacer para ganarle a la competencia? |
+|--------------|----------------------------------------------------|
+| **Freelancer** | A diferencia de Freelancer, nuestra plataforma se centrará en una comunidad más enfocada en desarrolladores, con planes de suscripción accesibles y comisiones más justas, buscando una experiencia más personalizada tanto para clientes como para freelancers. |
+| **Codementor** | En comparación con Codementor, ofreceremos funciones que permitan no solo mentorías o asesorías, sino también la ejecución de proyectos de mayor duración con herramientas de gestión y seguimiento integradas, mejorando la trazabilidad y cumplimiento de objetivos. |
+| **Workana** | Frente a Workana, nos posicionaremos como una plataforma especializada exclusivamente en desarrollo de software, lo que nos permitirá dedicar más recursos a mejorar la experiencia de este tipo específico de talento, garantizando mejor soporte, visibilidad y ofertas de valor tanto para empresas como desarrolladores. |
 
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
+### **Público objetivo: Empresarios y emprendedores**
+
+Buen día, mi nombre es [Nombre del entrevistador]. Estoy realizando una entrevista para la startup **fromzero**, con el propósito de recabar información clave que nos permita construir de forma efectiva nuestra plataforma.
+
+**WebMaster** es una solución diseñada para apoyar a empresas y emprendimientos que necesiten desarrollar herramientas digitales. Nuestro objetivo es conectar a estos negocios con desarrolladores freelance que puedan atender sus necesidades de forma profesional y eficiente.
+
+#### **Preguntas generales:**
+1. ¿Podrías indicarme tu nombre?
+2. ¿Cuál es tu edad?
+3. ¿Dónde resides actualmente?
+4. ¿Cómo se llama tu empresa o emprendimiento?
+
+#### **Preguntas exploratorias:**
+1. ¿Tu negocio cuenta actualmente con presencia digital?
+2. ¿Consideras que tener presencia en internet es esencial hoy en día? ¿Por qué?
+3. ¿Qué acciones implementarías para mejorar la visibilidad digital de tu empresa?
+4. ¿Tu empresa ha requerido alguna vez una solución de software? Si es así, ¿de qué tipo?
+5. ¿Has considerado desarrollar un proyecto tecnológico para tu negocio? ¿Cuál sería tu motivación?
+6. ¿Qué tanto conoces sobre plataformas que permiten contratar desarrolladores freelance?
+
+#### **Preguntas de validación:**
+1. ¿Estarías dispuesto a trabajar con un desarrollador para crear una solución digital para tu empresa?
+2. ¿Te resultaría útil una plataforma que conecte tu empresa con desarrolladores freelance especializados? ¿Por qué?
+3. ¿Qué características consideras indispensables en una plataforma de este tipo?
+4. ¿Qué beneficios esperas obtener al utilizar una plataforma como esta?
+5. ¿Qué preocupaciones tendrías al contratar freelancers por medio de una plataforma?
+6. ¿Estarías dispuesto a pagar por un servicio que te conecte con el desarrollador ideal para tu proyecto?
+
+
+### **Público objetivo: Desarrolladores freelance**
+
+Buen día, soy [Nombre del entrevistador]. En esta ocasión llevaré a cabo una entrevista como parte del proceso de investigación de la startup **fromzero**, con el fin de recopilar información esencial para diseñar nuestra plataforma.
+
+**WebMaster** es una herramienta enfocada en conectar a desarrolladores freelance con empresas que requieren soluciones tecnológicas específicas, permitiendo oportunidades laborales claras y proyectos alineados con sus habilidades.
+
+#### **Preguntas generales:**
+1. ¿Cuál es tu nombre?
+2. ¿Cuántos años tienes?
+3. ¿Dónde te encuentras actualmente?
+4. ¿Cuál es tu área de especialización dentro del desarrollo de software? (web, móvil, ciberseguridad, etc.)
+
+#### **Preguntas exploratorias:**
+1. ¿Qué tecnologías utilizas habitualmente en tus proyectos?
+2. ¿Has trabajado previamente en proyectos como freelance?
+3. ¿Qué tipos de proyectos has desarrollado?
+4. ¿Cuáles han sido los principales retos que enfrentaste como desarrollador independiente?
+5. ¿Qué factores consideras antes de aceptar un nuevo proyecto?
+6. ¿Cómo sueles manejar la comunicación con tus clientes durante el desarrollo del trabajo?
+7. ¿Qué tan familiarizado estás con plataformas que conectan desarrolladores freelance con clientes?
+
+#### **Preguntas de validación:**
+1. ¿Qué características crees que son imprescindibles en este tipo de plataformas?
+2. ¿Qué funcionalidades adicionales te gustaría que tuvieran estas plataformas?
+3. ¿Qué te haría elegir una plataforma frente a otras opciones del mercado?
+4. ¿Qué beneficios esperarías al usar una plataforma como WebMaster?
+5. ¿Qué aspectos te generan dudas o preocupaciones al usar una plataforma para encontrar proyectos?
+6. ¿Estarías dispuesto a usar o pagar por una plataforma que te conecte con empresas interesadas en tus servicios?
 
 ### 2.2.2. Registro de entrevistas
 
+**Segmento empresarios o emprendedores**  
+
+**Entrevista 1**
+
+  - Entrevistador: Zaid Valentino Ramirez Contreras
+  - Entrevistado: Maverick Mendoza
+  - Edad: 20
+  - Residencia: Lima - San Miguel
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218472_upc_edu_pe/EZ6MFAwyeatGnXEs5o7rN-8BH9oREGQs-aek24_WSUpdxw?e=JDVm7r&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<img src="./assets/chapter-I&II/Interview Maverick.png" alt="Imagen de entrevista1" style="width:60% align-center">
+	
+Resumen: 
+El entrevistado, Maverick Mendoza, es un estudiante de Ingenieria en Sistemas y dueño del emprendimiento EnchiTacos. Menciona que actualmente la empresa solo maneja Facebook e Instagram con anuncios, por lo que cree que la adquisición de una página web mejoraría la rentabilidad del negocio. También menciona que la parte más importante al implementar una página web es la parte del diseño y la arquitectura. Menciona que le sería conveniente el tener a disposición una plataforma que le facilite el contacto con desarrolladores freelancer para la creación de su página web. Además dice que estaría dispuesto a pagar por el uso de la plataforma si esto significa que podrá elegir al desarrollador que mejor le convenga. 
+
+**Entrevista 2**
+
+  - Entrevistador: Jair Velasquez Pizarro
+  - Entrevistado: Alexandra Ñañez
+  - Edad: 21
+  - Residencia: Lima - Comas
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218114_upc_edu_pe/ERCqSU_2GapEunt22M-Mkd8BcsWU3E48f1Yi64nZnEtWqA?e=KUw5GE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<img src="./assets/chapter-I&II/Interview Alexandra.png" alt="Imagen de entrevista1" style="width:60% align-center">
+	
+Resumen: 
+Mi entrevistada, Alexandra Ñañez, es estudiante de la carrera de Administración y Marketing, y es asesora de Marketing en un negocio que brinda el servicio de juegos infantiles, estimulación temprana y alquiler de local para fiestas infantiles. Menciona que actualmente la empresa solo maneja Facebook e Instagram con anuncios, por lo que cree que la adquisición de una página web mejoraría la rentabilidad del negocio. También menciona que la parte más importante al implementar una página web es la parte del diseño y la arquitectura. También recalca que lo principal al momento de contratar un programador para un producto de software es la seguridad, comunicación y pruebas de trabajos anteriores para comprender si su forma de diseño se asemeja a la empresa.
+
+**Segmento desarrolladores freelance**  
+
+**Entrevista 1** 
+
+  - Entrevistador: Samira Jetzabel Alvarez Araguache 
+  - Entrevistado: Alessandro Medina Agnini
+  - Edad: 20 años
+  - Residencia: Lima - San Miguel
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a046_upc_edu_pe/EWWgW2c4bpBAv8OynwXt7U0BkvrPYFU33fi4NdxbqDtjng?e=En0xjC&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<img src="./assets/chapter-I&II/Interview Alessandro.png" alt="Entrevista 1 segmento desarrolladores freelance" style="width:60% align-center">
+	
+Resumen: 
+<br>
+Se entrevistó a Alessandro Medina, un joven de 20 años estudiante de Ciencias de la Computación quien se dedica al trabajo freelance. Alessandro se especializa en el desarrollo web como Front-End, con el uso de HTML5, CSS3, JS, React y Angular. utilizando tecnologías como HTML5, CSS3, JS, React y Angular. Él ha participado en diversos proyectos, principalmente en la creación de landing pages para emprendedores y pequeñas empresas.
+
+Inicialmente,enfrentó dificultades para encontrar proyectos debido a la falta de un portafolio que respaldara sus habilidades y profesionalismo. Asímismo, antes de elegir un proyecto investiga al cliente para evaluar su reputación y toma en cuenta plazo de entrega del trabajo. Una vez aceptado un proyecto, Alessandro comenta que suele  mantener una comunicación activa con el empleador a través de reuniones periódicas para recibir retroalimentación. 
+
+Menciona que está familiarizado con las plataformas de contratación de desarrolladores freelance y destaca la importancia de personalizar su perfil para resaltar sus habilidades y tener un portafolio asociado. Además, espera encontrar sistemas de pago seguros en estas plataformas. Alessandro menciona que selecciona las plataformas basándose en su reputación y en la facilidad para encontrar proyectos e los que trabajar. Mientras tanto, espera que una plataforma  le brinde la oportunidad de conectarse con un público más amplio. Por otro lado, sus preocupaciones a esto gira entorno a la competencia con freelancers establecidos.
+
+Finalmente, consideraría usar una plataforma conecte con empresas que buscan desarrolladores freelance según el modelo de cobro, ya sea por suscripción o por comisiones.
+
 ### 2.2.3. Análisis de entrevistas
+
+**Segmento empresarios o emprendedores:**<br>
+Se destaca una convergencia de ideas y necesidades comunes entre los emprendedores. Todos reconocen la importancia de ampliar la presencia en línea de sus negocios más allá de las redes sociales, considerando la adquisición de una página web como un paso fundamental para mejorar la rentabilidad y llegar a un público más amplio.<br>
+
+Un punto clave resaltado por cada uno de ellos es la importancia del diseño y la arquitectura de la página web. Esto sugiere que no solo valoran la apariencia visual, sino también la funcionalidad y la experiencia del usuario como componentes esenciales para el éxito en línea. Además, todos muestran disposición para trabajar con desarrolladores freelance, indicando una preferencia por la flexibilidad y la especialización que estos profesionales ofrecen.<br>
+
+Otro aspecto compartido entre los entrevistados es su preocupación por la calidad del trabajo y la seguridad de la información al contratar desarrolladores freelance o utilizar plataformas para encontrar talento. Esta cautela refleja una mentalidad empresarial prudente y enfocada en asegurar resultados satisfactorios y proteger la integridad de sus negocios.<br>
+
+Finalmente, es notable que todos están dispuestos a invertir en soluciones que satisfagan sus necesidades específicas, ya sea en el desarrollo de un sitio web de calidad o en la selección de talento especializado a través de plataformas pagas. Esta disposición a pagar por servicios adecuados demuestra un enfoque estratégico y comprometido hacia el crecimiento y la mejora continua de sus emprendimientos en el entorno digital.<br>
+
+
+**Segmento desarrolladores freelance:**<br>
+En las entrevistas con Alessandro Medina y William Ramos Vicente, se destaca la importancia crucial de contar con un sólido portafolio y una buena reputación para atraer proyectos de calidad como desarrolladores freelance. Ambos enfatizan la necesidad de mantener una comunicación activa y recibir retroalimentación constante de los empleadores durante los proyectos.
+
+Además, ambos desarrolladores valoran el uso de plataformas de contratación freelance para acceder a una variedad más amplia de oportunidades laborales. William específicamente busca plataformas eficaces que clasifiquen proyectos según especialidades y niveles de experiencia, mientras que Alessandro prefiere plataformas que le permitan conectarse con un público más amplio y que ofrezcan sistemas de pago seguros.
+
+Sus principales preocupaciones incluyen la eficiencia en la selección de proyectos, la comunicación transparente durante todo el proceso y la retroalimentación sobre el progreso del trabajo. En conjunto, estas entrevistas reflejan la importancia de estrategias efectivas de presentación, comunicación clara y selección inteligente de plataformas para maximizar las oportunidades y la satisfacción como desarrolladores freelance.
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
+**Segmento empresarios y emprendedores**
+
+<img src="./assets/chapter-I&II/UserPerson Aina Soler.png" alt="primer segmento" style="width:60% align-center"><br><br>
+
+
+**Segmento desarrolladores freelance**
+
+<img src="./assets/chapter-I&II/UserPerson Estefano Perez.png" alt="segundo segmento" style="width:60% align-center">
+
 ### 2.3.2. User Task Matrix
+
+A continuación se presenta una matriz de tareas diseñada para representar las actividades clave y su relevancia para cada uno de nuestros segmentos de usuarios objetivo.
+
+| **Tarea** | **Frecuencia** <br> Empresario/Emprendedor | **Importancia** <br> Empresario/Emprendedor | **Frecuencia** <br> Desarrollador Freelance | **Importancia** <br> Desarrollador Freelance |
+|-----------|---------------------------------------------|----------------------------------------------|-----------------------------------------------|------------------------------------------------|
+| Organizar su tiempo de forma eficiente | Alta | Alta | Alta | Alta |
+| Estar actualizado con las nuevas tendencias y estilos | Alta | Alta | Media | Alta |
+| Gestionar operaciones como pedidos, ventas y envíos | Alta | Alta | Baja | Baja |
+| Mejorar la experiencia del usuario en su sitio web | Baja | Media | Alta | Alta |
+| Buscar oportunidades o proyectos de desarrollo | Baja | Baja | Alta | Alta |
+| Solucionar problemas técnicos y proponer ideas creativas | Media | Alta | Alta | Alta |
+| Crear soluciones tecnológicas o software personalizado | Baja | Baja | Alta | Alta |
 
 ### 2.3.3. User Journey Mapping
 
+A continuación se pueden observar los User Journey Mapping de los segmentos objetivos.
+
+Segmento Microempresas, Emprendimientos y PYMEs:
+
+<img src="./assets/chapter-I&II/user journey map Microempresas, Emprendimientos y PYMEs.png" alt="User Journey Mapping" style="width:60% align-center"><br><br>
+
+Segmento desarrollador freelance:
+
+<img src="./assets/chapter-I&II/user journey map Desarrolladores Freelance.png" alt="User Journey Mapping2" style="width:60% align-center"><br><br>
+
 ### 2.3.4. Empathy Mapping
+
+A continuación se muestra los Empathy Mapping de los segmentos objetivos.
+
+Segmento Microempresas, Emprendimientos y PYMEs:
+
+<img src="./assets/chapter-I&II/Empathy Map Aina Soler.png" alt="Empathy Mapping" style="width:60% align-center"><br><br>
+
+Segmento desarrollador freelance:
+<img src="./assets/chapter-I&II/Empathy Map Estefano Perez.png" alt="Empathy Mapping2" style="width:60% align-center"><br><br>
 
 ### 2.3.5. As-is Scenario Mapping
 **Segmento emprendedores y PYMES**
@@ -704,7 +906,30 @@ Enlace a Miro: https://miro.com/app/board/uXjVIA0Hwb4=/?moveToWidget=34587646253
 
 ## 2.4. Ubiquitous Language
 
----
+A continuación, se definen los términos clave que forman parte del lenguaje común utilizado en el desarrollo de la plataforma:
+
+- **Connection Platform (Plataforma de Conexión)**: Entorno digital diseñado para facilitar el vínculo entre empresas/emprendimientos y desarrolladores freelance.
+
+- **User (Usuario)**: Cualquier individuo que haga uso de la plataforma, ya sea como desarrollador independiente o como empresario/emprendedor.
+
+- **User Profile (Perfil de Usuario)**: Sección personalizada del usuario dentro de la plataforma que muestra su trayectoria, habilidades técnicas y proyectos realizados.
+
+- **Project Catalog (Catálogo de Proyectos)**: Colección de propuestas de desarrollo de software publicadas por empresas o emprendedores, disponibles para ser ejecutadas por freelancers.
+
+- **Rating System (Sistema de Valoración)**: Mecanismo que permite a los usuarios calificar aspectos como la calidad, profesionalismo y cumplimiento de los proyectos realizados por los desarrolladores.
+
+- **Work Contract (Contrato de Trabajo)**: Documento formal que establece los términos de colaboración entre un desarrollador freelance y una empresa, incluyendo plazos, pagos y condiciones.
+
+- **Project Management (Gestión de Proyectos)**: Funcionalidad que proporciona herramientas para organizar, monitorear y administrar el desarrollo del proyecto en curso.
+
+- **Subscription Model (Modelo de Suscripción)**: Esquema de pago que ofrece beneficios adicionales a empresas y freelancers a través de una cuota periódica.
+
+- **Commission System (Sistema de Comisión)**: Modelo de cobro en el que se deduce un porcentaje del valor total del proyecto como comisión para el uso de la plataforma.
+
+- **Registration and Verification (Registro y Verificación)**: Procedimiento mediante el cual se valida la identidad de los nuevos usuarios antes de permitirles utilizar plenamente la plataforma.
+
+- **Customer Support (Soporte al Cliente)**: Servicio de atención que ayuda a resolver dudas, brindar soporte técnico y atender inconvenientes que los usuarios puedan tener al interactuar con la plataforma.
+
 
 # Capítulo III: Requirements Specification
 
