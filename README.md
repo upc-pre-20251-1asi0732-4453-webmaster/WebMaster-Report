@@ -1843,42 +1843,42 @@ https://www.figma.com/proto/F9uDpQtivg5tkJt5aA81VP/Mockup-Webmaster-Mobile?node-
 |---------------------------------------------|---------------------------------------------|
 #### Usuario Desarrollador<br>
 **Página principal:**<br>
-![Mock up 1](assets/Figma/MobileMockUp7.png) 
+![Mock up 1](assets/Chapter%20IV/MobileMockUp7.png) 
 
 **Buscar/postular proyectos:**<br>
-| ![Mock up 1](assets/Figma/MobileMockUp8.png) | ![Mock up 2](assets/Figma/MobileMockUp9.png) | ![Mock up 3](assets/Figma/MobileMockUp10.png) |
+| ![Mock up 1](assets/Chapter%20IV/MobileMockUp8.png) | ![Mock up 2](assets/Chapter%20IV/MobileMockUp9.png) | ![Mock up 3](assets/Chapter%20IV/MobileMockUp10.png) |
 |---------------------------------------------|---------------------------------------------|---------------------------------------------|
 
 **Ver Proyecto/Entregables:**<br>
-![Mock up 1](assets/Figma/MobileMockUp11.png) ![Mock up 2](assets/Figma/MobileMockUp12.png)
+![Mock up 1](assets/Chapter%20IV/MobileMockUp11.png) ![Mock up 2](assets/Chapter%20IV/MobileMockUp12.png)
 
 **Mensaje:**<br>
-![Mock up 1](assets/Figma/MobileMockUp13.png)
+![Mock up 1](assets/Chapter%20IV/MobileMockUp13.png)
 
 **Misceláneos:**<br>
-![Mock up 14](assets/Figma/MobileMockUp14.png) ![Mock up 15](assets/Figma/MobileMockUp15.png)
+![Mock up 14](assets/Chapter%20IV/MobileMockUp14.png) ![Mock up 15](assets/Chapter%20IV/MobileMockUp15.png)
 
 #### Usuario Empresa<br>
 **Página principal:**<br>
-![Mock up 16](assets/Figma/MobileMockUp16.png)
+![Mock up 16](assets/Chapter%20IV/MobileMockUp16.png)
 
 **Buscar desarrolladores:**<br>
-![Mock up 17](assets/Figma/MobileMockUp17.png)
+![Mock up 17](assets/Chapter%20IV/MobileMockUp17.png)
 
 **Ver entregables:**<br>
-![Mock up 18](assets/Figma/MobileMockUp18.png)
+![Mock up 18](assets/Chapter%20IV/MobileMockUp18.png)
 
 **Crear entregables:**<br>
-![Mock up 19](assets/Figma/MobileMockUp19.png)
+![Mock up 19](assets/Chapter%20IV/MobileMockUp19.png)
 
 **Mensaje:**<br>
-![Mock up 20](assets/Figma/MobileMockUp20.png)
+![Mock up 20](assets/Chapter%20IV/MobileMockUp20.png)
 
 **Misceláneos:**<br>
-![Mock up 21](assets/Figma/MobileMockUp21.png) ![Mock up 22](assets/Figma/MobileMockUp22.png)
+![Mock up 21](assets/Chapter%20IV/MobileMockUp21.png) ![Mock up 22](assets/Chapter%20IV/MobileMockUp22.png)
 
 **Crear proyecto:**<br>
-![Mock up 23](assets/Figma/MobileMockUp23.png)
+![Mock up 23](assets/Chapter%20IV/MobileMockUp23.png)
 
 ### 4.4.4. Mobile Applications User Flow Diagrams.
 
