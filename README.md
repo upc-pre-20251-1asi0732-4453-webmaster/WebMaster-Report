@@ -1605,60 +1605,542 @@ Enlace al tablero de Trello: https://trello.com/b/gNzXJS37/from-zero
 ## 4.1. Style Guidelines
 
 ### 4.1.1. General Style Guidelines.
+**Branding**<br>
+Nuestra marca debe reflejar la esencia de la plataforma: facilitar la coordinación de proyectos de software entre empresas y desarrolladores freelance. Debe transmitir eficiencia, orden y colaboración.  
+El diseño debe ser moderno y profesional, destacando elementos visuales que representen flujo de trabajo, seguimiento y avance. Además debe evocar un entorno donde el desarrollo fluye de forma clara y estructurada, reforzando la idea de conexión y progreso continuo.
+
+![Wireframe2](Chapter%20IV/style1.png)
+
+**Typography**<br>
+La fuente principal de nuestra marca será Lato, seleccionada por su claridad y elegancia. Esta tipografía equilibra un estilo profesional con un toque accesible y acogedor, lo que la hace ideal para diversas aplicaciones y refuerza la sensación de confiabilidad en la marca.
+      
+![Wireframe2](Chapter%20IV/style2.png)
+    
+También emplearemos Open Sans como tipografía secundaria para destacar detalles y elementos complementarios. Esta elección añade diversidad visual mientras mantiene la armonía y consistencia en el diseño.
+
+![Wireframe2](Chapter%20IV/style3.png)
+
+Por último, se elegirán los tamaños de fuente con especial atención para asegurar tanto una lectura clara como una estructura jerárquica adecuada dentro de la interfaz de usuario.
+
+**Spacing**  
+El uso del espacio en nuestra interfaz de usuario es clave para brindar una experiencia organizada y efectiva.  
+Implementaremos márgenes y rellenos consistentes para asegurar una estructura visual ordenada.  
+Los elementos interactivos, como botones y enlaces, contarán con un espacio adecuado para prevenir toques accidentales, especialmente en dispositivos móviles.
 
 ### 4.1.2. Web Style Guidelines.
 
+Identificación de los componentes que formarán parte de la aplicación web.
+
+En la esquina superior izquierda de la portada de WebMaster, se presenta un encabezado sencillo y sofisticado que incluye nuestro logotipo, simbolizando el vínculo entre empresarios y desarrolladores web. Justo a la derecha, se ubica un menú desplegable que organiza las distintas secciones de la aplicación, facilitando la navegación fluida para los usuarios.
+
+**Colors**<br>
+La paleta de colores principales incluye Azul (#0072FF), Gris Claro (#F5F7FA) y Verde Acento (#28A745). Estos colores se combinan para ofrecer un equilibrio entre profesionalismo, claridad y dinamismo. El azul, como color predominante, inspira confianza, mientras que el gris claro asegura una lectura cómoda, y el verde resalta los elementos clave de la interfaz.
+
+![Wireframe2](Chapter%20IV/style4.png)
+
+Además, se incorporarán colores secundarios como Naranja Suave (#FFA500), Gris Oscuro (#333333) y Fucsia (#FF00FF), que serán aplicados de forma limitada para destacar componentes clave dentro del aplicativo.
+
+![Wireframe2](Chapter%20IV/style5.png)
+
 ### 4.1.3. Mobile Style Guidelines.
+
+**Colors**<br>
+Nuestra paleta de colores principales, compuesta por Azul violáceo (#6B74B4), Turquesa (#45B7A8) y Blanco (#FFFFFF). La combinación de estos tres colores en la paleta logra un equilibrio entre un aspecto profesional, la claridad necesaria y un toque de dinamismo. 
+ 
+ ![Wireframe2](Chapter%20IV/style1.png)
 
 #### 4.1.3.1. iOS Mobile Style Guidelines.
 
+En esta subsección se especificarán las pautas de diseño que se adherirán a las directrices de la interfaz humana de Apple (Human Interface Guidelines). Se definirán los patrones de navegación (como el uso de `UINavigationController` y `UITabBarController`), el estilo de los controles (como `UIButton`, `UITableView`, `UICollectionView`), el uso de tipografía y colores adaptados a iOS, las animaciones y transiciones, y las consideraciones de accesibilidad específicas para dispositivos Apple. Se proporcionarán ejemplos visuales y especificaciones técnicas para asegurar la coherencia con el ecosistema iOS.
+
 #### 4.1.3.2. Android Mobile Style Guidelines.
+
+En esta subsección se detallarán las directrices de diseño que seguirán los principios de Material Design de Google. Se definirán los patrones de navegación (como el uso de la `BottomNavigationView` y el `NavigationView`), el estilo de los componentes de la interfaz de usuario (como `Button`, `RecyclerView`, `CardView`), el uso de la paleta de colores de Material Design, las animaciones y transiciones basadas en las especificaciones de Material, y las consideraciones de accesibilidad específicas para dispositivos Android. Se incluirán ejemplos visuales y especificaciones técnicas para garantizar la consistencia con el lenguaje de diseño de Android.
 
 ## 4.2. Information Architecture.
 
 ### 4.2.1. Organization Systems.
 
+**Web Applications**
+
+Breve descripción sobre los sistemas de organización que utilizaremos (seleccionar):
+
+- **Hierarchical:** This approach structures content by emphasizing varying levels of importance through visual differences such as size, colour, contrast, and alignment.
+- **Sequential:** This method guides users along a specific path toward their goals, presenting content step-by-step according to the current stage.
+- **Matrix:** You can always provide users with the option to choose their preferred navigation style, for example, alphabetical, chronological, or by topic.
+
+**Mobile Applications**
+
+Los sistemas de organización para aplicaciones móviles están diseñados para ofrecer una experiencia completa e intuitiva. Entre las funcionalidades principales se destacan:
+
+- **Autenticación y Gestión de Cuentas:** Incluye una pantalla de inicio de sesión, la opción de seleccionar el tipo de usuario (Empresa o Desarrollador), registro de cuenta y recuperación de contraseña.
+- **Interfaz para Empresas:** Permite acceder al panel principal donde se pueden crear y consultar proyectos, ver y editar el perfil empresarial, buscar desarrolladores y revisar sus perfiles, gestionar postulantes y utilizar un sistema de mensajería integrado.
+- **Interfaz para Desarrolladores:** Ofrece un dashboard que posibilita la edición del perfil, la búsqueda y visualización de proyectos (incluyendo detalles y la opción de postularse), consultar perfiles de empresas, gestionar entregables y comunicarse mediante un sistema de mensajería.
+- **Características Compartidas:** Ambas interfaces incluyen elementos comunes como un menú de navegación, notificaciones, sección de soporte/ayuda y opciones de configuración.
+- **Gestión de Proyectos:** Se contemplan formularios para la creación de nuevos proyectos, listados y detalles, procesos de aplicación, seguimiento de entregables y un sistema de calificación.
+- **Comunicación:** La aplicación incorpora mensajería por correo interno, notificaciones y la integración de email para la recuperación de contraseña.
+- **Búsqueda y Descubrimiento:** Incluye funciones para la búsqueda de proyectos destinadas a desarrolladores y la búsqueda de desarrolladores para empresas, con opciones avanzadas de filtrado y ordenamiento.
+- **Gestión de Perfiles:** Se administran los perfiles de usuario para empresas y desarrolladores, permitiendo la exhibición de portafolios en el caso de los desarrolladores, la presentación de información corporativa en los perfiles empresariales y la recopilación de calificaciones y reseñas.
+
 ### 4.2.2. Labeling Systems.
+
+**Web Applications**
+
+El sistema de etiquetado se ha diseñado para consolidar la información de manera eficaz y presentarla de forma clara y sencilla, evitando así la saturación de datos. Una estrategia común consiste en crear etiquetas breves que resuman grandes volúmenes de información en pocas palabras. Esto se traduce, por ejemplo, en emplear títulos cortos—como "home", "about us", etc.—para los elementos de la barra de navegación.
+
+**Mobile Applications**
+
+El sistema de etiquetado se fundamentará en imágenes sencillas y fácilmente comprensibles que representen el apartado o acción correspondiente. Se aplicarán prácticas habituales para desarrollar un sistema intuitivo que facilite la identificación visual y la navegación del usuario.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-### 4.2.4. Searching Systems.
+#### Web Applications
+
+**Meta & SEO (Search Engine Optimization) Tags**  
+These tags are essential for making the website easily discoverable through search engines. They appear in search results and are included within the `<head>` section of the HTML.
+
+- **Title**: FromZero - Connecting Businesses and Freelance Developers  
+- **Description**: `<meta name="description" content="FromZero is the platform that links companies seeking software solutions with freelance developers eager to work on projects.">`  
+- **Keywords**: `<meta name="keywords" content="hiring platform, freelance developers, custom software, development projects, connect companies with developers">`  
+- **Author**: `<meta name="author" content="SiteForge Development Team">`
+
+---
+
+#### Mobile Applications
+
+**Meta & SEO (Search Engine Optimization) Tags**  
+Estas etiquetas permiten que la aplicación sea fácilmente encontrada en buscadores y tiendas. En Android, esta información se define en el archivo `AndroidManifest.xml`.
+
+```xml
+<manifest ... >
+    <application 
+        android:label="From Zero - Plataforma de Proyectos Digitales" 
+        android:description="Conecta empresas y desarrolladores para realizar sueños digitales" 
+        ... >
+        
+        <activity
+            android:name=".MainActivity"
+            android:label="From Zero - Inicio"
+            ... >
+        </activity>
+    </application>
+</manifest>
+```
+**Para Google Play Store**  
+
+- **Título de la aplicación**: From Zero - Plataforma de Proyectos Digitales  
+- **Descripción corta**: Conecta empresas y desarrolladores para tus sueños digitales  
+- **Descripción completa**:  
+  From Zero es la plataforma perfecta para hacer realidad tus proyectos digitales. Reunimos empresas visionarias con desarrolladores talentosos para llevar a cabo iniciativas excepcionales.
+
+  **Características principales**:  
+  - Crea y administra proyectos digitales  
+  - Encuentra desarrolladores con experiencia  
+  - Desarrolladores: accede a oportunidades interesantes  
+  - Sistema de mensajería incluido  
+  - Perfiles completos y portafolios  
+  - Control de entregas y pagos seguros  
+
+  Tanto si eres una empresa en busca de profesionales como un desarrollador en busca de retos, From Zero es tu lugar para lograr el éxito digital.
+
+- **Palabras clave**: proyectos digitales, desarrollo web, aplicaciones móviles, freelance, empresas, desarrolladores, tecnología, innovación, plataforma, conectar, trabajo remoto
+
+### 4.2.4. Searching Systems
+Los sistemas de búsqueda son herramientas digitales diseñadas para ayudar a los usuarios a localizar información específica dentro de un conjunto de datos, desempeñando un papel clave en la mejora de la experiencia de usuario. Para ello, se implementarán dos tipos de sistemas de búsqueda:
+- Búsqueda Inicial: Disponible para todos los usuarios, este sistema ofrecerá una experiencia sencilla e intuitiva mediante menús desplegables y una barra de navegación accesible, facilitando la localización de información sin complicaciones.
+- Búsqueda de empresas o desarrolladores: En función del segmento correspondiente, este sistema permitirá aplicar filtros de búsqueda para identificar empresas con proyectos disponibles o explorar perfiles de desarrolladores.
+Espero que esta versión sea adecuada.
 
 ### 4.2.5. Navigation Systems.
+
+#### Web Applications
+
+En la página de inicio se mostrará una barra de navegación en la parte superior junto con un botón para iniciar sesión. Al acceder a la aplicación, el usuario contará con accesos directos ubicados en la parte superior de la pantalla para facilitar la navegación dentro del sistema.
+
+#### Mobile Applications
+
+En la versión móvil, la aplicación presentará un botón para iniciar sesión. Una vez dentro, el usuario podrá moverse por las diferentes secciones mediante una barra de navegación situada en la parte inferior de la interfaz.
 
 ## 4.3. Landing Page UI Design.
 
 ### 4.3.1. Landing Page Wireframe.
 
+![Wireframe1](Chapter%20IV/Wireframe1.png)
+
+![Wireframe2](Chapter%20IV/Wireframe2.png)
+
+![Wireframe3](Chapter%20IV/Wireframe3.png)
+
 ### 4.3.2. Landing Page Mock-up.
+
+![Mock up 1](Chapter%20IV/MockUp1.png)
+
+![Mock up 2](Chapter%20IV/MockUp2.png)
+
+![Mock up 3](Chapter%20IV/MockUp3.png)
+
+![Mock up 4](Chapter%20IV/MockUp4.png)
+
+![Mock up 5](Chapter%20IV/MockUp5.png)
+
+![Mock up 6](Chapter%20IV/MockUp6.png)
+
+![Mock up 7](Chapter%20IV/MockUp7.png)
+
+![Mock up 8](Chapter%20IV/MockUp8.png)
 
 ## 4.4. Mobile Applications UX/UI Design.
 
 ### 4.4.1. Mobile Applications Wireframes.
 
+![Mock up 3](Chapter%20IV/MobileWireframe1.png)
+
+**Usuario desarrollador**
+
+![Mock up 4](Chapter%20IV/MobileWireframe2.png)
+
+**Usuario empresas**
+
+![Mock up 3](Chapter%20IV/MobileWireframe3.png)
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
+
+**Inicio de aplicación**  
+![Inicio](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wirelfow%20Inicio%20de%20aplicacion.png)
+
+**Registrar usuario / Reestablecer contraseña**  
+![Registrar usuario](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Registrar%20usuario%20_%20Reestablecer%20contrase%C3%B1a.png)
+
+**Ver información de los desarrolladores**  
+![Información de developers](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Ver%20informacion%20de%20los%20devlopers.png)
+
+**Explorar y Postular Proyecto**  
+![Postular Proyecto](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wirelfow%20Explorar%20y%20Postular%20Poryecto.png)
+
+**Empresas Crear proyecto**  
+![Crear proyecto](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Crear%20proyecto.png)
+
+**Empresas Explorar, ver perfil y contactar con desarrollador**  
+![Explorar perfil](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Explorar,%20ver%20perfil%20y%20contactar%20con%20desarrollador.png)
+
+**Empresas Ver y crear entregables**  
+![Entregables](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Ver%20y%20crear%20entregables.png)
+
+**Atención al Cliente**  
+![Atención al Cliente](Chapter%20IV/Mobile%20Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Atencion%20al%20Cliente.png)
 
 ### 4.4.3. Mobile Applications Mock-ups.
 
+**Prototype:**<br>
+https://www.figma.com/proto/F9uDpQtivg5tkJt5aA81VP/Mockup-Webmaster-Mobile?node-id=2-325&t=3sAIe7acXLbBfGd5-1
+
+**Inicio de sesión y creación de usuario:**<br>
+| ![Mock up 1](Chapter%20IV/MobileMockUp1.png) | ![Mock up 2](Chapter%20IV/MobileMockUp2.png) |
+|---------------------------------------------|---------------------------------------------|
+| ![Mock up 1](Chapter%20IV/MobileMockUp3.png) | ![Mock up 2](Chapter%20IV/MobileMockUp4.png) |
+
+| ![Mock up 1](Chapter%20IV/MobileMockUp5.png) | ![Mock up 2](Chapter%20IV/MobileMockUp6.png) |
+|---------------------------------------------|---------------------------------------------|
+#### Usuario Desarrollador<br>
+**Página principal:**<br>
+![Mock up 1](assets/Figma/MobileMockUp7.png) 
+
+**Buscar/postular proyectos:**<br>
+| ![Mock up 1](assets/Figma/MobileMockUp8.png) | ![Mock up 2](assets/Figma/MobileMockUp9.png) | ![Mock up 3](assets/Figma/MobileMockUp10.png) |
+|---------------------------------------------|---------------------------------------------|---------------------------------------------|
+
+**Ver Proyecto/Entregables:**<br>
+![Mock up 1](assets/Figma/MobileMockUp11.png) ![Mock up 2](assets/Figma/MobileMockUp12.png)
+
+**Mensaje:**<br>
+![Mock up 1](assets/Figma/MobileMockUp13.png)
+
+**Misceláneos:**<br>
+![Mock up 14](assets/Figma/MobileMockUp14.png) ![Mock up 15](assets/Figma/MobileMockUp15.png)
+
+#### Usuario Empresa<br>
+**Página principal:**<br>
+![Mock up 16](assets/Figma/MobileMockUp16.png)
+
+**Buscar desarrolladores:**<br>
+![Mock up 17](assets/Figma/MobileMockUp17.png)
+
+**Ver entregables:**<br>
+![Mock up 18](assets/Figma/MobileMockUp18.png)
+
+**Crear entregables:**<br>
+![Mock up 19](assets/Figma/MobileMockUp19.png)
+
+**Mensaje:**<br>
+![Mock up 20](assets/Figma/MobileMockUp20.png)
+
+**Misceláneos:**<br>
+![Mock up 21](assets/Figma/MobileMockUp21.png) ![Mock up 22](assets/Figma/MobileMockUp22.png)
+
+**Crear proyecto:**<br>
+![Mock up 23](assets/Figma/MobileMockUp23.png)
+
 ### 4.4.4. Mobile Applications User Flow Diagrams.
+
+![Mobile User Flow](Chapter%20IV/MobileUserFlow.png)
+
+**Link:**<br>
+https://www.figma.com/board/IE1u1Ga2nGV2Z2uGkbeTXG/User-Flow---Fromzero-Mobile?node-id=0-1&t=uwWbBD9adPi6GK0e-1
 
 ## 4.5. Mobile Applications Prototyping.
 
 ### 4.5.1. Android Mobile Applications Prototyping.
 
+<img src="Chapter%20IV/prototipo-mobile-android.png">
+
+[URL del Prototipo Android (Hecho en figma)](https://www.figma.com/proto/F9uDpQtivg5tkJt5aA81VP/Mockup-FromZero-Mobile?node-id=4228-204&t=3sAIe7acXLbBfGd5-1&starting-point-node-id=4228%3A204)
+
+[URL de video de flujos de interaccion]()
+
 ### 4.5.2. iOS Mobile Applications Prototyping.
+
+<img src="Chapter%20IV/prototipo-mobile-ios.png">
+
+[URL del Prototipo iOS (Hecho en figma)](https://www.figma.com/proto/F9uDpQtivg5tkJt5aA81VP/Mockup-FromZero-Mobile?node-id=4228-204&t=3sAIe7acXLbBfGd5-1&starting-point-node-id=4228%3A204)
+
+[URL de video de flujos de interaccion]()
 
 ## 4.6. Web Applications UX/UI Design.
 
 ### 4.6.1. Web Applications Wireframes.
 
+**Inicio de Sesión**<br>
+<img src="Chapter%20IV/Inicio de Sesion - Develop.png" alt="Login Page">
+
+**Registro**<br>
+<img src="Chapter%20IV/Crear cuenta - Desplegable.png" alt="Sign Up Page">
+<img src="Chapter%20IV/Crear cuenta - Desarrollador.png" alt="Sign Up Empresa Page">
+<img src="Chapter%20IV/Crear cuenta - Empresa.png" alt="Sign Up Dev Page">
+
+**Cambiar contraseña**
+<img src="Chapter%20IV/Olvidaste tu contraseña.png" alt="Sign Up Page">
+<img src="Chapter%20IV/Olvidaste tu contraseña-1.png" alt="Sign Up Empresa Page">
+
+##### Empresas
+**HomePage**<br>
+<img src="Chapter%20IV/Inicio-Empresas.png" alt="Homepage Empresa">
+<img src="Chapter%20IV/Inicio-Empresas-New Project-1.png" alt="Ver Postulante">
+<img src="Chapter%20IV/Inicio-Empresas-Ver_Postulantes.png" alt="Postulaciones">
+<img src="Chapter%20IV/Inicio-Empresas-New Project.png" alt="Nuevo Proyecto">
+
+**ProjectsPage**<br>
+<img src="Chapter%20IV/Publicar-Proyecto.png" alt="Adding new project">
+<img src="Chapter%20IV/Confirmar-Proyecto.png" alt="Confirm Adding New Project">
+
+**Deliverables Timeline**<br>
+<img src="Chapter%20IV/Cronograma-entregables.png" alt="Timeline Deliverables">
+<img src="Chapter%20IV/Cronograma-Crear_Entregable.png" alt="Create Deliverable">
+<img src="Chapter%20IV/Inicio-Empresas-1.png" alt="View Deliverable">
+
+**Explore Devs**
+<img src="Chapter%20IV/Explorar-Desarrolladores.png" alt="Exploring Developers">
+<img src="Chapter%20IV/Ver-Perfil-dev.png" alt="See Profile">
+
+**Messages**<br>
+<img src="Chapter%20IV/Mensaje-Desarrollador.png" alt="Message to developer">
+
+**Explorar Proyectos Destacados**
+<img src="Chapter%20IV/Proyectos destacados.png" alt="Proyectos destacados">
+
+**Support**<br>
+<img src="Chapter%20IV/Soporte.png" alt="Support Page">
+
+##### Desarrolladores
+**HomePage**<br>
+<img src="Chapter%20IV/Inicio-Desarrolladores.png" alt="Homepage Dev">
+<img src="Chapter%20IV/Inicio-Desarrolladores-Postulacion.png" alt="Apply for a job">
+<img src="Chapter%20IV/Inicio-Desarrolladores-PostulacionActiva.png" alt="Active Job Application">
+
+**Browse Projects**<br>
+<img src="Chapter%20IV/Explorar-Proyectos.png" alt="Browse projects">
+<img src="Chapter%20IV/Ver_Perfil-Empresas.png" alt="See Company's profile">
+
+**Apply for Job**<br>
+<img src="Chapter%20IV/Postular-proyecto.png" alt="Application form">
+<img src="Chapter%20IV/Confirmar-postulación.png" alt="Confirm application">
+
+**Deliverables Timeline**<br>
+<img src="Chapter%20IV/Cronograma_entregables-Dev.png" alt="Deliverables">
+<img src="Chapter%20IV/Subir-Entregable.png" alt="Upload deliverable">
+
+**Messages**<br>
+<img src="Chapter%20IV/Mensaje-Desarrollador.png" alt="Message for recruiter">
+
+**Support**<br>
+<img src="Chapter%20IV/Soporte.png" alt="Support Page">
+
+**Explorar Proyectos Destacados**
+<img src="Chapter%20IV/Proyectos destacados.png" alt="Proyectos destacados">
+
 ### 4.6.2. Web Applications Wireflow Diagrams.
+
+**Registrar Usuario_Reestablecer contraseña**
+
+![Registrar usuario y reestablecer contraseña](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Registrar%20usuario%20_%20Reestablecer%20contraseña.jpg)
+
+**Inicio de la aplicación**
+
+![Inicio de la aplicacion](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wirelfow%20Inicio%20de%20aplicacion.jpg)
+
+**Proyectos Destacados**
+
+![Ver proyectos destacados](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Proyectos%20Destacados.jpg)
+
+**Atencion al cliente**
+
+![Atencion al cliente](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20De%20soporte%20técnico%20para%20los%202%20segmentos.jpg)
+
+**Segmento Empresa**
+
+**Ver entregables de proyecto**
+
+![Ver entregables de proyecto](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Ver%20entregables%20de%20proyecto.jpg)
+
+**Explorar, ver perfil y contactar con desarrollador**
+
+![Explorar ver perfil y contactar con desarrollador](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Explorar,%20ver%20perfil%20y%20contactar%20con%20desarrollador.jpg)
+
+**Crear proyecto**
+
+![Crear proyecto](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Empresas%20Crear%20proyecto.jpg)
+
+**Segmento Desarrollador**
+
+**Trabajar en proyecto, ver entregables y comunicar con empresa**
+
+![Trabajar en proyecto ver entregables y comunicar con empresa](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Desarrollador%20Trabajar%20en%20proyecto,%20ver%20entregables%20y%20comunicar%20con%20empresa.jpg)
+
+**Explorar y postular a proyecto**
+
+![Explorar y postular proyecto](Chapter%20IV/Wireflow%20Diagrams%20FromZero%20-%20Wireflow%20Desarrollador%20Explorar%20y%20postular%20a%20proyecto.jpg)
 
 ### 4.6.3. Web Applications Mock-ups.
 
+**Inicio de Sesión**<br>
+<img src="Chapter%20IV/Inicio de Sesion - Develop.png" alt="Login Page">
+
+**Registro**<br>
+<img src="Chapter%20IV/Crear cuenta - Desplegable.png" alt="Sign Up Page">
+<img src="Chapter%20IV/Crear cuenta - Desarrollador.png" alt="Sign Up Empresa Page">
+<img src="Chapter%20IV/Crear cuenta - Empresa.png" alt="Sign Up Dev Page">
+
+**Cambiar contraseña**
+<img src="Chapter%20IV/Olvidaste tu contraseña.png" alt="Sign Up Page">
+<img src="Chapter%20IV/Olvidaste tu contraseña-1.png" alt="Sign Up Empresa Page">
+
+##### Empresas
+**HomePage**<br>
+<img src="Chapter%20IV/Inicio-Empresas.png" alt="Homepage Empresa">
+<img src="Chapter%20IV/Inicio-Empresas-New Project-1.png" alt="Ver Postulante">
+<img src="Chapter%20IV/Inicio-Empresas-Ver_Postulantes.png" alt="Postulaciones">
+<img src="Chapter%20IV/Inicio-Empresas-New Project.png" alt="Nuevo Proyecto">
+
+**ProjectsPage**<br>
+<img src="Chapter%20IV/Publicar-Proyecto.png" alt="Adding new project">
+<img src="Chapter%20IV/Confirmar-Proyecto.png" alt="Confirm Adding New Project">
+
+**Deliverables Timeline**<br>
+<img src="Chapter%20IV/Cronograma-entregables.png" alt="Timeline Deliverables">
+<img src="Chapter%20IV/Cronograma-Crear_Entregable.png" alt="Create Deliverable">
+<img src="Chapter%20IV/Inicio-Empresas-1.png" alt="View Deliverable">
+
+**Explore Devs**
+<img src="Chapter%20IV/Explorar-Desarrolladores.png" alt="Exploring Developers">
+<img src="Chapter%20IV/Ver-Perfil-dev.png" alt="See Profile">
+
+**Messages**<br>
+<img src="Chapter%20IV/Mensaje-Desarrollador.png" alt="Message to developer">
+
+**Explorar Proyectos Destacados**
+<img src="Chapter%20IV/Proyectos destacados.png" alt="Proyectos destacados">
+
+**Support**<br>
+<img src="Chapter%20IV/Soporte.png" alt="Support Page">
+
+##### Desarrolladores
+**HomePage**<br>
+<img src="Chapter%20IV/Inicio-Desarrolladores.png" alt="Homepage Dev">
+<img src="Chapter%20IV/Inicio-Desarrolladores-Postulacion.png" alt="Apply for a job">
+<img src="Chapter%20IV/Inicio-Desarrolladores-PostulacionActiva.png" alt="Active Job Application">
+
+**Browse Projects**<br>
+<img src="Chapter%20IV/Explorar-Proyectos.png" alt="Browse projects">
+<img src="Chapter%20IV/Ver_Perfil-Empresas.png" alt="See Company's profile">
+
+**Apply for Job**<br>
+<img src="Chapter%20IV/Postular-proyecto.png" alt="Application form">
+<img src="Chapter%20IV/Confirmar-postulación.png" alt="Confirm application">
+<img src="Chapter%20IV/Ver_Proyecto-trabajar.png" alt="Work with the company">
+
+**Deliverables Timeline**<br>
+<img src="Chapter%20IV/Cronograma_entregables-Dev.png" alt="Deliverables">
+<img src="Chapter%20IV/Subir-Entregable.png" alt="Upload deliverable">
+
+**Messages**<br>
+<img src="Chapter%20IV/Mensaje-Desarrollador.png" alt="Message for recruiter">
+
+**Support**<br>
+<img src="Chapter%20IV/Soporte.png" alt="Support Page">
+
+**Explorar Proyectos Destacados**
+<img src="Chapter%20IV/Proyectos destacados.png" alt="Proyectos destacados">
+
 ### 4.6.4. Web Applications User Flow Diagrams.
 
+**Registrar Usuario_Reestablecer contraseña**
+
+![Registrar usuario y reestablecer contraseña](Chapter%20IV/Userflow%20Registrar%20usuario%20_%20Reestablecer%20contraseña.jpg)
+
+**Inicio de la aplicación**
+
+![Inicio de la aplicacion](Chapter%20IV/Userflow%20Inicio%20de%20aplicacion.jpg)
+
+**Proyectos Destacados**
+
+![Ver proyectos destacados](Chapter%20IV/Userflow%20Proyectos%20Destacados.jpg)
+
+**Atencion al cliente**
+
+![Atencion al cliente](Chapter%20IV/Userflow%20Atencion%20al%20cliente.jpg)
+
+**Segmento Empresa**
+
+**Ver entregables de proyecto**
+
+![Ver entregables de proyecto](Chapter%20IV/Userflow%20Empresas%20Ver%20entregables%20de%20proyecto.jpg)
+
+**Explorar, ver perfil y contactar con desarrollador**
+
+![Explorar ver perfil y contactar con desarrollador](Chapter%20IV/Userflow%20Empresas%20Explorar,%20ver%20perfil%20y%20contactar%20con%20desarrollador.jpg)
+
+**Crear proyecto**
+
+![Crear proyecto](Chapter%20IV/Userflow%20Empresas%20Crear%20proyecto.jpg)
+
+**Segmento Desarrollador**
+
+**Trabajar en proyecto, ver entregables y comunicar con empresa**
+
+![Trabajar en proyecto ver entregables y comunicar con empresa](Chapter%20IV/Userflow%20Desarrollador%20Trabajar%20en%20proyecto,%20ver%20entregables%20y%20comunicar%20con%20empresa.jpg)
+
+**Explorar y postular a proyecto**
+
+![Explorar y postular proyecto](Chapter%20IV/Userflow%20Desarrollador%20Explorar%20y%20postular%20a%20proyecto.jpg)
+
 ## 4.7. Web Applications Prototyping.
+
+<img src="Chapter%20IV/prototipo.png">
+
+[URL del Prototipo en vista de empresa(Hecho en figma)](https://www.figma.com/proto/59rup67dfioDXBRKEmpxAD/Mockup-From-Zero-Open-Source?type=design&node-id=2-325&t=YuGoXqkU7ZGQ3s2N-0&scaling=scale-down&starting-point-node-id=3254%3A359&show-proto-sidebar=1)
+
+[URL del Prototipo en vista de desarrollador(Hecho en figma)](https://www.figma.com/proto/59rup67dfioDXBRKEmpxAD/Mockup-From-Zero-Open-Source?type=design&node-id=2-325&t=YuGoXqkU7ZGQ3s2N-0&scaling=scale-down&starting-point-node-id=3254%3A319&show-proto-sidebar=1)
+
+[URL de video de flujos de interaccion]()
 
 ### 4.8. Domain-Driven Software Architecture.
 
