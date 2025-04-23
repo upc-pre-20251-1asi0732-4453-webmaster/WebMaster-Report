@@ -2422,6 +2422,7 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
+<img src="./assets/chapter-V/api.png" alt="API" width="500">
 
 ### 5.2.6. RESTful API documentation
 En esta sección se presentan los endpoints desarrollados en el
@@ -2444,6 +2445,8 @@ organizaciones. Se adjunta el link del repositorio de la API en Github:
 
 ### 5.2.7. Team Collaboration Insights
 
+<img src="./assets/chapter-V/git_overview.png" alt="Team collaboration" width="600">
+<img src="./assets/chapter-V/network_graph.png" alt="Team collaboration" width="600">
 ## 5.3. Video About-the-Product.
 
 ---
