@@ -2446,16 +2446,75 @@ organizaciones. Se adjunta el link del repositorio de la API en Github:
 
 ### 5.2.7. Team Collaboration Insights
 
+Se presentarán los insights del trabajo grupal en Github.
+
 <img src="./assets/chapter-V/git_overview.png" alt="Team collaboration" width="600">
 <img src="./assets/chapter-V/network_graph.png" alt="Team collaboration" width="600">
+
 ## 5.3. Video About-the-Product.
 
 ---
 
 # Conclusiones y Recomendaciones
 
+- **Impacto en el Entorno Digital:** La visión de convertirnos en una plataforma de elección para empresas y emprendimientos que buscan destacar en el entorno digital y el puente para que desarrolladores freelance puedan participar en proyectos que los ayuden tanto en sus conocimientos como financieramente, refleja una ambición significativa. Esta aspiración puede ser un motor motivador para nuestro equipo y un objetivo que guíe
+las decisiones estratégicas a medida que crece la startup
+
+- **Equipo Multidisciplinario:** El hecho de que la startup esté compuesta por nosotros 5 esto le da un enfoque multidisciplinario y fresco. Esto puede ser una ventaja ya que cada miembro del equipo puede aportar perspectivas únicas y habilidades complementarias, enriqueciendo así la oferta de servicio, originalidad y eficacia de este proyecto
+
+- **Identificación de una Necesidad Clara:** La startup From Zero ha identificado una necesidad creciente en el mercado, donde las empresas y emprendimientos requieren una presencia en línea sólida para potenciar sus estrategias de marketing digital. Esta identificación precisa de una necesidad puede ser un factor clave para el éxito, ya que abordar una demanda real puede generar un gran interés y participación.
+
+
 # Video About-the-Team
 
 # Bibliografía
+```
+qoomon. (2021, 11 enero). Conventional Commit Messages. Gist.
+   Recuperado 20 de junio de 2022, de https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13
+```
+
+```
+LeaseIN. (2018). Importancia de contar con un equipo de soporte
+   técnico. [Entrada en blog]. Recuperado de:
+   https://leasein.pe/blog/branding-empresarial-importanciasoporte-tecnico/
+```
+
+``` 
+Gothelf, J., & Seiden, J. (2013). 
+  Lean UX: Applying lean principles to improve user experience. O'Reilly Media. 
+  https://books.google.es/books?hl=es&lr=&id=wLw6EAAAQBAJ&oi=fnd&pg=PT37&dq=Lean+ux&ots=QuMNDmvouC&sig=36AUu53YuLt_4OXBjwdg9RSLr_4#v=onepage&q=Lean%20ux&f=false
+```
+```
+Cohn, M. (2004). User stories applied: For agile software development. Addison-Wesley. 
+  https://books.google.es/books?hl=es&lr=&id=SvIwuX4SVigC&oi=fnd&pg=PR13&dq=Cohn,+M.+(2004).+User+stories+applied:+For+agile+software+development.+Addison-Wesley.&ots=VsSb68rUSO&sig=zVJsoYVopnqITrtBXPAIzePb96w#v=onepage&q=Cohn%2C%20M.%20(2004).%20User%20stories%20applied%3A%20For%20agile%20software%20development.%20Addison-Wesley.&f=false
+```
+
+```
+Duckett, J. (2014). 
+  HTML and CSS: Design and build websites. John Wiley & Sons. https://wtf.tw/ref/duckett.pdf
+```
+
+```
+Ambler, S. W. (2004). The object primer: Agile model-driven development with UML 2.0. 
+  Cambridge University Press. 
+  https://www.researchgate.net/publication/235616285_The_object_primer_agile_modeling-driven_development_with_UML_20
+```
+
+```
+Teorey, T. J., Lightstone, S. S., & Nadeau, T. (2011). 
+  Database modeling and design: Logical design (5th ed.). Morgan Kaufmann. 
+  https://eketab2.wordpress.com/wp-content/uploads/2007/09/databasemodelinganddesignlogical-design.pdf
+```
+
+```
+Del Do, A., Villagra, A. y Pandolfi, D. (2023). Una propuesta para la
+Transformación Digital en las PYMES. Revista Electrónica del Instituto de
+Tecnología Aplicada de la Universidad Nacional de la Patagonia Austral, 1(1), 7-
+21. doi: https://doi.org/10.22305/revita-unpa.v1.n1.979
+```
+```
+Breaux, T. y Moritz, J. (2021). The 2021 software developer shortage is coming.
+Communications of the ACM, 64(7), 39-41. doi: https://doi.org/10.1145/3440753
+```
 
 # Anexos
