@@ -35,8 +35,8 @@
             <td>U202218472</td>
         </tr>
         <tr>
-            <td>Apellidos, nombres</td>
-            <td>Código</td>
+            <td>Meneses Arevalo, Victor Manuel</td>
+            <td>U202212191</td>
         </tr>
          <tr>
             <td>Velasquez Pizarro, Jair</td>
@@ -62,7 +62,7 @@
         <tr>
             <td align = "center">TB1</td>
             <td>18/04/2025</td>
-            <td> Alvarez Araguache, Samira Jetzabel<br><br>Elias Sanchez, Harold Miguel<br><br>Apellidos y nombres<br><br>Apellidos y nombres<br><br>Apellidos y nombres<br>
+            <td> Alvarez Araguache, Samira Jetzabel<br><br>Elias Sanchez, Harold Miguel<br><br>Meneses Arevalo, Victor Manuel<br><br>Apellidos y nombres<br><br>Apellidos y nombres<br>
             <td>Se agregó el contenido del capítulo 1, apartados 1.1, 1.2 y 1.3; el contenido del capítulo 2, apartados 2.1, 2.2, 2.3, 2.4; el contenido del capítulo 3, apartados 3.1, 3.2, 3.3 y 3.4; el contenido del capítulo 4, apartados 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 4.7 y 4.8; y el contenido del capítulo 5, apartados 5.1, 5.2, 5.3 y 5.4</td>
         </tr>
 </table>
@@ -395,12 +395,12 @@ Convertirnos en la plataforma líder en Latinoamérica que conecta empresas con 
     </tr>
      <tr align="center">
         <td rowspan="3">
-            <img src="" alt="" style="margin-bottom: 5px;" width="150"/>
+            <img src="https://github.com/SkillSwapINC/TutorMatch-Report/blob/main/Images/Victor.png" alt="" style="margin-bottom: 5px;" width="150"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
             <br>            
-            Nombre apellido
+            Victor Manuel Meneses Arevalo
         </td>
     </tr>
     <tr>
@@ -414,6 +414,7 @@ Convertirnos en la plataforma líder en Latinoamérica que conecta empresas con 
         <td align="left">
         <b>Acerca de:</b>
         <br>
+	Estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software. Manejo los lenguajes de programación Python, C++, JavaScript y Bash a un nivel intermedio. También cuento con habilidades básicas para el trabajo en equipo, lo que me permite colaborar de manera efectiva, aportar ideas y contribuir al logro de objetivos comunes.
         </td>
     </tr>
     <tr align="center">
