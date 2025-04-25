@@ -2171,6 +2171,8 @@ https://www.figma.com/board/IE1u1Ga2nGV2Z2uGkbeTXG/User-Flow---Fromzero-Mobile?n
 
 ### 4.9.1. Class Diagrams.
 
+<img src="assets/Chapter%20IV/From Zero - Diagrama de Clases.png">
+
 ### 4.9.2. Class Dictionary.
 
 ## 4.10. Database Design.
