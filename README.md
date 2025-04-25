@@ -461,6 +461,7 @@ Convertirnos en la plataforma líder en Latinoamérica que conecta empresas con 
         <td align="left">
         <b>Acerca de:</b>
         <br>
+        	Estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software. Manejo los lenguajes de TypeScript, Java, JavaScript a nivel intermedio, cuento con experiencia en desarrollo FullStack como tambien habilidades de trabajo en equipo para colaborar de forma efectiva.
         </td>
     </tr>
     
