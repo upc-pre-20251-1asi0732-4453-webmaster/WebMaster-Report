@@ -2171,7 +2171,7 @@ https://www.figma.com/board/IE1u1Ga2nGV2Z2uGkbeTXG/User-Flow---Fromzero-Mobile?n
 
 ### 4.9.1. Class Diagrams.
 
-<img src="assets/Chapter%20IV/From Zero - Diagrama de Clases.png">
+<img src="assets/Chapter%20IV/Web Master - Diagrama de Clases.png">
 
 ### 4.9.2. Class Dictionary.
 
@@ -2268,6 +2268,10 @@ https://www.figma.com/board/IE1u1Ga2nGV2Z2uGkbeTXG/User-Flow---Fromzero-Mobile?n
 ## 4.10. Database Design.
 
 ### 4.10.1. Relational/Non-Relational Database Diagram.
+
+Se utilizara como base de datos relacional el gestor de base de datos MySQL. A continuacion se mostrara el diagrama de base de datos:
+
+<img src="assets/Chapter%20IV/Web Master - Diagrama de Base de Datos.png">
 
 ---
 
