@@ -2145,9 +2145,27 @@ https://www.figma.com/board/IE1u1Ga2nGV2Z2uGkbeTXG/User-Flow---Fromzero-Mobile?n
 
 ### 4.8.1. Software Architecture Context Diagram.
 
+<img src="assets/Chapter%20IV/structurizr-90965-WebMasterSystemContext.png">
+
 ### 4.8.2. Software Architecture Container Diagrams.
 
+<img src="assets/Chapter%20IV/structurizr-90965-WebMasterContainer.png">
+
 ### 4.8.3. Software Architecture Components Diagrams.
+
+<img src="assets/Chapter%20IV/structurizr-90965-LoginAndRegistrationComponent.png">
+
+<img src="assets/Chapter%20IV/structurizr-90965-DeveloperProfileComponent.png">
+
+<img src="assets/Chapter%20IV/structurizr-90965-ApplyForProjectComponent.png">
+
+<img src="assets/Chapter%20IV/structurizr-90965-ProjectProposalAndHireADeveloperComponent.png">
+
+<img src="assets/Chapter%20IV/structurizr-90965-PaymentComponent.png">
+
+<img src="assets/Chapter%20IV/structurizr-90965-NotificationComponent.png">
+
+<img src="assets/Chapter%20IV/structurizr-90965-TechnicalSupportComponent.png">
 
 ## 4.9. Software Object-Oriented Design.
 
