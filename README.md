@@ -438,6 +438,7 @@ Convertirnos en la plataforma líder en Latinoamérica que conecta empresas con 
         <td align="left">
         <b>Acerca de:</b>
         <br>
+	Me encuentro cursando el septimo ciclo de la carrera de Ingeniería de Software. Tengo familiaridad con los lenguajes de C#, Java, Kotlin, Flutter, Python entre otros. Me interesa la implementación de los datos en el comportamiento del frontend y el backend. Me considero responsable, comunicativo y dispuesto a aprender
         </td>
     </tr>
      <tr align="center">
