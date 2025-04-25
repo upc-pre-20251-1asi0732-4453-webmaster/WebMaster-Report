@@ -1,4 +1,4 @@
-# COURSE PROJECT
+![image](https://github.com/user-attachments/assets/2d2846bf-ce2c-4372-acb3-a42c2b8f0e95)# COURSE PROJECT
 
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
@@ -419,7 +419,7 @@ Convertirnos en la plataforma líder en Latinoamérica que conecta empresas con 
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="" alt=""  style="margin-bottom: 5px;" width="600"/>
+            <img src="https://github.com/OpenSourceSW53/upc-pre-202401-si729-SW53-officetech-report/blob/main/assets/members-profile/Zado.png" alt="Zaid"  style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
