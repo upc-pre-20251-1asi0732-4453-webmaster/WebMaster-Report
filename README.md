@@ -2175,6 +2175,96 @@ https://www.figma.com/board/IE1u1Ga2nGV2Z2uGkbeTXG/User-Flow---Fromzero-Mobile?n
 
 ### 4.9.2. Class Dictionary.
 
+|**User**||
+| - | :- |
+|Clase usuario definida como la cuenta principal con la nuestro segmentos pueden ingresar a nuestra aplicación.||
+|**Atributo**|**Tipo de Variables**|
+|\_id|Long|
+|\_email|String|
+|\_password|String|
+|\_Set<Rol>|Enterprise|
+
+|**Enterprise**||
+| - | :- |
+|Perfil de empresa dentro de la aplicacion, donde se podra gestionar la informacion personal.||
+|**Atributo**|**Tipo de Variables**|
+|\_id|Long|
+|\_enterpriseName|String|
+|\_description|String|
+|\_ruc|String|
+|\_profileImgUrl|String|
+|\_projectsCompleted|Number|
+
+|**Developer**||
+| - | :- |
+|Perfil de desarrollador dentro de la aplicacion, donde se podra gestionar la informacion personal.||
+|**Atributo**|**Tipo de Variables**|
+|\_id|Long|
+|\_firstName|String|
+|\_lastName|String|
+|\_description|String|
+|\_profileImgUrl|String|
+|\knowledges|Array[String]|
+
+|**Project**||
+| - | :- |
+|Entidad que contendra la informacion de un proyecto create mediante un usuario Enterprise, contiene la relacion con entregables que seran definidos de forma automatica como tambien gestionada por la misma Enteprise.||
+|**Atributo**|**Tipo de Variables**|
+|\_id|Long|
+|\_projectName|String|
+|\_description|String|
+|\_projectProgress|Double|
+|\_budget|Double|
+|\_projectType|LANDING_PAGE|
+||WEB_APPLICATION|
+||MOBILE_APPLICATION|
+||DESKTOP_APPLICATION|
+||IOT_PROJECT|
+|\_projectState|IN_SEARCH|
+|             |IN_PROGRESS|
+|             |COMPLETED|
+
+|**Deliverables**||
+| - | :- |
+|Entidad que contendra la informacion de un entregable. Estan ligados a un Proyecto, contienen una fecha de fin y un estado, el cualquier evolucionada de acuerdo a las acciones del usuarios Developer como del usuario Enterprise||
+|**Atributo**|**Tipo de Variables**|
+|\_id|Long|
+|\_name|String|
+|\_description|String|
+|\_endDate|LocalDate|
+|\_files|String|
+|\_tate       |PENDING|
+|             |AWAITING_REVIEW|
+|             |DECLINED|
+|             |COMPLETED|
+
+|**Notifications**||
+| - | :- |
+|Entidad encargada a las notificaciones a los distintos usuarios. Se enfocara en notificaciones de avance del proyecto y entregables. Cada proyecto tendria sus propias notificaciones relacionadas.||
+|**Atributo**|**Tipo de Variables**|
+|\_id|Long|
+|\_message|String|
+|\_tmestamp|LocalDateTime|
+|\_read|Boolean|
+
+|**Membership**||
+| - | :- |
+|Entidad encargada de manejar la membresia de un usuarios, esta se encarga de la gestion del plan del usuario y revision de tiempo de fin.||
+|**Atributo**|**Tipo de Variables**|
+|\_id|Long|
+|\_startDate|LocalDate|
+|\_endDate|LocalDate|
+|\_isActive|Boolean|
+
+|**Plan**||
+| - | :- |
+|Entidad encargada de manejar las mejoras que tendra por la membresia, como tambien manejar el precio de cada plan relacionado a la membresia dentro de la aplicacion.||
+|**Atributo**|**Tipo de Variables**|
+|\_id|Long|
+|\_name|String|
+|\_price|Double|
+|\_durationInDays|Int|
+
 ## 4.10. Database Design.
 
 ### 4.10.1. Relational/Non-Relational Database Diagram.
