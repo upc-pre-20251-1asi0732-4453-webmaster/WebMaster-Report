@@ -949,7 +949,7 @@ Enlace a Miro: https://miro.com/app/board/uXjVIA0Hwb4=/?moveToWidget=34587646253
 <br/>**Escenario Principal:** Adquirir un proyecto cuyo desarrollo sea remunerado
 <br/>**Fases:** Búsqueda de proyectos de software. Elección y contacto con el jefe del proyecto. Desarrollo del proyecto. Entrega y pago final.
 
-<img src="./assets/chapter-III/" alt="Segmento Desarrolladores Freelance ">
+<img src="./assets/chapter-III/To-be Desarrollador Freelance.jpg" alt="Segmento Desarrolladores Freelance ">
 
 
 Enlace a Miro: https://miro.com/app/board/uXjVIA0Hwb4=/?moveToWidget=3458764625325170755&cot=14 
