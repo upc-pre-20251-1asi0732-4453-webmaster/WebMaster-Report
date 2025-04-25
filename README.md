@@ -1785,8 +1785,6 @@ En la versión móvil, la aplicación presentará un botón para iniciar sesión
 
 ![Mock up 5](assets/Chapter%20IV/MockUp5.png)
 
-![Mock up 6](assets/Chapter%20IV/MockUp6.png)
-
 ![Mock up 7](assets/Chapter%20IV/MockUp7.png)
 
 ![Mock up 8](assets/Chapter%20IV/MockUp8.png)
