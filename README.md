@@ -330,7 +330,7 @@ TB1 <br>
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
-FromZero es una startup fundada en 2024 por un equipo de cinco estudiantes de la Universidad Peruana de Ciencias Aplicadas. Esta iniciativa nace como respuesta a la creciente necesidad de empresas que buscan soluciones digitales eficientes y personalizadas, y al mismo tiempo, a la demanda de desarrolladores freelance que desean aplicar sus conocimientos en proyectos reales y generar ingresos.
+WebMsaters es una startup fundada en 2024 por un equipo de cinco estudiantes de la Universidad Peruana de Ciencias Aplicadas. Esta iniciativa nace como respuesta a la creciente necesidad de empresas que buscan soluciones digitales eficientes y personalizadas, y al mismo tiempo, a la demanda de desarrolladores freelance que desean aplicar sus conocimientos en proyectos reales y generar ingresos.
 
 Nuestro principal producto, **WebMaster**, es una plataforma web diseñada para conectar de forma ágil a empresas que desean publicar proyectos de software con desarrolladores freelance interesados en colaborar. La plataforma busca optimizar el proceso de reclutamiento y desarrollo, promoviendo una experiencia intuitiva, accesible y eficiente para ambas partes.
 
