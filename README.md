@@ -650,7 +650,7 @@ La transparencia en el proceso de selección y colaboración entre los desarroll
 Veamos una mejora significativa en la calificación de satisfacción de los usuarios, así como un aumento en las recomendaciones y referencias de nuestra plataforma por parte de los usuarios satisfechos.
 
 ### 1.2.2.4. Lean UX Canvas
-<img src="./assets/chapter-I&II/Lean UX Canvas.png" alt="Lean UX Canvas FromZero" width="500">
+<img src="./assets/chapter-I&II/Lean UX Canvas.png" alt="Lean UX Canvas WebMaster" width="500">
 
 ## 1.3. Segmentos objetivo
 Nuestra plataforma se dirige principalmente a dos segmentos clave de usuarios:
@@ -716,7 +716,7 @@ Plataforma latinoamericana que permite a profesionales ofrecer sus servicios en 
 ### 2.2.1. Diseño de entrevistas
 ### **Público objetivo: Empresarios y emprendedores**
 
-Buen día, mi nombre es [Nombre del entrevistador]. Estoy realizando una entrevista para la startup **fromzero**, con el propósito de recabar información clave que nos permita construir de forma efectiva nuestra plataforma.
+Buen día, mi nombre es [Nombre del entrevistador]. Estoy realizando una entrevista para la startup **webmaster**, con el propósito de recabar información clave que nos permita construir de forma efectiva nuestra plataforma.
 
 **WebMaster** es una solución diseñada para apoyar a empresas y emprendimientos que necesiten desarrollar herramientas digitales. Nuestro objetivo es conectar a estos negocios con desarrolladores freelance que puedan atender sus necesidades de forma profesional y eficiente.
 
@@ -745,7 +745,7 @@ Buen día, mi nombre es [Nombre del entrevistador]. Estoy realizando una entrevi
 
 ### **Público objetivo: Desarrolladores freelance**
 
-Buen día, soy [Nombre del entrevistador]. En esta ocasión llevaré a cabo una entrevista como parte del proceso de investigación de la startup **fromzero**, con el fin de recopilar información esencial para diseñar nuestra plataforma.
+Buen día, soy [Nombre del entrevistador]. En esta ocasión llevaré a cabo una entrevista como parte del proceso de investigación de la startup **webmaster**, con el fin de recopilar información esencial para diseñar nuestra plataforma.
 
 **WebMaster** es una herramienta enfocada en conectar a desarrolladores freelance con empresas que requieren soluciones tecnológicas específicas, permitiendo oportunidades laborales claras y proyectos alineados con sus habilidades.
 
@@ -1469,7 +1469,7 @@ Enlace a Miro: https://miro.com/app/board/uXjVIA0Hwb4=/?moveToWidget=34587646253
 
 ## 3.4. Product Backlog
 
-<img src="./assets/chapter-III/Product-backlog.PNG" alt="Product backlog de la aplicación FromZero">
+<img src="./assets/chapter-III/Product-backlog.PNG" alt="Product backlog de la aplicación WebMaster">
 
 Enlace al tablero de Trello: https://trello.com/b/gNzXJS37/from-zero 
 
@@ -1707,10 +1707,10 @@ El sistema de etiquetado se fundamentará en imágenes sencillas y fácilmente c
 **Meta & SEO (Search Engine Optimization) Tags**  
 These tags are essential for making the website easily discoverable through search engines. They appear in search results and are included within the `<head>` section of the HTML.
 
-- **Title**: FromZero - Connecting Businesses and Freelance Developers  
-- **Description**: `<meta name="description" content="FromZero is the platform that links companies seeking software solutions with freelance developers eager to work on projects.">`  
+- **Title**: WebMaster - Connecting Businesses and Freelance Developers  
+- **Description**: `<meta name="description" content="WebMaster is the platform that links companies seeking software solutions with freelance developers eager to work on projects.">`  
 - **Keywords**: `<meta name="keywords" content="hiring platform, freelance developers, custom software, development projects, connect companies with developers">`  
-- **Author**: `<meta name="author" content="SiteForge Development Team">`
+- **Author**: `<meta name="author" content="WebMaster Development Team">`
 
 ---
 
@@ -1722,13 +1722,13 @@ Estas etiquetas permiten que la aplicación sea fácilmente encontrada en buscad
 ```xml
 <manifest ... >
     <application 
-        android:label="From Zero - Plataforma de Proyectos Digitales" 
+        android:label="Web Master - Plataforma de Proyectos Digitales" 
         android:description="Conecta empresas y desarrolladores para realizar sueños digitales" 
         ... >
         
         <activity
             android:name=".MainActivity"
-            android:label="From Zero - Inicio"
+            android:label="Web Master - Inicio"
             ... >
         </activity>
     </application>
@@ -1736,10 +1736,10 @@ Estas etiquetas permiten que la aplicación sea fácilmente encontrada en buscad
 ```
 **Para Google Play Store**  
 
-- **Título de la aplicación**: From Zero - Plataforma de Proyectos Digitales  
+- **Título de la aplicación**: Web Master - Plataforma de Proyectos Digitales  
 - **Descripción corta**: Conecta empresas y desarrolladores para tus sueños digitales  
 - **Descripción completa**:  
-  From Zero es la plataforma perfecta para hacer realidad tus proyectos digitales. Reunimos empresas visionarias con desarrolladores talentosos para llevar a cabo iniciativas excepcionales.
+  Web Master es la plataforma perfecta para hacer realidad tus proyectos digitales. Reunimos empresas visionarias con desarrolladores talentosos para llevar a cabo iniciativas excepcionales.
 
   **Características principales**:  
   - Crea y administra proyectos digitales  
@@ -1749,7 +1749,7 @@ Estas etiquetas permiten que la aplicación sea fácilmente encontrada en buscad
   - Perfiles completos y portafolios  
   - Control de entregas y pagos seguros  
 
-  Tanto si eres una empresa en busca de profesionales como un desarrollador en busca de retos, From Zero es tu lugar para lograr el éxito digital.
+  Tanto si eres una empresa en busca de profesionales como un desarrollador en busca de retos, Web Master es tu lugar para lograr el éxito digital.
 
 - **Palabras clave**: proyectos digitales, desarrollo web, aplicaciones móviles, freelance, empresas, desarrolladores, tecnología, innovación, plataforma, conectar, trabajo remoto
 
@@ -2490,8 +2490,8 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 **Date** | 2025-04-07
 **Time** | 10:00AM–12:00PM
 **Location** | Virtual (Google Meet)
-**PreparedBy** | Equipo FromZero
-**Attendees(to planning meeting)** | Equipo FromZero
+**PreparedBy** | Equipo WebMaster
+**Attendees(to planning meeting)** | Equipo WebMaster
 **Sprintn–0ReviewSummary** | Se completaron bocetos exploratorios para la interfaz web, sin planificación formal previa.
 **Sprintn–1RetrospectiveSummary** | Se acordó crear endpoints mockeados para agilizar desarrollo frontend.
 **SprintGoalandUserStories** | Objetivo: Interfaz base web. Usuarios: landing, login/registro, perfil, vista de proyectos.
@@ -2507,8 +2507,8 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 **Date** | 2025-04-07
 **Time** | 3:00PM–5:00PM
 **Location** | Virtual (Google Meet)
-**PreparedBy** | Equipo FromZero
-**Attendees(to planning meeting)** | Equipo FromZero
+**PreparedBy** | Equipo WebMaster
+**Attendees(to planning meeting)** | Equipo WebMaster
 **Sprintn–0ReviewSummary** | Se exploró el uso de librerías de auth y se configuró la estructura base.
 **Sprintn–1RetrospectiveSummary** | Necesidad de estandarizar documentación desde el primer día.
 **SprintGoalandUserStories** | Objetivo: Implementar endpoints clave para el core. Usuarios: login, signup, proyectos CRUD.
@@ -2523,8 +2523,8 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 **Date** | 2025-04-08
 **Time** | 9:00AM–11:00AM
 **Location** | Virtual (Google Meet)
-**PreparedBy** | Equipo FromZero
-**Attendees(to planning meeting)** | Equipo FromZero
+**PreparedBy** | Equipo WebMaster
+**Attendees(to planning meeting)** | Equipo WebMaster
 **Sprintn–0ReviewSummary** | Pruebas de conexión API y configuración del entorno Flutter.
 **Sprintn–1RetrospectiveSummary** | Recomendación: crear componentes reutilizables desde el inicio.
 **SprintGoalandUserStories** | Objetivo: App funcional con pantallas de auth, listado de proyectos y perfil.
@@ -2532,7 +2532,7 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 **SumofStoryPoints** | 23
 ### 5.2.2. Implemented Landing Page Evidence
 [Repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/WebMaster-LandingPage) <br>
-<img src="./assets/chapter-V/Landing-page.png" alt="Landing Page de la aplicación FromZero" width="500">
+<img src="./assets/chapter-V/Landing-page.png" alt="Landing Page de la aplicación WebMaster" width="500">
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 [Repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/webmaster-app) <br>
