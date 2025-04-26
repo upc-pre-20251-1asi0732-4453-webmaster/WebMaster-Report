@@ -2330,9 +2330,9 @@ Es una aplicación web colaborativa que facilita el diseño e implementación de
 
 ### 5.1.2. Source Code Management.
 Repositorios:<br>
-- Url del repositorio del La web app: [Url del repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/webmaster-app)
-- Url del repositorio de la Api RESTful: [Url del repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/FromZeroAPI)
-- Url del repositorio de la Landing Page: [Url del repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/WebMaster-LandingPage)
+- Url del repositorio del La web app: [Url del repositorio](https://github.com/upc-pre-20251-1asi0732-4453-webmaster/webmaster-app)
+- Url del repositorio de la Api RESTful: [Url del repositorio](https://github.com/upc-pre-20251-1asi0732-4453-webmaster/FromZeroAPI)
+- Url del repositorio de la Landing Page: [Url del repositorio](https://github.com/upc-pre-20251-1asi0732-4453-webmaster/WebMaster-LandingPage)
 
 Git Flow:<br>
 <img src="./assets/chapter-V/Gitflow-example.png" alt="Git flow del proyecto FromZero" width="500">
