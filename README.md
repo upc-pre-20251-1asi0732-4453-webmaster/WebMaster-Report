@@ -295,7 +295,9 @@ TB1 <br>
 El desarrollo del proyecto se llevó a cabo bajo un enfoque colaborativo, donde cada integrante del equipo asumió un rol activo en la construcción de una solución tecnológica con impacto real. A través de entrevistas y análisis contextual, se identificaron necesidades concretas que guiaron la definición de funcionalidades alineadas con problemáticas sociales, económicas y globales. Se priorizó la toma de decisiones fundamentadas, considerando no solo la viabilidad técnica, sino también las consecuencias a largo plazo del sistema en los entornos donde será implementado. El uso de metodologías ágiles como Scrum, junto con un flujo de trabajo estructurado mediante Gitflow, permitió mantener una dinámica de desarrollo eficiente y sostenible, integrando buenas prácticas que refuerzan la calidad del software. Esta experiencia evidenció la importancia de construir soluciones de ingeniería de software responsables, con conciencia de su impacto en la sociedad y en el ecosistema tecnológico global.
 
 </td>
-         <td> TB1: Conclusiones <br>
+         <td> TB1:
+         El equipo trabajó de manera colaborativa utilizando metodologías ágiles como **Scrum** y **Gitflow** para organizar el desarrollo del proyecto, asegurando eficiencia y sostenibilidad. Mediante entrevistas y herramientas como el **Lean UX Canvas**, analizaron las necesidades del público objetivo y definieron funcionalidades alineadas con problemáticas sociales, económicas y globales. Además, se enfocaron en el **diseño de interfaces accesibles e inclusivas** (web y móvil), priorizando la experiencia de usuario y la adaptabilidad en distintos contextos tecnoculturales. Todos los integrantes coincidieron en la importancia de crear una solución responsable, evaluando su impacto a largo plazo y tomando decisiones informadas para garantizar un software sostenible y con valor social.
+          <br>
 </td>         
 
   <tr>
@@ -330,8 +332,10 @@ TB1 <br>
 En esta etapa del proyecto, se llevó a cabo un análisis detallado del panorama actual de las plataformas de contratación freelance, evaluando sus fortalezas, debilidades y estrategias competitivas con un enfoque ético y profesional. Se reconoció la responsabilidad que implica diseñar soluciones tecnológicas que impacten directamente en la forma en que las personas acceden a oportunidades laborales. A través de entrevistas dirigidas a desarrolladores freelance y empresarios, se recolectó información clave que permitió comprender sus contextos, necesidades reales y desafíos cotidianos. Este proceso, guiado por principios de respeto, inclusión y transparencia, dio lugar a un needfinding riguroso, sustentado en herramientas de mapeo y la construcción de user personas. Así, se aseguró que cada decisión de diseño se tome con un compromiso consciente hacia el bienestar de los usuarios y la equidad en el acceso a la tecnología, asumiendo plenamente el rol ético y profesional del ingeniero de software.
 
 </td>
-            <td>TB1: Conclusiones<br>
-            
+            <td>TB1: 
+            En esta primera etapa del proyecto, se llevó a cabo un trabajo colaborativo fundamentado en principios éticos y profesionales, que permitió comprender de manera profunda el contexto del mercado de plataformas de contratación freelance. A través del análisis competitivo, entrevistas a usuarios clave y la aplicación de herramientas como User Personas, Journey Maps, Empathy Maps y wireflows, el equipo logró identificar las verdaderas necesidades, emociones y desafíos tanto de desarrolladores freelance como de empresarios. Este proceso riguroso de needfinding, sustentado en el respeto, la inclusión y la responsabilidad, garantizó que cada decisión de diseño y desarrollo estuviera centrada en el bienestar del usuario y la equidad en el acceso a la tecnología. Asimismo, se fortaleció el compromiso individual y colectivo del equipo con el rol social del ingeniero de software, reconociendo el impacto real que las soluciones tecnológicas tienen en la vida de las personas.
+            <br>
+          
 
 </td>
        <tr>
