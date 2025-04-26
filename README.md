@@ -415,7 +415,7 @@ Convertirnos en la plataforma líder en Latinoamérica que conecta empresas con 
     </tr>
      <tr align="center">
         <td rowspan="3">
-            <img src="https://github.com/SkillSwapINC/TutorMatch-Report/blob/main/Images/Victor.png" alt="" style="margin-bottom: 5px;" width="150"/>
+            <img src="https://raw.githubusercontent.com/SkillSwapINC/TutorMatch-Report/refs/heads/main/Images/Victor.png" alt="" style="margin-bottom: 5px;" width="150"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -439,7 +439,7 @@ Convertirnos en la plataforma líder en Latinoamérica que conecta empresas con 
     </tr>
     <tr align="center">
         <td rowspan="3">
-            <img src="https://github.com/OpenSourceSW53/upc-pre-202401-si729-SW53-officetech-report/blob/main/assets/members-profile/Zado.png" alt="Zaid"  style="margin-bottom: 5px;" width="600"/>
+            <img src="https://raw.githubusercontent.com/OpenSourceSW53/upc-pre-202401-si729-SW53-officetech-report/refs/heads/main/assets/members-profile/Zado.png" alt="Zaid"  style="margin-bottom: 5px;" width="600"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
@@ -2573,7 +2573,7 @@ las decisiones estratégicas a medida que crece la startup
 
 - **Equipo Multidisciplinario:** El hecho de que la startup esté compuesta por nosotros 5 esto le da un enfoque multidisciplinario y fresco. Esto puede ser una ventaja ya que cada miembro del equipo puede aportar perspectivas únicas y habilidades complementarias, enriqueciendo así la oferta de servicio, originalidad y eficacia de este proyecto
 
-- **Identificación de una Necesidad Clara:** La startup From Zero ha identificado una necesidad creciente en el mercado, donde las empresas y emprendimientos requieren una presencia en línea sólida para potenciar sus estrategias de marketing digital. Esta identificación precisa de una necesidad puede ser un factor clave para el éxito, ya que abordar una demanda real puede generar un gran interés y participación.
+- **Identificación de una Necesidad Clara:** La startup WebMaster ha identificado una necesidad creciente en el mercado, donde las empresas y emprendimientos requieren una presencia en línea sólida para potenciar sus estrategias de marketing digital. Esta identificación precisa de una necesidad puede ser un factor clave para el éxito, ya que abordar una demanda real puede generar un gran interés y participación.
 
 
 # Video About-the-Team
