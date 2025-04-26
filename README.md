@@ -275,8 +275,10 @@ Alvarez Araguache Samira <br>
 TB1 <br>
 Para esta entrega, el trabajo se desarrolló de forma cooperativa, involucrando activamente a todos los integrantes del equipo en las tareas del proyecto. La participación de cada miembro en la realización de entrevistas permitió recolectar información clave para definir funcionalidades que respondan a necesidades reales, considerando su impacto en distintos contextos sociales y económicos. El uso de Gitflow facilitó un flujo de trabajo eficiente y colaborativo, promoviendo buenas prácticas de desarrollo que favorecen la sostenibilidad del proyecto a largo plazo. Asimismo, la adopción de metodologías ágiles como Scrum permitió una documentación clara del proceso, fomentando la toma de decisiones informadas y conscientes del entorno global y tecnológico en el que se implementará la solución.
 
-Apellidos y nombres <br>
+Elias Sanchez, Harold Miguel <br>
 TB1 <br>
+Durante esta etapa del proyecto, trabajé en la construcción del Startup Profile y el Solution Profile, lo que implicó analizar los antecedentes y problemáticas de nuestro público objetivo, así como perfilar a los miembros del equipo y delimitar el impacto de la solución propuesta. A través de herramientas como el Lean UX Canvas y la formulación de hipótesis, se identificaron factores económicos y sociales clave que influyen en la problemática. Esta aproximación nos permitió comprender cómo una solución tecnológica puede generar valor real en distintos contextos, asegurando que las funcionalidades se alineen con necesidades concretas y con una visión responsable de su aplicación a nivel global. Esta experiencia me permitió emitir juicios informados y tomar decisiones con conciencia del impacto social de nuestro sistema.
+
 
 Apellidos y nombres <br>
 TB1 <br>
@@ -305,8 +307,10 @@ TB1 <br>
 
 En este avance del trabajo, se realizó un análisis riguroso del estado actual del mercado de plataformas de contratación freelance, identificando fortalezas, debilidades y estrategias frente a los competidores, siempre desde una perspectiva ética y profesional. Asimismo, el estudio del comportamiento, necesidades y preferencias de los segmentos de desarrolladores freelance y empresarios, a través de entrevistas, permitió obtener información valiosa para comprender a fondo a los usuarios y diseñar soluciones responsables y centradas en sus verdaderas problemáticas. Esta información fue fundamental para el desarrollo del needfinding, apoyado en herramientas de mapeo y la creación de user personas, lo que garantiza que las decisiones de diseño se basen en un compromiso con el bienestar y la equidad para todos los involucrados.
 
-Apellidos y nombres <br>
+Elias Sanchez, Harold Miguel <br>
 TB1 <br>
+Mi participación en el diseño y análisis de entrevistas, así como en la elaboración del Needfinding, me permitió asumir una postura ética y profesional al momento de recopilar, interpretar y aplicar información de usuarios reales. A través de herramientas como User Personas, Journey Maps y Empathy Maps, pude profundizar en las necesidades y emociones de los usuarios, respetando su contexto y tomando decisiones de diseño centradas en el bienestar y la equidad. Este enfoque permitió construir una solución con base en principios éticos y en la responsabilidad que conlleva desarrollar software que influya directamente en la vida de las personas. El análisis competitivo también reforzó mi capacidad de evaluar decisiones desde una perspectiva ética, comprendiendo el rol social del ingeniero de software en entornos reales.
+
 
 Apellidos y nombres <br>
 TB1 <br>
