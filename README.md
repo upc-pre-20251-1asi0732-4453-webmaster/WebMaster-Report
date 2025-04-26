@@ -284,8 +284,11 @@ Ramirez Contreras, Zaid Valentino <br>
 TB1 <br>
 Durante esta entrega, reforzamos nuestros conocimientos y conceptos necesarios para analizar la problemática en su contexto, lo que nos permitió identificar de manera crítica los segmentos objetivos y sus necesidades. Este análisis no solo nos permitirá desarrollar un proyecto bien estructurado y completo, sino también proponer soluciones de ingeniería de software que consideren su impacto en los ámbitos global, económico, ambiental y social, asegurando así una propuesta responsable, sostenible y contextualizada.
 
-Apellidos y nombres <br>
+Meneses Arevalo, Victor Manuel <br>
 TB1 <br>
+Durante la etapa de diseño del producto, se definieron guías de estilo y estructuras de navegación tanto para plataformas web como móviles, asegurando una experiencia de usuario inclusiva y accesible. Al diseñar interfaces responsivas y funcionales, se consideraron buenas prácticas que permiten a los usuarios interactuar con el sistema sin barreras tecnológicas, promoviendo así la equidad digital. Asimismo, se aplicaron principios de arquitectura de la información para optimizar la estructura del contenido, pensando en contextos globales donde el acceso rápido y ordenado a la información es fundamental. Estas decisiones reflejan un juicio informado sobre el impacto social y económico de un software bien diseñado y adaptable a diversas realidades tecnológicas y culturales.
+
+
 
 Velasquez Pizarro Jair <br>
 TB1 <br>
@@ -317,8 +320,10 @@ Ramirez Contreras, Zaid Valentino <br>
 TB1 <br>
 En esta primera entrega, mantuve un enfoque en el aprendizaje continuo, tanto en la investigación de la problemática y su entorno como en el análisis de las tecnologías disponibles que serán necesarias para el desarrollo del proyecto. Este proceso implicó asumir una actitud responsable y profesional, reconociendo la importancia de tomar decisiones éticas en cada etapa del proyecto, considerando la calidad, la seguridad y el bienestar de los usuarios que se verán impactados por la solución de software propuesta.
 
-Apellidos y nombres <br>
+Meneses Arevalo, Victor Manuel <br>
 TB1 <br>
+En el desarrollo de las interfaces gráficas y la arquitectura de información, se asumió una postura ética y profesional al priorizar la usabilidad, accesibilidad y coherencia visual del producto. Se emplearon lineamientos específicos para Android y iOS, asegurando una experiencia consistente y respetuosa con los estándares de cada plataforma. Además, se consideraron etiquetas SEO y sistemas de búsqueda que facilitan el acceso a la información, garantizando transparencia y respeto hacia los usuarios. La creación de prototipos funcionales y wireflows permitió validar las decisiones con foco en el bienestar del usuario, reconociendo el rol del diseñador como parte fundamental de un desarrollo responsable y centrado en las personas.
+
 
 Velasquez Pizarro Jair <br>
 TB1 <br>
