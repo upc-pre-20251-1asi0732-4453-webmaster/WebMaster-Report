@@ -280,8 +280,9 @@ TB1 <br>
 Durante esta etapa del proyecto, trabajé en la construcción del Startup Profile y el Solution Profile, lo que implicó analizar los antecedentes y problemáticas de nuestro público objetivo, así como perfilar a los miembros del equipo y delimitar el impacto de la solución propuesta. A través de herramientas como el Lean UX Canvas y la formulación de hipótesis, se identificaron factores económicos y sociales clave que influyen en la problemática. Esta aproximación nos permitió comprender cómo una solución tecnológica puede generar valor real en distintos contextos, asegurando que las funcionalidades se alineen con necesidades concretas y con una visión responsable de su aplicación a nivel global. Esta experiencia me permitió emitir juicios informados y tomar decisiones con conciencia del impacto social de nuestro sistema.
 
 
-Apellidos y nombres <br>
+Ramirez Contreras, Zaid Valentino <br>
 TB1 <br>
+Durante esta entrega, reforzamos nuestros conocimientos y conceptos necesarios para analizar la problemática en su contexto, lo que nos permitió identificar de manera crítica los segmentos objetivos y sus necesidades. Este análisis no solo nos permitirá desarrollar un proyecto bien estructurado y completo, sino también proponer soluciones de ingeniería de software que consideren su impacto en los ámbitos global, económico, ambiental y social, asegurando así una propuesta responsable, sostenible y contextualizada.
 
 Apellidos y nombres <br>
 TB1 <br>
@@ -312,8 +313,9 @@ TB1 <br>
 Mi participación en el diseño y análisis de entrevistas, así como en la elaboración del Needfinding, me permitió asumir una postura ética y profesional al momento de recopilar, interpretar y aplicar información de usuarios reales. A través de herramientas como User Personas, Journey Maps y Empathy Maps, pude profundizar en las necesidades y emociones de los usuarios, respetando su contexto y tomando decisiones de diseño centradas en el bienestar y la equidad. Este enfoque permitió construir una solución con base en principios éticos y en la responsabilidad que conlleva desarrollar software que influya directamente en la vida de las personas. El análisis competitivo también reforzó mi capacidad de evaluar decisiones desde una perspectiva ética, comprendiendo el rol social del ingeniero de software en entornos reales.
 
 
-Apellidos y nombres <br>
+Ramirez Contreras, Zaid Valentino <br>
 TB1 <br>
+En esta primera entrega, mantuve un enfoque en el aprendizaje continuo, tanto en la investigación de la problemática y su entorno como en el análisis de las tecnologías disponibles que serán necesarias para el desarrollo del proyecto. Este proceso implicó asumir una actitud responsable y profesional, reconociendo la importancia de tomar decisiones éticas en cada etapa del proyecto, considerando la calidad, la seguridad y el bienestar de los usuarios que se verán impactados por la solución de software propuesta.
 
 Apellidos y nombres <br>
 TB1 <br>
