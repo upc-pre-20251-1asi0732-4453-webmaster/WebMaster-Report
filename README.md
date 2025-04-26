@@ -330,14 +330,14 @@ TB1 <br>
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
-WebMsaters es una startup fundada en 2024 por un equipo de cinco estudiantes de la Universidad Peruana de Ciencias Aplicadas. Esta iniciativa nace como respuesta a la creciente necesidad de empresas que buscan soluciones digitales eficientes y personalizadas, y al mismo tiempo, a la demanda de desarrolladores freelance que desean aplicar sus conocimientos en proyectos reales y generar ingresos.
+WebMasters es una startup fundada en 2024 por un equipo de cinco estudiantes de la Universidad Peruana de Ciencias Aplicadas. Esta iniciativa nace como respuesta a la creciente necesidad de empresas que buscan soluciones digitales eficientes y personalizadas, y al mismo tiempo, a la demanda de desarrolladores freelance que desean aplicar sus conocimientos en proyectos reales y generar ingresos.
 
 Nuestro principal producto, **WebMaster**, es una plataforma web diseñada para conectar de forma ágil a empresas que desean publicar proyectos de software con desarrolladores freelance interesados en colaborar. La plataforma busca optimizar el proceso de reclutamiento y desarrollo, promoviendo una experiencia intuitiva, accesible y eficiente para ambas partes.
 
 Nos enfocamos en brindar una solución práctica que beneficie tanto a empresas en búsqueda de talento especializado como a programadores freelance que buscan crecer profesionalmente a través de proyectos retadores y bien remunerados.
 #### Misión
 
-Impulsar la colaboración digital entre empresas y desarrolladores freelance mediante una plataforma transparente, eficiente y centrada en la calidad. En FromZero, aspiramos a facilitar la creación de proyectos tecnológicos que generen valor real, contribuyendo al desarrollo profesional de los usuarios y al crecimiento de las organizaciones que confían en nuestra solución.
+Impulsar la colaboración digital entre empresas y desarrolladores freelance mediante una plataforma transparente, eficiente y centrada en la calidad. En WebMaster, aspiramos a facilitar la creación de proyectos tecnológicos que generen valor real, contribuyendo al desarrollo profesional de los usuarios y al crecimiento de las organizaciones que confían en nuestra solución.
 
 #### Visión
 
@@ -443,7 +443,7 @@ Convertirnos en la plataforma líder en Latinoamérica que conecta empresas con 
     </tr>
      <tr align="center">
         <td rowspan="3">
-            <img src="" alt="" style="margin-bottom: 5px;" width="150"/>
+            <img src="./assets/chapter-I&II/imgJairChiquito.jpeg" alt="" style="margin-bottom: 5px;" width="150"/>
         </td>
         <td align="left">
             <b>Nombre y Apellido:</b>
