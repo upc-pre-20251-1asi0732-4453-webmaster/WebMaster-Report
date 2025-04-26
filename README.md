@@ -284,8 +284,9 @@ TB1 <br>
 Apellidos y nombres <br>
 TB1 <br>
 
-Apellidos y nombres <br>
+Velasquez Pizarro Jair <br>
 TB1 <br>
+El desarrollo del proyecto se llevó a cabo bajo un enfoque colaborativo, donde cada integrante del equipo asumió un rol activo en la construcción de una solución tecnológica con impacto real. A través de entrevistas y análisis contextual, se identificaron necesidades concretas que guiaron la definición de funcionalidades alineadas con problemáticas sociales, económicas y globales. Se priorizó la toma de decisiones fundamentadas, considerando no solo la viabilidad técnica, sino también las consecuencias a largo plazo del sistema en los entornos donde será implementado. El uso de metodologías ágiles como Scrum, junto con un flujo de trabajo estructurado mediante Gitflow, permitió mantener una dinámica de desarrollo eficiente y sostenible, integrando buenas prácticas que refuerzan la calidad del software. Esta experiencia evidenció la importancia de construir soluciones de ingeniería de software responsables, con conciencia de su impacto en la sociedad y en el ecosistema tecnológico global.
 
 </td>
          <td> TB1: Conclusiones <br>
@@ -313,8 +314,9 @@ TB1 <br>
 Apellidos y nombres <br>
 TB1 <br>
 
-Apellidos y nombres <br>
+Velasquez Pizarro Jair <br>
 TB1 <br>
+En esta etapa del proyecto, se llevó a cabo un análisis detallado del panorama actual de las plataformas de contratación freelance, evaluando sus fortalezas, debilidades y estrategias competitivas con un enfoque ético y profesional. Se reconoció la responsabilidad que implica diseñar soluciones tecnológicas que impacten directamente en la forma en que las personas acceden a oportunidades laborales. A través de entrevistas dirigidas a desarrolladores freelance y empresarios, se recolectó información clave que permitió comprender sus contextos, necesidades reales y desafíos cotidianos. Este proceso, guiado por principios de respeto, inclusión y transparencia, dio lugar a un needfinding riguroso, sustentado en herramientas de mapeo y la construcción de user personas. Así, se aseguró que cada decisión de diseño se tome con un compromiso consciente hacia el bienestar de los usuarios y la equidad en el acceso a la tecnología, asumiendo plenamente el rol ético y profesional del ingeniero de software.
 
 </td>
             <td>TB1: Conclusiones<br>
