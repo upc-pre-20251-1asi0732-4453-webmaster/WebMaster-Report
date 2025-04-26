@@ -2526,17 +2526,18 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 **Sprint1Velocity** | 23 puntos
 **SumofStoryPoints** | 23
 ### 5.2.2. Implemented Landing Page Evidence
-
+[Repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/WebMaster-LandingPage) <br>
 <img src="./assets/chapter-V/Landing-page.png" alt="Landing Page de la aplicación FromZero" width="500">
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
+[Repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/webmaster-app) <br>
 <img src="./assets/chapter-V/Webapp.png" alt="Web application" width="500">
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 <img src="./assets/chapter-V/Mobile-app.png" alt="Mobile application" width="500">
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
-
+[Repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/FromZeroAPI)<br>
 <img src="./assets/chapter-V/api.png" alt="API" width="500">
 
 ### 5.2.6. RESTful API documentation
