@@ -1221,28 +1221,6 @@ Enlace a Miro: https://miro.com/app/board/uXjVIA0Hwb4=/?moveToWidget=34587646253
 <p><strong>Entonces</strong> regresará a la pantalla de inicio de sesión</p></td>
 <td>2</td>
 </tr>
-
-<tr class="even">
-<td>E2-US110</td>
-<td>Estadísticas del proyecto</td>
-<td><p><strong>Como</strong> empresa</p>
-<p><strong>quiero</strong> acceder a un panel de estadísticas</p>
-<p><strong>para</strong> visualizar el estado, rendimiento y puntualidad del freelancer</p></td>
-<td><p><strong>Escenario 1: Visualizar progreso</strong></p>
-<p><strong>Dado que</strong> hay un proyecto en curso</p>
-<p><strong>Cuando</strong> acceda a estadísticas</p>
-<p><strong>Entonces</strong> verá un gráfico de progreso por entregables</p>
-<p><strong>Escenario 2: Entregables a tiempo vs retrasados</strong></p>
-<p><strong>Dado que</strong> hay entregables completados</p>
-<p><strong>Cuando</strong> revise estadísticas</p>
-<p><strong>Entonces</strong> verá un gráfico comparando entregas puntuales y retrasadas</p>
-<p><strong>Escenario 3: Evaluar riesgo de retraso</strong></p>
-<p><strong>Dado que</strong> el proyecto está en progreso</p>
-<p><strong>Cuando</strong> analice fechas límite vs avance</p>
-<p><strong>Entonces</strong> verá indicadores de riesgo</p></td>
-<td>2</td>
-</tr>
-
 <tr class="header">
 <td colspan="5" style="text-align: center"><strong>Epic 3: Funcionalidades como desarrollador freelancer</strong><br>
 <strong>Como</strong> desarrollador freelancer<br>
@@ -1498,18 +1476,6 @@ Enlace al tablero de Trello: https://trello.com/b/gNzXJS37/from-zero
       <td>1</td>
     </tr>
     <tr>
-      <td>E2-US107</td>
-      <td>Gestionar fechas de entregables en el calendario</td>
-      <td>5</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>E2-US110</td>
-      <td>Estadísticas del proyecto</td>
-      <td>2</td>
-      <td>1</td>
-    </tr>
-    <tr>
       <td>E2-US101</td>
       <td>Visualizar proyectos en la pantalla de inicio</td>
       <td>3</td>
@@ -1517,7 +1483,7 @@ Enlace al tablero de Trello: https://trello.com/b/gNzXJS37/from-zero
     </tr>
     <tr>
       <td>E2-US104</td>
-      <td>Visualizar y dar calificación a desarrolladores</td>
+      <td>Visualizar a desarrolladores</td>
       <td>3</td>
       <td>1</td>
     </tr>
@@ -1552,32 +1518,32 @@ Enlace al tablero de Trello: https://trello.com/b/gNzXJS37/from-zero
       <td>2</td>
     </tr>
     <tr>
-      <td>E2-US108</td>
-      <td>Obtener status de verificado como empresario</td>
-      <td>3</td>
-      <td>2</td>
-    </tr>
-    <tr>
       <td>E3-US104</td>
       <td>Navegar por la aplicación como freelancer</td>
       <td>3</td>
-      <td>3</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>E3-US102</td>
       <td>Postular a proyectos de desarrollo de software</td>
       <td>3</td>
-      <td>3</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>E3-US101</td>
       <td>Visualizar y gestionar proyectos asignados</td>
       <td>3</td>
-      <td>3</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>E3-US103</td>
       <td>Obtener status de verificado como freelancer</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+        <tr>
+      <td>E2-US108</td>
+      <td>Obtener status de verificado como empresario</td>
       <td>3</td>
       <td>3</td>
     </tr>
@@ -1597,6 +1563,12 @@ Enlace al tablero de Trello: https://trello.com/b/gNzXJS37/from-zero
       <td>E1-US103</td>
       <td>Recuperar contraseña</td>
       <td>3</td>
+      <td>4</td>
+    </tr>
+        <tr>
+      <td>E2-US107</td>
+      <td>Gestionar fechas de entregables en el calendario</td>
+      <td>5</td>
       <td>4</td>
     </tr>
   </tbody>
@@ -2454,54 +2426,64 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 ## 5.2. Product Implementation & Deployment.
 ### 5.2.1. Sprint Backlogs.
 
-**Web Application Sprint Backlog**
----
-|Sprint # | Sprint 1|
-|---------|---------|
-**SprintPlanningBackground** | Implementación de la interfaz base: landing, navegación, login, registro, perfil, listado de proyectos.
-**Date** | 2025-04-07
-**Time** | 10:00AM–12:00PM
-**Location** | Virtual (Google Meet)
-**PreparedBy** | Equipo WebMaster
-**Attendees(to planning meeting)** | Equipo WebMaster
-**Sprintn–0ReviewSummary** | Se completaron bocetos exploratorios para la interfaz web, sin planificación formal previa.
-**Sprintn–1RetrospectiveSummary** | Se acordó crear endpoints mockeados para agilizar desarrollo frontend.
-**SprintGoalandUserStories** | Objetivo: Interfaz base web. Usuarios: landing, login/registro, perfil, vista de proyectos.
-**Sprint1Velocity** | 26 puntos
-**SumofStoryPoints** | 26
+#### 5.2.1.1 Sprint 1
+
+| **Sprint #**               | **Sprint 1**                                                                 |
+|-----------------------------|------------------------------------------------------------------------------|
+| **SprintPlanningBackground** | Desarrollo de la interfaz base (frontend) y API RESTful (backend) para funcionalidades críticas: landing, autenticación y gestión de proyectos. |
+| **Date**                    | 2025-04-07                                                                  |
+| **Time**                    | 10:00AM–12:00PM                                                             |
+| **Location**                | Virtual (Google Meet)                                                       |
+| **PreparedBy**              | Equipo WebMaster                                                            |
+| **Attendees**               | Equipo WebMaster|
+| **Sprint–0ReviewSummary**   | Bocetos exploratorios de interfaz y diseño de prototipo de alta fidelidad completados. |
+| **Sprint–1RetrospectiveSummary** | Prototipo ajustado tras pruebas de usabilidad. API básica implementada para login/registro. |
+| **SprintGoal**              | **Frontend**: Interfaz base web (landing, login/registro, perfil). **Backend**: API RESTful para autenticación y gestión de proyectos. |
+| **SprintVelocity**          | 26 puntos                |
+| **SumofStoryPoints**        | 26                                                                        
+
 <br>
 
-**API Sprint Backlog**
----
-|Sprint # | Sprint 2|
-|---------|---------|
-**SprintPlanningBackground** | Desarrollo inicial del API: autenticación, usuarios, proyectos, entregables.
-**Date** | 2025-04-07
-**Time** | 3:00PM–5:00PM
-**Location** | Virtual (Google Meet)
-**PreparedBy** | Equipo WebMaster
-**Attendees(to planning meeting)** | Equipo WebMaster
-**Sprintn–0ReviewSummary** | Se exploró el uso de librerías de auth y se configuró la estructura base.
-**Sprintn–1RetrospectiveSummary** | Necesidad de estandarizar documentación desde el primer día.
-**SprintGoalandUserStories** | Objetivo: Implementar endpoints clave para el core. Usuarios: login, signup, proyectos CRUD.
-**Sprint1Velocity** | 26 puntos
-**SumofStoryPoints** | 26
+#### Sprint Backlog
+| User story | Title                                    | id       | Description                                      | Time (Story Points) | Assigned to | Status |
+|------------|------------------------------------------|----------|--------------------------------------------------|---------------------|-------------|--------|
+| E2-US109   | Navegar por la aplicación como empresario | E2-US109 | Permitir al empresario navegar por la aplicación | 3                  | Dev Team    | done   |
+| E2-US102   | Gestionar una propuesta de proyecto de software | E2-US102 | Crear y administrar propuestas de proyectos      | 3                  | Dev Team    | done   |
+| E2-US106   | Crear y gestionar entregables            | E2-US106 | Permitir la creación y gestión de entregables    | 5                  | Dev Team    | done   |
+| E2-US101   | Visualizar proyectos en la pantalla de inicio | E2-US101 | Mostrar proyectos en la pantalla principal       | 3                  | Dev Team    | done   |
+| E2-US104   | Visualizar a desarrolladores             | E2-US104 | Mostrar información de desarrolladores           | 3                  | Dev Team    | done   |
+| E1-US101   | Registrar usuario                        | E1-US101 | Permitir el registro de nuevos usuarios          | 3                  | Dev Team    | done   |
+| E1-US102   | Iniciar sesión                           | E1-US102 | Permitir a los usuarios iniciar sesión           | 3                  | Dev Team    | done   |
 
-**Mobile Application Sprint Backlog**
 ---
-|Sprint # | Sprint 3|
-|---------|---------|
-**SprintPlanningBackground** | Creación inicial de la app en Kotlin: navegación, login, registro, proyectos.
-**Date** | 2025-04-08
-**Time** | 9:00AM–11:00AM
-**Location** | Virtual (Google Meet)
-**PreparedBy** | Equipo WebMaster
-**Attendees(to planning meeting)** | Equipo WebMaster
-**Sprintn–0ReviewSummary** | Pruebas de conexión API y configuración del entorno Flutter.
-**Sprintn–1RetrospectiveSummary** | Recomendación: crear componentes reutilizables desde el inicio.
-**SprintGoalandUserStories** | Objetivo: App funcional con pantallas de auth, listado de proyectos y perfil.
-**Sprint1Velocity** | 23 puntos
-**SumofStoryPoints** | 23
+
+#### 5.2.1.2 Sprint 2
+
+| **Sprint #**               | **Sprint 2**                                                                 |
+|-----------------------------|------------------------------------------------------------------------------|
+| **SprintPlanningBackground** | Ampliación de funcionalidades: postulaciones y visualización de repositorios. Trabajo en frontend y backend. |
+| **Date**|  025-04-21     |
+| **Time**                    | 09:00AM–11:00AM              |
+| **Location**                | Virtual (Zoom)     |
+| **PreparedBy**              | Equipo WebMaster      |
+| **Attendees**               | Equipo WebMaster (Frontend: 2, Backend: 2, QA: 1) |
+| **Sprint–1ReviewSummary**   | Interfaz base y API de autenticación completadas. Pruebas de integración exitosas. |
+| **Sprint–2RetrospectiveSummary** | Mejoras en rendimiento de API y ajustes en UI/UX basados en feedback.       |
+| **SprintGoal**              | **Frontend**: Flujo de postulaciones. **Backend**: Endpoints para gestión de postulantes y entregables. |
+| **SprintVelocity**          | 22 puntos                       |
+| **SumofStoryPoints**        | 22  
+<br>
+#### Sprint Backlog
+
+| User story | Title                                    | id       | Description                                      | Time (Story Points) | Assigned to | Status |
+|------------|------------------------------------------|----------|--------------------------------------------------|---------------------|-------------|--------|
+| E2-US103   | Gestionar lista de postulantes          | E2-US103 | Administrar la lista de postulantes a proyectos  | 5                  | Dev Team    | done   |
+| E5-US101   | Seleccionar fechas de entregables en el calendario | E5-US101 | Permitir asignar fechas a entregables en el calendario | 5                  | Dev Team    | done   |
+| E2-US105   | Visualizar el repositorio de un desarrollador | E2-US105 | Mostrar el repositorio de un desarrollador       | 3                  | Dev Team    | done   |
+| E3-US104   | Navegar por la aplicación como freelancer | E3-US104 | Permitir al freelancer navegar por la aplicación | 3                  | Dev Team    | done   |
+| E3-US102   | Postular a proyectos de desarrollo de software | E3-US102 | Permitir a freelancers postular a proyectos      | 3                  | Dev Team    | done   |
+| E3-US101   | Visualizar y gestionar proyectos asignados | E3-US101 | Mostrar y administrar proyectos asignados        | 3                  | Dev Team    | done   |
+
 ### 5.2.2. Implemented Landing Page Evidence
 [Repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/WebMaster-LandingPage) <br>
 <img src="./assets/chapter-V/Landing-page.png" alt="Landing Page de la aplicación WebMaster" width="500">
