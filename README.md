@@ -78,53 +78,21 @@
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-      - [Misión](#misión)
-      - [Visión](#visión)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-      - [What / ¿Qué?](#what--qué)
-      - [Why / ¿Por qué?](#why--por-qué)
-      - [Who / ¿Quién?](#who--quién)
-      - [When / ¿Cuándo?](#when--cuándo)
-      - [Where / ¿Dónde?](#where--dónde)
-      - [How / ¿Cómo?](#how--cómo)
-      - [How much / ¿Cuánto?](#how-much--cuánto)
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-    - [Segmento objetivo: PYMEs y emprendimientos](#segmento-objetivo-pymes-y-emprendimientos)
-    - [Segmento objetivo: Desarrolladores Freelance](#segmento-objetivo-desarrolladores-freelance)
     - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [Segmento objetivo: PYMEs y emprendimientos](#segmento-objetivo-pymes-y-emprendimientos-1)
-      - [Segmento objetivo: Desarrolladores Freelance](#segmento-objetivo-desarrolladores-freelance-1)
     - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [Hipótesis 1: Conexión de desarrolladores y emprendimientos](#hipótesis-1-conexión-de-desarrolladores-y-emprendimientos)
-      - [Hipótesis 2: Perfiles de desarrolladores y visibilidad de sus trabajos anteriores](#hipótesis-2-perfiles-de-desarrolladores-y-visibilidad-de-sus-trabajos-anteriores)
-      - [Hipótesis 3: Impacto en las estrategias de marketing digital de los emprendimientos](#hipótesis-3-impacto-en-las-estrategias-de-marketing-digital-de-los-emprendimientos)
-      - [Hipótesis 4: Mejora en la creación y mejora de sitios web](#hipótesis-4-mejora-en-la-creación-y-mejora-de-sitios-web)
-      - [Hipótesis 5: Participación de desarrolladores en proyectos atractivos](#hipótesis-5-participación-de-desarrolladores-en-proyectos-atractivos)
-      - [Hipótesis 6: Transparencia y eficiencia en el proceso de colaboración](#hipótesis-6-transparencia-y-eficiencia-en-el-proceso-de-colaboración)
     - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-    - [1. Microempresas, Emprendimientos y PYMEs](#1-microempresas-emprendimientos-y-pymes)
-    - [2. Desarrolladores Freelance](#2-desarrolladores-freelance)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
-    - [Freelancer](#freelancer)
-    - [Codementor](#codementor)
-    - [Workana](#workana)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [**Público objetivo: Empresarios y emprendedores**](#público-objetivo-empresarios-y-emprendedores)
-      - [**Preguntas generales:**](#preguntas-generales)
-      - [**Preguntas exploratorias:**](#preguntas-exploratorias)
-      - [**Preguntas de validación:**](#preguntas-de-validación)
-    - [**Público objetivo: Desarrolladores freelance**](#público-objetivo-desarrolladores-freelance)
-      - [**Preguntas generales:**](#preguntas-generales-1)
-      - [**Preguntas exploratorias:**](#preguntas-exploratorias-1)
-      - [**Preguntas de validación:**](#preguntas-de-validación-1)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
@@ -151,7 +119,7 @@
     - [4.2.2. Labeling Systems.](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [Web Applications](#web-applications)
-      - [Mobile Applications](#mobile-applications)
+    - [Mobile Applications](#mobile-applications)
     - [4.2.4. Searching Systems](#424-searching-systems)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
       - [Web Applications](#web-applications-1)
@@ -163,8 +131,6 @@
     - [4.4.1. Mobile Applications Wireframes.](#441-mobile-applications-wireframes)
     - [4.4.2. Mobile Applications Wireflow Diagrams.](#442-mobile-applications-wireflow-diagrams)
     - [4.4.3. Mobile Applications Mock-ups.](#443-mobile-applications-mock-ups)
-      - [Usuario Desarrollador](#usuario-desarrollador)
-      - [Usuario Empresa](#usuario-empresa)
     - [4.4.4. Mobile Applications User Flow Diagrams.](#444-mobile-applications-user-flow-diagrams)
   - [4.5. Mobile Applications Prototyping.](#45-mobile-applications-prototyping)
     - [4.5.1. Android Mobile Applications Prototyping.](#451-android-mobile-applications-prototyping)
@@ -336,11 +302,12 @@ WebMasters es una startup fundada en 2024 por un equipo de cinco estudiantes de 
 Nuestro principal producto, **WebMaster**, es una plataforma web diseñada para conectar de forma ágil a empresas que desean publicar proyectos de software con desarrolladores freelance interesados en colaborar. La plataforma busca optimizar el proceso de reclutamiento y desarrollo, promoviendo una experiencia intuitiva, accesible y eficiente para ambas partes.
 
 Nos enfocamos en brindar una solución práctica que beneficie tanto a empresas en búsqueda de talento especializado como a programadores freelance que buscan crecer profesionalmente a través de proyectos retadores y bien remunerados.
-#### Misión
+
+**Misión**
 
 Impulsar la colaboración digital entre empresas y desarrolladores freelance mediante una plataforma transparente, eficiente y centrada en la calidad. En WebMaster, aspiramos a facilitar la creación de proyectos tecnológicos que generen valor real, contribuyendo al desarrollo profesional de los usuarios y al crecimiento de las organizaciones que confían en nuestra solución.
 
-#### Visión
+**Visión**
 
 Convertirnos en la plataforma líder en Latinoamérica que conecta empresas con desarrolladores freelance altamente calificados, consolidando una comunidad basada en la confianza, la innovación y la eficiencia. Buscamos ser la opción preferida por aquellos que desean construir soluciones digitales de alto impacto.
 
@@ -472,38 +439,38 @@ Convertirnos en la plataforma líder en Latinoamérica que conecta empresas con 
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
-#### What / ¿Qué?
+**What / ¿Qué?**
 
 El contexto que enfrentan las microempresas peruanas después del COVID-19 fue determinante, llevando a muchas de ellas a iniciar un proceso de transformación digital. Según una investigación de **Microsoft (2023)**, el 95% de las Pymes peruanas aceleraron este proceso. Sin embargo, según **Movistar Empresas (2023)**, el 73% de las Pymes señala enfrentar dificultades en la digitalización de sus negocios.
 
 
-#### Why / ¿Por qué?
+**Why / ¿Por qué?**
 
 Existen varios factores que contribuyen a estas dificultades en la digitalización de los negocios, principalmente el desconocimiento de las herramientas digitales necesarias, la falta de personal capacitado y los altos costos de inversión.
 
 
 
-#### Who / ¿Quién?
+**Who / ¿Quién?**
 
 Esta problemática afecta a cualquier microempresario o emprendedor independiente mayor de 18 años, especialmente a aquellos con poco conocimiento de herramientas digitales para tener una página web propia y virtualizar su empresa. Además, también impacta a los desarrolladores freelance que buscan oportunidades de trabajo en proyectos de software.
 
 
-#### When / ¿Cuándo?
+**When / ¿Cuándo?**
 
 Esta problemática afecta a los microempresarios todos los días, ya que al ser un negocio en funcionamiento, no pueden detener su producción sin riesgos financieros. Además, el 95% de aceleración en la transformación digital de empresas genera presión constante para adaptarse.
 
 
-#### Where / ¿Dónde?
+**Where / ¿Dónde?**
 
 El problema se encuentra en cualquier entorno donde las empresas operan sin presencia digital sólida. La falta de uso de herramientas tecnológicas puede ser un obstáculo para el crecimiento y competitividad, especialmente para las micro y pequeñas empresas.
 
 
-#### How / ¿Cómo?
+**How / ¿Cómo?**
 
 El problema surge cuando los microempresarios buscan mejorar sus ventas mediante herramientas digitales sin contar con conocimientos técnicos. Esto puede llevar a inversiones mal dirigidas, herramientas inadecuadas y falta de resultados. Según **Microsoft (2023)**, el 43% de líderes empresariales reconoce que la tecnología permite abrir nuevos mercados y clientes.
 
 
-#### How much / ¿Cuánto?
+**How much / ¿Cuánto?**
 
 El impacto económico es considerable. Según **EY (2021)**, el 50% de las empresas asigna menos del 5% de su presupuesto a tecnología. Además, el **CIEN (2023)** destaca que el 74.4% del total de empresas en el Perú son microempresas, y más del 90% cree que la transformación digital impacta positivamente en su negocio. Sin embargo, la falta de inversión y apoyo limita este potencial.
 
@@ -511,20 +478,20 @@ El impacto económico es considerable. Según **EY (2021)**, el 50% de las empre
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-### Segmento objetivo: PYMEs y emprendimientos
+**Segmento objetivo: PYMEs y emprendimientos**
 
 En Perú, tanto las PYMEs como los emprendimientos en crecimiento enfrentan grandes dificultades para digitalizarse. Muchas de estas empresas luchan por establecer una presencia digital debido a la falta de conocimientos técnicos para desarrollar plataformas o herramientas de software. La educación digital deficiente en el país agrava esta situación, lo que afecta directamente su competitividad en un entorno cada vez más digitalizado.
 
 **Problema:** ¿Cómo podríamos crear una solución accesible y profesional para el desarrollo de plataformas digitales dirigidas a propietarios de PYMEs y emprendimientos que están atravesando un proceso de transformación digital?
 
-### Segmento objetivo: Desarrolladores Freelance
+**Segmento objetivo: Desarrolladores Freelance**
 
 En Perú, existe una comunidad activa de desarrolladores freelance que busca constantemente oportunidades de trabajo en proyectos de software. Sin embargo, estos desarrolladores enfrentan desafíos para encontrar proyectos que se alineen con sus habilidades y preferencias. A menudo, los proyectos disponibles no cubren sus necesidades específicas ni ofrecen la flexibilidad que valoran.
 
 **Problema:** ¿Cómo podríamos crear una plataforma que conecte a los desarrolladores freelance con oportunidades de proyectos de software, garantizando que estos proyectos coincidan con sus habilidades y preferencias, mientras les brindamos una experiencia flexible y profesional?
 
 ### 1.2.2.2. Lean UX Assumptions
-#### Segmento objetivo: PYMEs y emprendimientos
+**Segmento objetivo: PYMEs y emprendimientos**
 
 **Creo que mis clientes necesitan:**  
 Soluciones digitales personalizadas que mejoren la eficiencia operativa y la experiencia del cliente.
@@ -555,9 +522,9 @@ La falta de adopción por parte de las PYMEs debido a la resistencia al cambio o
 
 **Resolveremos esto:**  
 Destacando los beneficios y la accesibilidad de nuestras soluciones digitales, así como ofreciendo un soporte continuo para facilitar el cambio y la adopción del producto.
+<br>
 
-
-#### Segmento objetivo: Desarrolladores Freelance
+**Segmento objetivo: Desarrolladores Freelance**
 
 **Creo que mis clientes necesitan:**  
 Oportunidades para aplicar sus habilidades en proyectos que les permitan expandir sus habilidades y generar ingresos.
@@ -590,7 +557,7 @@ La falta de adopción por parte de los desarrolladores freelance debido a la com
 A través de estrategias de marketing efectivas, soporte dedicado y mejoras constantes en la plataforma basadas en retroalimentación de los usuarios y análisis de datos.
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
-#### Hipótesis 1: Conexión de desarrolladores y emprendimientos
+**Hipótesis 1: Conexión de desarrolladores y emprendimientos**
 
 **Creemos que:**  
 Al conectar desarrolladores freelance con microempresas y emprendimientos, facilitaremos la creación o mejora de proyectos digitales, ayudando a satisfacer las necesidades específicas de los clientes.  
@@ -600,7 +567,7 @@ En los primeros seis meses, más del 80% de los emprendimientos que se pusieron 
 
 
 
-#### Hipótesis 2: Perfiles de desarrolladores y visibilidad de sus trabajos anteriores
+**Hipótesis 2: Perfiles de desarrolladores y visibilidad de sus trabajos anteriores**
 
 **Creemos que:**  
 Al permitir que los desarrolladores creen perfiles completos y exhiban sus trabajos previos, los clientes podrán tener una mejor visión de sus capacidades y tomar decisiones informadas sobre la contratación.  
@@ -610,7 +577,7 @@ Más del 50% de los usuarios que utilicen la aplicación dentro de los primeros 
 
 
 
-#### Hipótesis 3: Impacto en las estrategias de marketing digital de los emprendimientos
+**Hipótesis 3: Impacto en las estrategias de marketing digital de los emprendimientos**
 
 **Creemos que:**  
 Nuestra plataforma fortalecerá las estrategias de marketing digital de diversos emprendimientos, ayudándolos a mejorar su visibilidad en línea.  
@@ -619,7 +586,7 @@ Nuestra plataforma fortalecerá las estrategias de marketing digital de diversos
 Más del 20% de los nuevos usuarios lleguen a la plataforma a través de recomendaciones de otros usuarios dentro de los primeros diez meses.
 
 
-#### Hipótesis 4: Mejora en la creación y mejora de sitios web
+**Hipótesis 4: Mejora en la creación y mejora de sitios web**
 
 **Creemos que:**  
 Al conectar desarrolladores con microempresas que buscan crear o mejorar sitios web, ayudaremos a que los emprendimientos puedan llevar a cabo estos proyectos de forma eficiente y con soluciones personalizadas.  
@@ -628,7 +595,7 @@ Al conectar desarrolladores con microempresas que buscan crear o mejorar sitios 
 Más del 80% de los emprendimientos que se pusieron en contacto con un desarrollador hayan lanzado su nuevo sitio web o mejorado el existente dentro de los primeros seis meses.
 
 
-#### Hipótesis 5: Participación de desarrolladores en proyectos atractivos
+**Hipótesis 5: Participación de desarrolladores en proyectos atractivos**
 
 **Creemos que:**  
 Al ofrecer una amplia variedad de proyectos interesantes y bien remunerados, aumentaremos la participación activa de los desarrolladores freelance en nuestra plataforma.  
@@ -637,7 +604,7 @@ Al ofrecer una amplia variedad de proyectos interesantes y bien remunerados, aum
 Veamos un aumento en el número de desarrolladores activos, con una mayor frecuencia de participación en proyectos, y una disminución en la tasa de abandono de usuarios.
 
 
-#### Hipótesis 6: Transparencia y eficiencia en el proceso de colaboración
+**Hipótesis 6: Transparencia y eficiencia en el proceso de colaboración**
 
 **Creemos que:**  
 La transparencia en el proceso de selección y colaboración entre los desarrolladores y las microempresas aumentará la confianza y satisfacción de los usuarios en nuestra plataforma.  
@@ -651,11 +618,11 @@ Veamos una mejora significativa en la calificación de satisfacción de los usua
 ## 1.3. Segmentos objetivo
 Nuestra plataforma se dirige principalmente a dos segmentos clave de usuarios:
 
-### 1. Microempresas, Emprendimientos y PYMEs
+**1. Microempresas, Emprendimientos y PYMEs**
 
 Este grupo está conformado por pequeñas y medianas empresas, startups y emprendedores independientes del mercado peruano. Su objetivo principal es mejorar su presencia digital mediante el desarrollo de páginas web o aplicaciones personalizadas. Reconocen la necesidad de adaptarse a la transformación digital para escalar sus negocios, pero generalmente carecen de los conocimientos técnicos o del equipo necesario para implementar estas soluciones por cuenta propia. Nuestra plataforma les ofrece acceso directo a profesionales que pueden materializar sus ideas de forma eficiente y accesible.
 
-### 2. Desarrolladores Freelance
+**2. Desarrolladores Freelance**
 
 Incluye a profesionales independientes especializados en tecnologías web y desarrollo de software. Estos desarrolladores buscan oportunidades para aplicar sus habilidades en proyectos reales, ganar experiencia y generar ingresos. Valoran especialmente la libertad de elegir proyectos que se alineen con sus intereses, así como la posibilidad de colaborar de manera remota con emprendimientos dinámicos. Nuestra plataforma les proporciona un espacio para conectar con clientes que necesitan sus servicios, ampliar su portafolio y posicionarse en el mercado freelance.
 
@@ -667,15 +634,15 @@ Incluye a profesionales independientes especializados en tecnologías web y desa
 
 Tras analizar el panorama actual de plataformas que conectan a empresas con desarrolladores freelance para el desarrollo de soluciones digitales, hemos identificado a los principales competidores de nuestra startup en el sector. A continuación, se detallan:
 
-### Freelancer
+**Freelancer**
 
 Es una plataforma global que conecta a freelancers con empresas de distintos tamaños que buscan soluciones en áreas como desarrollo de software, diseño, marketing y más. Los profesionales pueden ofertar por proyectos según sus habilidades, mientras que las empresas tienen acceso a una amplia base de talento para contratar de acuerdo a sus necesidades específicas.
 
-### Codementor
+**Codementor**
 
 Es una plataforma enfocada en desarrolladores que buscan mentoría y oportunidades freelance. Ofrece la posibilidad de recibir tutorías personalizadas por expertos en programación, además de conectar a desarrolladores con proyectos específicos que requieren habilidades técnicas avanzadas.
 
-### Workana
+**Workana**
 
 Plataforma latinoamericana que permite a profesionales ofrecer sus servicios en distintas áreas como desarrollo web, diseño gráfico, redacción y más. Es una opción popular en países hispanohablantes, y se ha posicionado como una alternativa accesible y eficiente para contratar talento freelance en la región.
 
@@ -710,19 +677,19 @@ Plataforma latinoamericana que permite a profesionales ofrecer sus servicios en 
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
-### **Público objetivo: Empresarios y emprendedores**
+**Público objetivo: Empresarios y emprendedores**
 
 Buen día, mi nombre es [Nombre del entrevistador]. Estoy realizando una entrevista para la startup **webmaster**, con el propósito de recabar información clave que nos permita construir de forma efectiva nuestra plataforma.
 
 **WebMaster** es una solución diseñada para apoyar a empresas y emprendimientos que necesiten desarrollar herramientas digitales. Nuestro objetivo es conectar a estos negocios con desarrolladores freelance que puedan atender sus necesidades de forma profesional y eficiente.
 
-#### **Preguntas generales:**
+**Preguntas generales:**
 1. ¿Podrías indicarme tu nombre?
 2. ¿Cuál es tu edad?
 3. ¿Dónde resides actualmente?
 4. ¿Cómo se llama tu empresa o emprendimiento?
 
-#### **Preguntas exploratorias:**
+**Preguntas exploratorias:**
 1. ¿Tu negocio cuenta actualmente con presencia digital?
 2. ¿Consideras que tener presencia en internet es esencial hoy en día? ¿Por qué?
 3. ¿Qué acciones implementarías para mejorar la visibilidad digital de tu empresa?
@@ -730,7 +697,7 @@ Buen día, mi nombre es [Nombre del entrevistador]. Estoy realizando una entrevi
 5. ¿Has considerado desarrollar un proyecto tecnológico para tu negocio? ¿Cuál sería tu motivación?
 6. ¿Qué tanto conoces sobre plataformas que permiten contratar desarrolladores freelance?
 
-#### **Preguntas de validación:**
+**Preguntas de validación:**
 1. ¿Estarías dispuesto a trabajar con un desarrollador para crear una solución digital para tu empresa?
 2. ¿Te resultaría útil una plataforma que conecte tu empresa con desarrolladores freelance especializados? ¿Por qué?
 3. ¿Qué características consideras indispensables en una plataforma de este tipo?
@@ -739,19 +706,19 @@ Buen día, mi nombre es [Nombre del entrevistador]. Estoy realizando una entrevi
 6. ¿Estarías dispuesto a pagar por un servicio que te conecte con el desarrollador ideal para tu proyecto?
 
 
-### **Público objetivo: Desarrolladores freelance**
+**Público objetivo: Desarrolladores freelance**
 
 Buen día, soy [Nombre del entrevistador]. En esta ocasión llevaré a cabo una entrevista como parte del proceso de investigación de la startup **webmaster**, con el fin de recopilar información esencial para diseñar nuestra plataforma.
 
 **WebMaster** es una herramienta enfocada en conectar a desarrolladores freelance con empresas que requieren soluciones tecnológicas específicas, permitiendo oportunidades laborales claras y proyectos alineados con sus habilidades.
 
-#### **Preguntas generales:**
+**Preguntas generales:**
 1. ¿Cuál es tu nombre?
 2. ¿Cuántos años tienes?
 3. ¿Dónde te encuentras actualmente?
 4. ¿Cuál es tu área de especialización dentro del desarrollo de software? (web, móvil, ciberseguridad, etc.)
 
-#### **Preguntas exploratorias:**
+**Preguntas exploratorias:**
 1. ¿Qué tecnologías utilizas habitualmente en tus proyectos?
 2. ¿Has trabajado previamente en proyectos como freelance?
 3. ¿Qué tipos de proyectos has desarrollado?
@@ -760,7 +727,7 @@ Buen día, soy [Nombre del entrevistador]. En esta ocasión llevaré a cabo una 
 6. ¿Cómo sueles manejar la comunicación con tus clientes durante el desarrollo del trabajo?
 7. ¿Qué tan familiarizado estás con plataformas que conectan desarrolladores freelance con clientes?
 
-#### **Preguntas de validación:**
+**Preguntas de validación:**
 1. ¿Qué características crees que son imprescindibles en este tipo de plataformas?
 2. ¿Qué funcionalidades adicionales te gustaría que tuvieran estas plataformas?
 3. ¿Qué te haría elegir una plataforma frente a otras opciones del mercado?
@@ -1712,7 +1679,7 @@ These tags are essential for making the website easily discoverable through sear
 
 ---
 
-#### Mobile Applications
+### Mobile Applications
 
 **Meta & SEO (Search Engine Optimization) Tags**  
 Estas etiquetas permiten que la aplicación sea fácilmente encontrada en buscadores y tiendas. En Android, esta información se define en el archivo `AndroidManifest.xml`.
@@ -1851,7 +1818,7 @@ https://www.figma.com/proto/F9uDpQtivg5tkJt5aA81VP/Mockup-Webmaster-Mobile?node-
 
 ![Mobile Mock Up 3](assets/Chapter%20IV/MobileMockup3.png) 
 
-#### Usuario Desarrollador<br>
+**Usuario Desarrollador**<br>
 **Página principal:**<br>
 ![Mobile Mock Up 7](assets/Chapter%20IV/MobileMockup7.png) 
 
@@ -1868,7 +1835,7 @@ https://www.figma.com/proto/F9uDpQtivg5tkJt5aA81VP/Mockup-Webmaster-Mobile?node-
 **Misceláneos:**<br>
 ![Mobile Mock Up 14](assets/Chapter%20IV/MobileMockup14.png) ![Mobile Mock Up 15](assets/Chapter%20IV/MobileMockup15.png)
 
-#### Usuario Empresa<br>
+**Usuario Empresa**<br>
 **Página principal:**<br>
 ![Mobile Mock Up 16](assets/Chapter%20IV/MobileMockup16.png)
 
