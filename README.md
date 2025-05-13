@@ -2466,13 +2466,14 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 | **Time**                    | 09:00AM–11:00AM              |
 | **Location**                | Virtual (Zoom)     |
 | **PreparedBy**              | Equipo WebMaster      |
-| **Attendees**               | Equipo WebMaster (Frontend: 2, Backend: 2, QA: 1) |
+| **Attendees**               | Equipo WebMaster  |
 | **Sprint–1ReviewSummary**   | Interfaz base y API de autenticación completadas. Pruebas de integración exitosas. |
 | **Sprint–2RetrospectiveSummary** | Mejoras en rendimiento de API y ajustes en UI/UX basados en feedback.       |
 | **SprintGoal**              | **Frontend**: Flujo de postulaciones. **Backend**: Endpoints para gestión de postulantes y entregables. |
 | **SprintVelocity**          | 22 puntos                       |
 | **SumofStoryPoints**        | 22  
 <br>
+
 #### Sprint Backlog
 
 | User story | Title                                    | id       | Description                                      | Time (Story Points) | Assigned to | Status |
