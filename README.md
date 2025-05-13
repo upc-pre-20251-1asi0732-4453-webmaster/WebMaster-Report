@@ -71,186 +71,167 @@
 
 # Tabla de Contenidos
 
+- [COURSE PROJECT](#course-project)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Tabla de Contenidos](#tabla-de-contenidos)
 - [Student Outcome](#student-outcome)
-
 - [Capítulo I: Introducción](#capítulo-i-introducción)
-
   - [1.1. Startup Profile](#11-startup-profile)
-
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-
+      - [Misión](#misión)
+      - [Visión](#visión)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-
   - [1.2. Solution Profile](#12-solution-profile)
-
     - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-
+      - [What / ¿Qué?](#what--qué)
+      - [Why / ¿Por qué?](#why--por-qué)
+      - [Who / ¿Quién?](#who--quién)
+      - [When / ¿Cuándo?](#when--cuándo)
+      - [Where / ¿Dónde?](#where--dónde)
+      - [How / ¿Cómo?](#how--cómo)
+      - [How much / ¿Cuánto?](#how-much--cuánto)
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
-
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-
+    - [Segmento objetivo: PYMEs y emprendimientos](#segmento-objetivo-pymes-y-emprendimientos)
+    - [Segmento objetivo: Desarrolladores Freelance](#segmento-objetivo-desarrolladores-freelance)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [Segmento objetivo: PYMEs y emprendimientos](#segmento-objetivo-pymes-y-emprendimientos-1)
+      - [Segmento objetivo: Desarrolladores Freelance](#segmento-objetivo-desarrolladores-freelance-1)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [Hipótesis 1: Conexión de desarrolladores y emprendimientos](#hipótesis-1-conexión-de-desarrolladores-y-emprendimientos)
+      - [Hipótesis 2: Perfiles de desarrolladores y visibilidad de sus trabajos anteriores](#hipótesis-2-perfiles-de-desarrolladores-y-visibilidad-de-sus-trabajos-anteriores)
+      - [Hipótesis 3: Impacto en las estrategias de marketing digital de los emprendimientos](#hipótesis-3-impacto-en-las-estrategias-de-marketing-digital-de-los-emprendimientos)
+      - [Hipótesis 4: Mejora en la creación y mejora de sitios web](#hipótesis-4-mejora-en-la-creación-y-mejora-de-sitios-web)
+      - [Hipótesis 5: Participación de desarrolladores en proyectos atractivos](#hipótesis-5-participación-de-desarrolladores-en-proyectos-atractivos)
+      - [Hipótesis 6: Transparencia y eficiencia en el proceso de colaboración](#hipótesis-6-transparencia-y-eficiencia-en-el-proceso-de-colaboración)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-
+    - [1. Microempresas, Emprendimientos y PYMEs](#1-microempresas-emprendimientos-y-pymes)
+    - [2. Desarrolladores Freelance](#2-desarrolladores-freelance)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
-
+    - [Freelancer](#freelancer)
+    - [Codementor](#codementor)
+    - [Workana](#workana)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-
   - [2.2. Entrevistas](#22-entrevistas)
-
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-
+    - [**Público objetivo: Empresarios y emprendedores**](#público-objetivo-empresarios-y-emprendedores)
+      - [**Preguntas generales:**](#preguntas-generales)
+      - [**Preguntas exploratorias:**](#preguntas-exploratorias)
+      - [**Preguntas de validación:**](#preguntas-de-validación)
+    - [**Público objetivo: Desarrolladores freelance**](#público-objetivo-desarrolladores-freelance)
+      - [**Preguntas generales:**](#preguntas-generales-1)
+      - [**Preguntas exploratorias:**](#preguntas-exploratorias-1)
+      - [**Preguntas de validación:**](#preguntas-de-validación-1)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-
   - [2.3. Needfinding](#23-needfinding)
-
     - [2.3.1. User Personas](#231-user-personas)
-
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
-
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-
   - [3.2. User Stories](#32-user-stories)
-
   - [3.3. Impact Mapping](#33-impact-mapping)
-
   - [3.4. Product Backlog](#34-product-backlog)
-
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
-
   - [4.1. Style Guidelines](#41-style-guidelines)
-
     - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
-
     - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
-
     - [4.1.3. Mobile Style Guidelines.](#413-mobile-style-guidelines)
-
       - [4.1.3.1. iOS Mobile Style Guidelines.](#4131-ios-mobile-style-guidelines)
-
       - [4.1.3.2. Android Mobile Style Guidelines.](#4132-android-mobile-style-guidelines)
-
   - [4.2. Information Architecture.](#42-information-architecture)
-
     - [4.2.1. Organization Systems.](#421-organization-systems)
-
     - [4.2.2. Labeling Systems.](#422-labeling-systems)
-
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-
-    - [4.2.4. Searching Systems.](#424-searching-systems)
-
+    - [Web Applications](#web-applications)
+      - [Mobile Applications](#mobile-applications)
+    - [4.2.4. Searching Systems](#424-searching-systems)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
-
+      - [Web Applications](#web-applications-1)
+      - [Mobile Applications](#mobile-applications-1)
   - [4.3. Landing Page UI Design.](#43-landing-page-ui-design)
-
     - [4.3.1. Landing Page Wireframe.](#431-landing-page-wireframe)
-
     - [4.3.2. Landing Page Mock-up.](#432-landing-page-mock-up)
-
   - [4.4. Mobile Applications UX/UI Design.](#44-mobile-applications-uxui-design)
-
     - [4.4.1. Mobile Applications Wireframes.](#441-mobile-applications-wireframes)
-
     - [4.4.2. Mobile Applications Wireflow Diagrams.](#442-mobile-applications-wireflow-diagrams)
-
     - [4.4.3. Mobile Applications Mock-ups.](#443-mobile-applications-mock-ups)
-
+      - [Usuario Desarrollador](#usuario-desarrollador)
+      - [Usuario Empresa](#usuario-empresa)
     - [4.4.4. Mobile Applications User Flow Diagrams.](#444-mobile-applications-user-flow-diagrams)
-
   - [4.5. Mobile Applications Prototyping.](#45-mobile-applications-prototyping)
-
     - [4.5.1. Android Mobile Applications Prototyping.](#451-android-mobile-applications-prototyping)
-
     - [4.5.2. iOS Mobile Applications Prototyping.](#452-ios-mobile-applications-prototyping)
-
   - [4.6. Web Applications UX/UI Design.](#46-web-applications-uxui-design)
-
     - [4.6.1. Web Applications Wireframes.](#461-web-applications-wireframes)
-
+        - [Empresas](#empresas)
+        - [Desarrolladores](#desarrolladores)
     - [4.6.2. Web Applications Wireflow Diagrams.](#462-web-applications-wireflow-diagrams)
-
     - [4.6.3. Web Applications Mock-ups.](#463-web-applications-mock-ups)
-
+        - [Empresas](#empresas-1)
+        - [Desarrolladores](#desarrolladores-1)
     - [4.6.4. Web Applications User Flow Diagrams.](#464-web-applications-user-flow-diagrams)
-    
   - [4.7. Web Applications Prototyping.](#47-web-applications-prototyping)
-
-  - [4.8. Domain-Driven Software Architecture.](#48-domain-driven-software-architecture)
-
+    - [4.8. Domain-Driven Software Architecture.](#48-domain-driven-software-architecture)
     - [4.8.1. Software Architecture Context Diagram.](#481-software-architecture-context-diagram)
-
     - [4.8.2. Software Architecture Container Diagrams.](#482-software-architecture-container-diagrams)
-
     - [4.8.3. Software Architecture Components Diagrams.](#483-software-architecture-components-diagrams)
-
   - [4.9. Software Object-Oriented Design.](#49-software-object-oriented-design)
-
     - [4.9.1. Class Diagrams.](#491-class-diagrams)
-
     - [4.9.2. Class Dictionary.](#492-class-dictionary)
-
   - [4.10. Database Design.](#410-database-design)
-
     - [4.10.1. Relational/Non-Relational Database Diagram.](#4101-relationalnon-relational-database-diagram)
-
 - [Capítulo V: Product Implementation](#capítulo-v-product-implementation)
-
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
-
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
-
+      - [Project Management](#project-management)
+      - [Product UX/UI Design](#product-uxui-design)
+      - [Software Developement](#software-developement)
+      - [IDE's de desarrollo](#ides-de-desarrollo)
+      - [Software Testing](#software-testing)
+      - [Software Deployment](#software-deployment)
+      - [Software Documentation](#software-documentation)
     - [5.1.2. Source Code Management.](#512-source-code-management)
-
-    - [5.1.3. Source Code Style Guide & Conventions.](#513-source-code-style-guide--conventions)
-
+    - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
-
-  - [5.2. Product Implementation & Deployment.](#52-product-implementation--deployment)
-
+  - [5.2. Product Implementation \& Deployment.](#52-product-implementation--deployment)
     - [5.2.1. Sprint Backlogs.](#521-sprint-backlogs)
-
+  - [**Web Application Sprint Backlog**](#web-application-sprint-backlog)
+  - [**API Sprint Backlog**](#api-sprint-backlog)
+  - [**Mobile Application Sprint Backlog**](#mobile-application-sprint-backlog)
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
-
     - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-
     - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-
     - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-
     - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
-
     - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
-
   - [5.3. Video About-the-Product.](#53-video-about-the-product)
-
+- [Capítulo VI: Product Verfication \& Validation](#capítulo-vi-product-verfication--validation)
+  - [6.1. Testing Suites \& Validation](#61-testing-suites--validation)
+    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
+    - [6.1.2. Core Integration Tests](#612-core-integration-tests)
+    - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+    - [6.1.4. Core System Tests](#614-core-system-tests)
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+  - [7.1. Continuous Integration](#71-continuous-integration)
+    - [7.1.1. Tools and Practices](#711-tools-and-practices)
+    - [7.1.1. Tools and Practices](#711-tools-and-practices-1)
+  - [7.2. Continuous Delivery](#72-continuous-delivery)
+    - [7.2.1. Tools and Practices](#721-tools-and-practices)
+    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+  - [7.3. Continuous Deployment](#73-continuous-deployment)
+    - [7.3.1. Tools and Practices](#731-tools-and-practices)
+    - [7.2.2. Production Deployment Pipeline Components](#722-production-deployment-pipeline-components)
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
-
 - [Video About-the-Team](#video-about-the-team)
-
 - [Bibliografía](#bibliografía)
-
 - [Anexos](#anexos)
 
 ---
@@ -2563,6 +2544,28 @@ Se presentarán los insights del trabajo grupal en Github.
 <img src="./assets/chapter-V/network_graph.png" alt="Team collaboration" width="600">
 
 ## 5.3. Video About-the-Product.
+
+
+# Capítulo VI: Product Verfication & Validation
+## 6.1. Testing Suites & Validation
+### 6.1.1. Core Entities Unit Tests
+### 6.1.2. Core Integration Tests
+### 6.1.3. Core Behavior-Driven Development
+### 6.1.4. Core System Tests
+
+# Capítulo VII: DevOps Practices
+## 7.1. Continuous Integration
+### 7.1.1. Tools and Practices
+### 7.1.1. Tools and Practices
+
+## 7.2. Continuous Delivery
+### 7.2.1. Tools and Practices
+### 7.2.2. Stages Deployment Pipeline Components
+
+## 7.3. Continuous Deployment
+### 7.3.1. Tools and Practices
+### 7.2.2. Production Deployment Pipeline Components
+
 
 ---
 
