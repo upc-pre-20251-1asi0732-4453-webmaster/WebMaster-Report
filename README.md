@@ -222,7 +222,7 @@
 - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices](#711-tools-and-practices)
-    - [7.1.1. Tools and Practices](#711-tools-and-practices-1)
+    - [7.1.2. Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
   - [7.2. Continuous Delivery](#72-continuous-delivery)
     - [7.2.1. Tools and Practices](#721-tools-and-practices)
     - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
@@ -2556,7 +2556,7 @@ Se presentarán los insights del trabajo grupal en Github.
 # Capítulo VII: DevOps Practices
 ## 7.1. Continuous Integration
 ### 7.1.1. Tools and Practices
-### 7.1.1. Tools and Practices
+### 7.1.2. Build & Test Suite Pipeline Components
 
 ## 7.2. Continuous Delivery
 ### 7.2.1. Tools and Practices
