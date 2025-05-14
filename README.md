@@ -2597,7 +2597,7 @@ El controlador de desarrolladores gestiona las operaciones relacionadas con el u
 
 ### 7.2.2. Stages Deployment Pipeline Components
 
-    El pipeline de despliegue comienza con el trabajo en ramas de feature y termina con la publicación y monitoreo de la versión en producción, pasando por entornos de staging para validación.
+El pipeline de despliegue comienza con el trabajo en ramas de feature y termina con la publicación y monitoreo de la versión en producción, pasando por entornos de staging para validación.
 
 - **Feature Branching:**  
    
