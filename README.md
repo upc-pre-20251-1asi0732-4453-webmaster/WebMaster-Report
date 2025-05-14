@@ -2523,18 +2523,7 @@ Se presentarán los insights del trabajo grupal en Github.
 # Capítulo VII: DevOps Practices
 ## 7.1. Continuous Integration
 ### 7.1.1. Tools and Practices
-Durante el desarrollo del trabajo, se han tomado en cuenta metodologías que prioricen el correcto funcionamiento de la aplicación en etapas tempranas del proyecto, a la par que cumpla con los requerimientos plantedos inicialmente. 
-
-Para ello, a lo largo del proyecto se ha aplicado la metodología de **Desarrollo Guiado por Pruebas (TDD)**, donde se prioriza realizar las pruebas unitarias sobre el desarrollo funcional de la aplicación. Para ejecutar estas pruebas técnicas se utilizaron dos herramientas: **JUnit** y **Mockito**. 
-JUnit es un framework de pruebas unitarias para aplicaciones desarrolladas en Java, que permite realizar test automatizados para validar segmentos específicos del código y asegurar que su comportamiento sea el esperado. Por otra parte, Mockito es un framework centrado en crear objetos simulados, lo que permite realizar pruebas a componentes que son dependientes de otras clases sin tener que usar las implementaciones reales.
-
-Complementando la estrategia TDD, también se utilizó la metodología de **Desarrollo Orientado por Comportamiento (BDD)**, que permite definir el comportamiento de la aplicación desde la perspectiva del usuario. Esto facilita validar las funcionalidades del sistema según las necesidades del negocio. Para ejecutar estas pruebas de comportamiento se utilizó la herramienta **Cucumber**, un framework que usa el lenguaje **Gherkin**. Este lenguaje utiliza una sintaxis no técnica y conversacional, que permite que todos los involucrados del proyecto entiendan los objetivos del sistema. Con Gherkin, se redactan pruebas funcionales en forma de escenarios que describen el comportamiento esperado de funciones específicas. 
-
-
 ### 7.1.2. Build & Test Suite Pipeline Components
-
-<img src="./assets/chapter-VII/test-pipeline-1.PNG">
-<img src="./assets/chapter-VII/test-pipeline-2.PNG">
 
 ## 7.2. Continuous Delivery
 ### 7.2.1. Tools and Practices
