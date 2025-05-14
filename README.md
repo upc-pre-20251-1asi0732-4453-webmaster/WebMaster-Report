@@ -222,6 +222,9 @@ Alvarez Araguache Samira <br>
 TB1 <br>
 Para esta entrega, el trabajo se desarrolló de forma cooperativa, involucrando activamente a todos los integrantes del equipo en las tareas del proyecto. La participación de cada miembro en la realización de entrevistas permitió recolectar información clave para definir funcionalidades que respondan a necesidades reales, considerando su impacto en distintos contextos sociales y económicos. El uso de Gitflow facilitó un flujo de trabajo eficiente y colaborativo, promoviendo buenas prácticas de desarrollo que favorecen la sostenibilidad del proyecto a largo plazo. Asimismo, la adopción de metodologías ágiles como Scrum permitió una documentación clara del proceso, fomentando la toma de decisiones informadas y conscientes del entorno global y tecnológico en el que se implementará la solución.
 
+TP <br>
+En esta entrega, se tomaron decisiones fundamentadas sobre la codificación de las características esenciales de la aplicación, considerando su viabilidad técnica y su impacto en la organización del trabajo a través del sprint backlog. Estas decisiones se alinearon con una visión responsable del desarrollo, evaluando cómo las soluciones propuestas podrían influir en contextos globales, económicos y sociales, especialmente en términos de accesibilidad, sostenibilidad y escalabilidad del sistema.
+
 Elias Sanchez, Harold Miguel <br>
 TB1 <br>
 Durante esta etapa del proyecto, trabajé en la construcción del Startup Profile y el Solution Profile, lo que implicó analizar los antecedentes y problemáticas de nuestro público objetivo, así como perfilar a los miembros del equipo y delimitar el impacto de la solución propuesta. A través de herramientas como el Lean UX Canvas y la formulación de hipótesis, se identificaron factores económicos y sociales clave que influyen en la problemática. Esta aproximación nos permitió comprender cómo una solución tecnológica puede generar valor real en distintos contextos, asegurando que las funcionalidades se alineen con necesidades concretas y con una visión responsable de su aplicación a nivel global. Esta experiencia me permitió emitir juicios informados y tomar decisiones con conciencia del impacto social de nuestro sistema.
@@ -259,6 +262,9 @@ Alvarez Araguache Samira <br>
 TB1 <br>
 
 En este avance del trabajo, se realizó un análisis riguroso del estado actual del mercado de plataformas de contratación freelance, identificando fortalezas, debilidades y estrategias frente a los competidores, siempre desde una perspectiva ética y profesional. Asimismo, el estudio del comportamiento, necesidades y preferencias de los segmentos de desarrolladores freelance y empresarios, a través de entrevistas, permitió obtener información valiosa para comprender a fondo a los usuarios y diseñar soluciones responsables y centradas en sus verdaderas problemáticas. Esta información fue fundamental para el desarrollo del needfinding, apoyado en herramientas de mapeo y la creación de user personas, lo que garantiza que las decisiones de diseño se basen en un compromiso con el bienestar y la equidad para todos los involucrados.
+
+TP <br>
+En esta entrega, se asumió con responsabilidad ética y profesional la implementación de las características esenciales de la aplicación, priorizando buenas prácticas de codificación, organización del trabajo mediante el sprint backlog y asegurando la claridad y trazabilidad de las decisiones tomadas. Se consideraron aspectos como la mantenibilidad del código, la transparencia en la colaboración y el respeto por los compromisos asumidos dentro del equipo de desarrollo.
 
 Elias Sanchez, Harold Miguel <br>
 TB1 <br>
@@ -2532,12 +2538,21 @@ El controlador de desarrolladores gestiona las operaciones relacionadas con el u
 # Capítulo VII: DevOps Practices
 ## 7.1. Continuous Integration
 ### 7.1.1. Tools and Practices
-Durante el desarrollo del trabajo, se han tomado en cuenta metodologías que prioricen el correcto funcionamiento de la aplicación en etapas tempranas del proyecto, a la par que cumpla con los requerimientos plantedos inicialmente. 
+**Tools (Herramientas)**
 
-Para ello, a lo largo del proyecto se ha aplicado la metodología de **Desarrollo Guiado por Pruebas (TDD)**, donde se prioriza realizar las pruebas unitarias sobre el desarrollo funcional de la aplicación. Para ejecutar estas pruebas técnicas se utilizaron dos herramientas: **JUnit** y **Mockito**. 
-JUnit es un framework de pruebas unitarias para aplicaciones desarrolladas en Java, que permite realizar test automatizados para validar segmentos específicos del código y asegurar que su comportamiento sea el esperado. Por otra parte, Mockito es un framework centrado en crear objetos simulados, lo que permite realizar pruebas a componentes que son dependientes de otras clases sin tener que usar las implementaciones reales.
+- **JUnit:** Se utilizó JUnit como framework principal para la ejecución de pruebas unitarias. Esta herramienta permite validar de forma automatizada segmentos específicos del código Java, asegurando que cada componente se comporte como se espera.
 
-Complementando la estrategia TDD, también se utilizó la metodología de **Desarrollo Orientado por Comportamiento (BDD)**, que permite definir el comportamiento de la aplicación desde la perspectiva del usuario. Esto facilita validar las funcionalidades del sistema según las necesidades del negocio. Para ejecutar estas pruebas de comportamiento se utilizó la herramienta **Cucumber**, un framework que usa el lenguaje **Gherkin**. Este lenguaje utiliza una sintaxis no técnica y conversacional, que permite que todos los involucrados del proyecto entiendan los objetivos del sistema. Con Gherkin, se redactan pruebas funcionales en forma de escenarios que describen el comportamiento esperado de funciones específicas. 
+- **Mockito:** Se empleó Mockito para la creación de objetos simulados (mocks), lo cual facilita probar clases con dependencias sin necesidad de usar sus implementaciones reales, permitiendo aislar el comportamiento de cada componente.
+
+- **Cucumber:** Se utilizó Cucumber como herramienta para pruebas de comportamiento. Este framework permite escribir escenarios de prueba en lenguaje natural mediante la sintaxis Gherkin, facilitando la comprensión de los requisitos por parte de todos los involucrados en el proyecto.
+
+
+**Practices (Prácticas)**
+
+- **Test-Driven Development (TDD):** Se aplicó la metodología de Desarrollo Guiado por Pruebas, donde las pruebas unitarias se escriben antes del código funcional. Esta práctica mejora la calidad del software y facilita el mantenimiento al detectar errores de forma temprana.
+
+- **Behavior-Driven Development (BDD):** Se implementó el Desarrollo Orientado por Comportamiento para definir las funcionalidades desde la perspectiva del usuario. Esta práctica permite validar que el sistema cumple con las necesidades del negocio mediante escenarios claros y comprensibles.
+
 
 
 ### 7.1.2. Build & Test Suite Pipeline Components
@@ -2556,7 +2571,7 @@ La implementación continua es una práctica que permite automatizar el proceso 
 ### 7.3.1. Tools and Practices
 En esta sección se describirán las herramientas y prácticas utilizadas para la implementación continua de la aplicación. 
 
-#### Tools (Herramientas):
+**Tools (Herramientas)**
 
 - **GitHub Actions**: Se utilizó GitHub Actions para automatizar el proceso de implementación continua. Esta herramienta permite definir flujos de trabajo que se activan automáticamente al realizar cambios en el repositorio, como la creación de un nuevo commit o la apertura de un pull request.
 - **Docker**: Se utilizó Docker para crear contenedores que encapsulan la aplicación y sus dependencias. Esto garantiza que la aplicación se ejecute de manera consistente en diferentes entornos, desde el desarrollo hasta la producción.
@@ -2565,7 +2580,7 @@ En esta sección se describirán las herramientas y prácticas utilizadas para l
 
 - **Netflify**: Se utilizó Netlify para alojar la aplicación web. Netlify es una plataforma de implementación continua que permite desplegar aplicaciones web de manera rápida y sencilla.
 
-#### Practices (Prácticas):
+**Practices (Prácticas)**
 
 - **Feature Branching**: Se utilizó la práctica de ramificación de características para desarrollar nuevas funcionalidades en ramas separadas. Esto permite trabajar en múltiples características al mismo tiempo sin afectar a producción. Una vez que una característica está lista, se crea un pull request para revisarla y fusionarla con la rama principal.
 
