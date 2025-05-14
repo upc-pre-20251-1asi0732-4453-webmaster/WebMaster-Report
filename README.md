@@ -2531,10 +2531,120 @@ Pruebas unitarias con con entidades de la aplicación WebMaster utilizando JUnit
 **Pruebas Unitarias 1 (Developer Controller) por Zaid Ramirez:**
 El controlador de desarrolladores gestiona las operaciones relacionadas con el usuario tipo Desarrollador. Estas funcionalidades están relacionadas con el manejo de datos de desarrolladores, como consultar todos los desarrolladores, consultar un desarrollador por ID, consultar un desarrollador por el ID de su usuarios y actualizar la información del desarrollador. Se realizaron pruebas a las siguientes consultas:
 
-1. 
+1. GetAllDevelopersAsyncQuery - Consulta para obtener todos los desarrolladores.
+2. GetDeveloperByIdQuery - Consulta para obtener un desarrollador mediante su ID.
+3. GetDeveloperByUserIdAsyncQuery - Consulta para obtener un desarrollador mediante el ID de su usuario.
+4. UpdateDeveloperCommand - Comando para actualizar la informacion de un desarrollador.
 
+Analizaremos mediante Arrange - Act y Assert para el primer servicio.
+
+- Arrange
+Se simula la creacion del servicio developerQueryService utilizando Mockito para utilizarlo en la ejecucion. Tambien se creara un Developer y un User para comparar con los datos devueltos por el servicio.
+
+<img src="./assets/Chapter VI/arrange-test-1.png">
+<img src="./assets/Chapter VI/arrange-test-1.1.png">
+
+- Act
+Mediante la función when de realizara la accion para obtener los developers mediante el servicio.
+
+- Assert
+Mediante la funcion assertNotNull se confirmará la existencia de la lista de desarrolladores.
+<img src="./assets/Chapter VI/act-test-1.png">
+
+Se confirma el funcionamiento del test en la siguiente imagen:
+<img src="./assets/Chapter VI/function-test-1.png">
+
+Se realizar el siguiente analisis mediante Arrange - Act y Asser para el cuarto servicio.
+
+- Arrange
+Se simula la creacion del servicio updateDeveloperByUserId utilizando Mockito para utilizarlo en la ejecucion. Tambien se creara un Developer,un User y un UpdateDeveloperResource para comparar y recibir las respuestas.
+
+<img src="./assets/Chapter VI/arrange-test-2.png">
+
+- Act
+Mediante la función when de realizara la accion para obtener los developers mediante el servicio.
+
+- Assert
+Mediante la funcion assertNotNull se confirmará la existencia de la lista de desarrolladores.
+<img src="./assets/Chapter VI/act-test-2.png">
+
+Se confirma el funcionamiento del test en la siguiente imagen:
+<img src="./assets/Chapter VI/function-test-2.png">
+
+En la siguiente imagen se confirman el funcionamiento de todos los tests de los realizados en el servicio de Project.
+
+<img src="./assets/Chapter VI/function-test-5.png">
+
+
+
+**Pruebas Unitarias 2 (Project Controller) por Zaid Ramirez:**
+El controlador de proyectos gestiona las operaciones relacionadas con el proyecto. Estas funcionalidades están relacionadas con el manejo de datos de proyectos, como consultar todos los proyectos, consultar un proyecto por ID, obtener frameworks r y actualizar la información del proyecto. Se realizaron pruebas a las siguientes consultas:
+
+1. GetProgrammingLanguageByIdQuery para obtener información de lenguajes de programación.
+2. GetFrameworkByIdQuery para obtener información de frameworks.
+3. CreateProjectCommand para crear un nuevo proyecto.
+4. GetAllProjectsQuery para obtener todos los proyectos.
+5. GetProjectByIdQuery para obtener un proyecto específico.
+6. UpdateProjectCandidatesListCommand para actualizar la lista de candidatos de un proyecto.
+7. AssignProjectDeveloperCommand para asignar un desarrollador a un proyecto.
+8. GetAllProjectsByDeveloperIdQuery y GetAllProjectsByEnterpriseIdQuery para filtrar proyectos.
+9. DeleteProjectCommand para eliminar un proyecto.
+
+Analizaremos mediante Arrange - Act y Assert para el servicio CreateProjectCommand.
+
+- Arrange
+Se configura el mock del servicio projectCommandService para que cuando reciba cualquier comando de creación (CreateProjectCommand), retorne un Optional con el objeto project previamente configurado.
+
+<img src="./assets/Chapter VI/arrange-test-3.png">
+
+- Act
+Se invoca el método createProject() del controlador, pasando el recurso con los datos del proyecto a crear.
+
+- Assert
+Se verifica que la respuesta no sea nula, lo que indica que el proyecto fue creado correctamente y que el controlador respondió con un resultado esperado.
+<img src="./assets/Chapter VI/act-test-3.png">
+
+Se confirma el funcionamiento del test en la siguiente imagen:
+<img src="./assets/Chapter VI/function-test-3.png">
+
+En la siguiente imagen se confirman el funcionamiento de todos los tests de los realizados en el servicio de Project.
+
+<img src="./assets/Chapter VI/function-test-4.png">
 
 ### 6.1.2. Core Integration Tests
+
+En esta seccion, se realizaron pruebas de integracion para verificar la correcta interaccion entre los componentes principales del sistema, teniendo un enfoque en el DeliverableController y sus dependencias. Se utilizo JUnit 5 junto con Mockito para simular los componentes y estructuras esenciales para el funcionamiento del controller. Se realizaron pruebas en los siguientes asepctos:
+
+1. Creacion de entregables, y obtencion de datos consultados mediante el ID.
+
+<img src="./assets/Chapter VI/mock-test-1.png">
+
+Luego de la instancia de los servicios y estructuras utilizadas se procedio a la asignacion de valores de estructuras escenciales para el funcionamiento del controlador, mediante la función "@BeforeEach"
+
+<img src="./assets/Chapter VI/mock-test-2.png">
+
+**Prueba Integral 1 por Jair Velasquez**
+
+**Objetivo:** Creacion de entregable y obtencion de ID y demas datos para comprobar una correcta creacion de datos.
+
+<img src="./assets/Chapter VI/integral-test-1.png">
+
+A continuacion se visualiza la ejecucion del test:
+
+<img src="./assets/Chapter VI/integral-function-1.png">
+
+**Prueba Integral 2 por Jair Velasquez**
+
+**Objetivo:** Revision de un entregable creado, cambiar de estado y realizar validacion de este cambio.
+
+<img src="./assets/Chapter VI/integral-test-2.png">
+
+A continuacion se visualiza la ejecucion del test:
+
+<img src="./assets/Chapter VI/integral-function-2.png">
+
+
+
 ### 6.1.3. Core Behavior-Driven Development
 ### 6.1.4. Core System Tests
 
