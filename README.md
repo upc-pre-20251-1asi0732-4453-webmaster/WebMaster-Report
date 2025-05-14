@@ -2562,7 +2562,62 @@ El controlador de desarrolladores gestiona las operaciones relacionadas con el u
 
 ## 7.2. Continuous Delivery
 ### 7.2.1. Tools and Practices
+
+**Tools (Herramientas)**
+
+- **GitHub + GitFlow:**  
+  Cada componente (backend, frontend y landing page) reside en su propio repositorio. Seguimos el modelo GitFlow con ramas `feature/*`, `develop`, `release/*`, `hotfix/*` y `main`. Las ramas `develop` y `main` están protegidas y requieren pull request aprobado antes de merge.
+
+- **Railway:**  
+  Plataforma de despliegue del backend (API RESTful). Se conecta al repositorio de GitHub y, tras cada push a `develop` o `main`, realiza build y deploy automáticos. La configuración de variables de entorno (credenciales, URLs de BD) se maneja desde su panel.
+
+- **Netlify:**  
+  Hosting y CI/CD del frontend (Vue + PrimeVue). Configuramos Deploy Previews automáticos en `develop` y despliegue de producción en `main`. Las variables de entorno, como el endpoint del backend, se definen en el dashboard de Netlify.
+
+- **GitHub Pages:**  
+  Alojamiento continuo del landing page estático (HTML5, CSS3 y JavaScript). Publicamos desde la carpeta `/docs` o mediante la rama `gh‑pages`, según la configuración del repositorio.
+
+**Practices (Prácticas)**
+
+- **Feature Branching y Pull Requests:**  
+   
+    Cada historia de usuario se desarrolla en una rama `feature/E2‑USXXX`. Al finalizar, se abre un pull request contra `develop`, que debe recibir al menos una aprobación antes de fusionarse.
+
+- **Commits Semánticos:**  
+   
+    Usamos el formato `<type>:<descripción>` (por ejemplo, `feat:`, `fix:`, `docs:`) para facilitar el seguimiento de cambios y la generación automática de changelogs.
+
+- **Protección de Ramas y Checks Automáticos:**  
+   
+    Integramos linters (ESLint, Prettier) y pruebas unitarias en pre‑commit o GitHub Actions. Solo se permite merge con todos los checks en verde y al menos un revisor aprobando el PR.
+
+- **Gestión de Variables de Entorno:**  
+   
+    Mantenemos archivos `.env` locales excluidos de Git y gestionamos las variables de producción/staging en Railway y Netlify, garantizando separación clara de entornos.
+
 ### 7.2.2. Stages Deployment Pipeline Components
+
+    El pipeline de despliegue comienza con el trabajo en ramas de feature y termina con la publicación y monitoreo de la versión en producción, pasando por entornos de staging para validación.
+
+- **Feature Branching:**  
+   
+    El desarrollador crea `feature/E2‑USXXX` para implementar una historia de usuario sin afectar otras ramas.
+
+- **Pull Request y Despliegue en Staging:**  
+   
+    Al abrir el PR contra `develop`, GitHub Actions ejecuta linters, formateadores y pruebas. Cuando el PR se fusiona, Railway y Netlify generan builds preview del backend y frontend, cuyas URLs se comparten con QA.
+
+- **Validación y QA:**  
+   
+    El equipo de QA prueba la versión de staging y registra incidencias en Trello (“From Zero”). Las correcciones se realizan en ramas `hotfix/*` o en la rama de feature, según corresponda.
+
+- **Merge a `main` y Producción:**  
+   
+    Una vez aprobado en staging, se fusiona `develop` en `main`. Railway redeploya el backend en producción, Netlify publica el frontend en la CDN del dominio principal, y GitHub Pages actualiza el landing page.
+
+- **Monitoreo y Rollback:**  
+   
+    Tras el despliegue, se revisan logs y métricas en Railway y Netlify Analytics. Ante fallos críticos, se revierte el merge en `main` para volver a la versión anterior y se documenta la incidencia en Trello.
 
 ## 7.3. Continuous Deployment
 
