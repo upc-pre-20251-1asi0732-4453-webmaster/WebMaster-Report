@@ -238,7 +238,8 @@ Meneses Arevalo, Victor Manuel <br>
 TB1 <br>
 Durante la etapa de diseño del producto, se definieron guías de estilo y estructuras de navegación tanto para plataformas web como móviles, asegurando una experiencia de usuario inclusiva y accesible. Al diseñar interfaces responsivas y funcionales, se consideraron buenas prácticas que permiten a los usuarios interactuar con el sistema sin barreras tecnológicas, promoviendo así la equidad digital. Asimismo, se aplicaron principios de arquitectura de la información para optimizar la estructura del contenido, pensando en contextos globales donde el acceso rápido y ordenado a la información es fundamental. Estas decisiones reflejan un juicio informado sobre el impacto social y económico de un software bien diseñado y adaptable a diversas realidades tecnológicas y culturales.
 
-
+TP <br>
+En esta entrega, se implementó un esquema de validación robusto para la aplicación WebMaster, abarcando desde la verificación individual de sus componentes esenciales hasta la confirmación de la interacción fluida entre la interfaz y el almacenamiento de datos. Se emplearon herramientas especializadas para simular y probar las funcionalidades principales, asegurando que cada parte operara según lo previsto y que la comunicación entre ellas fuera efectiva. Además, para los aspectos cruciales del sistema, se definieron comportamientos esperados que fueron verificados automáticamente en cada etapa de desarrollo.
 
 Velasquez Pizarro Jair <br>
 TB1 <br>
@@ -279,6 +280,8 @@ Meneses Arevalo, Victor Manuel <br>
 TB1 <br>
 En el desarrollo de las interfaces gráficas y la arquitectura de información, se asumió una postura ética y profesional al priorizar la usabilidad, accesibilidad y coherencia visual del producto. Se emplearon lineamientos específicos para Android y iOS, asegurando una experiencia consistente y respetuosa con los estándares de cada plataforma. Además, se consideraron etiquetas SEO y sistemas de búsqueda que facilitan el acceso a la información, garantizando transparencia y respeto hacia los usuarios. La creación de prototipos funcionales y wireflows permitió validar las decisiones con foco en el bienestar del usuario, reconociendo el rol del diseñador como parte fundamental de un desarrollo responsable y centrado en las personas.
 
+TP <br>
+En esta entrega, la planificación y ejecución de las actividades de prueba se llevaron a cabo de manera estratégica dentro del ciclo de desarrollo, reconociendo la importancia de la responsabilidad ética y profesional en cada decisión tomada durante la ingeniería de software. Se asignaron responsabilidades claras para la validación de los elementos centrales de la aplicación, y la elección de las pruebas se basó en la información obtenida del proceso de integración continua. Se realizaron ajustes continuos en la creación y aplicación de las pruebas hasta cumplir con los estándares de calidad establecidos, asegurando un enfoque ético en la entrega de un producto confiable y sostenible. Esta metodología garantizó una gestión consciente y progresiva en la entrega del producto, priorizando su estabilidad y capacidad de crecimiento, siempre considerando las implicaciones profesionales de cada acción.
 
 Velasquez Pizarro Jair <br>
 TB1 <br>
