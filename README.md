@@ -2550,7 +2550,29 @@ Complementando la estrategia TDD, también se utilizó la metodología de **Desa
 ### 7.2.2. Stages Deployment Pipeline Components
 
 ## 7.3. Continuous Deployment
+
+La implementación continua es una práctica que permite automatizar el proceso de despliegue de una aplicación en un entorno de producción, asegurando que cada cambio realizado en el código fuente se implemente de manera rápida y confiable.
+
 ### 7.3.1. Tools and Practices
+En esta sección se describirán las herramientas y prácticas utilizadas para la implementación continua de la aplicación. 
+
+#### Tools (Herramientas):
+
+- **GitHub Actions**: Se utilizó GitHub Actions para automatizar el proceso de implementación continua. Esta herramienta permite definir flujos de trabajo que se activan automáticamente al realizar cambios en el repositorio, como la creación de un nuevo commit o la apertura de un pull request.
+- **Docker**: Se utilizó Docker para crear contenedores que encapsulan la aplicación y sus dependencias. Esto garantiza que la aplicación se ejecute de manera consistente en diferentes entornos, desde el desarrollo hasta la producción.
+
+- **Railway**: Se utilizó Railway como plataforma de implementación para alojar nuestra base de datos SQL. Railway es una plataforma de implementación en la nube que permite crear y gestionar nuestro despliegue de manera sencilla. 
+
+- **Netflify**: Se utilizó Netlify para alojar la aplicación web. Netlify es una plataforma de implementación continua que permite desplegar aplicaciones web de manera rápida y sencilla.
+
+#### Practices (Prácticas):
+
+- **Feature Branching**: Se utilizó la práctica de ramificación de características para desarrollar nuevas funcionalidades en ramas separadas. Esto permite trabajar en múltiples características al mismo tiempo sin afectar a producción. Una vez que una característica está lista, se crea un pull request para revisarla y fusionarla con la rama principal.
+
+- **Automated Testing**: Se implementaron pruebas automatizadas para garantizar que los cambios realizados en el código no rompan la funcionalidad existente. Estas pruebas se ejecutan automáticamente en cada commit y pull request, lo que permite detectar errores de manera temprana.
+
+- **Continuous Integration**: Se implementó un proceso de integración continua que se activa automáticamente al realizar cambios en el código. Esto incluye la ejecución de pruebas automatizadas y la creación de contenedores Docker para garantizar que la aplicación funcione correctamente en diferentes entornos.
+
 ### 7.2.2. Production Deployment Pipeline Components
 
 
