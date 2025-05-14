@@ -2575,6 +2575,32 @@ En esta sección se describirán las herramientas y prácticas utilizadas para l
 
 ### 7.2.2. Production Deployment Pipeline Components
 
+En esta sección se describirán los componentes del pipeline de implementación en producción.
+
+**Componentes del Pipeline del backend y base de datos (Railway):**
+1. **Repositorio de código:** El proyecto se encuentra alojado en un repositorio (como GitHub), el cual contiene el código fuente, configuración y archivos necesarios para la construcción y despliegue del sistema. Railway se conecta a este repositorio para automatizar el proceso de despliegue.
+
+2. **Servicio de Backend:** Railway detecta el tipo de proyecto (por ejemplo, Java con Maven o Gradle) y lo compila automáticamente. El backend se despliega como un servicio, exponiendo una URL pública para consumir la API.
+
+3. **Servicio de Base de Datos:** Se utiliza el plugin de base de datos de Railway (como PostgreSQL), que se crea dentro del mismo proyecto. Este servicio gestiona la persistencia de datos y proporciona las credenciales y conexión necesarias para integrarse con el backend.
+
+4. **Variables de entorno:** Ambos servicios utilizan variables de entorno para configurar parámetros sensibles como la URL de la base de datos, el usuario y la contraseña. Esto permite separar la configuración del código, facilitando el mantenimiento y la seguridad.
+
+5. **Automatización y despliegue (CI/CD):** Cada vez que se realiza un cambio en el repositorio, Railway ejecuta automáticamente el proceso de construcción y despliegue. Esto garantiza que la última versión del sistema esté siempre activa sin necesidad de intervención manual.
+
+**Componentes del Pipeline del frontend (Netlify):**
+
+1. **Repositorio de código:** El frontend está alojado en un repositorio (como GitHub), que contiene todos los archivos fuente, configuraciones y dependencias del proyecto. Netlify se conecta directamente a este repositorio para automatizar el despliegue.
+
+2. **Servicio de construcción y despliegue:** Netlify detecta el framework utilizado (Vue) y ejecuta los comandos de construcción definidos (por ejemplo, npm run build). Luego, genera una versión optimizada del sitio y lo publica automáticamente en una URL pública.
+
+3. **Variables de entorno:** Netlify permite definir variables de entorno necesarias para que el frontend funcione correctamente, como la URL del backend. Estas variables se inyectan durante la fase de construcción.
+
+4. **Automatización y CI/CD:** Cada vez que se realiza un cambio en la rama configurada del repositorio, Netlify reconstruye y despliega automáticamente el sitio. Esto garantiza que siempre se muestre la última versión del frontend sin necesidad de hacerlo manualmente.
+
+5. **Hosting y CDN:** Netlify publica el frontend en su red global de CDN, lo que mejora el rendimiento y la disponibilidad del sitio. Esto permite a los usuarios acceder rápidamente desde cualquier ubicación.
+
+
 
 ---
 
