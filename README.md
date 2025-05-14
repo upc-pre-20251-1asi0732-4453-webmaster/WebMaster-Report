@@ -2516,6 +2516,15 @@ Se presentarán los insights del trabajo grupal en Github.
 # Capítulo VI: Product Verfication & Validation
 ## 6.1. Testing Suites & Validation
 ### 6.1.1. Core Entities Unit Tests
+
+Pruebas unitarias con con entidades de la aplicación WebMaster utilizando JUnit y Mockito.
+
+**Pruebas Unitarias 1 (Developer Controller) por Zaid Ramirez:**
+El controlador de desarrolladores gestiona las operaciones relacionadas con el usuario tipo Desarrollador. Estas funcionalidades están relacionadas con el manejo de datos de desarrolladores, como consultar todos los desarrolladores, consultar un desarrollador por ID, consultar un desarrollador por el ID de su usuarios y actualizar la información del desarrollador. Se realizaron pruebas a las siguientes consultas:
+
+1. 
+
+
 ### 6.1.2. Core Integration Tests
 ### 6.1.3. Core Behavior-Driven Development
 ### 6.1.4. Core System Tests
