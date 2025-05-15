@@ -2918,3 +2918,5 @@ Communications of the ACM, 64(7), 39-41. doi: https://doi.org/10.1145/3440753
 ```
 
 # Anexos
+
+Video exposicion TP [Link del video](youtu.be/pdJZ67g8hd4)
