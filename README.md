@@ -2645,8 +2645,76 @@ A continuacion se visualiza la ejecucion del test:
 
 
 
-### 6.1.3. Core Behavior-Driven Development
+### 6.1.3 Core Behavior-Driven Development
+
+![](./assets/Chapter%20VI/1.png)
+
+![](./assets/Chapter%20VI/2.png)
+
+![](./assets/Chapter%20VI/3.png)
+
 ### 6.1.4. Core System Tests
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US101-1 | Acceder a la pantalla de registro | Como empresario o freelancer **quiero** tener un apartado de registro en la aplicación **para** que mi información se guarde y pueda acceder a mi cuenta |
+
+![1](./assets/Chapter%20VI/E1US101RegistrarUsuario.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US102 | Iniciar sesión exitosamente | Como empresario o desarrollador usuario de la aplicación **quiero** ingresar con mi cuenta con la cual me registré **para** usar las herramientas a mi disposición |
+
+![2](./assets/Chapter%20VI/E1US102IniciarSesion.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US103 | Aceptar postulación | Como empresario **quiero** un sistema de gestión de mi lista de postulantes **para** gestionar las postulaciones de los freelancers a mis proyectos activos |
+
+![3](./assets/Chapter%20VI/E2US103GestionarListaPostulantes.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US107-2 | Asignar fecha | Como empresario **quiero** un sistema de calendario **para** ver, asignar, actualizar y eliminar fechas de entregables |
+
+![4](./assets/Chapter%20VI/6E2US107GestionarFechasCalendario.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US109-2 | Acceder a Buscar Desarrolladores | Como empresario **quiero** un sistema de navegación eficiente **para** acceder fácilmente a las secciones |
+
+![5](./assets/Chapter%20VI/E2US109NavegarComoEmpresario.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US101-3 | Visualizar proyectos en la pantalla de inicio | Como empresario **quiero** visualizar todos los proyectos publicados **para** poder ver fácilmente el progreso de los mismos |
+
+![6](./assets/Chapter%20VI/E3US101VisualizarProyectos.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US102-3 | Buscar Proyecto | Como freelancer **quiero** buscar proyectos **para** encontrar proyectos que se alineen con mis habilidades e intereses |
+
+![7](./assets/Chapter%20VI/E3US102BuscarProyectos.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US103-3 | Postular a un proyecto | Como freelancer **quiero** postularme a desarrollar un proyecto **para** ser aceptado como desarrollador |
+
+![8](./assets/Chapter%20VI/E3US103PostularProyectos.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US109-3 | Acceder a Inicio | Como freelancer **quiero** un menú con accesos directos **para** navegar fluidamente |
+
+![9](./assets/Chapter%20VI/E3US105NavegarComoFreelancer.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US103-4 | Visualizar perfil | Como usuario **quiero** gestionar mi información de perfil **para** configurarlo a mi gusto |
+
+![10](./assets/Chapter%20VI/E4US103GestionarPerfil.png)
+
 
 # Capítulo VII: DevOps Practices
 ## 7.1. Continuous Integration
