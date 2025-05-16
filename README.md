@@ -2483,12 +2483,12 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 
 | User story | Title                                    | id       | Description                                      | Time (Story Points) | Assigned to | Status |
 |------------|------------------------------------------|----------|--------------------------------------------------|---------------------|-------------|--------|
-| E2-US103   | Gestionar lista de postulantes          | E2-US103 | Administrar la lista de postulantes a proyectos  | 5                  | Dev Team    | done   |
-| E5-US101   | Seleccionar fechas de entregables en el calendario | E5-US101 | Permitir asignar fechas a entregables en el calendario | 5                  | Dev Team    | done   |
-| E2-US105   | Visualizar el repositorio de un desarrollador | E2-US105 | Mostrar el repositorio de un desarrollador       | 3                  | Dev Team    | done   |
-| E3-US104   | Navegar por la aplicación como freelancer | E3-US104 | Permitir al freelancer navegar por la aplicación | 3                  | Dev Team    | done   |
-| E3-US102   | Postular a proyectos de desarrollo de software | E3-US102 | Permitir a freelancers postular a proyectos      | 3                  | Dev Team    | done   |
-| E3-US101   | Visualizar y gestionar proyectos asignados | E3-US101 | Mostrar y administrar proyectos asignados        | 3                  | Dev Team    | done   |
+| E2-US103   | Gestionar lista de postulantes          | E2-US103 | Administrar la lista de postulantes a proyectos  | 5                  | Jair    | done   |
+| E5-US101   | Seleccionar fechas de entregables en el calendario | E5-US101 | Permitir asignar fechas a entregables en el calendario | 5                  | Zaid    | done   |
+| E2-US105   | Visualizar el repositorio de un desarrollador | E2-US105 | Mostrar el repositorio de un desarrollador       | 3                  | Victor   | done   |
+| E3-US104   | Navegar por la aplicación como freelancer | E3-US104 | Permitir al freelancer navegar por la aplicación | 3                  | Harold   | done   |
+| E3-US102   | Postular a proyectos de desarrollo de software | E3-US102 | Permitir a freelancers postular a proyectos      | 3                  | Samira    | done   |
+| E3-US101   | Visualizar y gestionar proyectos asignados | E3-US101 | Mostrar y administrar proyectos asignados        | 3                  | Samira   | done   |
 
 
 ### 5.2.2. Implemented Landing Page Evidence
