@@ -2486,14 +2486,53 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 [Repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/webmaster-app) <br>
 <img src="./assets/chapter-V/Webapp.png" alt="Web application" width="500">
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.4. Acuerdo de Servicio Saas
+En esta sección se definen los derehcos, obligaciones y restricciones que se aplican sobre los usuarios de la plataforma de From Zero. Esto permite transparencia a la hora del uso del sistema. Este acuerdo podrá ser visualizado en el apartado de Términos de servicio para ser accesible durante el flujo del usuario.
+
+1. Naturaleza del servicio
+From Zero es una plataforma digital ofrecida bajo el modelo SaaS que permite a empresarios, pymes y desarrolladores freelance interactuar para la creación, gestión y seguimiento de proyectos tecnológicos. Entre sus principales funcionalidades se encuentran:
+
+Publicación y gestión de proyectos.
+Recepción y evaluación de propuestas por parte de freelancers.
+Gestión de entregables vinculados a proyectos.
+Visualización de postulantes, sus perfiles y calificaciones.
+Coordinación mediante un calendario colaborativo.
+Comunicación y seguimiento del estado del proyecto en tiempo real.
+From Zero actúa como facilitador tecnológico y no participa en la formalización contractual, ejecución técnica ni en la gestión de pagos entre usuarios.
+
+3. Derechos del usuario
+Todo usuario registrado, ya sea en rol de empresa o freelancer, goza de los siguientes derechos:
+
+Acceder a las funcionalidades de la plataforma de acuerdo con su perfil.
+Configurar su información personal o profesional, y gestionar su presencia en el sistema.
+Solicitar soporte técnico para el uso adecuado de la plataforma.
+
+3. Obligaciones del usuario
+Los usuarios de From Zero se comprometen a:
+Brindar información veraz y actualizada en sus perfiles, proyectos y propuestas.
+Gestionar de manera directa cualquier relación laboral, contractual o financiera derivada del uso de la plataforma.
+Utilizar From Zero exclusivamente para fines legales, respetando la normativa vigente en su jurisdicción.
+
+4. Restricciones del sistema
+From Zero establece las siguientes restricciones en el uso del servicio:
+La plataforma no gestiona, intermedia ni custodia pagos entre las partes involucradas. Las transacciones se realizan por fuera del sistema y son responsabilidad exclusiva de los usuarios.
+From Zero se reserva el derecho de suspender o eliminar cuentas que incurran en violaciones de este acuerdo, presenten comportamientos abusivos o comprometan la seguridad del sistema y sus usuarios.
+No se garantiza la ejecución de los acuerdos establecidos entre usuarios ni la calidad de los entregables, siendo estos aspectos ajenos a la operación del sistema.
+
+5. Limitaciones del soporte
+El equipo de From Zero ofrece soporte limitado a aspectos técnicos de la plataforma, como fallos de acceso, errores funcionales o dudas sobre el uso de las herramientas integradas. No se ofrece intervención en conflictos entre usuarios, ni arbitraje sobre entregas, plazos o pagos.
+
+7. Privacidad y protección de datos
+La información personal y profesional ingresada en From Zero será tratada conforme a la Política de Privacidad de la plataforma. No se comparte información sensible con terceros, salvo requerimiento legal o autorización expresa del usuario.
+ 
+### 5.2.5. Implemented Native-Mobile Application Evidence
 <img src="./assets/chapter-V/Mobile-app.png" alt="Mobile application" width="500">
 
-### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 [Repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/FromZeroAPI)<br>
 <img src="./assets/chapter-V/api.png" alt="API" width="500">
 
-### 5.2.6. RESTful API documentation
+### 5.2.7. RESTful API documentation
 En esta sección se presentan los endpoints desarrollados en el
 presente sprint y se adjuntan capturas de las acciones CRUD
 realizadas con Api. En el alcance del sprint, se han desarrollado los
@@ -2512,7 +2551,7 @@ organizaciones. Se adjunta el link del repositorio de la API en Github:
 | Messages            | /api/v1/messages/                 |<img src="./assets/chapter-V/Swagger/messages.png" alt="messages" width="600">|
 | Support Tickets     | /api/v1/support-tickets/          |<img src="./assets/chapter-V/Swagger/support-tickets.png" alt="support-tickets" width="600">|
 
-### 5.2.7. Team Collaboration Insights
+### 5.2.8. Team Collaboration Insights
 
 Se presentarán los insights del trabajo grupal en Github.
 
