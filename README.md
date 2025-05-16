@@ -2487,43 +2487,45 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 <img src="./assets/chapter-V/Webapp.png" alt="Web application" width="500">
 
 ### 5.2.4. Acuerdo de Servicio Saas
-En esta sección se definen los derehcos, obligaciones y restricciones que se aplican sobre los usuarios de la plataforma de From Zero. Esto permite transparencia a la hora del uso del sistema. Este acuerdo podrá ser visualizado en el apartado de Términos de servicio para ser accesible durante el flujo del usuario.
+En esta sección se definen los derechos, obligaciones y restricciones que se aplican sobre los usuarios de la plataforma de WebMaster. Esto permite transparencia a la hora del uso del sistema. Este acuerdo podrá ser visualizado en el apartado de Términos de servicio para ser accesible durante el flujo del usuario.
 
-1. Naturaleza del servicio
-From Zero es una plataforma digital ofrecida bajo el modelo SaaS que permite a empresarios, pymes y desarrolladores freelance interactuar para la creación, gestión y seguimiento de proyectos tecnológicos. Entre sus principales funcionalidades se encuentran:
+**1. Naturaleza del servicio** <br>
+WebMaster es una plataforma digital ofrecida bajo el modelo SaaS que permite a empresarios, pymes y desarrolladores freelance interactuar para la creación, gestión y seguimiento de proyectos tecnológicos. Entre sus principales funcionalidades se encuentran:
 
-Publicación y gestión de proyectos.
-Recepción y evaluación de propuestas por parte de freelancers.
-Gestión de entregables vinculados a proyectos.
-Visualización de postulantes, sus perfiles y calificaciones.
-Coordinación mediante un calendario colaborativo.
-Comunicación y seguimiento del estado del proyecto en tiempo real.
-From Zero actúa como facilitador tecnológico y no participa en la formalización contractual, ejecución técnica ni en la gestión de pagos entre usuarios.
+- Publicación y gestión de proyectos.
+- Recepción y evaluación de propuestas por parte de freelancers.
+- Gestión de entregables vinculados a proyectos.
+- Visualización de postulantes, sus perfiles y calificaciones.
+- Coordinación mediante un calendario colaborativo.
+- Comunicación y seguimiento del estado del proyecto en tiempo real.
+- WebMaster actúa como facilitador tecnológico y no participa en la formalización contractual, ejecución técnica ni en la gestión de pagos entre usuarios.
 
-3. Derechos del usuario
+**2. Derechos del usuario** <br>
 Todo usuario registrado, ya sea en rol de empresa o freelancer, goza de los siguientes derechos:
 
-Acceder a las funcionalidades de la plataforma de acuerdo con su perfil.
-Configurar su información personal o profesional, y gestionar su presencia en el sistema.
-Solicitar soporte técnico para el uso adecuado de la plataforma.
+- Acceder a las funcionalidades de la plataforma de acuerdo con su perfil.
+- Configurar su información personal o profesional, y gestionar su presencia en el sistema.
+- Solicitar soporte técnico para el uso adecuado de la plataforma.
 
-3. Obligaciones del usuario
-Los usuarios de From Zero se comprometen a:
-Brindar información veraz y actualizada en sus perfiles, proyectos y propuestas.
-Gestionar de manera directa cualquier relación laboral, contractual o financiera derivada del uso de la plataforma.
-Utilizar From Zero exclusivamente para fines legales, respetando la normativa vigente en su jurisdicción.
+**3. Obligaciones del usuario** <br>
+Los usuarios de WebMasterse comprometen a:
+- Brindar información veraz y actualizada en sus perfiles, proyectos y propuestas.
+- Gestionar de manera directa cualquier relación laboral, contractual o financiera derivada del uso de la plataforma.
+- Mantener actualizados los datos de contacto, experiencia, habilidades, descripciones de proyectos y cualquier otra información relevante para su correcta participación en la plataforma.
+- Asumir responsabilidad total sobre los acuerdos realizados con otros usuarios (tanto proyectos como pagos), comprometiéndose a cumplir con los términos pactados de forma transparente y profesional.
 
-4. Restricciones del sistema
-From Zero establece las siguientes restricciones en el uso del servicio:
-La plataforma no gestiona, intermedia ni custodia pagos entre las partes involucradas. Las transacciones se realizan por fuera del sistema y son responsabilidad exclusiva de los usuarios.
-From Zero se reserva el derecho de suspender o eliminar cuentas que incurran en violaciones de este acuerdo, presenten comportamientos abusivos o comprometan la seguridad del sistema y sus usuarios.
-No se garantiza la ejecución de los acuerdos establecidos entre usuarios ni la calidad de los entregables, siendo estos aspectos ajenos a la operación del sistema.
+**4. Restricciones del sistema**<br>
+WebMaster establece las siguientes restricciones en el uso del servicio:
+- La plataforma no gestiona, intermedia ni custodia pagos entre las partes involucradas. Las transacciones se realizan por fuera del sistema y son responsabilidad exclusiva de los usuarios.
+- WebMaster se reserva el derecho de suspender o eliminar cuentas que incurran en violaciones de este acuerdo, presenten comportamientos abusivos o comprometan la seguridad del sistema y sus usuarios.
+- No se garantiza la ejecución de los acuerdos establecidos entre usuarios ni la calidad de los entregables, siendo estos aspectos ajenos a la operación del sistema.
+- WebMaster no actúa como empleador ni representante legal de ninguna de las partes. La relación que se establezca entre usuario empresa y usuario freelance es completamente independiente de la plataforma.
 
-5. Limitaciones del soporte
-El equipo de From Zero ofrece soporte limitado a aspectos técnicos de la plataforma, como fallos de acceso, errores funcionales o dudas sobre el uso de las herramientas integradas. No se ofrece intervención en conflictos entre usuarios, ni arbitraje sobre entregas, plazos o pagos.
+**5. Limitaciones del soporte** <br>
+El equipo deWebMaster ofrece soporte limitado a aspectos técnicos de la plataforma, como fallos de acceso, errores funcionales o dudas sobre el uso de las herramientas integradas. No se ofrece intervención en conflictos entre usuarios, ni arbitraje sobre entregas, plazos o pagos.
 
-7. Privacidad y protección de datos
-La información personal y profesional ingresada en From Zero será tratada conforme a la Política de Privacidad de la plataforma. No se comparte información sensible con terceros, salvo requerimiento legal o autorización expresa del usuario.
+**6. Privacidad y protección de datos**<br>
+La información personal y profesional ingresada en WebMaster será tratada conforme a la Política de Privacidad de la plataforma. No se comparte información sensible con terceros, salvo requerimiento legal o autorización expresa del usuario.
  
 ### 5.2.5. Implemented Native-Mobile Application Evidence
 <img src="./assets/chapter-V/Mobile-app.png" alt="Mobile application" width="500">
