@@ -157,45 +157,77 @@
 - [Capítulo V: Product Implementation](#capítulo-v-product-implementation)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
-      - [Project Management](#project-management)
-      - [Product UX/UI Design](#product-uxui-design)
-      - [Software Developement](#software-developement)
-      - [IDE's de desarrollo](#ides-de-desarrollo)
-      - [Software Testing](#software-testing)
-      - [Software Deployment](#software-deployment)
-      - [Software Documentation](#software-documentation)
     - [5.1.2. Source Code Management.](#512-source-code-management)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
   - [5.2. Product Implementation \& Deployment.](#52-product-implementation--deployment)
     - [5.2.1. Sprint Backlogs.](#521-sprint-backlogs)
-  - [**Web Application Sprint Backlog**](#web-application-sprint-backlog)
-  - [**API Sprint Backlog**](#api-sprint-backlog)
-  - [**Mobile Application Sprint Backlog**](#mobile-application-sprint-backlog)
+      - [5.2.1.1 Sprint 1](#5211-sprint-1)
+      - [Sprint Backlog](#sprint-backlog)
+      - [5.2.1.2 Sprint 2](#5212-sprint-2)
+      - [Sprint Backlog](#sprint-backlog-1)
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
     - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
     - [5.2.4. Acuerdo de Servicio Saas](#524-acuerdo-de-servicio-saas)
-    - [5.2.5. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-    - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-    - [5.2.7. RESTful API documentation](#526-restful-api-documentation)
-    - [5.2.8. Team Collaboration Insights](#527-team-collaboration-insights)
+    - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+    - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+    - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
+    - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
   - [5.3. Video About-the-Product.](#53-video-about-the-product)
 - [Capítulo VI: Product Verfication \& Validation](#capítulo-vi-product-verfication--validation)
   - [6.1. Testing Suites \& Validation](#61-testing-suites--validation)
     - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
     - [6.1.2. Core Integration Tests](#612-core-integration-tests)
-    - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+    - [6.1.3 Core Behavior-Driven Development](#613-core-behavior-driven-development)
     - [6.1.4. Core System Tests](#614-core-system-tests)
 - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices](#711-tools-and-practices)
+  - [6.2 Static tetsing \& Verification](#62-static-tetsing--verification)
+    - [6.2.1. Static Code Analysis](#621-static-code-analysis)
+      - [6.2.1.1. Coding standard \& Code conventions](#6211-coding-standard--code-conventions)
+      - [6.2.1.1. Coding Quality \& Code security](#6211-coding-quality--code-security)
+    - [6.2.2. Reviews](#622-reviews)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
+    - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
+      - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
+      - [6.4.1.2. Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)
+      - [6.4.1.3. Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)
+    - [6.4.2. Auditoría recibida](#642-auditoría-recibida)
+      - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
+      - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
+      - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
+      - [6.4.2.4.Resumen de modificaciones para subsanar hallazgos](#6424resumen-de-modificaciones-para-subsanar-hallazgos)
     - [7.1.2. Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
   - [7.2. Continuous Delivery](#72-continuous-delivery)
     - [7.2.1. Tools and Practices](#721-tools-and-practices)
     - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
   - [7.3. Continuous Deployment](#73-continuous-deployment)
     - [7.3.1. Tools and Practices](#731-tools-and-practices)
-    - [7.2.2. Production Deployment Pipeline Components](#722-production-deployment-pipeline-components)
+    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+  - [7.4 Continuous Monitoring](#74-continuous-monitoring)
+    - [7.4.1. Tools and Practices](#741-tools-and-practices)
+    - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+    - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
+    - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
+- [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
+  - [8.1. Experiment Planning](#81-experiment-planning)
+    - [8.1.1. As-Is Summary](#811-as-is-summary)
+    - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+    - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
+    - [8.1.4. Question Backlog](#814-question-backlog)
+    - [8.1.5. Experiment Cards](#815-experiment-cards)
+  - [8.2. Experiment Design](#82-experiment-design)
+    - [8.2.1. Hypotheses](#821-hypotheses)
+    - [8.2.2. Measures](#822-measures)
+    - [8.2.3. Conditions](#823-conditions)
+    - [8.2.4. Scale Calculations and Decisions](#824-scale-calculations-and-decisions)
+    - [8.2.5. Method Selection](#825-method-selection)
+    - [8.2.6. Data Analytics: Goals, KPIs and Metrics Selection](#826-data-analytics-goals-kpis-and-metrics-selection)
+    - [8.2.7. Web and Mobile Tracking Plan](#827-web-and-mobile-tracking-plan)
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
@@ -2205,38 +2237,38 @@ Se utilizara como base de datos relacional el gestor de base de datos MySQL. A c
 
 ## 5.1. Software Configuration Management.
 ### 5.1.1. Software Development Environment Configuration.
-#### Project Management
+**Project Management**
 - Trello [https://trello.com](https://trello.com):
  Trello es una aplicación web de gestión de proyectos compatible con la mayoria de navegadores. Se utilizó Trello para la organización y registro de las tareas por hacer, las que están en proceso y las realizadas. De esta forma podemos tener control acerca del avance del proyecto y las actividades de cada uno de los miembros del equipo.
 
-#### Product UX/UI Design
+**Product UX/UI Design**
 - Miro [https://miro.com](https://miro.com):
  Miro ha sido empleado en el desarrollo de los escenarios mapping y escenario mapping para ambos segmentos objetivos.
 
 - Figma [https://figma.com](https://figma.com):
  Esta herramienta fue de vital importancia para la creación de los wireframes, mockups y mobile applications prototyping de manera colaborativa. Asimismo, su acceso es gratuito al contar con una cuenta registrada.
 
-#### Software Developement
+**Software Developement**
 - Landing Page:
 El desarrollo del landing page se llevó a cabo con las tecnologías básicas para esta misma: HTML5, CSS3 y JavaScript.
 - Frontend Web Application:
 Se ha utilizado a Vue como framework de Javascript. En adición, para la implementación de componentes reutilizables y accesibles se usó PrimeVue como biblioteca de componentes UI.
 
 
-#### IDE's de desarrollo
+**IDE's de desarrollo**
 - IntelliJ IDEA [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/):
 IntelliJ IDEA es un entorno de desarrollo integrado (IDE) creado por JetBrains. Este entorno de desarrollo nos proporcionará distintas herramientas para agilizar el proceso de desarrollo
 
 - WebStorm [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/): Para el front se utilizó WebStorm, un IDE de JavaScript y TypeScript. Este IDE es muy útil para el desarrollo de aplicaciones web, ya que cuenta con herramientas para la depuración, pruebas y análisis de código.
 
-#### Software Testing
+**Software Testing**
 - Para las pruebas de testeo software, tanto de la landing page como de la aplicación web, se emplearon las herramientas de desarrollador de los principales navegadores web como Google Chrome [https://www.google.com/chrome/](https://www.google.com/chrome/), Microsoft Edge [https://www.microsoft.com/en-us/edge](https://www.microsoft.com/en-us/edge) y Mozilla Firefox [https://www.mozilla.org/en-US/firefox/browsers/](https://www.mozilla.org/en-US/firefox/browsers/). Estos navegadores cuentan con aplicaciones desktop y móviles las cuáles son totalmente gratuitas. En el caso de desktop podemos instalarlos desde sus sitios oficiales, en el caso de móvil, desde la tienda de aplicaciones del sistema operativo en cuestión.
 
-#### Software Deployment
+**Software Deployment**
 - **Vercel** [https://vercel.com](https://vercel.com):
 es una plataforma en la nube que ofrece herramientas integrales para el desarrollo, implementación y alojamiento de aplicaciones web, permitiendo a los desarrolladores crear y lanzar sitios estáticos o dinámicos de manera eficiente y escalable.
 
-#### Software Documentation
+**Software Documentation**
 - Markdown [https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax):
 Markdown es un lenguaje de marcado ligero que nos permite formatear texto de manera sencilla utilizando un formato de texto plano. De esta forma documentamos la información importante acerca del contexto, organización, producción y creacíon del proyecto.
 - Structurizr [https://structurizr.com/](https://structurizr.com/):
@@ -2759,6 +2791,27 @@ A continuacion se visualiza la ejecucion del test:
 
 - **Behavior-Driven Development (BDD):** Se implementó el Desarrollo Orientado por Comportamiento para definir las funcionalidades desde la perspectiva del usuario. Esta práctica permite validar que el sistema cumple con las necesidades del negocio mediante escenarios claros y comprensibles.
 
+## 6.2 Static tetsing & Verification
+### 6.2.1. Static Code Analysis
+#### 6.2.1.1. Coding standard & Code conventions
+#### 6.2.1.1. Coding Quality & Code security
+### 6.2.2. Reviews
+
+## 6.3. Validation Interviews
+### 6.3.2 Registro de Entrevistas
+### 6.3.3. Evaluaciones según heurísticas
+
+## 6.4. Auditoría de Experiencias de Usuario
+### 6.4.1. Auditoría realizada
+#### 6.4.1.1. Información del grupo auditado
+#### 6.4.1.2. Cronograma de auditoría realizada
+#### 6.4.1.3. Contenido de auditoría realizada
+
+### 6.4.2. Auditoría recibida
+#### 6.4.2.1. Información del grupo auditor
+#### 6.4.2.2. Cronograma de auditoría recibida
+#### 6.4.2.3. Contenido de auditoría recibida
+#### 6.4.2.4.Resumen de modificaciones para subsanar hallazgos
 
 
 ### 7.1.2. Build & Test Suite Pipeline Components
@@ -2849,7 +2902,7 @@ En esta sección se describirán las herramientas y prácticas utilizadas para l
 
 - **Continuous Integration**: Se implementó un proceso de integración continua que se activa automáticamente al realizar cambios en el código. Esto incluye la ejecución de pruebas automatizadas y la creación de contenedores Docker para garantizar que la aplicación funcione correctamente en diferentes entornos.
 
-### 7.2.2. Production Deployment Pipeline Components
+### 7.3.2. Production Deployment Pipeline Components
 
 En esta sección se describirán los componentes del pipeline de implementación en producción.
 
@@ -2876,8 +2929,28 @@ En esta sección se describirán los componentes del pipeline de implementación
 
 5. **Hosting y CDN:** Netlify publica el frontend en su red global de CDN, lo que mejora el rendimiento y la disponibilidad del sitio. Esto permite a los usuarios acceder rápidamente desde cualquier ubicación.
 
+## 7.4 Continuous Monitoring
+### 7.4.1. Tools and Practices
+### 7.4.2. Monitoring Pipeline Components
+### 7.4.3. Alerting Pipeline Components
+### 7.4.4. Notification Pipeline Components
 
+# Capítulo VIII: Experiment-Driven Development
+## 8.1. Experiment Planning
+### 8.1.1. As-Is Summary
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+### 8.1.3. Experiment-Ready Questions
+### 8.1.4. Question Backlog
+### 8.1.5. Experiment Cards
 
+## 8.2. Experiment Design
+### 8.2.1. Hypotheses
+### 8.2.2. Measures
+### 8.2.3. Conditions
+### 8.2.4. Scale Calculations and Decisions
+### 8.2.5. Method Selection
+### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+### 8.2.7. Web and Mobile Tracking Plan
 ---
 
 # Conclusiones y Recomendaciones
