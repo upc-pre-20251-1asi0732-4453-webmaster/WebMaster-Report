@@ -78,53 +78,21 @@
 - [Capítulo I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-      - [Misión](#misión)
-      - [Visión](#visión)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-      - [What / ¿Qué?](#what--qué)
-      - [Why / ¿Por qué?](#why--por-qué)
-      - [Who / ¿Quién?](#who--quién)
-      - [When / ¿Cuándo?](#when--cuándo)
-      - [Where / ¿Dónde?](#where--dónde)
-      - [How / ¿Cómo?](#how--cómo)
-      - [How much / ¿Cuánto?](#how-much--cuánto)
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-    - [Segmento objetivo: PYMEs y emprendimientos](#segmento-objetivo-pymes-y-emprendimientos)
-    - [Segmento objetivo: Desarrolladores Freelance](#segmento-objetivo-desarrolladores-freelance)
     - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [Segmento objetivo: PYMEs y emprendimientos](#segmento-objetivo-pymes-y-emprendimientos-1)
-      - [Segmento objetivo: Desarrolladores Freelance](#segmento-objetivo-desarrolladores-freelance-1)
     - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [Hipótesis 1: Conexión de desarrolladores y emprendimientos](#hipótesis-1-conexión-de-desarrolladores-y-emprendimientos)
-      - [Hipótesis 2: Perfiles de desarrolladores y visibilidad de sus trabajos anteriores](#hipótesis-2-perfiles-de-desarrolladores-y-visibilidad-de-sus-trabajos-anteriores)
-      - [Hipótesis 3: Impacto en las estrategias de marketing digital de los emprendimientos](#hipótesis-3-impacto-en-las-estrategias-de-marketing-digital-de-los-emprendimientos)
-      - [Hipótesis 4: Mejora en la creación y mejora de sitios web](#hipótesis-4-mejora-en-la-creación-y-mejora-de-sitios-web)
-      - [Hipótesis 5: Participación de desarrolladores en proyectos atractivos](#hipótesis-5-participación-de-desarrolladores-en-proyectos-atractivos)
-      - [Hipótesis 6: Transparencia y eficiencia en el proceso de colaboración](#hipótesis-6-transparencia-y-eficiencia-en-el-proceso-de-colaboración)
     - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-    - [1. Microempresas, Emprendimientos y PYMEs](#1-microempresas-emprendimientos-y-pymes)
-    - [2. Desarrolladores Freelance](#2-desarrolladores-freelance)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
-    - [Freelancer](#freelancer)
-    - [Codementor](#codementor)
-    - [Workana](#workana)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [**Público objetivo: Empresarios y emprendedores**](#público-objetivo-empresarios-y-emprendedores)
-      - [**Preguntas generales:**](#preguntas-generales)
-      - [**Preguntas exploratorias:**](#preguntas-exploratorias)
-      - [**Preguntas de validación:**](#preguntas-de-validación)
-    - [**Público objetivo: Desarrolladores freelance**](#público-objetivo-desarrolladores-freelance)
-      - [**Preguntas generales:**](#preguntas-generales-1)
-      - [**Preguntas exploratorias:**](#preguntas-exploratorias-1)
-      - [**Preguntas de validación:**](#preguntas-de-validación-1)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
@@ -151,7 +119,7 @@
     - [4.2.2. Labeling Systems.](#422-labeling-systems)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [Web Applications](#web-applications)
-      - [Mobile Applications](#mobile-applications)
+    - [Mobile Applications](#mobile-applications)
     - [4.2.4. Searching Systems](#424-searching-systems)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
       - [Web Applications](#web-applications-1)
@@ -163,8 +131,6 @@
     - [4.4.1. Mobile Applications Wireframes.](#441-mobile-applications-wireframes)
     - [4.4.2. Mobile Applications Wireflow Diagrams.](#442-mobile-applications-wireflow-diagrams)
     - [4.4.3. Mobile Applications Mock-ups.](#443-mobile-applications-mock-ups)
-      - [Usuario Desarrollador](#usuario-desarrollador)
-      - [Usuario Empresa](#usuario-empresa)
     - [4.4.4. Mobile Applications User Flow Diagrams.](#444-mobile-applications-user-flow-diagrams)
   - [4.5. Mobile Applications Prototyping.](#45-mobile-applications-prototyping)
     - [4.5.1. Android Mobile Applications Prototyping.](#451-android-mobile-applications-prototyping)
@@ -208,10 +174,11 @@
   - [**Mobile Application Sprint Backlog**](#mobile-application-sprint-backlog)
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
     - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-    - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-    - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
-    - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+    - [5.2.4. Acuerdo de Servicio Saas](#524-acuerdo-de-servicio-saas)
+    - [5.2.5. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
+    - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
+    - [5.2.7. RESTful API documentation](#526-restful-api-documentation)
+    - [5.2.8. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product.](#53-video-about-the-product)
 - [Capítulo VI: Product Verfication \& Validation](#capítulo-vi-product-verfication--validation)
   - [6.1. Testing Suites \& Validation](#61-testing-suites--validation)
@@ -222,7 +189,7 @@
 - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices](#711-tools-and-practices)
-    - [7.1.1. Tools and Practices](#711-tools-and-practices-1)
+    - [7.1.2. Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
   - [7.2. Continuous Delivery](#72-continuous-delivery)
     - [7.2.1. Tools and Practices](#721-tools-and-practices)
     - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
@@ -256,6 +223,9 @@ Alvarez Araguache Samira <br>
 TB1 <br>
 Para esta entrega, el trabajo se desarrolló de forma cooperativa, involucrando activamente a todos los integrantes del equipo en las tareas del proyecto. La participación de cada miembro en la realización de entrevistas permitió recolectar información clave para definir funcionalidades que respondan a necesidades reales, considerando su impacto en distintos contextos sociales y económicos. El uso de Gitflow facilitó un flujo de trabajo eficiente y colaborativo, promoviendo buenas prácticas de desarrollo que favorecen la sostenibilidad del proyecto a largo plazo. Asimismo, la adopción de metodologías ágiles como Scrum permitió una documentación clara del proceso, fomentando la toma de decisiones informadas y conscientes del entorno global y tecnológico en el que se implementará la solución.
 
+TP <br>
+En esta entrega, se tomaron decisiones fundamentadas sobre la codificación de las características esenciales de la aplicación, considerando su viabilidad técnica y su impacto en la organización del trabajo a través del sprint backlog. Estas decisiones se alinearon con una visión responsable del desarrollo, evaluando cómo las soluciones propuestas podrían influir en contextos globales, económicos y sociales, especialmente en términos de accesibilidad, sostenibilidad y escalabilidad del sistema.
+
 Elias Sanchez, Harold Miguel <br>
 TB1 <br>
 Durante esta etapa del proyecto, trabajé en la construcción del Startup Profile y el Solution Profile, lo que implicó analizar los antecedentes y problemáticas de nuestro público objetivo, así como perfilar a los miembros del equipo y delimitar el impacto de la solución propuesta. A través de herramientas como el Lean UX Canvas y la formulación de hipótesis, se identificaron factores económicos y sociales clave que influyen en la problemática. Esta aproximación nos permitió comprender cómo una solución tecnológica puede generar valor real en distintos contextos, asegurando que las funcionalidades se alineen con necesidades concretas y con una visión responsable de su aplicación a nivel global. Esta experiencia me permitió emitir juicios informados y tomar decisiones con conciencia del impacto social de nuestro sistema.
@@ -269,7 +239,8 @@ Meneses Arevalo, Victor Manuel <br>
 TB1 <br>
 Durante la etapa de diseño del producto, se definieron guías de estilo y estructuras de navegación tanto para plataformas web como móviles, asegurando una experiencia de usuario inclusiva y accesible. Al diseñar interfaces responsivas y funcionales, se consideraron buenas prácticas que permiten a los usuarios interactuar con el sistema sin barreras tecnológicas, promoviendo así la equidad digital. Asimismo, se aplicaron principios de arquitectura de la información para optimizar la estructura del contenido, pensando en contextos globales donde el acceso rápido y ordenado a la información es fundamental. Estas decisiones reflejan un juicio informado sobre el impacto social y económico de un software bien diseñado y adaptable a diversas realidades tecnológicas y culturales.
 
-
+TP <br>
+En esta entrega, se implementó un esquema de validación robusto para la aplicación WebMaster, abarcando desde la verificación individual de sus componentes esenciales hasta la confirmación de la interacción fluida entre la interfaz y el almacenamiento de datos. Se emplearon herramientas especializadas para simular y probar las funcionalidades principales, asegurando que cada parte operara según lo previsto y que la comunicación entre ellas fuera efectiva. Además, para los aspectos cruciales del sistema, se definieron comportamientos esperados que fueron verificados automáticamente en cada etapa de desarrollo.
 
 Velasquez Pizarro Jair <br>
 TB1 <br>
@@ -294,6 +265,9 @@ TB1 <br>
 
 En este avance del trabajo, se realizó un análisis riguroso del estado actual del mercado de plataformas de contratación freelance, identificando fortalezas, debilidades y estrategias frente a los competidores, siempre desde una perspectiva ética y profesional. Asimismo, el estudio del comportamiento, necesidades y preferencias de los segmentos de desarrolladores freelance y empresarios, a través de entrevistas, permitió obtener información valiosa para comprender a fondo a los usuarios y diseñar soluciones responsables y centradas en sus verdaderas problemáticas. Esta información fue fundamental para el desarrollo del needfinding, apoyado en herramientas de mapeo y la creación de user personas, lo que garantiza que las decisiones de diseño se basen en un compromiso con el bienestar y la equidad para todos los involucrados.
 
+TP <br>
+En esta entrega, se asumió con responsabilidad ética y profesional la implementación de las características esenciales de la aplicación, priorizando buenas prácticas de codificación, organización del trabajo mediante el sprint backlog y asegurando la claridad y trazabilidad de las decisiones tomadas. Se consideraron aspectos como la mantenibilidad del código, la transparencia en la colaboración y el respeto por los compromisos asumidos dentro del equipo de desarrollo.
+
 Elias Sanchez, Harold Miguel <br>
 TB1 <br>
 Mi participación en el diseño y análisis de entrevistas, así como en la elaboración del Needfinding, me permitió asumir una postura ética y profesional al momento de recopilar, interpretar y aplicar información de usuarios reales. A través de herramientas como User Personas, Journey Maps y Empathy Maps, pude profundizar en las necesidades y emociones de los usuarios, respetando su contexto y tomando decisiones de diseño centradas en el bienestar y la equidad. Este enfoque permitió construir una solución con base en principios éticos y en la responsabilidad que conlleva desarrollar software que influya directamente en la vida de las personas. El análisis competitivo también reforzó mi capacidad de evaluar decisiones desde una perspectiva ética, comprendiendo el rol social del ingeniero de software en entornos reales.
@@ -307,6 +281,8 @@ Meneses Arevalo, Victor Manuel <br>
 TB1 <br>
 En el desarrollo de las interfaces gráficas y la arquitectura de información, se asumió una postura ética y profesional al priorizar la usabilidad, accesibilidad y coherencia visual del producto. Se emplearon lineamientos específicos para Android y iOS, asegurando una experiencia consistente y respetuosa con los estándares de cada plataforma. Además, se consideraron etiquetas SEO y sistemas de búsqueda que facilitan el acceso a la información, garantizando transparencia y respeto hacia los usuarios. La creación de prototipos funcionales y wireflows permitió validar las decisiones con foco en el bienestar del usuario, reconociendo el rol del diseñador como parte fundamental de un desarrollo responsable y centrado en las personas.
 
+TP <br>
+En esta entrega, la planificación y ejecución de las actividades de prueba se llevaron a cabo de manera estratégica dentro del ciclo de desarrollo, reconociendo la importancia de la responsabilidad ética y profesional en cada decisión tomada durante la ingeniería de software. Se asignaron responsabilidades claras para la validación de los elementos centrales de la aplicación, y la elección de las pruebas se basó en la información obtenida del proceso de integración continua. Se realizaron ajustes continuos en la creación y aplicación de las pruebas hasta cumplir con los estándares de calidad establecidos, asegurando un enfoque ético en la entrega de un producto confiable y sostenible. Esta metodología garantizó una gestión consciente y progresiva en la entrega del producto, priorizando su estabilidad y capacidad de crecimiento, siempre considerando las implicaciones profesionales de cada acción.
 
 Velasquez Pizarro Jair <br>
 TB1 <br>
@@ -336,11 +312,12 @@ WebMasters es una startup fundada en 2024 por un equipo de cinco estudiantes de 
 Nuestro principal producto, **WebMaster**, es una plataforma web diseñada para conectar de forma ágil a empresas que desean publicar proyectos de software con desarrolladores freelance interesados en colaborar. La plataforma busca optimizar el proceso de reclutamiento y desarrollo, promoviendo una experiencia intuitiva, accesible y eficiente para ambas partes.
 
 Nos enfocamos en brindar una solución práctica que beneficie tanto a empresas en búsqueda de talento especializado como a programadores freelance que buscan crecer profesionalmente a través de proyectos retadores y bien remunerados.
-#### Misión
+
+**Misión**
 
 Impulsar la colaboración digital entre empresas y desarrolladores freelance mediante una plataforma transparente, eficiente y centrada en la calidad. En WebMaster, aspiramos a facilitar la creación de proyectos tecnológicos que generen valor real, contribuyendo al desarrollo profesional de los usuarios y al crecimiento de las organizaciones que confían en nuestra solución.
 
-#### Visión
+**Visión**
 
 Convertirnos en la plataforma líder en Latinoamérica que conecta empresas con desarrolladores freelance altamente calificados, consolidando una comunidad basada en la confianza, la innovación y la eficiencia. Buscamos ser la opción preferida por aquellos que desean construir soluciones digitales de alto impacto.
 
@@ -472,38 +449,38 @@ Convertirnos en la plataforma líder en Latinoamérica que conecta empresas con 
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
-#### What / ¿Qué?
+**What / ¿Qué?**
 
 El contexto que enfrentan las microempresas peruanas después del COVID-19 fue determinante, llevando a muchas de ellas a iniciar un proceso de transformación digital. Según una investigación de **Microsoft (2023)**, el 95% de las Pymes peruanas aceleraron este proceso. Sin embargo, según **Movistar Empresas (2023)**, el 73% de las Pymes señala enfrentar dificultades en la digitalización de sus negocios.
 
 
-#### Why / ¿Por qué?
+**Why / ¿Por qué?**
 
 Existen varios factores que contribuyen a estas dificultades en la digitalización de los negocios, principalmente el desconocimiento de las herramientas digitales necesarias, la falta de personal capacitado y los altos costos de inversión.
 
 
 
-#### Who / ¿Quién?
+**Who / ¿Quién?**
 
 Esta problemática afecta a cualquier microempresario o emprendedor independiente mayor de 18 años, especialmente a aquellos con poco conocimiento de herramientas digitales para tener una página web propia y virtualizar su empresa. Además, también impacta a los desarrolladores freelance que buscan oportunidades de trabajo en proyectos de software.
 
 
-#### When / ¿Cuándo?
+**When / ¿Cuándo?**
 
 Esta problemática afecta a los microempresarios todos los días, ya que al ser un negocio en funcionamiento, no pueden detener su producción sin riesgos financieros. Además, el 95% de aceleración en la transformación digital de empresas genera presión constante para adaptarse.
 
 
-#### Where / ¿Dónde?
+**Where / ¿Dónde?**
 
 El problema se encuentra en cualquier entorno donde las empresas operan sin presencia digital sólida. La falta de uso de herramientas tecnológicas puede ser un obstáculo para el crecimiento y competitividad, especialmente para las micro y pequeñas empresas.
 
 
-#### How / ¿Cómo?
+**How / ¿Cómo?**
 
 El problema surge cuando los microempresarios buscan mejorar sus ventas mediante herramientas digitales sin contar con conocimientos técnicos. Esto puede llevar a inversiones mal dirigidas, herramientas inadecuadas y falta de resultados. Según **Microsoft (2023)**, el 43% de líderes empresariales reconoce que la tecnología permite abrir nuevos mercados y clientes.
 
 
-#### How much / ¿Cuánto?
+**How much / ¿Cuánto?**
 
 El impacto económico es considerable. Según **EY (2021)**, el 50% de las empresas asigna menos del 5% de su presupuesto a tecnología. Además, el **CIEN (2023)** destaca que el 74.4% del total de empresas en el Perú son microempresas, y más del 90% cree que la transformación digital impacta positivamente en su negocio. Sin embargo, la falta de inversión y apoyo limita este potencial.
 
@@ -511,20 +488,20 @@ El impacto económico es considerable. Según **EY (2021)**, el 50% de las empre
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-### Segmento objetivo: PYMEs y emprendimientos
+**Segmento objetivo: PYMEs y emprendimientos**
 
 En Perú, tanto las PYMEs como los emprendimientos en crecimiento enfrentan grandes dificultades para digitalizarse. Muchas de estas empresas luchan por establecer una presencia digital debido a la falta de conocimientos técnicos para desarrollar plataformas o herramientas de software. La educación digital deficiente en el país agrava esta situación, lo que afecta directamente su competitividad en un entorno cada vez más digitalizado.
 
 **Problema:** ¿Cómo podríamos crear una solución accesible y profesional para el desarrollo de plataformas digitales dirigidas a propietarios de PYMEs y emprendimientos que están atravesando un proceso de transformación digital?
 
-### Segmento objetivo: Desarrolladores Freelance
+**Segmento objetivo: Desarrolladores Freelance**
 
 En Perú, existe una comunidad activa de desarrolladores freelance que busca constantemente oportunidades de trabajo en proyectos de software. Sin embargo, estos desarrolladores enfrentan desafíos para encontrar proyectos que se alineen con sus habilidades y preferencias. A menudo, los proyectos disponibles no cubren sus necesidades específicas ni ofrecen la flexibilidad que valoran.
 
 **Problema:** ¿Cómo podríamos crear una plataforma que conecte a los desarrolladores freelance con oportunidades de proyectos de software, garantizando que estos proyectos coincidan con sus habilidades y preferencias, mientras les brindamos una experiencia flexible y profesional?
 
 ### 1.2.2.2. Lean UX Assumptions
-#### Segmento objetivo: PYMEs y emprendimientos
+**Segmento objetivo: PYMEs y emprendimientos**
 
 **Creo que mis clientes necesitan:**  
 Soluciones digitales personalizadas que mejoren la eficiencia operativa y la experiencia del cliente.
@@ -555,9 +532,9 @@ La falta de adopción por parte de las PYMEs debido a la resistencia al cambio o
 
 **Resolveremos esto:**  
 Destacando los beneficios y la accesibilidad de nuestras soluciones digitales, así como ofreciendo un soporte continuo para facilitar el cambio y la adopción del producto.
+<br>
 
-
-#### Segmento objetivo: Desarrolladores Freelance
+**Segmento objetivo: Desarrolladores Freelance**
 
 **Creo que mis clientes necesitan:**  
 Oportunidades para aplicar sus habilidades en proyectos que les permitan expandir sus habilidades y generar ingresos.
@@ -590,7 +567,7 @@ La falta de adopción por parte de los desarrolladores freelance debido a la com
 A través de estrategias de marketing efectivas, soporte dedicado y mejoras constantes en la plataforma basadas en retroalimentación de los usuarios y análisis de datos.
 
 ### 1.2.2.3. Lean UX Hypothesis Statements
-#### Hipótesis 1: Conexión de desarrolladores y emprendimientos
+**Hipótesis 1: Conexión de desarrolladores y emprendimientos**
 
 **Creemos que:**  
 Al conectar desarrolladores freelance con microempresas y emprendimientos, facilitaremos la creación o mejora de proyectos digitales, ayudando a satisfacer las necesidades específicas de los clientes.  
@@ -600,7 +577,7 @@ En los primeros seis meses, más del 80% de los emprendimientos que se pusieron 
 
 
 
-#### Hipótesis 2: Perfiles de desarrolladores y visibilidad de sus trabajos anteriores
+**Hipótesis 2: Perfiles de desarrolladores y visibilidad de sus trabajos anteriores**
 
 **Creemos que:**  
 Al permitir que los desarrolladores creen perfiles completos y exhiban sus trabajos previos, los clientes podrán tener una mejor visión de sus capacidades y tomar decisiones informadas sobre la contratación.  
@@ -610,7 +587,7 @@ Más del 50% de los usuarios que utilicen la aplicación dentro de los primeros 
 
 
 
-#### Hipótesis 3: Impacto en las estrategias de marketing digital de los emprendimientos
+**Hipótesis 3: Impacto en las estrategias de marketing digital de los emprendimientos**
 
 **Creemos que:**  
 Nuestra plataforma fortalecerá las estrategias de marketing digital de diversos emprendimientos, ayudándolos a mejorar su visibilidad en línea.  
@@ -619,7 +596,7 @@ Nuestra plataforma fortalecerá las estrategias de marketing digital de diversos
 Más del 20% de los nuevos usuarios lleguen a la plataforma a través de recomendaciones de otros usuarios dentro de los primeros diez meses.
 
 
-#### Hipótesis 4: Mejora en la creación y mejora de sitios web
+**Hipótesis 4: Mejora en la creación y mejora de sitios web**
 
 **Creemos que:**  
 Al conectar desarrolladores con microempresas que buscan crear o mejorar sitios web, ayudaremos a que los emprendimientos puedan llevar a cabo estos proyectos de forma eficiente y con soluciones personalizadas.  
@@ -628,7 +605,7 @@ Al conectar desarrolladores con microempresas que buscan crear o mejorar sitios 
 Más del 80% de los emprendimientos que se pusieron en contacto con un desarrollador hayan lanzado su nuevo sitio web o mejorado el existente dentro de los primeros seis meses.
 
 
-#### Hipótesis 5: Participación de desarrolladores en proyectos atractivos
+**Hipótesis 5: Participación de desarrolladores en proyectos atractivos**
 
 **Creemos que:**  
 Al ofrecer una amplia variedad de proyectos interesantes y bien remunerados, aumentaremos la participación activa de los desarrolladores freelance en nuestra plataforma.  
@@ -637,7 +614,7 @@ Al ofrecer una amplia variedad de proyectos interesantes y bien remunerados, aum
 Veamos un aumento en el número de desarrolladores activos, con una mayor frecuencia de participación en proyectos, y una disminución en la tasa de abandono de usuarios.
 
 
-#### Hipótesis 6: Transparencia y eficiencia en el proceso de colaboración
+**Hipótesis 6: Transparencia y eficiencia en el proceso de colaboración**
 
 **Creemos que:**  
 La transparencia en el proceso de selección y colaboración entre los desarrolladores y las microempresas aumentará la confianza y satisfacción de los usuarios en nuestra plataforma.  
@@ -651,11 +628,11 @@ Veamos una mejora significativa en la calificación de satisfacción de los usua
 ## 1.3. Segmentos objetivo
 Nuestra plataforma se dirige principalmente a dos segmentos clave de usuarios:
 
-### 1. Microempresas, Emprendimientos y PYMEs
+**1. Microempresas, Emprendimientos y PYMEs**
 
 Este grupo está conformado por pequeñas y medianas empresas, startups y emprendedores independientes del mercado peruano. Su objetivo principal es mejorar su presencia digital mediante el desarrollo de páginas web o aplicaciones personalizadas. Reconocen la necesidad de adaptarse a la transformación digital para escalar sus negocios, pero generalmente carecen de los conocimientos técnicos o del equipo necesario para implementar estas soluciones por cuenta propia. Nuestra plataforma les ofrece acceso directo a profesionales que pueden materializar sus ideas de forma eficiente y accesible.
 
-### 2. Desarrolladores Freelance
+**2. Desarrolladores Freelance**
 
 Incluye a profesionales independientes especializados en tecnologías web y desarrollo de software. Estos desarrolladores buscan oportunidades para aplicar sus habilidades en proyectos reales, ganar experiencia y generar ingresos. Valoran especialmente la libertad de elegir proyectos que se alineen con sus intereses, así como la posibilidad de colaborar de manera remota con emprendimientos dinámicos. Nuestra plataforma les proporciona un espacio para conectar con clientes que necesitan sus servicios, ampliar su portafolio y posicionarse en el mercado freelance.
 
@@ -667,15 +644,15 @@ Incluye a profesionales independientes especializados en tecnologías web y desa
 
 Tras analizar el panorama actual de plataformas que conectan a empresas con desarrolladores freelance para el desarrollo de soluciones digitales, hemos identificado a los principales competidores de nuestra startup en el sector. A continuación, se detallan:
 
-### Freelancer
+**Freelancer**
 
 Es una plataforma global que conecta a freelancers con empresas de distintos tamaños que buscan soluciones en áreas como desarrollo de software, diseño, marketing y más. Los profesionales pueden ofertar por proyectos según sus habilidades, mientras que las empresas tienen acceso a una amplia base de talento para contratar de acuerdo a sus necesidades específicas.
 
-### Codementor
+**Codementor**
 
 Es una plataforma enfocada en desarrolladores que buscan mentoría y oportunidades freelance. Ofrece la posibilidad de recibir tutorías personalizadas por expertos en programación, además de conectar a desarrolladores con proyectos específicos que requieren habilidades técnicas avanzadas.
 
-### Workana
+**Workana**
 
 Plataforma latinoamericana que permite a profesionales ofrecer sus servicios en distintas áreas como desarrollo web, diseño gráfico, redacción y más. Es una opción popular en países hispanohablantes, y se ha posicionado como una alternativa accesible y eficiente para contratar talento freelance en la región.
 
@@ -710,19 +687,19 @@ Plataforma latinoamericana que permite a profesionales ofrecer sus servicios en 
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
-### **Público objetivo: Empresarios y emprendedores**
+**Público objetivo: Empresarios y emprendedores**
 
 Buen día, mi nombre es [Nombre del entrevistador]. Estoy realizando una entrevista para la startup **webmaster**, con el propósito de recabar información clave que nos permita construir de forma efectiva nuestra plataforma.
 
 **WebMaster** es una solución diseñada para apoyar a empresas y emprendimientos que necesiten desarrollar herramientas digitales. Nuestro objetivo es conectar a estos negocios con desarrolladores freelance que puedan atender sus necesidades de forma profesional y eficiente.
 
-#### **Preguntas generales:**
+**Preguntas generales:**
 1. ¿Podrías indicarme tu nombre?
 2. ¿Cuál es tu edad?
 3. ¿Dónde resides actualmente?
 4. ¿Cómo se llama tu empresa o emprendimiento?
 
-#### **Preguntas exploratorias:**
+**Preguntas exploratorias:**
 1. ¿Tu negocio cuenta actualmente con presencia digital?
 2. ¿Consideras que tener presencia en internet es esencial hoy en día? ¿Por qué?
 3. ¿Qué acciones implementarías para mejorar la visibilidad digital de tu empresa?
@@ -730,7 +707,7 @@ Buen día, mi nombre es [Nombre del entrevistador]. Estoy realizando una entrevi
 5. ¿Has considerado desarrollar un proyecto tecnológico para tu negocio? ¿Cuál sería tu motivación?
 6. ¿Qué tanto conoces sobre plataformas que permiten contratar desarrolladores freelance?
 
-#### **Preguntas de validación:**
+**Preguntas de validación:**
 1. ¿Estarías dispuesto a trabajar con un desarrollador para crear una solución digital para tu empresa?
 2. ¿Te resultaría útil una plataforma que conecte tu empresa con desarrolladores freelance especializados? ¿Por qué?
 3. ¿Qué características consideras indispensables en una plataforma de este tipo?
@@ -739,19 +716,19 @@ Buen día, mi nombre es [Nombre del entrevistador]. Estoy realizando una entrevi
 6. ¿Estarías dispuesto a pagar por un servicio que te conecte con el desarrollador ideal para tu proyecto?
 
 
-### **Público objetivo: Desarrolladores freelance**
+**Público objetivo: Desarrolladores freelance**
 
 Buen día, soy [Nombre del entrevistador]. En esta ocasión llevaré a cabo una entrevista como parte del proceso de investigación de la startup **webmaster**, con el fin de recopilar información esencial para diseñar nuestra plataforma.
 
 **WebMaster** es una herramienta enfocada en conectar a desarrolladores freelance con empresas que requieren soluciones tecnológicas específicas, permitiendo oportunidades laborales claras y proyectos alineados con sus habilidades.
 
-#### **Preguntas generales:**
+**Preguntas generales:**
 1. ¿Cuál es tu nombre?
 2. ¿Cuántos años tienes?
 3. ¿Dónde te encuentras actualmente?
 4. ¿Cuál es tu área de especialización dentro del desarrollo de software? (web, móvil, ciberseguridad, etc.)
 
-#### **Preguntas exploratorias:**
+**Preguntas exploratorias:**
 1. ¿Qué tecnologías utilizas habitualmente en tus proyectos?
 2. ¿Has trabajado previamente en proyectos como freelance?
 3. ¿Qué tipos de proyectos has desarrollado?
@@ -760,7 +737,7 @@ Buen día, soy [Nombre del entrevistador]. En esta ocasión llevaré a cabo una 
 6. ¿Cómo sueles manejar la comunicación con tus clientes durante el desarrollo del trabajo?
 7. ¿Qué tan familiarizado estás con plataformas que conectan desarrolladores freelance con clientes?
 
-#### **Preguntas de validación:**
+**Preguntas de validación:**
 1. ¿Qué características crees que son imprescindibles en este tipo de plataformas?
 2. ¿Qué funcionalidades adicionales te gustaría que tuvieran estas plataformas?
 3. ¿Qué te haría elegir una plataforma frente a otras opciones del mercado?
@@ -1684,7 +1661,7 @@ These tags are essential for making the website easily discoverable through sear
 
 ---
 
-#### Mobile Applications
+### Mobile Applications
 
 **Meta & SEO (Search Engine Optimization) Tags**  
 Estas etiquetas permiten que la aplicación sea fácilmente encontrada en buscadores y tiendas. En Android, esta información se define en el archivo `AndroidManifest.xml`.
@@ -1823,7 +1800,7 @@ https://www.figma.com/proto/F9uDpQtivg5tkJt5aA81VP/Mockup-Webmaster-Mobile?node-
 
 ![Mobile Mock Up 3](assets/Chapter%20IV/MobileMockup3.png) 
 
-#### Usuario Desarrollador<br>
+**Usuario Desarrollador**<br>
 **Página principal:**<br>
 ![Mobile Mock Up 7](assets/Chapter%20IV/MobileMockup7.png) 
 
@@ -1840,7 +1817,7 @@ https://www.figma.com/proto/F9uDpQtivg5tkJt5aA81VP/Mockup-Webmaster-Mobile?node-
 **Misceláneos:**<br>
 ![Mobile Mock Up 14](assets/Chapter%20IV/MobileMockup14.png) ![Mobile Mock Up 15](assets/Chapter%20IV/MobileMockup15.png)
 
-#### Usuario Empresa<br>
+**Usuario Empresa**<br>
 **Página principal:**<br>
 ![Mobile Mock Up 16](assets/Chapter%20IV/MobileMockup16.png)
 
@@ -2478,12 +2455,12 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 
 | User story | Title                                    | id       | Description                                      | Time (Story Points) | Assigned to | Status |
 |------------|------------------------------------------|----------|--------------------------------------------------|---------------------|-------------|--------|
-| E2-US103   | Gestionar lista de postulantes          | E2-US103 | Administrar la lista de postulantes a proyectos  | 5                  | Dev Team    | done   |
-| E5-US101   | Seleccionar fechas de entregables en el calendario | E5-US101 | Permitir asignar fechas a entregables en el calendario | 5                  | Dev Team    | done   |
-| E2-US105   | Visualizar el repositorio de un desarrollador | E2-US105 | Mostrar el repositorio de un desarrollador       | 3                  | Dev Team    | done   |
-| E3-US104   | Navegar por la aplicación como freelancer | E3-US104 | Permitir al freelancer navegar por la aplicación | 3                  | Dev Team    | done   |
-| E3-US102   | Postular a proyectos de desarrollo de software | E3-US102 | Permitir a freelancers postular a proyectos      | 3                  | Dev Team    | done   |
-| E3-US101   | Visualizar y gestionar proyectos asignados | E3-US101 | Mostrar y administrar proyectos asignados        | 3                  | Dev Team    | done   |
+| E2-US103   | Gestionar lista de postulantes          | E2-US103 | Administrar la lista de postulantes a proyectos  | 5                  | Jair    | done   |
+| E5-US101   | Seleccionar fechas de entregables en el calendario | E5-US101 | Permitir asignar fechas a entregables en el calendario | 5                  | Zaid    | done   |
+| E2-US105   | Visualizar el repositorio de un desarrollador | E2-US105 | Mostrar el repositorio de un desarrollador       | 3                  | Victor   | done   |
+| E3-US104   | Navegar por la aplicación como freelancer | E3-US104 | Permitir al freelancer navegar por la aplicación | 3                  | Harold   | done   |
+| E3-US102   | Postular a proyectos de desarrollo de software | E3-US102 | Permitir a freelancers postular a proyectos      | 3                  | Samira    | done   |
+| E3-US101   | Visualizar y gestionar proyectos asignados | E3-US101 | Mostrar y administrar proyectos asignados        | 3                  | Samira   | done   |
 
 ### 5.2.2. Implemented Landing Page Evidence
 [Repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/WebMaster-LandingPage) <br>
@@ -2493,14 +2470,55 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 [Repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/webmaster-app) <br>
 <img src="./assets/chapter-V/Webapp.png" alt="Web application" width="500">
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.4. Acuerdo de Servicio Saas
+En esta sección se definen los derechos, obligaciones y restricciones que se aplican sobre los usuarios de la plataforma de WebMaster. Esto permite transparencia a la hora del uso del sistema. Este acuerdo podrá ser visualizado en el apartado de Términos de servicio para ser accesible durante el flujo del usuario.
+
+**1. Naturaleza del servicio** <br>
+WebMaster es una plataforma digital ofrecida bajo el modelo SaaS que permite a empresarios, pymes y desarrolladores freelance interactuar para la creación, gestión y seguimiento de proyectos tecnológicos. Entre sus principales funcionalidades se encuentran:
+
+- Publicación y gestión de proyectos.
+- Recepción y evaluación de propuestas por parte de freelancers.
+- Gestión de entregables vinculados a proyectos.
+- Visualización de postulantes, sus perfiles y calificaciones.
+- Coordinación mediante un calendario colaborativo.
+- Comunicación y seguimiento del estado del proyecto en tiempo real.
+- WebMaster actúa como facilitador tecnológico y no participa en la formalización contractual, ejecución técnica ni en la gestión de pagos entre usuarios.
+
+**2. Derechos del usuario** <br>
+Todo usuario registrado, ya sea en rol de empresa o freelancer, goza de los siguientes derechos:
+
+- Acceder a las funcionalidades de la plataforma de acuerdo con su perfil.
+- Configurar su información personal o profesional, y gestionar su presencia en el sistema.
+- Solicitar soporte técnico para el uso adecuado de la plataforma.
+
+**3. Obligaciones del usuario** <br>
+Los usuarios de WebMasterse comprometen a:
+- Brindar información veraz y actualizada en sus perfiles, proyectos y propuestas.
+- Gestionar de manera directa cualquier relación laboral, contractual o financiera derivada del uso de la plataforma.
+- Mantener actualizados los datos de contacto, experiencia, habilidades, descripciones de proyectos y cualquier otra información relevante para su correcta participación en la plataforma.
+- Asumir responsabilidad total sobre los acuerdos realizados con otros usuarios (tanto proyectos como pagos), comprometiéndose a cumplir con los términos pactados de forma transparente y profesional.
+
+**4. Restricciones del sistema**<br>
+WebMaster establece las siguientes restricciones en el uso del servicio:
+- La plataforma no gestiona, intermedia ni custodia pagos entre las partes involucradas. Las transacciones se realizan por fuera del sistema y son responsabilidad exclusiva de los usuarios.
+- WebMaster se reserva el derecho de suspender o eliminar cuentas que incurran en violaciones de este acuerdo, presenten comportamientos abusivos o comprometan la seguridad del sistema y sus usuarios.
+- No se garantiza la ejecución de los acuerdos establecidos entre usuarios ni la calidad de los entregables, siendo estos aspectos ajenos a la operación del sistema.
+- WebMaster no actúa como empleador ni representante legal de ninguna de las partes. La relación que se establezca entre usuario empresa y usuario freelance es completamente independiente de la plataforma.
+
+**5. Limitaciones del soporte** <br>
+El equipo deWebMaster ofrece soporte limitado a aspectos técnicos de la plataforma, como fallos de acceso, errores funcionales o dudas sobre el uso de las herramientas integradas. No se ofrece intervención en conflictos entre usuarios, ni arbitraje sobre entregas, plazos o pagos.
+
+**6. Privacidad y protección de datos**<br>
+La información personal y profesional ingresada en WebMaster será tratada conforme a la Política de Privacidad de la plataforma. No se comparte información sensible con terceros, salvo requerimiento legal o autorización expresa del usuario.
+ 
+### 5.2.5. Implemented Native-Mobile Application Evidence
 <img src="./assets/chapter-V/Mobile-app.png" alt="Mobile application" width="500">
 
-### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 [Repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/FromZeroAPI)<br>
 <img src="./assets/chapter-V/api.png" alt="API" width="500">
 
-### 5.2.6. RESTful API documentation
+### 5.2.7. RESTful API documentation
 En esta sección se presentan los endpoints desarrollados en el
 presente sprint y se adjuntan capturas de las acciones CRUD
 realizadas con Api. En el alcance del sprint, se han desarrollado los
@@ -2519,7 +2537,7 @@ organizaciones. Se adjunta el link del repositorio de la API en Github:
 | Messages            | /api/v1/messages/                 |<img src="./assets/chapter-V/Swagger/messages.png" alt="messages" width="600">|
 | Support Tickets     | /api/v1/support-tickets/          |<img src="./assets/chapter-V/Swagger/support-tickets.png" alt="support-tickets" width="600">|
 
-### 5.2.7. Team Collaboration Insights
+### 5.2.8. Team Collaboration Insights
 
 Se presentarán los insights del trabajo grupal en Github.
 
@@ -2532,22 +2550,332 @@ Se presentarán los insights del trabajo grupal en Github.
 # Capítulo VI: Product Verfication & Validation
 ## 6.1. Testing Suites & Validation
 ### 6.1.1. Core Entities Unit Tests
+
+Pruebas unitarias con con entidades de la aplicación WebMaster utilizando JUnit y Mockito.
+
+**Pruebas Unitarias 1 (Developer Controller) por Zaid Ramirez:**
+El controlador de desarrolladores gestiona las operaciones relacionadas con el usuario tipo Desarrollador. Estas funcionalidades están relacionadas con el manejo de datos de desarrolladores, como consultar todos los desarrolladores, consultar un desarrollador por ID, consultar un desarrollador por el ID de su usuarios y actualizar la información del desarrollador. Se realizaron pruebas a las siguientes consultas:
+
+1. GetAllDevelopersAsyncQuery - Consulta para obtener todos los desarrolladores.
+2. GetDeveloperByIdQuery - Consulta para obtener un desarrollador mediante su ID.
+3. GetDeveloperByUserIdAsyncQuery - Consulta para obtener un desarrollador mediante el ID de su usuario.
+4. UpdateDeveloperCommand - Comando para actualizar la informacion de un desarrollador.
+
+Analizaremos mediante Arrange - Act y Assert para el primer servicio.
+
+- Arrange
+Se simula la creacion del servicio developerQueryService utilizando Mockito para utilizarlo en la ejecucion. Tambien se creara un Developer y un User para comparar con los datos devueltos por el servicio.
+
+<img src="./assets/Chapter VI/arrange-test-1.png">
+<img src="./assets/Chapter VI/arrange-test-1.1.png">
+
+- Act
+Mediante la función when de realizara la accion para obtener los developers mediante el servicio.
+
+- Assert
+Mediante la funcion assertNotNull se confirmará la existencia de la lista de desarrolladores.
+<img src="./assets/Chapter VI/act-test-1.png">
+
+Se confirma el funcionamiento del test en la siguiente imagen:
+<img src="./assets/Chapter VI/function-test-1.png">
+
+Se realizar el siguiente analisis mediante Arrange - Act y Asser para el cuarto servicio.
+
+- Arrange
+Se simula la creacion del servicio updateDeveloperByUserId utilizando Mockito para utilizarlo en la ejecucion. Tambien se creara un Developer,un User y un UpdateDeveloperResource para comparar y recibir las respuestas.
+
+<img src="./assets/Chapter VI/arrange-test-2.png">
+
+- Act
+Mediante la función when de realizara la accion para obtener los developers mediante el servicio.
+
+- Assert
+Mediante la funcion assertNotNull se confirmará la existencia de la lista de desarrolladores.
+<img src="./assets/Chapter VI/act-test-2.png">
+
+Se confirma el funcionamiento del test en la siguiente imagen:
+<img src="./assets/Chapter VI/function-test-2.png">
+
+En la siguiente imagen se confirman el funcionamiento de todos los tests de los realizados en el servicio de Project.
+
+<img src="./assets/Chapter VI/function-test-5.png">
+
+
+
+**Pruebas Unitarias 2 (Project Controller) por Zaid Ramirez:**
+El controlador de proyectos gestiona las operaciones relacionadas con el proyecto. Estas funcionalidades están relacionadas con el manejo de datos de proyectos, como consultar todos los proyectos, consultar un proyecto por ID, obtener frameworks r y actualizar la información del proyecto. Se realizaron pruebas a las siguientes consultas:
+
+1. GetProgrammingLanguageByIdQuery para obtener información de lenguajes de programación.
+2. GetFrameworkByIdQuery para obtener información de frameworks.
+3. CreateProjectCommand para crear un nuevo proyecto.
+4. GetAllProjectsQuery para obtener todos los proyectos.
+5. GetProjectByIdQuery para obtener un proyecto específico.
+6. UpdateProjectCandidatesListCommand para actualizar la lista de candidatos de un proyecto.
+7. AssignProjectDeveloperCommand para asignar un desarrollador a un proyecto.
+8. GetAllProjectsByDeveloperIdQuery y GetAllProjectsByEnterpriseIdQuery para filtrar proyectos.
+9. DeleteProjectCommand para eliminar un proyecto.
+
+Analizaremos mediante Arrange - Act y Assert para el servicio CreateProjectCommand.
+
+- Arrange
+Se configura el mock del servicio projectCommandService para que cuando reciba cualquier comando de creación (CreateProjectCommand), retorne un Optional con el objeto project previamente configurado.
+
+<img src="./assets/Chapter VI/arrange-test-3.png">
+
+- Act
+Se invoca el método createProject() del controlador, pasando el recurso con los datos del proyecto a crear.
+
+- Assert
+Se verifica que la respuesta no sea nula, lo que indica que el proyecto fue creado correctamente y que el controlador respondió con un resultado esperado.
+<img src="./assets/Chapter VI/act-test-3.png">
+
+Se confirma el funcionamiento del test en la siguiente imagen:
+<img src="./assets/Chapter VI/function-test-3.png">
+
+En la siguiente imagen se confirman el funcionamiento de todos los tests de los realizados en el servicio de Project.
+
+<img src="./assets/Chapter VI/function-test-4.png">
+
 ### 6.1.2. Core Integration Tests
-### 6.1.3. Core Behavior-Driven Development
+
+En esta seccion, se realizaron pruebas de integracion para verificar la correcta interaccion entre los componentes principales del sistema, teniendo un enfoque en el DeliverableController y sus dependencias. Se utilizo JUnit 5 junto con Mockito para simular los componentes y estructuras esenciales para el funcionamiento del controller. Se realizaron pruebas en los siguientes asepctos:
+
+1. Creacion de entregables, y obtencion de datos consultados mediante el ID.
+
+<img src="./assets/Chapter VI/mock-test-1.png">
+
+Luego de la instancia de los servicios y estructuras utilizadas se procedio a la asignacion de valores de estructuras escenciales para el funcionamiento del controlador, mediante la función "@BeforeEach"
+
+<img src="./assets/Chapter VI/mock-test-2.png">
+
+**Prueba Integral 1 por Jair Velasquez**
+
+**Objetivo:** Creacion de entregable y obtencion de ID y demas datos para comprobar una correcta creacion de datos.
+
+<img src="./assets/Chapter VI/integral-test-1.png">
+
+A continuacion se visualiza la ejecucion del test:
+
+<img src="./assets/Chapter VI/integral-function-1.png">
+
+**Prueba Integral 2 por Jair Velasquez**
+
+**Objetivo:** Revision de un entregable creado, cambiar de estado y realizar validacion de este cambio.
+
+<img src="./assets/Chapter VI/integral-test-2.png">
+
+A continuacion se visualiza la ejecucion del test:
+
+<img src="./assets/Chapter VI/integral-function-2.png">
+
+
+
+### 6.1.3 Core Behavior-Driven Development
+
+![](./assets/Chapter%20VI/1.png)
+
+![](./assets/Chapter%20VI/2.png)
+
+![](./assets/Chapter%20VI/3.png)
+
 ### 6.1.4. Core System Tests
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US101-1 | Acceder a la pantalla de registro | Como empresario o freelancer **quiero** tener un apartado de registro en la aplicación **para** que mi información se guarde y pueda acceder a mi cuenta |
+
+![1](./assets/Chapter%20VI/E1US101RegistrarUsuario.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US102 | Iniciar sesión exitosamente | Como empresario o desarrollador usuario de la aplicación **quiero** ingresar con mi cuenta con la cual me registré **para** usar las herramientas a mi disposición |
+
+![2](./assets/Chapter%20VI/E1US102IniciarSesion.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US103 | Aceptar postulación | Como empresario **quiero** un sistema de gestión de mi lista de postulantes **para** gestionar las postulaciones de los freelancers a mis proyectos activos |
+
+![3](./assets/Chapter%20VI/E2US103GestionarListaPostulantes.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US107-2 | Asignar fecha | Como empresario **quiero** un sistema de calendario **para** ver, asignar, actualizar y eliminar fechas de entregables |
+
+![4](./assets/Chapter%20VI/6E2US107GestionarFechasCalendario.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US109-2 | Acceder a Buscar Desarrolladores | Como empresario **quiero** un sistema de navegación eficiente **para** acceder fácilmente a las secciones |
+
+![5](./assets/Chapter%20VI/E2US109NavegarComoEmpresario.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US101-3 | Visualizar proyectos en la pantalla de inicio | Como empresario **quiero** visualizar todos los proyectos publicados **para** poder ver fácilmente el progreso de los mismos |
+
+![6](./assets/Chapter%20VI/E3US101VisualizarProyectos.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US102-3 | Buscar Proyecto | Como freelancer **quiero** buscar proyectos **para** encontrar proyectos que se alineen con mis habilidades e intereses |
+
+![7](./assets/Chapter%20VI/E3US102BuscarProyectos.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US103-3 | Postular a un proyecto | Como freelancer **quiero** postularme a desarrollar un proyecto **para** ser aceptado como desarrollador |
+
+![8](./assets/Chapter%20VI/E3US103PostularProyectos.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US109-3 | Acceder a Inicio | Como freelancer **quiero** un menú con accesos directos **para** navegar fluidamente |
+
+![9](./assets/Chapter%20VI/E3US105NavegarComoFreelancer.png)
+
+| Código  | Título                            | Descripción                                                                                                      |
+|---------|----------------------------------|------------------------------------------------------------------------------------------------------------------|
+| US103-4 | Visualizar perfil | Como usuario **quiero** gestionar mi información de perfil **para** configurarlo a mi gusto |
+
+![10](./assets/Chapter%20VI/E4US103GestionarPerfil.png)
+
 
 # Capítulo VII: DevOps Practices
 ## 7.1. Continuous Integration
 ### 7.1.1. Tools and Practices
-### 7.1.1. Tools and Practices
+**Tools (Herramientas)**
+
+- **JUnit:** Se utilizó JUnit como framework principal para la ejecución de pruebas unitarias. Esta herramienta permite validar de forma automatizada segmentos específicos del código Java, asegurando que cada componente se comporte como se espera.
+
+- **Mockito:** Se empleó Mockito para la creación de objetos simulados (mocks), lo cual facilita probar clases con dependencias sin necesidad de usar sus implementaciones reales, permitiendo aislar el comportamiento de cada componente.
+
+- **Cucumber:** Se utilizó Cucumber como herramienta para pruebas de comportamiento. Este framework permite escribir escenarios de prueba en lenguaje natural mediante la sintaxis Gherkin, facilitando la comprensión de los requisitos por parte de todos los involucrados en el proyecto.
+
+
+**Practices (Prácticas)**
+
+- **Test-Driven Development (TDD):** Se aplicó la metodología de Desarrollo Guiado por Pruebas, donde las pruebas unitarias se escriben antes del código funcional. Esta práctica mejora la calidad del software y facilita el mantenimiento al detectar errores de forma temprana.
+
+- **Behavior-Driven Development (BDD):** Se implementó el Desarrollo Orientado por Comportamiento para definir las funcionalidades desde la perspectiva del usuario. Esta práctica permite validar que el sistema cumple con las necesidades del negocio mediante escenarios claros y comprensibles.
+
+
+
+### 7.1.2. Build & Test Suite Pipeline Components
+
+<img src="./assets/chapter-VII/test-pipeline-1.PNG">
+<img src="./assets/chapter-VII/test-pipeline-2.PNG">
 
 ## 7.2. Continuous Delivery
 ### 7.2.1. Tools and Practices
+
+**Tools (Herramientas)**
+
+- **GitHub + GitFlow:**  
+  Cada componente (backend, frontend y landing page) reside en su propio repositorio. Seguimos el modelo GitFlow con ramas `feature/*`, `develop`, `release/*`, `hotfix/*` y `main`. Las ramas `develop` y `main` están protegidas y requieren pull request aprobado antes de merge.
+
+- **Railway:**  
+  Plataforma de despliegue del backend (API RESTful). Se conecta al repositorio de GitHub y, tras cada push a `develop` o `main`, realiza build y deploy automáticos. La configuración de variables de entorno (credenciales, URLs de BD) se maneja desde su panel.
+
+- **Netlify:**  
+  Hosting y CI/CD del frontend (Vue + PrimeVue). Configuramos Deploy Previews automáticos en `develop` y despliegue de producción en `main`. Las variables de entorno, como el endpoint del backend, se definen en el dashboard de Netlify.
+
+- **GitHub Pages:**  
+  Alojamiento continuo del landing page estático (HTML5, CSS3 y JavaScript). Publicamos desde la carpeta `/docs` o mediante la rama `gh‑pages`, según la configuración del repositorio.
+
+**Practices (Prácticas)**
+
+- **Feature Branching y Pull Requests:**  
+   
+    Cada historia de usuario se desarrolla en una rama `feature/E2‑USXXX`. Al finalizar, se abre un pull request contra `develop`, que debe recibir al menos una aprobación antes de fusionarse.
+
+- **Commits Semánticos:**  
+   
+    Usamos el formato `<type>:<descripción>` (por ejemplo, `feat:`, `fix:`, `docs:`) para facilitar el seguimiento de cambios y la generación automática de changelogs.
+
+- **Protección de Ramas y Checks Automáticos:**  
+   
+    Integramos linters (ESLint, Prettier) y pruebas unitarias en pre‑commit o GitHub Actions. Solo se permite merge con todos los checks en verde y al menos un revisor aprobando el PR.
+
+- **Gestión de Variables de Entorno:**  
+   
+    Mantenemos archivos `.env` locales excluidos de Git y gestionamos las variables de producción/staging en Railway y Netlify, garantizando separación clara de entornos.
+
 ### 7.2.2. Stages Deployment Pipeline Components
 
+El pipeline de despliegue comienza con el trabajo en ramas de feature y termina con la publicación y monitoreo de la versión en producción, pasando por entornos de staging para validación.
+
+- **Feature Branching:**  
+   
+    El desarrollador crea `feature/E2‑USXXX` para implementar una historia de usuario sin afectar otras ramas.
+
+- **Pull Request y Despliegue en Staging:**  
+   
+    Al abrir el PR contra `develop`, GitHub Actions ejecuta linters, formateadores y pruebas. Cuando el PR se fusiona, Railway y Netlify generan builds preview del backend y frontend, cuyas URLs se comparten con QA.
+
+- **Validación y QA:**  
+   
+    El equipo de QA prueba la versión de staging y registra incidencias en Trello (“From Zero”). Las correcciones se realizan en ramas `hotfix/*` o en la rama de feature, según corresponda.
+
+- **Merge a `main` y Producción:**  
+   
+    Una vez aprobado en staging, se fusiona `develop` en `main`. Railway redeploya el backend en producción, Netlify publica el frontend en la CDN del dominio principal, y GitHub Pages actualiza el landing page.
+
+- **Monitoreo y Rollback:**  
+   
+    Tras el despliegue, se revisan logs y métricas en Railway y Netlify Analytics. Ante fallos críticos, se revierte el merge en `main` para volver a la versión anterior y se documenta la incidencia en Trello.
+
 ## 7.3. Continuous Deployment
+
+La implementación continua es una práctica que permite automatizar el proceso de despliegue de una aplicación en un entorno de producción, asegurando que cada cambio realizado en el código fuente se implemente de manera rápida y confiable.
+
 ### 7.3.1. Tools and Practices
+En esta sección se describirán las herramientas y prácticas utilizadas para la implementación continua de la aplicación. 
+
+**Tools (Herramientas)**
+
+- **GitHub Actions**: Se utilizó GitHub Actions para automatizar el proceso de implementación continua. Esta herramienta permite definir flujos de trabajo que se activan automáticamente al realizar cambios en el repositorio, como la creación de un nuevo commit o la apertura de un pull request.
+- **Docker**: Se utilizó Docker para crear contenedores que encapsulan la aplicación y sus dependencias. Esto garantiza que la aplicación se ejecute de manera consistente en diferentes entornos, desde el desarrollo hasta la producción.
+
+- **Railway**: Se utilizó Railway como plataforma de implementación para alojar nuestra base de datos SQL. Railway es una plataforma de implementación en la nube que permite crear y gestionar nuestro despliegue de manera sencilla. 
+
+- **Netflify**: Se utilizó Netlify para alojar la aplicación web. Netlify es una plataforma de implementación continua que permite desplegar aplicaciones web de manera rápida y sencilla.
+
+**Practices (Prácticas)**
+
+- **Feature Branching**: Se utilizó la práctica de ramificación de características para desarrollar nuevas funcionalidades en ramas separadas. Esto permite trabajar en múltiples características al mismo tiempo sin afectar a producción. Una vez que una característica está lista, se crea un pull request para revisarla y fusionarla con la rama principal.
+
+- **Automated Testing**: Se implementaron pruebas automatizadas para garantizar que los cambios realizados en el código no rompan la funcionalidad existente. Estas pruebas se ejecutan automáticamente en cada commit y pull request, lo que permite detectar errores de manera temprana.
+
+- **Continuous Integration**: Se implementó un proceso de integración continua que se activa automáticamente al realizar cambios en el código. Esto incluye la ejecución de pruebas automatizadas y la creación de contenedores Docker para garantizar que la aplicación funcione correctamente en diferentes entornos.
+
 ### 7.2.2. Production Deployment Pipeline Components
+
+En esta sección se describirán los componentes del pipeline de implementación en producción.
+
+**Componentes del Pipeline del backend y base de datos (Railway):**
+1. **Repositorio de código:** El proyecto se encuentra alojado en un repositorio (como GitHub), el cual contiene el código fuente, configuración y archivos necesarios para la construcción y despliegue del sistema. Railway se conecta a este repositorio para automatizar el proceso de despliegue.
+
+2. **Servicio de Backend:** Railway detecta el tipo de proyecto (por ejemplo, Java con Maven o Gradle) y lo compila automáticamente. El backend se despliega como un servicio, exponiendo una URL pública para consumir la API.
+
+3. **Servicio de Base de Datos:** Se utiliza el plugin de base de datos de Railway (como PostgreSQL), que se crea dentro del mismo proyecto. Este servicio gestiona la persistencia de datos y proporciona las credenciales y conexión necesarias para integrarse con el backend.
+
+4. **Variables de entorno:** Ambos servicios utilizan variables de entorno para configurar parámetros sensibles como la URL de la base de datos, el usuario y la contraseña. Esto permite separar la configuración del código, facilitando el mantenimiento y la seguridad.
+
+5. **Automatización y despliegue (CI/CD):** Cada vez que se realiza un cambio en el repositorio, Railway ejecuta automáticamente el proceso de construcción y despliegue. Esto garantiza que la última versión del sistema esté siempre activa sin necesidad de intervención manual.
+
+**Componentes del Pipeline del frontend (Netlify):**
+
+1. **Repositorio de código:** El frontend está alojado en un repositorio (como GitHub), que contiene todos los archivos fuente, configuraciones y dependencias del proyecto. Netlify se conecta directamente a este repositorio para automatizar el despliegue.
+
+2. **Servicio de construcción y despliegue:** Netlify detecta el framework utilizado (Vue) y ejecuta los comandos de construcción definidos (por ejemplo, npm run build). Luego, genera una versión optimizada del sitio y lo publica automáticamente en una URL pública.
+
+3. **Variables de entorno:** Netlify permite definir variables de entorno necesarias para que el frontend funcione correctamente, como la URL del backend. Estas variables se inyectan durante la fase de construcción.
+
+4. **Automatización y CI/CD:** Cada vez que se realiza un cambio en la rama configurada del repositorio, Netlify reconstruye y despliega automáticamente el sitio. Esto garantiza que siempre se muestre la última versión del frontend sin necesidad de hacerlo manualmente.
+
+5. **Hosting y CDN:** Netlify publica el frontend en su red global de CDN, lo que mejora el rendimiento y la disponibilidad del sitio. Esto permite a los usuarios acceder rápidamente desde cualquier ubicación.
+
 
 
 ---
