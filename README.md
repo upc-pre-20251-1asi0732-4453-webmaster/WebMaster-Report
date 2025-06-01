@@ -1198,28 +1198,6 @@ Enlace a Miro: https://miro.com/app/board/uXjVIA0Hwb4=/?moveToWidget=34587646253
 <p><strong>Entonces</strong> regresará a la pantalla de inicio de sesión</p></td>
 <td>2</td>
 </tr>
-
-<tr class="even">
-<td>E2-US110</td>
-<td>Estadísticas del proyecto</td>
-<td><p><strong>Como</strong> empresa</p>
-<p><strong>quiero</strong> acceder a un panel de estadísticas</p>
-<p><strong>para</strong> visualizar el estado, rendimiento y puntualidad del freelancer</p></td>
-<td><p><strong>Escenario 1: Visualizar progreso</strong></p>
-<p><strong>Dado que</strong> hay un proyecto en curso</p>
-<p><strong>Cuando</strong> acceda a estadísticas</p>
-<p><strong>Entonces</strong> verá un gráfico de progreso por entregables</p>
-<p><strong>Escenario 2: Entregables a tiempo vs retrasados</strong></p>
-<p><strong>Dado que</strong> hay entregables completados</p>
-<p><strong>Cuando</strong> revise estadísticas</p>
-<p><strong>Entonces</strong> verá un gráfico comparando entregas puntuales y retrasadas</p>
-<p><strong>Escenario 3: Evaluar riesgo de retraso</strong></p>
-<p><strong>Dado que</strong> el proyecto está en progreso</p>
-<p><strong>Cuando</strong> analice fechas límite vs avance</p>
-<p><strong>Entonces</strong> verá indicadores de riesgo</p></td>
-<td>2</td>
-</tr>
-
 <tr class="header">
 <td colspan="5" style="text-align: center"><strong>Epic 3: Funcionalidades como desarrollador freelancer</strong><br>
 <strong>Como</strong> desarrollador freelancer<br>
@@ -1475,18 +1453,6 @@ Enlace al tablero de Trello: https://trello.com/b/gNzXJS37/from-zero
       <td>1</td>
     </tr>
     <tr>
-      <td>E2-US107</td>
-      <td>Gestionar fechas de entregables en el calendario</td>
-      <td>5</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td>E2-US110</td>
-      <td>Estadísticas del proyecto</td>
-      <td>2</td>
-      <td>1</td>
-    </tr>
-    <tr>
       <td>E2-US101</td>
       <td>Visualizar proyectos en la pantalla de inicio</td>
       <td>3</td>
@@ -1494,7 +1460,7 @@ Enlace al tablero de Trello: https://trello.com/b/gNzXJS37/from-zero
     </tr>
     <tr>
       <td>E2-US104</td>
-      <td>Visualizar y dar calificación a desarrolladores</td>
+      <td>Visualizar a desarrolladores</td>
       <td>3</td>
       <td>1</td>
     </tr>
@@ -1529,32 +1495,32 @@ Enlace al tablero de Trello: https://trello.com/b/gNzXJS37/from-zero
       <td>2</td>
     </tr>
     <tr>
-      <td>E2-US108</td>
-      <td>Obtener status de verificado como empresario</td>
-      <td>3</td>
-      <td>2</td>
-    </tr>
-    <tr>
       <td>E3-US104</td>
       <td>Navegar por la aplicación como freelancer</td>
       <td>3</td>
-      <td>3</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>E3-US102</td>
       <td>Postular a proyectos de desarrollo de software</td>
       <td>3</td>
-      <td>3</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>E3-US101</td>
       <td>Visualizar y gestionar proyectos asignados</td>
       <td>3</td>
-      <td>3</td>
+      <td>2</td>
     </tr>
     <tr>
       <td>E3-US103</td>
       <td>Obtener status de verificado como freelancer</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+        <tr>
+      <td>E2-US108</td>
+      <td>Obtener status de verificado como empresario</td>
       <td>3</td>
       <td>3</td>
     </tr>
@@ -1574,6 +1540,12 @@ Enlace al tablero de Trello: https://trello.com/b/gNzXJS37/from-zero
       <td>E1-US103</td>
       <td>Recuperar contraseña</td>
       <td>3</td>
+      <td>4</td>
+    </tr>
+        <tr>
+      <td>E2-US107</td>
+      <td>Gestionar fechas de entregables en el calendario</td>
+      <td>5</td>
       <td>4</td>
     </tr>
   </tbody>
@@ -2490,7 +2462,6 @@ Como organización contamos con un repositorio del landing page, es la cual se e
 | E3-US102   | Postular a proyectos de desarrollo de software | E3-US102 | Permitir a freelancers postular a proyectos      | 3                  | Samira    | done   |
 | E3-US101   | Visualizar y gestionar proyectos asignados | E3-US101 | Mostrar y administrar proyectos asignados        | 3                  | Samira   | done   |
 
-
 ### 5.2.2. Implemented Landing Page Evidence
 [Repositorio](https://github.com/upc-pre-20251-1asi0732-4453-fromzero/WebMaster-LandingPage) <br>
 <img src="./assets/chapter-V/Landing-page.png" alt="Landing Page de la aplicación WebMaster" width="500">
@@ -2972,5 +2943,4 @@ Communications of the ACM, 64(7), 39-41. doi: https://doi.org/10.1145/3440753
 ```
 
 # Anexos
-
 Video exposicion TP [Link del video](youtu.be/pdJZ67g8hd4)
