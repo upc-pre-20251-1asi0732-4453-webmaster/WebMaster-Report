@@ -2938,10 +2938,95 @@ En esta sección se describirán los componentes del pipeline de implementación
 # Capítulo VIII: Experiment-Driven Development
 ## 8.1. Experiment Planning
 ### 8.1.1. As-Is Summary
+Nuestra aplicación tiene como objetivo principal ofrecer una plataforma para que las pequeñas y medianas empresas puedan conseguir soluciones tecnologicas sencillas basadas en sus necesidades y presupuesto. A su vez, permite a los desarrolladores freelance encontrar proyectos que se alineen con sus habilidades y experiencia. Actualmente, la aplicación cuenta con funcionalidades básicas como el registro de usuarios, la publicación de proyectos y la postulación a estos por parte de los desarrolladores. Sin embargo, aún hay áreas que requieren mejoras y nuevas funcionalidades para optimizar la experiencia del usuario y aumentar la eficiencia del sistema.
+
+**Problemas Identificados:**
+- <u>Rendimiento:</u> la aplicación puede ser bastante lenta al momento de cargar los datos en la pantalla inicial, a su vez, la carga de los proyectos puede ser lenta y no se actualiza en tiempo real.
+
+-<u> Usabilidad:</u> la navegación por la aplicación puede ser confusa para los usuarios, especialmente para aquellos que no están familiarizados con el sistema. La interfaz de usuario necesita ser más intuitiva y amigable.
+
+- <u>Funcionalidades:</u> la aplicación carece de ciertas funcionalidades que podrían mejorar la experiencia del usuario, como un sistema de notificaciones, un calendario para gestionar fechas de entrega y una sección de perfil más completa.
+
+- <u>Seguridad:</u> la aplicación necesita mejorar sus medidas de seguridad para proteger la información de los usuarios y evitar posibles ataques cibernéticos.
+
+**Objetivos de Mejora:**
+- Mejorar el rendimiento de la aplicación para que sea más rápida y eficiente.
+- Optimizar la usabilidad de la aplicación para que sea más intuitiva y fácil de navegar.
+- Añadir nuevas funcionalidades que mejoren la experiencia del usuario, como un sistema de notificaciones, un calendario para gestionar fechas de entrega y una sección de perfil más completa.
+- Implementar medidas de seguridad más robustas para proteger la información de los usuarios y evitar posibles ataques cibernéticos.
+
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+**Assumptions:**  
+  - Los usuarios valoran una interfaz intuitiva y fácil de usar.
+  - La velocidad de carga de la aplicación es un factor crítico para la satisfacción del usuario.
+  - Los usuarios necesitan funcionalidades adicionales como notificaciones y calendarios para mejorar su experiencia.
+**Knowledge Gaps:**
+  - No se ha realizado un análisis exhaustivo de las necesidades y expectativas de los usuarios.
+  - Falta información sobre las mejores prácticas de seguridad para aplicaciones web.
+  - Desconocimiento sobre las tecnologías más adecuadas para mejorar el rendimiento de la aplicación.
+**Ideas:**
+  - Implementar un sistema de notificaciones para mantener a los usuarios informados sobre actualizaciones y cambios en sus proyectos.
+  - Añadir un calendario para gestionar fechas de entrega y plazos de los proyectos.
+  - Realizar una auditoría de usabilidad para identificar áreas de mejora en la interfaz de usuario.
+**Claims:**
+  - La implementación de un sistema de notificaciones mejorará la comunicación entre los usuarios y aumentará la retención de usuarios.
+  - Un calendario integrado facilitará la gestión de proyectos y mejorará la planificación de tareas.
+  - Mejorar la usabilidad de la aplicación aumentará la satisfacción del usuario y reducirá la tasa de abandono.
+
 ### 8.1.3. Experiment-Ready Questions
+|Question|Confidence|Risk|Impact|Interest|Total Score|
+|--------|----------|----|------|--------|-----------|
+| ¿Mejorará la experiencia del usuario si mejoramos la barra de navegacion y ajustamos las tonalidades del fondo? | 3 - Con una configuración mas agradable para la vista podemos asegurarnos que los usuarios permanezcan mas tiempo en ella | 1 - bajo riesgo ya que son configuraciones sencillas que no tomarian mucho en implementar o quitar si no son de agrado al publico| 2 - Podría mejorar la experiencia de usuario por no es critica | 2 - Interes bajo, pero presente en los usuarios | 9 | 
+| ¿Aumentará la retención de usuarios si implementamos un sistema de notificaciones? | 4 - Con un sistema de notificaciones, los usuarios estarán más informados y comprometidos con la plataforma | 2 - Riesgo moderado, ya que podría generar spam si no se gestiona adecuadamente | 5 - La retención de usuarios es crucial para el éxito a largo plazo | 6 - Alto interés, ya que los usuarios valoran estar informados sobre sus proyectos | 17 |
+| ¿Mejorará la planificación de proyectos si añadimos un calendario para gestionar fechas de entrega? | 6 - Un calendario facilitará la organización y seguimiento de tareas | 3 - Riesgo moderado, ya que podría complicar la interfaz si no se implementa correctamente | 8 - La planificación es clave para el éxito de los proyectos | 6 - Alto interés, ya que los usuarios necesitan herramientas para gestionar sus proyectos | 23 |
+| ¿Aumentará la satisfacción del usuario si optimizamos la velocidad de carga de la aplicación? | 8 - La velocidad de carga es fundamental para una buena experiencia de usuario | 2 - Bajo riesgo, ya que se trata de optimizaciones técnicas | 7 - Una aplicación rápida mejora la percepción general del servicio | 9 - Muy alto interés, ya que los usuarios esperan un rendimiento óptimo | 26 |
+| ¿Mejorará el sentimiento de seguridad de los usuarios en la aplicación si implementamos medidas de seguridad más robustas, pero que puedan comprometer el rendimiento?| 6 - Con medidas de seguridad más robustas, los usuarios se sentirán más seguros al usar la aplicación | 6 - Riesgo alto, ya que las medidas de seguridad pueden afectar el rendimiento si no se implementan adecuadamente | 4 - La seguridad es una preocupación crítica para los usuarios | 5 - Muy alto interés, ya que la seguridad es un factor clave en la confianza del usuario | 21 |
+
 ### 8.1.4. Question Backlog
+
+|Prioridad (1,2,3,5,8)|Pregunta|
+|--------|--------|
+| 1 | ¿Mejorará la experiencia del usuario si mejoramos la barra de navegación y ajustamos las tonalidades del fondo? |
+| 3 | ¿Aumentará la retención de usuarios si implementamos un sistema de notificaciones? |
+| 3 | ¿Mejorará la planificación de proyectos si añadimos un calendario para gestionar fechas de entrega? |
+| 5 | ¿Mejorará el sentimiento de seguridad de los usuarios en la aplicación si implementamos medidas de seguridad más robustas, pero que puedan comprometer el rendimiento? |
+| 8 | ¿Aumentará la satisfacción del usuario si optimizamos la velocidad de carga de la aplicación? |
+
 ### 8.1.5. Experiment Cards
+
+|Quesiton| ¿Mejorará la experiencia del usuario si mejoramos la barra de navegación y ajustamos las tonalidades del fondo?|
+|---|---|
+|Why?|Para mejorar la experiencia del usuario y hacer la aplicación más atractiva visualmente.|
+|What?|Mejorar la barra de navegación y ajustar las tonalidades del fondo.|
+|Hypothesis|Si mejoramos la barra de navegación y ajustamos las tonalidades del fondo, entonces los usuarios tendrán una experiencia más agradable y permanecerán más tiempo en la aplicación.|
+<br>
+
+|Question| ¿Aumentará la retención de usuarios si implementamos un sistema de notificaciones?|
+|---|---|
+|Why?|Para mantener a los usuarios informados sobre actualizaciones y cambios en sus proyectos, lo que puede aumentar su compromiso.|
+|What?|Implementar un sistema de notificaciones que informe a los usuarios sobre actualizaciones y cambios en sus proyectos.|
+|Hypothesis|Si implementamos un sistema de notificaciones, entonces los usuarios estarán más informados y comprometidos con la plataforma, lo que aumentará la retención de usuarios.|
+<br>
+
+|Question| ¿Mejorará la planificación de proyectos si añadimos un calendario para gestionar fechas de entrega?|
+|---|---|
+|Why?|Para facilitar la organización y seguimiento de tareas, lo que puede mejorar la planificación de proyectos.|
+|What?|Añadir un calendario que permita a los usuarios gestionar fechas de entrega y plazos de los proyectos.|
+|Hypothesis|Si añadimos un calendario para gestionar fechas de entrega, entonces los usuarios podrán organizar y seguir sus tareas de manera más efectiva, lo que mejorará la planificación de proyectos.|
+<br>
+
+|Question| ¿Aumentará la satisfacción del usuario si optimizamos la velocidad de carga de la aplicación?|
+|---|---|
+|Why?|Para mejorar la experiencia del usuario, ya que una aplicación rápida es fundamental para una buena percepción del servicio.|
+|What?|Optimizar la velocidad de carga de la aplicación para que sea más rápida y eficiente.|
+|Hypothesis|Si optimizamos la velocidad de respuesta entre el front y back, entonces los usuarios tendrán una experiencia más fluida y satisfactoria, lo que aumentará su satisfacción.|
+<br>
+
+|Question| ¿Mejorará el sentimiento de seguridad de los usuarios en la aplicación si implementamos medidas de seguridad más robustas, pero que puedan comprometer el rendimiento?|
+|---|---|
+|Why?|Para proteger la información de los usuarios y evitar posibles ataques cibernéticos, lo que puede aumentar la confianza en la plataforma.|
+|What?|Implementar medidas de seguridad más robustas, como autenticación de dos factores y cifrado de datos, aunque esto pueda afectar el rendimiento.|
+|Hypothesis|Si implementamos medidas de seguridad más robustas, entonces los usuarios se sentirán más seguros al usar la aplicación, lo que aumentará su confianza en la plataforma.|
 
 ## 8.2. Experiment Design
 ### 8.2.1. Hypotheses
