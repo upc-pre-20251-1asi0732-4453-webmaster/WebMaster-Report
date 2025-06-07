@@ -3030,12 +3030,133 @@ Nuestra aplicación tiene como objetivo principal ofrecer una plataforma para qu
 
 ## 8.2. Experiment Design
 ### 8.2.1. Hypotheses
+
+| Question | ¿Mejorará la experiencia del usuario si mejoramos la barra de navegacion y ajustamos las tonalidades del fondo? |
+| --- | --- |
+| Belief | Una barra de navegación más clara y tonos de fondo agradables reducirán la fatiga visual y harán la aplicación más atractiva. |
+| Hypothesis | Ajustar la barra de navegación y las tonalidades del fondo incrementará el tiempo promedio de sesión en ≥10% y aumentará la valoración de satisfacción visual en ≥1 punto (escala 1–5). |
+| Null Hypothesis | No habrá cambios significativos en tiempo de sesión ni en valoración de satisfacción visual. |
+
+
+| Question | ¿Aumentará la retención de usuarios si implementamos un sistema de notificaciones? |
+| --- | --- |
+| Belief | Mantener informados a los usuarios con notificaciones incrementa su compromiso. |
+| Hypothesis | Implementar notificaciones push/email elevará la retención mensual de usuarios en ≥15%. |
+| Null Hypothesis | La retención mensual no variará de forma significativa. |
+
+
+| Question | ¿Mejorará la planificación de proyectos si añadimos un calendario para gestionar fechas de entrega? |
+| --- | --- |
+| Belief | Un calendario integrado facilita la organización y seguimiento de plazos. |
+| Hypothesis | Añadir un calendario de fechas de entrega incrementará la tasa de tareas completadas a tiempo en ≥20%. |
+| Null Hypothesis | La proporción de tareas completadas a tiempo no cambiará significativamente. |
+
+
+| Question | ¿Aumentará la satisfacción del usuario si optimizamos la velocidad de carga de la aplicación? |
+| --- | --- |
+| Belief | Una aplicación más rápida mejora la percepción y retención. |
+| Hypothesis | Reducir el tiempo de carga a <2s incrementará la satisfacción global en ≥1.5 puntos (escala 1–5). |
+| Null Hypothesis | La satisfacción global no mostrará diferencia significativa. |
+
+
+| Question | ¿Mejorará el sentimiento de seguridad de los usuarios en la aplicación si implementamos medidas de seguridad más robustas, pero que puedan comprometer el rendimiento? |
+| --- | --- |
+| Belief | Funciones como 2FA y cifrado generan mayor confianza. |
+| Hypothesis | Implementar autenticación de dos factores y cifrado avanzado elevará el índice de confianza en ≥20%. |
+| Null Hypothesis | La confianza del usuario no variará significativamente. |
+
 ### 8.2.2. Measures
+| Question | ¿Mejorará la experiencia del usuario si mejoramos la barra de navegación y ajustamos las tonalidades del fondo? |
+| --- | --- |
+| Measure | Medir la puntuación de satisfacción del usuario (CSAT) a través de una encuesta (escala 1–5) y el tiempo promedio por sesión utilizando Google Analytics antes y después del cambio. |
+
+
+| Question | ¿Aumentará la retención de usuarios si implementamos un sistema de notificaciones? |
+| --- | --- |
+| Measure | Medir la tasa de retención de usuarios mensual (porcentaje de usuarios que regresan al mes siguiente) y la tasa de clics en notificaciones (CTR) para evaluar su relevancia. |
+
+
+| Question | ¿Mejorará la planificación de proyectos si añadimos un calendario para gestionar fechas de entrega? |
+| --- | --- |
+| Measure | Medir el porcentaje de entregables completados a tiempo y la tasa de finalización de proyectos dentro del plazo estimado. Complementar con encuestas sobre la facilidad de gestión percibida. |
+
+
+| Question | ¿Mejorará el sentimiento de seguridad de los usuarios si implementamos medidas de seguridad más robustas? |
+| --- | --- |
+| Measure | Medir la puntuación de confianza en la seguridad mediante una encuesta (escala 1–10) y el tiempo de inicio de sesión promedio para cuantificar el impacto en el rendimiento. |
+
+
+| Question | ¿Aumentará la satisfacción del usuario si optimizamos la velocidad de carga de la aplicación? |
+| --- | --- |
+| Measure | Medir el Tiempo de Carga Promedio (Average Page Load Time) y el Time to Interactive (TTI) utilizando herramientas como Google Lighthouse. Medir la Calificación de Satisfacción del Usuario (CSAT) a través de encuestas. |
+
 ### 8.2.3. Conditions
+| Question | ¿Mejorará la experiencia del usuario si mejoramos la barra de navegación y ajustamos las tonalidades del fondo? |
+| --- | --- |
+| Condición Experimental | Un grupo de usuarios interactuará con la versión de la aplicación que incluye la nueva barra de navegación y la paleta de colores actualizada. |
+| Condición de Control | Un grupo de usuarios utilizará la versión actual de la aplicación sin los cambios visuales. |
+
+| Question | ¿Aumentará la retención de usuarios si implementamos un sistema de notificaciones? |
+| --- | --- |
+| Condición Experimental | Se habilitará el sistema de notificaciones para un segmento de usuarios, quienes recibirán alertas sobre actividad relevante en sus proyectos. |
+| Condición de Control | El grupo de control no recibirá notificaciones, manteniendo la funcionalidad actual. |
+
+| Question | ¿Mejorará la planificación de proyectos si añadimos un calendario para gestionar fechas de entrega? |
+| --- | --- |
+| Condición Experimental | Un grupo de usuarios tendrá acceso a la nueva funcionalidad de calendario para gestionar sus entregables y plazos. |
+| Condición de Control | El grupo de control seguirá gestionando sus plazos sin la herramienta de calendario. |
+
+| Question | ¿Mejorará el sentimiento de seguridad de los usuarios en la aplicación si implementamos medidas de seguridad más robustas, pero que puedan comprometer el rendimiento? |
+| --- | --- |
+| Condición Experimental | Se activará la autenticación de dos factores (2FA) de forma opcional para un grupo de usuarios. |
+| Condición de Control | El grupo de control mantendrá el sistema de autenticación actual de usuario y contraseña. |
+
+| Question | ¿Aumentará la satisfacción del usuario si optimizamos la velocidad de carga de la aplicación? |
+| --- | --- |
+| Condición Experimental | Se desplegará la versión optimizada del backend y frontend para un grupo de usuarios. |
+| Condición de Control | Un grupo de usuarios seguirá utilizando la versión no optimizada de la aplicación para establecer una línea base. |
 ### 8.2.4. Scale Calculations and Decisions
+Se define un marco de decisión para cada experimento, estableciendo de antemano los umbrales de éxito que determinarán si una funcionalidad se implementa, se revisa o se descarta.
+
+| Scale Calculation                                                                                                                                                         | Decision                                                                                                                    | Desfavorable | Aceptable | Ideal | Excelente |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|--------------|-----------|-------|-----------|
+| Creemos que mejorando la UI, la satisfacción aumentará un 15%. Sabremos que es cierto si observamos dicho aumento en las encuestas CSAT.                                    | Implementar los cambios de UI si el resultado es aceptable o superior.                                                      |              |           |   X   |           |
+| Creemos que las notificaciones aumentarán la retención en un 20%. Sabremos que es cierto si la tasa de retención mensual alcanza ese valor.                               | Lanzar las notificaciones a todos los usuarios si se cumple el objetivo ideal.                                              |              |           |   X   |           |
+| Creemos que el calendario reducirá entregas tardías en un 25%. Sabremos que es cierto si el porcentaje de entregas a tiempo mejora en esa magnitud.                        | Integrar el calendario como una funcionalidad principal si el resultado es ideal.                                           |              |           |   X   |           |
+| Creemos que las medidas de seguridad aumentarán la confianza en un 30% sin impactar el rendimiento en más de un 15%.                                                        | Implementar 2FA si la confianza aumenta de forma aceptable y el impacto en el rendimiento es mínimo.                        |              |     X     |       |           |
+| Creemos que la optimización del rendimiento reducirá el tiempo de carga en 50%. Sabremos que es cierto si las métricas de Lighthouse lo confirman.                         | Priorizar la implementación de las optimizaciones de rendimiento.                                                            |              |           |       |     X     |
+
 ### 8.2.5. Method Selection
+Para recopilar los datos definidos en la sección de Measures, se seleccionarán y utilizarán las siguientes herramientas, evaluadas según su idoneidad para cada tarea.
+
+| Herramienta                 | Google Analytics                                                                                          | Google Lighthouse                                                        | Hotjar                                                                | Google Forms / SurveyMonkey                                                   |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| **Precio**                  | Gratuito (con límites)                                                                                    | Gratuito (integrado en Chrome)                                            | Freemium                                                              | Freemium                                                                       |
+| **Capacidad de Análisis**   | Análisis exhaustivo del comportamiento del usuario (sesiones, retención, flujo de usuarios).              | Análisis técnico de rendimiento, SEO, accesibilidad y PWA.                | Análisis cualitativo de usabilidad (mapas de calor, grabaciones).      | Recopilación de datos cualitativos y cuantitativos a través de encuestas.      |
+| **Sencillez**               | Curva de aprendizaje media. Requiere configuración.                                                       | Muy sencillo de usar y entender los reportes.                             | Fácil de configurar e interpretar los datos visuales.                 | Muy fácil de crear y distribuir encuestas.                                     |
+| **Ventajas**                | Ideal para medir métricas de negocio como retención y tiempo en la página. Se integra con otras herramientas de Google. | Proporciona métricas claras y accionables para desarrolladores sobre rendimiento técnico. | Ofrece insights visuales sobre cómo los usuarios interactúan con la interfaz. | Permite medir directamente la percepción y satisfacción del usuario (CSAT, confianza). |
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 ### 8.2.7. Web and Mobile Tracking Plan
+Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para seguir optimizando la plataforma, se establece el siguiente plan de seguimiento.
+
+1. **Implementación Inicial y Establecimiento de Líneas Base:**  
+   Durante el primer mes posterior al lanzamiento de cada nueva funcionalidad (calendario, notificaciones, etc.), nos enfocaremos en recopilar datos para establecer una nueva línea base de rendimiento y uso.  
+   **Recopilación de Datos:**  
+   - **Métricas de Rendimiento:** Se registrarán diariamente los scores de Lighthouse para las páginas clave.  
+   - **Métricas de Uso (Google Analytics):** Se monitoreará el número de usuarios activos, la duración de las sesiones y las tasas de conversión para acciones clave (ej. proyectos publicados, postulaciones enviadas).  
+   - **Métricas de Funcionalidad Específica:** Se registrará la adopción de las nuevas características (ej. número de eventos creados en el calendario, CTR de notificaciones).  
+   - **Análisis Comparativo:** Los datos se compararán con los resultados del experimento inicial para confirmar que el impacto positivo se mantiene en un entorno de producción a mayor escala.  
+
+2. **Seguimiento Continuo y Optimización Iterativa:**  
+   Una vez establecida la nueva línea base, se iniciará un proceso de monitoreo continuo para identificar tendencias y oportunidades de mejora.  
+   **Recopilación de Datos Continuos:**  
+   - **Métricas en Tiempo Real:** Se configurarán dashboards en una herramienta como Google Data Studio o Grafana para visualizar KPIs en tiempo real (usuarios activos, errores de servidor, tiempos de carga).  
+   - **Segmentación de Usuarios:** Se analizará el comportamiento por segmento (Empresas vs. Desarrolladores) para entender cómo cada grupo interactúa con las nuevas funcionalidades y personalizar futuras mejoras.  
+   - **Feedback Cualitativo (Hotjar y Encuestas):** Se realizarán análisis periódicos con mapas de calor y se enviarán encuestas de satisfacción trimestrales para recopilar feedback directo de los usuarios.  
+
+3. **Evaluación y Ajustes:**  
+   - **Informes Mensuales:** El equipo revisará un informe mensual con los hallazgos clave y las tendencias observadas.  
+   - **Iteración Basada en Datos:** Las conclusiones de estos informes se utilizarán para generar nuevas ideas y poblar el Question Backlog para el siguiente ciclo de experimentación, asegurando que WebMaster evolucione de manera constante y basada en datos.  
 ---
 
 # Conclusiones y Recomendaciones
