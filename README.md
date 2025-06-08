@@ -2959,7 +2959,7 @@ Para garantizar una supervisión constante de la calidad y rendimiento de nuestr
 * Supervisión de APIs (Postman): Postman fue empleado no solo como herramienta de pruebas manuales e integración, sino también como recurso para validar continuamente la disponibilidad y correcto funcionamiento de nuestros endpoints RESTful. Esta práctica permite identificar problemas de conexión o respuestas inesperadas antes de que impacten a los usuarios.
 
 <div align="center">
-  <img src="assets/Chapter-VII/postman.png" alt="Postman">
+  <img src="assets/chapter-VII/postman.png" alt="Postman">
 </div>
 
 * Auditorías de Calidad Web (Lighthouse): Google Lighthouse fue incorporado para realizar auditorías periódicas sobre el rendimiento, accesibilidad y buenas prácticas de la plataforma. Gracias a esta herramienta, se logró identificar cuellos de botella y oportunidades de mejora en la experiencia digital.
@@ -2967,7 +2967,7 @@ Para garantizar una supervisión constante de la calidad y rendimiento de nuestr
 * Monitoreo de Experiencia del Usuario (Google Analytics): Google Analytics permitió analizar el comportamiento real de los usuarios en la plataforma, facilitando la toma de decisiones para optimizar flujos, identificar caídas en rutas críticas y mejorar la navegación en general.
 
 <div align="center">
-  <img src="assets/Chapter-VII//google-analytics.png" alt="Google Analytics" width="350">
+  <img src="assets/chapter-VII//google-analytics.png" alt="Google Analytics" width="350">
 </div>
 
 ### 7.4.2. Monitoring Pipeline Components
@@ -2977,7 +2977,7 @@ Un pipeline de monitoreo continuo fue diseñado para recoger y analizar informac
 * Google Lighthouse: Implementado como parte del pipeline para generar auditorías automatizadas sobre rendimiento, accesibilidad, SEO y otras métricas esenciales. Estos análisis se ejecutan de forma periódica para identificar problemas antes de que impacten negativamente a los usuarios.
 
 <div align="center">
-  <img src="assets/Chapter-VII/google-lighthouse" alt="Google Lighthouse" width="350">
+  <img src="assets/chapter-VII/google-lighthouse.jpeg" alt="Google Lighthouse" width="350">
 </div>
 
 
