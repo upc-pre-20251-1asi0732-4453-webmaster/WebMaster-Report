@@ -2793,7 +2793,15 @@ A continuacion se visualiza la ejecucion del test:
 
 ## 6.2 Static tetsing & Verification
 ### 6.2.1. Static Code Analysis
+Este apartado aborda los métodos y herramientas que se han utilizado en el proyecto para garantizar la calidad del código en etapas tempranas del desarrollo. Mediante el static code analysis, se busca asegurar que el código fuente actual cumpla con los estándares adecuados, disminuir la cantidad de errores y reducir las vulnerabilidades antes de llegar a etapas de producción.
+
 #### 6.2.1.1. Coding standard & Code conventions
+Los estándares y convenciones de condificación son una serie de pautas adoptadas por los desarrolladores para garantizar legibilidad, consistencia y mantenibilidad del código. Su aplicación mejora la eficiencia del software y reduce su complejidad, facilitando la colaboración y mantenimiento a largo plazo.
+
+Para el desarrollo de este proyecto, se siguieron los siguientes estilos:
+- **Java Code Conventions:** Se tienen convenciones para nombrar clases (PascalCase), métodos y variables (camelCase) y constantes (MAYÚSCULAS_CON_GUIONES_BAJOS). La indentación debe ser 4 espacios y las líneas de código deben evitar ser mayores a 80. Cada clase debe tener un propósito único, evitando lógica redundante, mientras que los métodos deben ser breves y realizar una única tarea. Estas y otras prácticas de esta convención facilitan el mantenimiento futuro.
+- **Clean Code:** Se usan nombres descriptivos para las clases, métodos y variables, evitando abreviaturas ambiguas. Se debe seguir el principio DRY (Don't Reap Yourself), eliminando o refactorizan todo el código duplicado. Así mismo, las funciones deben cumplir un unico propósito (Single Responsibility Principle). Estas prácticas buscan crear código mantenible y fácil de entender por otros desarrolladores.
+
 #### 6.2.1.1. Coding Quality & Code security
 ### 6.2.2. Reviews
 
