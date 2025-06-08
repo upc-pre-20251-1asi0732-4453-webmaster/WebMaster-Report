@@ -2951,9 +2951,53 @@ En esta sección se describirán los componentes del pipeline de implementación
 
 ## 7.4 Continuous Monitoring
 ### 7.4.1. Tools and Practices
+
+Para garantizar una supervisión constante de la calidad y rendimiento de nuestra plataforma WebMaster, se integraron diversas herramientas y buenas prácticas orientadas al monitoreo proactivo. A continuación, se describen las principales:
+
+* Pruebas de Comportamiento y Automatización Visual (Selenium + Cucumber): Se utilizó Selenium para la automatización de pruebas en interfaces gráficas, junto con Cucumber para definir comportamientos esperados mediante especificaciones BDD (Behavior-Driven Development). Esto permite monitorear de forma automatizada que las funcionalidades visibles sigan respondiendo como se espera ante cambios en el código.
+
+* Supervisión de APIs (Postman): Postman fue empleado no solo como herramienta de pruebas manuales e integración, sino también como recurso para validar continuamente la disponibilidad y correcto funcionamiento de nuestros endpoints RESTful. Esta práctica permite identificar problemas de conexión o respuestas inesperadas antes de que impacten a los usuarios.
+
+<div align="center">
+  <img src="assets/Chapter-VII/postman.png" alt="Postman">
+</div>
+
+* Auditorías de Calidad Web (Lighthouse): Google Lighthouse fue incorporado para realizar auditorías periódicas sobre el rendimiento, accesibilidad y buenas prácticas de la plataforma. Gracias a esta herramienta, se logró identificar cuellos de botella y oportunidades de mejora en la experiencia digital.
+
+* Monitoreo de Experiencia del Usuario (Google Analytics): Google Analytics permitió analizar el comportamiento real de los usuarios en la plataforma, facilitando la toma de decisiones para optimizar flujos, identificar caídas en rutas críticas y mejorar la navegación en general.
+
+<div align="center">
+  <img src="assets/Chapter-VII//google-analytics.png" alt="Google Analytics" width="350">
+</div>
+
 ### 7.4.2. Monitoring Pipeline Components
+
+Un pipeline de monitoreo continuo fue diseñado para recoger y analizar información clave sobre el comportamiento del sistema en producción, garantizando así una evolución basada en evidencia y una experiencia digital consistente.
+
+* Google Lighthouse: Implementado como parte del pipeline para generar auditorías automatizadas sobre rendimiento, accesibilidad, SEO y otras métricas esenciales. Estos análisis se ejecutan de forma periódica para identificar problemas antes de que impacten negativamente a los usuarios.
+
+<div align="center">
+  <img src="assets/Chapter-VII/google-lighthouse" alt="Google Lighthouse" width="350">
+</div>
+
+
+* Google Analytics: Actúa como componente de análisis en tiempo real, recolectando datos sobre el tráfico, flujo de usuarios y puntos de salida críticos. Esta información se integra al pipeline para ayudar a visualizar cómo las decisiones técnicas afectan directamente la experiencia del usuario.
+
 ### 7.4.3. Alerting Pipeline Components
+
+Los mecanismos de alerta permiten una respuesta rápida y oportuna ante eventos inesperados o caídas en la calidad del servicio. En nuestro caso, se utilizaron componentes y configuraciones para detectar fallos relevantes tanto a nivel funcional como de rendimiento:
+
+* JUnit5 + Mockito: Aunque tradicionalmente son usados para pruebas, estas herramientas también se incorporaron dentro del pipeline de CI/CD (integrado con GitHub Actions) para verificar continuamente que las funcionalidades básicas del backend operen correctamente. Al fallar alguna prueba crítica, se dispara automáticamente una alerta al equipo.
+
+* GitHub Actions: Configurado para ejecutar pruebas automáticas y mostrar fallos en tiempo real directamente en el repositorio, GitHub se convierte en el centro de control del equipo de desarrollo, quien recibe alertas ante cualquier error en las ejecuciones de los test suites, promoviendo respuestas rápidas ante regresiones.
+
 ### 7.4.4. Notification Pipeline Components
+
+La automatización de notificaciones es crucial para mantener al equipo informado sobre el estado del sistema y de las pruebas a lo largo del ciclo de vida del desarrollo.
+
+* GitHub Actions + Railway + Firebase: Gracias a la integración entre GitHub Actions y los entornos de despliegue en Railway y Firebase, se configuraron notificaciones automáticas ante cada despliegue exitoso o fallido. Estas notificaciones incluyen el estado del build, el resultado de las pruebas y el entorno al que se desplegó.
+
+* Mensajería por correo (via GitHub): Se establecieron notificaciones por correo electrónico como mecanismo principal para mantener informados a los miembros del equipo sobre fallos críticos, fallos en builds o actualizaciones importantes, promoviendo una toma de decisiones ágil y colaborativa.
 
 # Capítulo VIII: Experiment-Driven Development
 ## 8.1. Experiment Planning
