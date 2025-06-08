@@ -2803,8 +2803,20 @@ Para el desarrollo de este proyecto, se siguieron los siguientes estilos:
 - **Clean Code:** Se usan nombres descriptivos para las clases, métodos y variables, evitando abreviaturas ambiguas. Se debe seguir el principio DRY (Don't Reap Yourself), eliminando o refactorizan todo el código duplicado. Así mismo, las funciones deben cumplir un unico propósito (Single Responsibility Principle). Estas prácticas buscan crear código mantenible y fácil de entender por otros desarrolladores.
 
 #### 6.2.1.1. Coding Quality & Code security
-### 6.2.2. Reviews
+La calidad del código mide la la fiabilidad, eficiencia y mantebilidad de un software en el tiempo sin caer en deuda técnica. Para ello, el código debe cumplir cuatro aspectos: ser eficiente, ampliable, reusable y testeable. Para garantizar la calidad del código, se usan diferentes herramientas como análisis estático, controles de estilo o pruebas automatizadas.
 
+Por otra parte, la seguridad del código se refiere a las prácticas y métodos implementadas durante el desarrollo de software para mitigar vulnerabilidades y amenazas que puedan poner en riesgo la integridad del sistema. Entre estas prácticas destacan: validación y sanitizacion de entradas (input sanitization), limitación de tasa de requests (rate limiting) y encriptación de datos sensibles, entre otras.
+Para garantizar su eficacia, se realizan pruebas de penetración (pentesting), así como escaneo de dependencias y análisis estático para detectar de manera temprana este tipo de vulnerabilidades.
+
+Para cumplir con ambos puntos, se han escogido dos herramientas que ayudan a garantizar la seguridad y calidad del código:
+
+- **Checkstyle** es una herramienta de análisis estático que verifica el cumplimiento de las convenciones de código definidas en el proyecto. Según la configuración, valida aspectos como el formato, nombrado e indentación. De esta manera se garantiza un código consistente y alineado con las buenas prácticas del lenguaje.
+<img src="./assets/Chapter VI/checkstyle.PNG">
+
+- **SonarQube** es una herramienta que evalúa el código de manera estática y dinámica para identificar vulnerabilidades de seguridad, bugs complejos, deuda técnica y otras malas prácticas que comrpometen la calidad del software. Realiza análisis y reportes priorizando los problemas por severidad.
+<img src="./assets/Chapter VI/sonarqube.PNG">
+  
+### 6.2.2. Reviews
 ## 6.3. Validation Interviews
 ### 6.3.2 Registro de Entrevistas
 ### 6.3.3. Evaluaciones según heurísticas
