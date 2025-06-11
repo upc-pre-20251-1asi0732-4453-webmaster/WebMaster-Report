@@ -3200,6 +3200,19 @@ Para recopilar los datos definidos en la sección de Measures, se seleccionarán
 | **Sencillez**               | Curva de aprendizaje media. Requiere configuración.                                                       | Muy sencillo de usar y entender los reportes.                             | Fácil de configurar e interpretar los datos visuales.                 | Muy fácil de crear y distribuir encuestas.                                     |
 | **Ventajas**                | Ideal para medir métricas de negocio como retención y tiempo en la página. Se integra con otras herramientas de Google. | Proporciona métricas claras y accionables para desarrolladores sobre rendimiento técnico. | Ofrece insights visuales sobre cómo los usuarios interactúan con la interfaz. | Permite medir directamente la percepción y satisfacción del usuario (CSAT, confianza). |
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+<div align="center">
+  <img src="assets/chapter-VIII/data_analytics1.png" alt="dataAnalytics1">
+</div>
+<div align="center">
+  <img src="assets/chapter-VIII/data_analytic2.png" alt="dataAnalytics2">
+</div>
+<div align="center">
+  <img src="assets/chapter-VIII/data_analytic3.png" alt="dataAnalytics3">
+</div>
+<div align="center">
+  <img src="assets/chapter-VIII/data_analytic4.png" alt="dataAnalytics4">
+</div>
+
 ### 8.2.7. Web and Mobile Tracking Plan
 Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para seguir optimizando la plataforma, se establece el siguiente plan de seguimiento.
 
