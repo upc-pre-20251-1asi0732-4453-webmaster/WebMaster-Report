@@ -259,14 +259,22 @@ Para esta entrega, el trabajo se desarrolló de forma cooperativa, involucrando 
 TP <br>
 En esta entrega, se tomaron decisiones fundamentadas sobre la codificación de las características esenciales de la aplicación, considerando su viabilidad técnica y su impacto en la organización del trabajo a través del sprint backlog. Estas decisiones se alinearon con una visión responsable del desarrollo, evaluando cómo las soluciones propuestas podrían influir en contextos globales, económicos y sociales, especialmente en términos de accesibilidad, sostenibilidad y escalabilidad del sistema.
 
+TB2 <br>
+En esta entrega, implementé análisis estático y evaluar heurísticas, que asegura nuestro código cumpliera con estándares internacionales de seguridad y calidad. Esto no solo previno vulnerabilidades con potencial impacto global (como brechas de datos), sino que también garantizó que la solución fuera accesible para usuarios en entornos con limitaciones tecnológicas. Al documentar entrevistas de validación, incorporé diversas perspectivas socioeconómicas, demostrando cómo la ingeniería rigurosa puede promover inclusión digital.
+
 Elias Sanchez, Harold Miguel <br>
 TB1 <br>
 Durante esta etapa del proyecto, trabajé en la construcción del Startup Profile y el Solution Profile, lo que implicó analizar los antecedentes y problemáticas de nuestro público objetivo, así como perfilar a los miembros del equipo y delimitar el impacto de la solución propuesta. A través de herramientas como el Lean UX Canvas y la formulación de hipótesis, se identificaron factores económicos y sociales clave que influyen en la problemática. Esta aproximación nos permitió comprender cómo una solución tecnológica puede generar valor real en distintos contextos, asegurando que las funcionalidades se alineen con necesidades concretas y con una visión responsable de su aplicación a nivel global. Esta experiencia me permitió emitir juicios informados y tomar decisiones con conciencia del impacto social de nuestro sistema.
 
+TB2 <br>
+Para esta entrega, diseñé KPIs para medir no solo rendimiento técnico, sino también adopción cultural en diferentes regiones. Al incluir planes de rastreo adaptables, demostré que el éxito del software depende de su capacidad para resolver problemas reales en contextos específicos, sin imponer modelos tecnoculturales homogenizados.
 
 Ramirez Contreras, Zaid Valentino <br>
 TB1 <br>
 Durante esta entrega, reforzamos nuestros conocimientos y conceptos necesarios para analizar la problemática en su contexto, lo que nos permitió identificar de manera crítica los segmentos objetivos y sus necesidades. Este análisis no solo nos permitirá desarrollar un proyecto bien estructurado y completo, sino también proponer soluciones de ingeniería de software que consideren su impacto en los ámbitos global, económico, ambiental y social, asegurando así una propuesta responsable, sostenible y contextualizada.
+
+TB2 <br>
+Durante esta entrega, integré métricas de costo-efectividad y escalabilidad para mercados emergentes. Esto nos permitió tomar decisiones informadas sobre funcionalidades clave, asegurando que la solución fuera viable tanto económica como técnicamente en diversos contextos globales, desde startups hasta grandes corporaciones.
 
 Meneses Arevalo, Victor Manuel <br>
 TB1 <br>
@@ -275,13 +283,21 @@ Durante la etapa de diseño del producto, se definieron guías de estilo y estru
 TP <br>
 En esta entrega, se implementó un esquema de validación robusto para la aplicación WebMaster, abarcando desde la verificación individual de sus componentes esenciales hasta la confirmación de la interacción fluida entre la interfaz y el almacenamiento de datos. Se emplearon herramientas especializadas para simular y probar las funcionalidades principales, asegurando que cada parte operara según lo previsto y que la comunicación entre ellas fuera efectiva. Además, para los aspectos cruciales del sistema, se definieron comportamientos esperados que fueron verificados automáticamente en cada etapa de desarrollo.
 
+TB2 <br>
+En esta entrega, configuré pipelines de monitoreo para optimizar el uso de recursos en la nube, reduciendo costos operativos y la huella ambiental del proyecto. Al diseñar alertas accesibles, aseguré que el sistema pueda implementarse en zonas con infraestructura limitada, probando que la eficiencia técnica puede impulsar equidad digital sin sacrificar rendimiento.
+
 Velasquez Pizarro Jair <br>
 TB1 <br>
 El desarrollo del proyecto se llevó a cabo bajo un enfoque colaborativo, donde cada integrante del equipo asumió un rol activo en la construcción de una solución tecnológica con impacto real. A través de entrevistas y análisis contextual, se identificaron necesidades concretas que guiaron la definición de funcionalidades alineadas con problemáticas sociales, económicas y globales. Se priorizó la toma de decisiones fundamentadas, considerando no solo la viabilidad técnica, sino también las consecuencias a largo plazo del sistema en los entornos donde será implementado. El uso de metodologías ágiles como Scrum, junto con un flujo de trabajo estructurado mediante Gitflow, permitió mantener una dinámica de desarrollo eficiente y sostenible, integrando buenas prácticas que refuerzan la calidad del software. Esta experiencia evidenció la importancia de construir soluciones de ingeniería de software responsables, con conciencia de su impacto en la sociedad y en el ecosistema tecnológico global.
 
+TB2 <br>
+Durante esta entrega, prioricé mejoras que equilibran rendimiento y cumplimiento normativo (como GDPR). Esto redujo riesgos legales y económicos para futuros usuarios, especialmente en regiones con regulaciones estrictas. Mi trabajo evidenció que las correcciones técnicas deben evaluarse también por su impacto en la confianza del usuario y la sostenibilidad del sistema a largo plazo.
 </td>
          <td> TB1:
          El equipo trabajó de manera colaborativa utilizando metodologías ágiles como **Scrum** y **Gitflow** para organizar el desarrollo del proyecto, asegurando eficiencia y sostenibilidad. Mediante entrevistas y herramientas como el **Lean UX Canvas**, analizaron las necesidades del público objetivo y definieron funcionalidades alineadas con problemáticas sociales, económicas y globales. Además, se enfocaron en el **diseño de interfaces accesibles e inclusivas** (web y móvil), priorizando la experiencia de usuario y la adaptabilidad en distintos contextos tecnoculturales. Todos los integrantes coincidieron en la importancia de crear una solución responsable, evaluando su impacto a largo plazo y tomando decisiones informadas para garantizar un software sostenible y con valor social.
+          <br>
+          TB2:
+          A través de esta entrega, el equipo demostró cómo la ingeniería de software responsable integra múltiples dimensiones de impacto. Implementamos análisis estáticos y heurísticas para garantizar seguridad global y accesibilidad en entornos vulnerables, mientras que los KPIs culturalmente adaptables aseguraron que la solución respetara diversidad tecnocultural. La optimización de recursos en la nube redujo tanto costos operativos como huella ambiental, y el estricto cumplimiento de normativas como GDPR protegió a usuarios en contextos regulatorios complejos. Estas acciones colectivas reflejan nuestro compromiso con un desarrollo técnico que no solo resuelve problemas inmediatos, sino que construye bases éticas y sostenibles para el futuro digital, priorizando siempre la equidad y el impacto social positivo.
           <br>
 </td>         
 
@@ -301,14 +317,22 @@ En este avance del trabajo, se realizó un análisis riguroso del estado actual 
 TP <br>
 En esta entrega, se asumió con responsabilidad ética y profesional la implementación de las características esenciales de la aplicación, priorizando buenas prácticas de codificación, organización del trabajo mediante el sprint backlog y asegurando la claridad y trazabilidad de las decisiones tomadas. Se consideraron aspectos como la mantenibilidad del código, la transparencia en la colaboración y el respeto por los compromisos asumidos dentro del equipo de desarrollo.
 
+TB2 <br>
+Al implementar análisis de código estático y evaluaciones de seguridad, asumí la responsabilidad ética de garantizar que nuestro software no solo fuera funcional, sino también seguro y accesible. Al adherirme a estándares internacionales, me aseguré de que nuestro trabajo no pusiera en riesgo la privacidad de los usuarios ni discriminara a comunidades con menos recursos tecnológicos. 
+
 Elias Sanchez, Harold Miguel <br>
 TB1 <br>
 Mi participación en el diseño y análisis de entrevistas, así como en la elaboración del Needfinding, me permitió asumir una postura ética y profesional al momento de recopilar, interpretar y aplicar información de usuarios reales. A través de herramientas como User Personas, Journey Maps y Empathy Maps, pude profundizar en las necesidades y emociones de los usuarios, respetando su contexto y tomando decisiones de diseño centradas en el bienestar y la equidad. Este enfoque permitió construir una solución con base en principios éticos y en la responsabilidad que conlleva desarrollar software que influya directamente en la vida de las personas. El análisis competitivo también reforzó mi capacidad de evaluar decisiones desde una perspectiva ética, comprendiendo el rol social del ingeniero de software en entornos reales.
 
+TB2 <br>
+Al diseñar KPIs y planes de rastreo, consideré las implicaciones éticas de recopilar y usar datos de usuarios. Me aseguré de que nuestras métricas no solo midieran el rendimiento, sino que también respetaran normas de privacidad y consentimiento. Este proceso reforzó mi compromiso con una ingeniería de software que priorice a las personas sobre los datos.
 
 Ramirez Contreras, Zaid Valentino <br>
 TB1 <br>
 En esta primera entrega, mantuve un enfoque en el aprendizaje continuo, tanto en la investigación de la problemática y su entorno como en el análisis de las tecnologías disponibles que serán necesarias para el desarrollo del proyecto. Este proceso implicó asumir una actitud responsable y profesional, reconociendo la importancia de tomar decisiones éticas en cada etapa del proyecto, considerando la calidad, la seguridad y el bienestar de los usuarios que se verán impactados por la solución de software propuesta.
+
+TB2 <br>
+Durante la planificación de experimentos, me enfoqué en cuestiones éticas como el sesgo en los datos y la escalabilidad justa. Al definir métricas inclusivas, me aseguré de que nuestras soluciones no perpetuaran desigualdades, especialmente en mercados emergentes. Este enfoque demostró mi responsabilidad profesional de desarrollar tecnología que beneficie a todos, sin importar su contexto económico.
 
 Meneses Arevalo, Victor Manuel <br>
 TB1 <br>
@@ -317,13 +341,22 @@ En el desarrollo de las interfaces gráficas y la arquitectura de información, 
 TP <br>
 En esta entrega, la planificación y ejecución de las actividades de prueba se llevaron a cabo de manera estratégica dentro del ciclo de desarrollo, reconociendo la importancia de la responsabilidad ética y profesional en cada decisión tomada durante la ingeniería de software. Se asignaron responsabilidades claras para la validación de los elementos centrales de la aplicación, y la elección de las pruebas se basó en la información obtenida del proceso de integración continua. Se realizaron ajustes continuos en la creación y aplicación de las pruebas hasta cumplir con los estándares de calidad establecidos, asegurando un enfoque ético en la entrega de un producto confiable y sostenible. Esta metodología garantizó una gestión consciente y progresiva en la entrega del producto, priorizando su estabilidad y capacidad de crecimiento, siempre considerando las implicaciones profesionales de cada acción.
 
+TB2 <br>
+Al configurar el monitoreo continuo, asumí la responsabilidad de optimizar recursos para minimizar el impacto ambiental de nuestra solución. Cada alerta que diseñé tuvo en cuenta no solo la eficiencia técnica, sino también el acceso equitativo para usuarios en zonas con conectividad limitada. Mi trabajo reflejó el compromiso ético de crear tecnología que no excluya ni dañe el medio ambiente.
+
 Velasquez Pizarro Jair <br>
 TB1 <br>
 En esta etapa del proyecto, se llevó a cabo un análisis detallado del panorama actual de las plataformas de contratación freelance, evaluando sus fortalezas, debilidades y estrategias competitivas con un enfoque ético y profesional. Se reconoció la responsabilidad que implica diseñar soluciones tecnológicas que impacten directamente en la forma en que las personas acceden a oportunidades laborales. A través de entrevistas dirigidas a desarrolladores freelance y empresarios, se recolectó información clave que permitió comprender sus contextos, necesidades reales y desafíos cotidianos. Este proceso, guiado por principios de respeto, inclusión y transparencia, dio lugar a un needfinding riguroso, sustentado en herramientas de mapeo y la construcción de user personas. Así, se aseguró que cada decisión de diseño se tome con un compromiso consciente hacia el bienestar de los usuarios y la equidad en el acceso a la tecnología, asumiendo plenamente el rol ético y profesional del ingeniero de software.
 
+TB2 <br>
+Al recibir y documentar auditorías externas, reconocí mi responsabilidad ética al priorizar hallazgos que afectaban directamente a los usuarios finales. Me comprometí a implementar mejoras que no solo resolvieran problemas técnicos, sino que también protegieran los datos sensibles de las personas, especialmente en regiones con regulaciones estrictas. 
+
 </td>
             <td>TB1: 
             En esta primera etapa del proyecto, se llevó a cabo un trabajo colaborativo fundamentado en principios éticos y profesionales, que permitió comprender de manera profunda el contexto del mercado de plataformas de contratación freelance. A través del análisis competitivo, entrevistas a usuarios clave y la aplicación de herramientas como User Personas, Journey Maps, Empathy Maps y wireflows, el equipo logró identificar las verdaderas necesidades, emociones y desafíos tanto de desarrolladores freelance como de empresarios. Este proceso riguroso de needfinding, sustentado en el respeto, la inclusión y la responsabilidad, garantizó que cada decisión de diseño y desarrollo estuviera centrada en el bienestar del usuario y la equidad en el acceso a la tecnología. Asimismo, se fortaleció el compromiso individual y colectivo del equipo con el rol social del ingeniero de software, reconociendo el impacto real que las soluciones tecnológicas tienen en la vida de las personas.
+            <br>
+            TB2:
+            Este proyecto consolidó nuestro compromiso con una ingeniería de software responsable, donde cada acción técnica estuvo guiada por principios éticos fundamentales. Desde el análisis de código seguro que protege la privacidad hasta los KPIs con enfoque humano que evitan sesgos, priorizamos el impacto social sobre la mera funcionalidad. Implementamos monitoreo ecoeficiente para reducir la huella ambiental y auditorías rigurosas que garantizan cumplimiento normativo global, demostrando que la excelencia técnica va de la mano con la integridad profesional. 
             <br>
           
 
