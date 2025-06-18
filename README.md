@@ -180,15 +180,13 @@
     - [6.1.2. Core Integration Tests](#612-core-integration-tests)
     - [6.1.3 Core Behavior-Driven Development](#613-core-behavior-driven-development)
     - [6.1.4. Core System Tests](#614-core-system-tests)
-- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
-  - [7.1. Continuous Integration](#71-continuous-integration)
-    - [7.1.1. Tools and Practices](#711-tools-and-practices)
   - [6.2 Static tetsing \& Verification](#62-static-tetsing--verification)
     - [6.2.1. Static Code Analysis](#621-static-code-analysis)
       - [6.2.1.1. Coding standard \& Code conventions](#6211-coding-standard--code-conventions)
       - [6.2.1.1. Coding Quality \& Code security](#6211-coding-quality--code-security)
     - [6.2.2. Reviews](#622-reviews)
   - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
     - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
     - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
   - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
@@ -201,6 +199,9 @@
       - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
       - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
       - [6.4.2.4.Resumen de modificaciones para subsanar hallazgos](#6424resumen-de-modificaciones-para-subsanar-hallazgos)
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+  - [7.1. Continuous Integration](#71-continuous-integration)
+    - [7.1.1. Tools and Practices](#711-tools-and-practices)
     - [7.1.2. Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
   - [7.2. Continuous Delivery](#72-continuous-delivery)
     - [7.2.1. Tools and Practices](#721-tools-and-practices)
@@ -2953,6 +2954,35 @@ Con base a las diversas opiniones en las entrevistas realizadas, tanto de empres
 ## 6.4. Auditoría de Experiencias de Usuario
 ### 6.4.1. Auditoría realizada
 #### 6.4.1.1. Información del grupo auditado
+
+<div>
+     <table>
+        <tr>
+            <th style="text-align:center;">Member</th>
+            <th style="text-align:center;">Roles</th>
+        </tr>
+        <tr>
+            <td>Ames Oviedo, Mariano Jose</td>
+            <td>Developer</td>
+        </tr>
+        <tr>
+            <td> Criollo de la Cruz, Diego Anderson</td>
+            <td> Developer</td>
+        </tr>
+        <tr>
+            <td>Lecca Choccare, Christopher Bryan</td>
+            <td>Product Owner</td>
+        </tr>
+        <tr>
+            <td>Valle Zuta, Abel Andrés</td>
+            <td>Developer</td>
+        </tr>
+         <tr>
+            <td>Sosa Colca, Angello Rodolfo</td>
+            <td>Scrum Master</td>
+        </tr>
+    </table>
+</div>
 
 #### 6.4.1.2. Cronograma de auditoría realizada
 
