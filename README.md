@@ -2942,19 +2942,19 @@ Resalta de manera positiva la parte visual de la aplicación, destacando su dise
   <br>
   Mauricio Oliveria, es una persona especializada en el área del backend. Desde su punto de vista, la aplicación representa unos colores adecuados, asi como también le permite identificar los botones que llevan a otras pantallas. Recalca que la app web fucionaba correctamente en tanto los botones asi como la pantalla de home devoloper y explorar proyectos. La barra de navegación le fue fácil de usar y el funcionamiento fue el correcto. Esta conforme con la información personal presentada en el home developer, pero que le gustaría una función para que las empresas puedan ver su portafolio. Lo que más le llamo la atención fue la pantalla de explorar proyectos, pues es ahí donde se ve los miles de propuestas que puede postular un freelancer. El entrevistado comenta que si usaría nuestra aplicación sobre todo en momentos en los cuales no sea fácil conseguir trabajo. Adicionalmente, expresa que si estaría de acuerdo que se agregue la opción de portafolio sobre todo para poder demostrar su conocimiento adquirido a las empresas. Por último, si estaría de acuerdo en crearse una cuenta para web master debido a la posibilidad de conseguir proyectos de desarrollo remunerado
 
-  **Entrevista 3** 
+**Entrevista 3**
 
-  - Entrevistador: André Alonso Arroyo Ormeño 
-  - Entrevistado: Rodrigo Perez de la fuente
-  - Edad: 24 años
-  - Residencia: Lima - San Isidro
-  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114714_upc_edu_pe/EbF-92sjCVhHlckZ9kQS0fcB2gpyz-MWBMlh1Xm2y4B8_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9Yk0hm)
+- Entrevistador: Alejandro Barturen
+- Entrevistado: Alejandro Barturen
+- Edad: 21 años
+- Residencia: Lima - San Miguel
+- Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212191_upc_edu_pe/ESSBVSmMguBNk8hg4xL1xHkBocNEIKitXl_U07DSStsXBg?e=EtiYBw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-  <img src="./assets/interviews/Rodrigo Perez de la fuente.png" alt="Entrevista 3 segmento desarrollador freelnacer"  style="width:60% align-center"> >
+<img src="./assets/Chapter%20VI/interview_barturen.png"  style="width:60% align-center">
 
-  Resumen:
-  <br>
-  Rodrigo Perez de la fuente, es una persona especializada en el desarrollo web y móvil y tiene experiencia trabajando en empresas SAAS. Respecto a la web app, le parece que tanto los botones como el tamaño de letra y colores están bien. Para la barra de navegación cumple su objetivo, pues le es sencillo cambiar de una pantalla a otra. Lo que más le llamo la atención fue la seguridad de los trabajos, pues solo cuando es aceptado la solicitud desarrollo es que el freelancer puede acceder a la documentación del proyecto. Si estaría dispuesto a usar nuestra aplicación, porque para él podría ser un ingreso más. Adicionalmente, para él es esencial la opción de poder mostrar el portafolio, porque asi podría demostrar sus conocimientos e incrementar su probabilidad de ser aceptado en el desarrollo del proyecto. Para finalizar, dado que tiene una vista buena de la aplicación web, pues si estaría dispuesto a registrarse en el mismo
+Resumen:</br>
+Alejandro Barturen, desarrollador web con enfoque en frontend, destacó que la aplicación presenta una combinación de colores adecuada y una interfaz que facilita la identificación de los botones y su función dentro de la navegación. Desde su perspectiva, la plataforma funcionó correctamente, especialmente en las secciones de "Home Developer" y "Explorar Proyectos", donde no encontró errores ni dificultades. Mencionó que la barra de navegación le resultó intuitiva y sencilla de usar, lo cual le permitió moverse por la aplicación sin complicaciones. Considera que la información mostrada en la pantalla principal del desarrollador es clara y relevante. Lo que más le llamó la atención fue la sección de "Explorar Proyectos", ya que le permite visualizar múltiples oportunidades laborales para freelancers. Alejandro comentó que definitivamente usaría esta aplicación, especialmente en momentos en los que buscar empleo puede ser más complicado, ya que le pareció una herramienta práctica y funcional para conectar con proyectos remunerados.
+  
 ### 6.3.3. Evaluaciones según heurísticas
 Con base a las diversas opiniones en las entrevistas realizadas, tanto de empresas como de desarrolladores freelancer se obtiene que:
 
