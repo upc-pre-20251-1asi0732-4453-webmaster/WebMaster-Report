@@ -2772,25 +2772,6 @@ A continuacion se visualiza la ejecucion del test:
 
 ![10](./assets/Chapter%20VI/E4US103GestionarPerfil.png)
 
-
-# Capítulo VII: DevOps Practices
-## 7.1. Continuous Integration
-### 7.1.1. Tools and Practices
-**Tools (Herramientas)**
-
-- **JUnit:** Se utilizó JUnit como framework principal para la ejecución de pruebas unitarias. Esta herramienta permite validar de forma automatizada segmentos específicos del código Java, asegurando que cada componente se comporte como se espera.
-
-- **Mockito:** Se empleó Mockito para la creación de objetos simulados (mocks), lo cual facilita probar clases con dependencias sin necesidad de usar sus implementaciones reales, permitiendo aislar el comportamiento de cada componente.
-
-- **Cucumber:** Se utilizó Cucumber como herramienta para pruebas de comportamiento. Este framework permite escribir escenarios de prueba en lenguaje natural mediante la sintaxis Gherkin, facilitando la comprensión de los requisitos por parte de todos los involucrados en el proyecto.
-
-
-**Practices (Prácticas)**
-
-- **Test-Driven Development (TDD):** Se aplicó la metodología de Desarrollo Guiado por Pruebas, donde las pruebas unitarias se escriben antes del código funcional. Esta práctica mejora la calidad del software y facilita el mantenimiento al detectar errores de forma temprana.
-
-- **Behavior-Driven Development (BDD):** Se implementó el Desarrollo Orientado por Comportamiento para definir las funcionalidades desde la perspectiva del usuario. Esta práctica permite validar que el sistema cumple con las necesidades del negocio mediante escenarios claros y comprensibles.
-
 ## 6.2 Static tetsing & Verification
 ### 6.2.1. Static Code Analysis
 Este apartado aborda los métodos y herramientas que se han utilizado en el proyecto para garantizar la calidad del código en etapas tempranas del desarrollo. Mediante el static code analysis, se busca asegurar que el código fuente actual cumpla con los estándares adecuados, disminuir la cantidad de errores y reducir las vulnerabilidades antes de llegar a etapas de producción.
@@ -2817,10 +2798,172 @@ Para cumplir con ambos puntos, se han escogido dos herramientas que ayudan a gar
 <img src="./assets/Chapter VI/sonarqube.PNG">
   
 ### 6.2.2. Reviews
-## 6.3. Validation Interviews
-### 6.3.2 Registro de Entrevistas
-### 6.3.3. Evaluaciones según heurísticas
+La revisión de código es una práctica esencial para asegurar tanto la calidad del software como el cumplimiento de estándares técnicos. Este procedimiento puede ser manual o automatizado y debe regirse por lineamientos específicos.
 
+**Tipos de Revisión**
+
+- **Revisión por Pares**: Un desarrollador evalúa el código de otro con el fin de verificar que sea legible y cumpla con los estándares establecidos.
+- **Revisión Formal**: Se realiza en sesiones estructuradas utilizando listas de verificación (checklists) para identificar problemas de manera colaborativa.
+- **Revisión Automatizada**: Se utilizan herramientas como **SonarLint** y **SonarQube** para detectar errores y problemas de calidad en tiempo real.
+
+**Proceso de Revisión**
+
+- **Creación de Pull Requests (PR)**: Todo cambio debe presentarse mediante un PR que describa claramente las modificaciones y pruebas realizadas.
+- **Lista de Verificación**: Debe utilizarse un checklist para evaluar aspectos como legibilidad, pruebas automatizadas y manejo de errores.
+- **Comentarios y Retroalimentación**: Los revisores deben brindar observaciones claras y constructivas. Los problemas detectados deben corregirse antes de aprobar el PR.
+- **Aprobación o Rechazo**: Cada PR debe ser revisado y aprobado por al menos otro desarrollador antes de integrarse a la rama principal.
+
+**Criterios de Aceptación**
+
+- **Calidad y Seguridad**: El código debe adherirse a los estándares de calidad y no introducir nuevas vulnerabilidades.
+- **Cobertura de Pruebas**: Se espera un nivel mínimo de cobertura de pruebas (por ejemplo, 80%) para garantizar la confiabilidad del nuevo código.
+
+**Frecuencia de Revisión**
+
+Las revisiones deben realizarse de forma constante, idealmente al final de cada sprint o en períodos predefinidos, para evitar acumulación de cambios y mantener la calidad del proyecto.
+
+## 6.3. Validation Interviews
+### 6.3.1. Diseño de Entrevistas
+**Segmento objetivo: Empresarios o emprendedores**
+
+  **Preguntas generales:**
+  1. ¿Cuál es su nombre? 
+  2. ¿Cuántos años tienes? 
+  3. ¿Dónde resides actualmente? 
+  4. ¿Cuál es el nombre de tu empresa o emprendimiento? 
+
+  **Preguntas de validación:**
+  1.	¿Qué opinión tiene con respecto al diseño de la aplicación?
+  2.	¿Le parece intuitiva y fácil de manejar?
+  3.	¿Cómo se siente en la parte de navegación, le es fácil ir de una pantalla a otra?
+  4.	¿Consideras que la aplicación te proporciona las suficientes herramientas para contratar freelancers y gestionar tus proyectos?
+  5.	¿Qué característica te llama más la atención de la aplicación? ¿Por qué?
+  6.	¿Cuál crees que es el punto fuerte de la aplicación?
+  7. ¿Cree que podrá encontrar a un freelancer para un hipotético proyecto utilizando nuestra aplicación?
+  8.	¿Estarías dispuesto/a a hacer uso de nuestra aplicación? ¿Por qué?
+  9.	¿Estaría dispuesto a suscribirse al plan de WebMaster?
+
+
+**Segmento objetivo: Desarrolladores freelance**
+
+  **Preguntas generales:**
+  1. ¿Cuál es su nombre? 
+  2. ¿Cuántos años tienes? 
+  3. ¿Dónde resides actualmente? 
+  4. ¿Cuál es tu área de especialidad en el desarrollo de software (móvil, escritorio, web, ciberseguridad, etc.)? 
+
+  **Preguntas de validación:**
+  1.	¿Qué opinión tiene con respecto al diseño de la aplicación?
+  2.	¿Le parece intuitiva y fácil de manejar?
+  3.	¿Cómo se siente en la parte de navegación, le es fácil ir de una pantalla a otra?
+  4.	¿Las pantallas contienen todas las opciones disponibles para ofrecer tus trabajos freelance?
+  5.	¿Qué característica te llama más la atención de la aplicación? ¿Por qué?
+  6.	¿Estarías dispuesto/a a hacer uso de nuestra aplicación? ¿Por qué?
+  7.	¿Cree que se hará fácil conseguir trabajo gracias a nuestra plataforma?
+  8.	¿Qué opinión tiene con respecto a la opción de publicar tu portafolio?
+  9.	¿Estaría dispuesto a registrarse a WebMaster?
+
+### 6.3.2 Registro de Entrevistas
+**Segmento 1: Segmento empresarios o emprendedores**
+
+**Entrevista 1** 
+
+  - Entrevistador: Zaid Ramirez
+  - Entrevistado: Maverick Mendoza
+  - Edad: 19 años
+  - Residencia: Lima 
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://youtu.be/rn22s0uMheg)
+
+<div style="display:flex;justify-content:center">
+<img src="./assets/interviews/Maverick2.png" alt="Entrevista a Maverick Mendoza" style="width:80%;">
+</div>
+Maverick nos comenta que considera que la aplicación es intuitiva y facil de usar. Del mismo modo, afirma que las vistas contienen toda la información que considera relevante al momento de definir programadores para su emprendimiento. A su vez comenta que e bajo coste del servicio es el punto fuerte de nuestra plataforma. Con estas observaciones, Maverick declará que estaría dispuesto a obtener una subscripcion a nuestra plataforma
+<br><br>
+
+**Entrevista 2** 
+
+  - Entrevistador: Joseph Llacchua
+  - Entrevistado: Matías Vázquez
+  - Edad: 19 años
+  - Residencia: Lima 
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317002_upc_edu_pe/EaEF4DWfaRxJp1OFy4R5GdoBw1hIjd9tEbQFHSlp0T2m7g?e=Pdd0C0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<div style="display:flex;justify-content:center">
+<img src="./assets/interviews/Matias2.png" alt="Entrevista a Matías Vázquez" style="width:80%;">
+</div>
+
+Matías Vázquez es un estudiante de 19 años que reside en Lima, Perú, y dirige su empredimiento llamada TecnoSolutions. Durante la entrevista, compartió sus opiniones sobre la plataforma WebMaster, destinada a conectar empresas con desarrolladores independientes.Matias sugiere incluir una sección de reseñas o calificaciones para los freelancers, lo que ayudaría a tener una mejor idea de su desempeño previo.
+<br><br>
+
+**Entrevista 3** 
+
+  - Entrevistador: Jair Velasquez Pizarro
+  - Entrevistado: Alexandra Ñañez
+  - Edad: 22 años
+  - Residencia: Lima 
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/personal/u202218114_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218114_upc_edu_pe%2FDocuments%2FEntrevista%20Alexandra%20Webmaster%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ece709989-e2fd-48b0-8293-20a526c1ec71)
+
+<div style="display:flex;justify-content:center">
+<img src="./assets/interviews/Alexandra2.png" alt="Entrevista a Alexandra Ñañez" style="width:80%;">
+</div>
+Alexandra nos comenta que considera que la aplicación web es bastante intuitiva y fácil se usar. De igual forma, afirma que considera acertado la funcionalidad de contacto con los desarrolladores ya que así se podría realizar un proyecto de mejor forma gracias a la comunicación que habría. También resalta de forma positiva el agregado de cambio de idioma ya que esto permite ser más global. Por último nos confirma que si utilizaría la aplicación ya que al no tener muchos conocimientos del desarrollo de aplicaciones de software una página así le vendría bien si ocupa desarrollar una aplicación para su negocio.
+<br><br>
+
+
+**Segmento 2: Desarrolladores Freelancer**
+
+**Entrevista 1** 
+
+  - Entrevistador: Samira Jetzabel Alvarez Araguache 
+  - Entrevistado: Alessandro Medina Agnini
+  - Edad: 20 años
+  - Residencia: Lima - Surco
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a046_upc_edu_pe/EQs0p0bapO1GrR3b5FGP1BIBBGxIgMv7CmrOrKdy2CAoCg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8OHjW9)
+
+<img src="./assets/interviews/Alessandro2.PNG" alt="Entrevista 1 segmento desarrolladores freelance" style="width:60% align-center">
+	
+Resumen: 
+<br>
+Se entrevistó a Alessandro Medina, un joven de 20 años estudiante de Ciencias de la Computación quien se dedica al trabajo freelance. Alessandro se especializa en el desarrollo web como Front-End, con el uso de HTML5, CSS3, JS, React y Angular. utilizando tecnologías como HTML5, CSS3, JS, React y Angular. Él ha participado en diversos proyectos, principalmente en la creación de landing pages para emprendedores y pequeñas empresas.
+
+Resalta de manera positiva la parte visual de la aplicación, destacando su diseño intuitivo y su interfaz amigable, donde menciona que es lo suficientemente fácil de usar, incluso para usuarios con poca experiencia interactuando con tecnología. En cuanto a la navegación, considera que la toolbar facilita el flujo a través de la aplicación, permitiendo ir de manera fluida de pantalla en pantalla. También, considera que la app cuenta con todas las herramientas necesarias para trabajar en la plataforma como un desarrollador, como indicar el stack tecnológico y la posibilidad de mostrar tu portafolio. Destaca la personalización que tienen las empresas en cuanto a la descripción del proyecto y los entregables, lo que hace más facil considerar la postulación a este tipo de trabajos. Además, según las funcionalidades que ha podido observar en la aplicación, menciona que la plataforma sí le facilitaría la búsqueda de empleo en un proyecto de desarrollo de software. En conclusión, Alessandro dice estar dispuesto a registrarse a Webmaster. 
+
+**Entrevista 2** 
+
+  - Entrevistador: André Alonso Arroyo Ormeño 
+  - Entrevistado: Mauricio Oliveira Paucar
+  - Edad: 24 años
+  - Residencia: Lima - Distrito San martin de Porres
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114714_upc_edu_pe/Eb1f4sd2BAlJjHp77LxIzlUBmQL3UMGnzbg3638bRb3xzA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7S9vaW)
+
+  <img src="./assets/interviews/Mauricio.png" alt="Entrevista 2 segmento desarrollador freelancer" style="width:60% align-center">
+
+  Resumen:
+  <br>
+  Mauricio Oliveria, es una persona especializada en el área del backend. Desde su punto de vista, la aplicación representa unos colores adecuados, asi como también le permite identificar los botones que llevan a otras pantallas. Recalca que la app web fucionaba correctamente en tanto los botones asi como la pantalla de home devoloper y explorar proyectos. La barra de navegación le fue fácil de usar y el funcionamiento fue el correcto. Esta conforme con la información personal presentada en el home developer, pero que le gustaría una función para que las empresas puedan ver su portafolio. Lo que más le llamo la atención fue la pantalla de explorar proyectos, pues es ahí donde se ve los miles de propuestas que puede postular un freelancer. El entrevistado comenta que si usaría nuestra aplicación sobre todo en momentos en los cuales no sea fácil conseguir trabajo. Adicionalmente, expresa que si estaría de acuerdo que se agregue la opción de portafolio sobre todo para poder demostrar su conocimiento adquirido a las empresas. Por último, si estaría de acuerdo en crearse una cuenta para web master debido a la posibilidad de conseguir proyectos de desarrollo remunerado
+
+  **Entrevista 3** 
+
+  - Entrevistador: André Alonso Arroyo Ormeño 
+  - Entrevistado: Rodrigo Perez de la fuente
+  - Edad: 24 años
+  - Residencia: Lima - San Isidro
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114714_upc_edu_pe/EbF-92sjCVhHlckZ9kQS0fcB2gpyz-MWBMlh1Xm2y4B8_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9Yk0hm)
+
+  <img src="./assets/interviews/Rodrigo Perez de la fuente.png" alt="Entrevista 3 segmento desarrollador freelnacer"  style="width:60% align-center"> >
+
+  Resumen:
+  <br>
+  Rodrigo Perez de la fuente, es una persona especializada en el desarrollo web y móvil y tiene experiencia trabajando en empresas SAAS. Respecto a la web app, le parece que tanto los botones como el tamaño de letra y colores están bien. Para la barra de navegación cumple su objetivo, pues le es sencillo cambiar de una pantalla a otra. Lo que más le llamo la atención fue la seguridad de los trabajos, pues solo cuando es aceptado la solicitud desarrollo es que el freelancer puede acceder a la documentación del proyecto. Si estaría dispuesto a usar nuestra aplicación, porque para él podría ser un ingreso más. Adicionalmente, para él es esencial la opción de poder mostrar el portafolio, porque asi podría demostrar sus conocimientos e incrementar su probabilidad de ser aceptado en el desarrollo del proyecto. Para finalizar, dado que tiene una vista buena de la aplicación web, pues si estaría dispuesto a registrarse en el mismo
+### 6.3.3. Evaluaciones según heurísticas
+Con base a las diversas opiniones en las entrevistas realizadas, tanto de empresas como de desarrolladores freelancer se obtiene que:
+
+- La aplicación es intuitiva y fácil de usar.
+- La navegación es sencilla y permite ir de una vista a otra sin problemas.
+- Las vistas contienen toda la información necesaria para manejar los servicios contratados.
+- La aplicación es beneficiosa para las empresas y los desarrolladores, ya que facilita la contratación y prestación de servicios.
+- La información contenida en la aplicación es clara y completa.
+- La mayoría de los entrevistados estarían dispuestos a suscribirse o registrarse en Webmaster.
 ## 6.4. Auditoría de Experiencias de Usuario
 ### 6.4.1. Auditoría realizada
 #### 6.4.1.1. Información del grupo auditado
@@ -3710,7 +3853,23 @@ Campos clave tenían altura reducida.
 
 <br></br>
 
+# Capítulo VII: DevOps Practices
+## 7.1. Continuous Integration
+### 7.1.1. Tools and Practices
+**Tools (Herramientas)**
 
+- **JUnit:** Se utilizó JUnit como framework principal para la ejecución de pruebas unitarias. Esta herramienta permite validar de forma automatizada segmentos específicos del código Java, asegurando que cada componente se comporte como se espera.
+
+- **Mockito:** Se empleó Mockito para la creación de objetos simulados (mocks), lo cual facilita probar clases con dependencias sin necesidad de usar sus implementaciones reales, permitiendo aislar el comportamiento de cada componente.
+
+- **Cucumber:** Se utilizó Cucumber como herramienta para pruebas de comportamiento. Este framework permite escribir escenarios de prueba en lenguaje natural mediante la sintaxis Gherkin, facilitando la comprensión de los requisitos por parte de todos los involucrados en el proyecto.
+
+
+**Practices (Prácticas)**
+
+- **Test-Driven Development (TDD):** Se aplicó la metodología de Desarrollo Guiado por Pruebas, donde las pruebas unitarias se escriben antes del código funcional. Esta práctica mejora la calidad del software y facilita el mantenimiento al detectar errores de forma temprana.
+
+- **Behavior-Driven Development (BDD):** Se implementó el Desarrollo Orientado por Comportamiento para definir las funcionalidades desde la perspectiva del usuario. Esta práctica permite validar que el sistema cumple con las necesidades del negocio mediante escenarios claros y comprensibles.
 ### 7.1.2. Build & Test Suite Pipeline Components
 
 <img src="./assets/chapter-VII/test-pipeline-1.PNG">
