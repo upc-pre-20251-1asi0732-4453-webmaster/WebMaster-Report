@@ -197,7 +197,7 @@
       - [6.4.1.2. Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)
       - [6.4.1.3. Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)
     - [6.4.2. Auditoría recibida](#642-auditoría-recibida)
-      - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
+      - [6.4.2.1. Información del grupo auditado](#6421-información-del-grupo-auditado)
       - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
       - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
       - [6.4.2.4.Resumen de modificaciones para subsanar hallazgos](#6424resumen-de-modificaciones-para-subsanar-hallazgos)
@@ -3211,6 +3211,10 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 | 10 | Logo no funciona como enlace en móvil | 3 | Usability: Libertad y control del usuario |
 | 11 | Alineación incorrecta en footer móvil | 1 | Usability: Consistencia y estándares |
 | 12 | Falta acceso rápido a creación de proyectos | 2 | Usability: Eficiencia y simplicidad |
+| 13 | Inconsistencia en fondos entre versión web y móvil | 2 | Usability - Consistencia y estándares   |
+| 14 | Falta de confirmación al crear proyectos | 3  | Usability - Prevención de errores  |
+| 15 | Espaciado inadecuado en menús desplegables | 2  | Usability - Flexibilidad y eficiencia de uso |
+| 16 | Inputs críticos con tamaño insuficiente | 3  | Usability - Inclusive Design - Tamaño objetivo táctil  |
 <br></br>
 
 **DESCRIPCIÓN DE PROBLEMAS**
@@ -3371,8 +3375,340 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 - **Recomendación:**
   Añadir un botón "Crear proyecto" en la página de inicio de la empresa para acelerar el proceso.
 
+**PROBLEMA #13: Inconsistencia en fondos entre versión web y móvil**
+
+- **Severidad:** 2  
+- **Heurística violada:** Usability - Consistencia y estándares  
+- **Problema:**  
+  El fondo de la aplicación móvil difiere significativamente del diseño web. Esta inconsistencia visual afecta la identidad de marca y la familiaridad de la interfaz.  
+<br></br>  
+<img src="./assets/Chapter VI/Problema13.PNG">
+
+- **Recomendación:**  
+  Unificar los diseños de fondo entre ambas plataformas, manteniendo la paleta de colores y elementos gráficos corporativos. 
+<br></br>
+
+**PROBLEMA #14: Falta de confirmación al crear proyectos**
+
+- **Severidad:** 3  
+- **Heurística violada:** Usability - Prevención de errores  
+- **Problema:**  
+  No existe un modal de confirmación al crear un proyecto, aumentando el riesgo de acciones accidentales sin posibilidad de cancelación.
+<br></br>  
+<img src="./assets/Chapter VI/Problema14.PNG">
+
+- **Recomendación:**  
+  Implementar un modal con un mensaje claro y botones de acción,
+<br></br>
+
+**PROBLEMA #15: Espaciado inadecuado en menús desplegables**
+
+- **Severidad:** 2  
+- **Heurística violada:** Usability - Flexibilidad y eficiencia de uso  
+- **Problema:**  
+  Los ítems en menús desplegables tienen un padding que dificulta la interacción con estas opciones, haciendo que se sufra de na superposición visual del contenido.
+<br></br>  
+<img src="./assets/Chapter VI/Problema15.PNG">
+
+- **Recomendación:**  
+  Ajustar el espaciado entre los items del menú añadiendo más padding entre ellos. 
+<br></br>
+
+**PROBLEMA #16: Inputs críticos con tamaño insuficiente**
+
+- **Severidad:** 3  
+- **Heurística violada:** Inclusive Design - Tamaño objetivo táctil  
+- **Problema:**  
+  Campos como "Destinatario", "Título" y "Mensaje" tienen una altura reducida en relación al contenido, afectando su legibilidad en dispositivos pequeños.
+<br></br>  
+<img src="./assets/Chapter VI/Problema16.PNG">
+
+- **Recomendación:**  
+  Aumentar el tamaño de los inputs a una altura adecuada.
 
 #### 6.4.2.4.Resumen de modificaciones para subsanar hallazgos
+
+**PROBLEMA #1: Elemento visual extraño en área de login**
+
+- **Severidad:** 1  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability - Consistencia y estándares  
+
+**Problema:**  
+Se observaba una línea horizontal innecesaria sobre el campo de login que no cumplía ninguna función identificable y rompía con la estética del formulario.  
+
+**Modificación implementada:**  
+- Se eliminó la regla CSS `border-top` del contenedor del formulario.  
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion1.jpeg">
+
+<br></br> 
+
+**PROBLEMA #2: Falta de contraste en las letras durante la carga de datos**
+
+- **Severidad:** 2  
+- **Estado:** Resuelto  
+- **Heurística violada:** Inclusive Design - Proporcionar experiencias comparables  
+
+**Problema:**  
+Los mensajes indicadores de carga no tenían suficiente contraste con el fondo, dificultando la lectura.  
+
+**Modificación implementada:**  
+- Se agregó un card de color `#FFFFFF`, junto con un icono de alerta para indicar el error en la carga de datos.  
+
+**Evidencia de solución:** 
+<br> 
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion2.jpg">
+
+<br></br> 
+
+**PROBLEMA #3: Falta de indicadores para edición de imágenes**
+
+- **Severidad:** 2  
+- **Estado:**  Resuelto  
+- **Heurística violada:** Usability - Visibilidad del estado del sistema  
+
+**Problema:**  
+Los usuarios no podían identificar que una imagen era editable por falta de iconos.  
+
+**Modificación implementada:**  
+- Se agregó un overlay con `background: rgba(0, 0, 0, 0.6);`  con un mensaje de "editar foto".
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion3.PNG">
+
+<br></br> 
+
+**PROBLEMA #4: Botón "Guardar cambios" no funciona correctamente**
+
+- **Severidad:** 3  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability - Retroalimentación y control  
+
+**Problema:**  
+El botón no ejecutaba acciones ni mostraba feedback visual.  
+
+**Modificación implementada:**  
+Se implementó lógica para guardar cambios en BD. Se añadió efecto hover.
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion4.jpg">
+
+<br></br> 
+
+**PROBLEMA #5: Comportamiento inadecuado del footer**
+
+- **Severidad:** 2  
+- **Estado:** Resuelto  
+- **Heurística violada:** Information Architecture  
+
+**Problema:**  
+El footer se expandía abruptamente en pantallas vacías.  
+
+**Modificación implementada:**  
+Se ajustó `min-height` del contenedor principal.  
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion5.jpg">
+
+
+<br></br> 
+
+**PROBLEMA #6: Botón sin estados hover**
+
+- **Severidad:** 1  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability - Consistencia  
+
+**Problema:**  
+El botón "Apply to Project" no tenía efecto hover.  
+
+**Modificación implementada:**  
+Se añadió `:hover { transform: translateY(-3px); background: #b1b0b0; }` al botón de aplicar al proyecto.  
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion6.PNG">
+
+<br></br> 
+
+**PROBLEMA #7: Fotografías no visibles en lista**
+
+- **Severidad:** 2  
+- **Estado:**  Resuelto
+- **Heurística violada:** Information Architecture  
+
+**Problema:**  
+Las fotos de perfil no se cargaban correctamente.  
+
+**Modificación implementada:**  
+Corrección de rutas e implementación de placeholder.
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion7.PNG">
+
+<br></br>
+
+**PROBLEMA #8: Campos de formulario que se deforman**
+
+- **Severidad:** 2  
+- **Estado:** Resuelto
+- **Heurística violada:** Usability  
+
+**Problema:**  
+Inputs reducían tamaño durante validaciones.  
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion8.PNG">
+<br></br>
+
+
+**PROBLEMA #9: Márgenes en navbar móvil**
+
+- **Severidad:** 2  
+- **Estado:** Resuelto
+- **Heurística violada:** Usability  
+
+**Problema:**  
+Elementos tocaban bordes en móvil.  
+
+**Modificación implementada:**  
+Se implementó un `padding: 12 24px` 
+  
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion9.PNG">
+<br></br>
+
+**PROBLEMA #10: Logo no funciona como enlace en móvil**
+
+- **Severidad:** 3  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability  
+
+**Problema:**  
+Logo no redirigía en versión móvil.  
+
+**Modificación implementada:**  
+Se agregó evento `onClick` al logo, así como un `pointerClick`.  
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion10.PNG">
+<br></br>
+
+**PROBLEMA #11: Alineación incorrecta en footer móvil**
+
+- **Severidad:** 1  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability  
+
+**Problema:**  
+Contenido desalineado a la izquierda.  
+
+**Modificación implementada:**  
+Se aplicó `text-align: center` en media queries.  
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion11.PNG">
+<br></br>
+
+**PROBLEMA #12: Falta acceso rápido a creación de proyectos**
+
+- **Severidad:** 2  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability  
+
+**Problema:**  
+Flujo requería navegación innecesaria.  
+
+**Modificación implementada:**  
+Botón flotante (+) en página principal.  
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion12.PNG">
+<br></br>
+
+**PROBLEMA #13: Inconsistencia en fondos entre versión web y móvil**
+
+- **Severidad:** 2  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability - Consistencia y estándares  
+
+**Problema:**  
+El fondo de la aplicación móvil difería significativamente del diseño web, afectando la identidad de marca y la familiaridad de la interfaz.  
+
+**Modificación implementada:**  
+Se unificaron los assets gráficos y la paleta de colores para el fondo. 
+
+**Evidencia de solución:**  
+<br>
+ <img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion13.PNG">
+
+<br></br>
+
+**PROBLEMA #14: Falta de confirmación al crear proyectos**
+
+- **Severidad:** 3  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability - Prevención de errores  
+
+**Problema:**  
+No existía confirmación al crear proyectos, permitiendo acciones accidentales sin retroceso.  
+
+**Modificación implementada:**  
+Se implementó un modal con un botón de "Aceptar" e icono de advertencia para acciones críticas.  
+
+**Evidencia de solución:**  
+<br>
+ <img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion14.PNG">
+
+<br></br>
+
+**PROBLEMA #15: Espaciado inadecuado en menús desplegables**
+
+- **Severidad:** 2  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability - Flexibilidad y eficiencia  
+
+**Problema:**  
+Items con padding insuficiente causaban superposición visual y errores táctiles.  
+
+**Modificación implementada:**  
+Se ajustó el espaciado del padding y bottom-margin para cada uno de los items.
+
+**Evidencia de solución:**  
+<br>
+ <img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion15.PNG">
+
+<br></br>
+
+**PROBLEMA #16: Inputs críticos con tamaño insuficiente**
+
+- **Severidad:** 3  
+- **Estado:** Resuelto  
+- **Heurística violada:** Inclusive Design - Tamaño táctil  
+
+**Problema:**  
+Campos clave tenían altura reducida. 
+
+**Modificación implementada:**  
+- Se rediseñaron los inputs con mayor altura y tamaño de fuente
+
+**Evidencia de solución:**  
+<br>
+ <img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion16.PNG">
+
+<br></br>
 
 
 ### 7.1.2. Build & Test Suite Pipeline Components
