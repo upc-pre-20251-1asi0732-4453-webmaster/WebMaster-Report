@@ -2882,21 +2882,6 @@ Maverick nos comenta que considera que la aplicación es intuitiva y facil de us
 
 **Entrevista 2** 
 
-  - Entrevistador: Joseph Llacchua
-  - Entrevistado: Matías Vázquez
-  - Edad: 19 años
-  - Residencia: Lima 
-  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317002_upc_edu_pe/EaEF4DWfaRxJp1OFy4R5GdoBw1hIjd9tEbQFHSlp0T2m7g?e=Pdd0C0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
-<div style="display:flex;justify-content:center">
-<img src="./assets/interviews/Matias2.png" alt="Entrevista a Matías Vázquez" style="width:80%;">
-</div>
-
-Matías Vázquez es un estudiante de 19 años que reside en Lima, Perú, y dirige su empredimiento llamada TecnoSolutions. Durante la entrevista, compartió sus opiniones sobre la plataforma WebMaster, destinada a conectar empresas con desarrolladores independientes.Matias sugiere incluir una sección de reseñas o calificaciones para los freelancers, lo que ayudaría a tener una mejor idea de su desempeño previo.
-<br><br>
-
-**Entrevista 3** 
-
   - Entrevistador: Jair Velasquez Pizarro
   - Entrevistado: Alexandra Ñañez
   - Edad: 22 años
@@ -2928,23 +2913,9 @@ Se entrevistó a Alessandro Medina, un joven de 20 años estudiante de Ciencias 
 
 Resalta de manera positiva la parte visual de la aplicación, destacando su diseño intuitivo y su interfaz amigable, donde menciona que es lo suficientemente fácil de usar, incluso para usuarios con poca experiencia interactuando con tecnología. En cuanto a la navegación, considera que la toolbar facilita el flujo a través de la aplicación, permitiendo ir de manera fluida de pantalla en pantalla. También, considera que la app cuenta con todas las herramientas necesarias para trabajar en la plataforma como un desarrollador, como indicar el stack tecnológico y la posibilidad de mostrar tu portafolio. Destaca la personalización que tienen las empresas en cuanto a la descripción del proyecto y los entregables, lo que hace más facil considerar la postulación a este tipo de trabajos. Además, según las funcionalidades que ha podido observar en la aplicación, menciona que la plataforma sí le facilitaría la búsqueda de empleo en un proyecto de desarrollo de software. En conclusión, Alessandro dice estar dispuesto a registrarse a Webmaster. 
 
-**Entrevista 2** 
+**Entrevista 2**
 
-  - Entrevistador: André Alonso Arroyo Ormeño 
-  - Entrevistado: Mauricio Oliveira Paucar
-  - Edad: 24 años
-  - Residencia: Lima - Distrito San martin de Porres
-  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114714_upc_edu_pe/Eb1f4sd2BAlJjHp77LxIzlUBmQL3UMGnzbg3638bRb3xzA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7S9vaW)
-
-  <img src="./assets/interviews/Mauricio.png" alt="Entrevista 2 segmento desarrollador freelancer" style="width:60% align-center">
-
-  Resumen:
-  <br>
-  Mauricio Oliveria, es una persona especializada en el área del backend. Desde su punto de vista, la aplicación representa unos colores adecuados, asi como también le permite identificar los botones que llevan a otras pantallas. Recalca que la app web fucionaba correctamente en tanto los botones asi como la pantalla de home devoloper y explorar proyectos. La barra de navegación le fue fácil de usar y el funcionamiento fue el correcto. Esta conforme con la información personal presentada en el home developer, pero que le gustaría una función para que las empresas puedan ver su portafolio. Lo que más le llamo la atención fue la pantalla de explorar proyectos, pues es ahí donde se ve los miles de propuestas que puede postular un freelancer. El entrevistado comenta que si usaría nuestra aplicación sobre todo en momentos en los cuales no sea fácil conseguir trabajo. Adicionalmente, expresa que si estaría de acuerdo que se agregue la opción de portafolio sobre todo para poder demostrar su conocimiento adquirido a las empresas. Por último, si estaría de acuerdo en crearse una cuenta para web master debido a la posibilidad de conseguir proyectos de desarrollo remunerado
-
-**Entrevista 3**
-
-- Entrevistador: Alejandro Barturen
+- Entrevistador: Victor Meneses
 - Entrevistado: Alejandro Barturen
 - Edad: 21 años
 - Residencia: Lima - San Miguel
@@ -2954,6 +2925,21 @@ Resalta de manera positiva la parte visual de la aplicación, destacando su dise
 
 Resumen:</br>
 Alejandro Barturen, desarrollador web con enfoque en frontend, destacó que la aplicación presenta una combinación de colores adecuada y una interfaz que facilita la identificación de los botones y su función dentro de la navegación. Desde su perspectiva, la plataforma funcionó correctamente, especialmente en las secciones de "Home Developer" y "Explorar Proyectos", donde no encontró errores ni dificultades. Mencionó que la barra de navegación le resultó intuitiva y sencilla de usar, lo cual le permitió moverse por la aplicación sin complicaciones. Considera que la información mostrada en la pantalla principal del desarrollador es clara y relevante. Lo que más le llamó la atención fue la sección de "Explorar Proyectos", ya que le permite visualizar múltiples oportunidades laborales para freelancers. Alejandro comentó que definitivamente usaría esta aplicación, especialmente en momentos en los que buscar empleo puede ser más complicado, ya que le pareció una herramienta práctica y funcional para conectar con proyectos remunerados.
+
+**Entrevista 3**
+
+- Entrevistador: Harold Elias
+- Entrevistado: Christofer More
+- Edad: 20 años
+- Residencia: Lima - San Miguel
+- Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212684_upc_edu_pe/EUhG463DZARMsHTbpV3BgDgBmQbEBPCj_zDSJjSUkfpVWA?e=TwcyzC)
+
+<img src="./assets/Chapter%20VI/entrevista_freelancer.png"  style="width:60% align-center">
+
+Resumen:</br>
+Se entrevistó a Christofer More, un joven de 20 años que cursa el séptimo ciclo de Ingeniería de Software y trabaja de manera freelance. Christofer es desarrollador fullstack, con mayor experiencia en el backend, y ha participado en diversos proyectos, aportando principalmente en la lógica y arquitectura de servidor.
+Destaca especialmente el aspecto visual de la aplicación, señalando su diseño limpio e intuitivo y una interfaz muy amigable, lo cual la hace accesible incluso para quienes tienen poca experiencia tecnológica. En cuanto a la navegación, valora que la barra de herramientas (toolbar) permita un tránsito fluido entre pantallas. También resalta que la plataforma ofrece todas las funcionalidades clave para un desarrollador, como la posibilidad de indicar el stack tecnológico empleado y mostrar el portafolio de proyectos.
+Christofer aprecia la personalización que empresas y emprendedores pueden incluir en la descripción de sus proyectos y entregables, lo que facilita la toma de decisión al postularse. Según su experiencia explorando la aplicación, considera que Webmaster simplificaría la búsqueda de empleo en proyectos de software. Además, muestra interés en la opción de pagar por una mayor visibilidad dentro de la plataforma
   
 ### 6.3.3. Evaluaciones según heurísticas
 Con base a las diversas opiniones en las entrevistas realizadas, tanto de empresas como de desarrolladores freelancer se obtiene que:
