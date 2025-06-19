@@ -4109,14 +4109,17 @@ Nuestra aplicación tiene como objetivo principal ofrecer una plataforma para qu
   - Los usuarios valoran una interfaz intuitiva y fácil de usar.
   - La velocidad de carga de la aplicación es un factor crítico para la satisfacción del usuario.
   - Los usuarios necesitan funcionalidades adicionales como notificaciones y calendarios para mejorar su experiencia.
+
 **Knowledge Gaps:**
   - No se ha realizado un análisis exhaustivo de las necesidades y expectativas de los usuarios.
   - Falta información sobre las mejores prácticas de seguridad para aplicaciones web.
   - Desconocimiento sobre las tecnologías más adecuadas para mejorar el rendimiento de la aplicación.
+
 **Ideas:**
   - Implementar un sistema de notificaciones para mantener a los usuarios informados sobre actualizaciones y cambios en sus proyectos.
   - Añadir un calendario para gestionar fechas de entrega y plazos de los proyectos.
   - Realizar una auditoría de usabilidad para identificar áreas de mejora en la interfaz de usuario.
+  
 **Claims:**
   - La implementación de un sistema de notificaciones mejorará la comunicación entre los usuarios y aumentará la retención de usuarios.
   - Un calendario integrado facilitará la gestión de proyectos y mejorará la planificación de tareas.
