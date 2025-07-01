@@ -2546,7 +2546,7 @@ WebMaster es una plataforma digital ofrecida bajo el modelo SaaS que permite a e
 - Recepción y evaluación de propuestas por parte de freelancers.
 - Gestión de entregables vinculados a proyectos.
 - Visualización de postulantes, sus perfiles y calificaciones.
-- Coordinación mediante un calendario colaborativo.
+- Coordinación entregables colaborativos.
 - Comunicación y seguimiento del estado del proyecto en tiempo real.
 - WebMaster actúa como facilitador tecnológico y no participa en la formalización contractual, ejecución técnica ni en la gestión de pagos entre usuarios.
 
@@ -4094,21 +4094,21 @@ Nuestra aplicación tiene como objetivo principal ofrecer una plataforma para qu
 
 -<u> Usabilidad:</u> la navegación por la aplicación puede ser confusa para los usuarios, especialmente para aquellos que no están familiarizados con el sistema. La interfaz de usuario necesita ser más intuitiva y amigable.
 
-- <u>Funcionalidades:</u> la aplicación carece de ciertas funcionalidades que podrían mejorar la experiencia del usuario, como un sistema de notificaciones, un calendario para gestionar fechas de entrega y una sección de perfil más completa.
+- <u>Funcionalidades:</u> la aplicación carece de ciertas funcionalidades que podrían mejorar la experiencia del usuario, como un sistema de notificaciones, un chat para gestionar las entregas y una sección de perfil más completa.
 
 - <u>Seguridad:</u> la aplicación necesita mejorar sus medidas de seguridad para proteger la información de los usuarios y evitar posibles ataques cibernéticos.
 
 **Objetivos de Mejora:**
 - Mejorar el rendimiento de la aplicación para que sea más rápida y eficiente.
 - Optimizar la usabilidad de la aplicación para que sea más intuitiva y fácil de navegar.
-- Añadir nuevas funcionalidades que mejoren la experiencia del usuario, como un sistema de notificaciones, un calendario para gestionar fechas de entrega y una sección de perfil más completa.
+- Añadir nuevas funcionalidades que mejoren la experiencia del usuario, como un sistema de notificaciones, un chat para gestionar las entregas y una sección de perfil más completa.
 - Implementar medidas de seguridad más robustas para proteger la información de los usuarios y evitar posibles ataques cibernéticos.
 
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 **Assumptions:**  
   - Los usuarios valoran una interfaz intuitiva y fácil de usar.
   - La velocidad de carga de la aplicación es un factor crítico para la satisfacción del usuario.
-  - Los usuarios necesitan funcionalidades adicionales como notificaciones y calendarios para mejorar su experiencia.
+  - Los usuarios necesitan funcionalidades adicionales como notificaciones y chat  para mejorar su experiencia.
 
 **Knowledge Gaps:**
   - No se ha realizado un análisis exhaustivo de las necesidades y expectativas de los usuarios.
@@ -4117,12 +4117,12 @@ Nuestra aplicación tiene como objetivo principal ofrecer una plataforma para qu
 
 **Ideas:**
   - Implementar un sistema de notificaciones para mantener a los usuarios informados sobre actualizaciones y cambios en sus proyectos.
-  - Añadir un calendario para gestionar fechas de entrega y plazos de los proyectos.
+  - Añadir un chat para comunnicarse y gestionar las entregas y plazos de los proyectos entre otras cosas.
   - Realizar una auditoría de usabilidad para identificar áreas de mejora en la interfaz de usuario.
   
 **Claims:**
   - La implementación de un sistema de notificaciones mejorará la comunicación entre los usuarios y aumentará la retención de usuarios.
-  - Un calendario integrado facilitará la gestión de proyectos y mejorará la planificación de tareas.
+  - Un chat integrado facilitará la coordinacion del proyectos y mejorará la planificación de tareas.
   - Mejorar la usabilidad de la aplicación aumentará la satisfacción del usuario y reducirá la tasa de abandono.
 
 ### 8.1.3. Experiment-Ready Questions
@@ -4130,7 +4130,7 @@ Nuestra aplicación tiene como objetivo principal ofrecer una plataforma para qu
 |--------|----------|----|------|--------|-----------|
 | ¿Mejorará la experiencia del usuario si mejoramos la barra de navegacion y ajustamos las tonalidades del fondo? | 3 - Con una configuración mas agradable para la vista podemos asegurarnos que los usuarios permanezcan mas tiempo en ella | 1 - bajo riesgo ya que son configuraciones sencillas que no tomarian mucho en implementar o quitar si no son de agrado al publico| 2 - Podría mejorar la experiencia de usuario por no es critica | 2 - Interes bajo, pero presente en los usuarios | 9 | 
 | ¿Aumentará la retención de usuarios si implementamos un sistema de notificaciones? | 4 - Con un sistema de notificaciones, los usuarios estarán más informados y comprometidos con la plataforma | 2 - Riesgo moderado, ya que podría generar spam si no se gestiona adecuadamente | 5 - La retención de usuarios es crucial para el éxito a largo plazo | 6 - Alto interés, ya que los usuarios valoran estar informados sobre sus proyectos | 17 |
-| ¿Mejorará la planificación de proyectos si añadimos un calendario para gestionar fechas de entrega? | 6 - Un calendario facilitará la organización y seguimiento de tareas | 3 - Riesgo moderado, ya que podría complicar la interfaz si no se implementa correctamente | 8 - La planificación es clave para el éxito de los proyectos | 6 - Alto interés, ya que los usuarios necesitan herramientas para gestionar sus proyectos | 23 |
+| ¿Mejorará la planificación de proyectos si añadimos un chat para que los involucrados puedan comunicarse en tiempo real? | 6 - Un chat facilitará la organización y seguimiento de tareas | 4 - Riesgo moderado, ya que podría complicar la interfaz si no se implementa correctamente | 8 - La planificación es clave para el éxito de los proyectos | 6 - Alto interés, ya que los usuarios necesitan herramientas para gestionar sus proyectos | 24 |
 | ¿Aumentará la satisfacción del usuario si optimizamos la velocidad de carga de la aplicación? | 8 - La velocidad de carga es fundamental para una buena experiencia de usuario | 2 - Bajo riesgo, ya que se trata de optimizaciones técnicas | 7 - Una aplicación rápida mejora la percepción general del servicio | 9 - Muy alto interés, ya que los usuarios esperan un rendimiento óptimo | 26 |
 | ¿Mejorará el sentimiento de seguridad de los usuarios en la aplicación si implementamos medidas de seguridad más robustas, pero que puedan comprometer el rendimiento?| 6 - Con medidas de seguridad más robustas, los usuarios se sentirán más seguros al usar la aplicación | 6 - Riesgo alto, ya que las medidas de seguridad pueden afectar el rendimiento si no se implementan adecuadamente | 4 - La seguridad es una preocupación crítica para los usuarios | 5 - Muy alto interés, ya que la seguridad es un factor clave en la confianza del usuario | 21 |
 
@@ -4140,7 +4140,7 @@ Nuestra aplicación tiene como objetivo principal ofrecer una plataforma para qu
 |--------|--------|
 | 1 | ¿Mejorará la experiencia del usuario si mejoramos la barra de navegación y ajustamos las tonalidades del fondo? |
 | 3 | ¿Aumentará la retención de usuarios si implementamos un sistema de notificaciones? |
-| 3 | ¿Mejorará la planificación de proyectos si añadimos un calendario para gestionar fechas de entrega? |
+| 3 | ¿Mejorará la planificación de proyectos si añadimos un char para gestionar la coordinacion de los proyectos? |
 | 5 | ¿Mejorará el sentimiento de seguridad de los usuarios en la aplicación si implementamos medidas de seguridad más robustas, pero que puedan comprometer el rendimiento? |
 | 8 | ¿Aumentará la satisfacción del usuario si optimizamos la velocidad de carga de la aplicación? |
 
@@ -4160,11 +4160,11 @@ Nuestra aplicación tiene como objetivo principal ofrecer una plataforma para qu
 |Hypothesis|Si implementamos un sistema de notificaciones, entonces los usuarios estarán más informados y comprometidos con la plataforma, lo que aumentará la retención de usuarios.|
 <br>
 
-|Question| ¿Mejorará la planificación de proyectos si añadimos un calendario para gestionar fechas de entrega?|
+|Question| ¿Mejorará la planificación de proyectos si añadimos un char para gestionar la coordinacion de los proyectos?|
 |---|---|
 |Why?|Para facilitar la organización y seguimiento de tareas, lo que puede mejorar la planificación de proyectos.|
-|What?|Añadir un calendario que permita a los usuarios gestionar fechas de entrega y plazos de los proyectos.|
-|Hypothesis|Si añadimos un calendario para gestionar fechas de entrega, entonces los usuarios podrán organizar y seguir sus tareas de manera más efectiva, lo que mejorará la planificación de proyectos.|
+|What?|Añadir un chat que permita a los usuarios coordinar fechas de entrega, plazos y alcance de los entregables del proyecto.|
+|Hypothesis|Si añadimos un chat para coordinar la gestión el proyecto, entonces los usuarios podrán organizar y seguir sus tareas de manera más efectiva, lo que mejorará la planificación de proyectos.|
 <br>
 
 |Question| ¿Aumentará la satisfacción del usuario si optimizamos la velocidad de carga de la aplicación?|
@@ -4197,10 +4197,10 @@ Nuestra aplicación tiene como objetivo principal ofrecer una plataforma para qu
 | Null Hypothesis | La retención mensual no variará de forma significativa. |
 
 
-| Question | ¿Mejorará la planificación de proyectos si añadimos un calendario para gestionar fechas de entrega? |
+| Question | ¿Mejorará la planificación de proyectos si añadimos un char para gestionar la coordinacion de los proyectos? |
 | --- | --- |
-| Belief | Un calendario integrado facilita la organización y seguimiento de plazos. |
-| Hypothesis | Añadir un calendario de fechas de entrega incrementará la tasa de tareas completadas a tiempo en ≥20%. |
+| Belief | Un chat integrado facilita la organización y seguimiento de entregas. |
+| Hypothesis | Añadir un chat entrega incrementará la tasa de tareas completadas a tiempo en ≥20%. |
 | Null Hypothesis | La proporción de tareas completadas a tiempo no cambiará significativamente. |
 
 
@@ -4228,7 +4228,7 @@ Nuestra aplicación tiene como objetivo principal ofrecer una plataforma para qu
 | Measure | Medir la tasa de retención de usuarios mensual (porcentaje de usuarios que regresan al mes siguiente) y la tasa de clics en notificaciones (CTR) para evaluar su relevancia. |
 
 
-| Question | ¿Mejorará la planificación de proyectos si añadimos un calendario para gestionar fechas de entrega? |
+| Question | ¿Mejorará la planificación de proyectos si añadimos un char para gestionar la coordinacion de los proyectos?|
 | --- | --- |
 | Measure | Medir el porcentaje de entregables completados a tiempo y la tasa de finalización de proyectos dentro del plazo estimado. Complementar con encuestas sobre la facilidad de gestión percibida. |
 
@@ -4253,10 +4253,10 @@ Nuestra aplicación tiene como objetivo principal ofrecer una plataforma para qu
 | Condición Experimental | Se habilitará el sistema de notificaciones para un segmento de usuarios, quienes recibirán alertas sobre actividad relevante en sus proyectos. |
 | Condición de Control | El grupo de control no recibirá notificaciones, manteniendo la funcionalidad actual. |
 
-| Question | ¿Mejorará la planificación de proyectos si añadimos un calendario para gestionar fechas de entrega? |
+| Question | ¿Mejorará la planificación de proyectos si añadimos un char para gestionar la coordinacion de los proyectos? |
 | --- | --- |
-| Condición Experimental | Un grupo de usuarios tendrá acceso a la nueva funcionalidad de calendario para gestionar sus entregables y plazos. |
-| Condición de Control | El grupo de control seguirá gestionando sus plazos sin la herramienta de calendario. |
+| Condición Experimental | Un grupo de usuarios tendrá acceso a la nueva funcionalidad de chat para comunicarse con los involucrados del proyecto. |
+| Condición de Control | El grupo de control seguirá gestionando sus plazos sin la herramienta de chat. |
 
 | Question | ¿Mejorará el sentimiento de seguridad de los usuarios en la aplicación si implementamos medidas de seguridad más robustas, pero que puedan comprometer el rendimiento? |
 | --- | --- |
@@ -4274,7 +4274,7 @@ Se define un marco de decisión para cada experimento, estableciendo de antemano
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|--------------|-----------|-------|-----------|
 | Creemos que mejorando la UI, la satisfacción aumentará un 15%. Sabremos que es cierto si observamos dicho aumento en las encuestas CSAT.                                    | Implementar los cambios de UI si el resultado es aceptable o superior.                                                      |              |           |   X   |           |
 | Creemos que las notificaciones aumentarán la retención en un 20%. Sabremos que es cierto si la tasa de retención mensual alcanza ese valor.                               | Lanzar las notificaciones a todos los usuarios si se cumple el objetivo ideal.                                              |              |           |   X   |           |
-| Creemos que el calendario reducirá entregas tardías en un 25%. Sabremos que es cierto si el porcentaje de entregas a tiempo mejora en esa magnitud.                        | Integrar el calendario como una funcionalidad principal si el resultado es ideal.                                           |              |           |   X   |           |
+| Creemos que el chat reducirá entregas tardías en un 25%. Sabremos que es cierto si el porcentaje de entregas funcionales a tiempo mejora en esa magnitud.                        | Integrar el chat como una funcionalidad principal si el resultado es ideal.                                           |              |           |   X   |           |
 | Creemos que las medidas de seguridad aumentarán la confianza en un 30% sin impactar el rendimiento en más de un 15%.                                                        | Implementar 2FA si la confianza aumenta de forma aceptable y el impacto en el rendimiento es mínimo.                        |              |     X     |       |           |
 | Creemos que la optimización del rendimiento reducirá el tiempo de carga en 50%. Sabremos que es cierto si las métricas de Lighthouse lo confirman.                         | Priorizar la implementación de las optimizaciones de rendimiento.                                                            |              |           |       |     X     |
 
@@ -4305,11 +4305,11 @@ Para recopilar los datos definidos en la sección de Measures, se seleccionarán
 Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para seguir optimizando la plataforma, se establece el siguiente plan de seguimiento.
 
 1. **Implementación Inicial y Establecimiento de Líneas Base:**  
-   Durante el primer mes posterior al lanzamiento de cada nueva funcionalidad (calendario, notificaciones, etc.), nos enfocaremos en recopilar datos para establecer una nueva línea base de rendimiento y uso.  
+   Durante el primer mes posterior al lanzamiento de cada nueva funcionalidad (chat, notificaciones, etc.), nos enfocaremos en recopilar datos para establecer una nueva línea base de rendimiento y uso.  
    **Recopilación de Datos:**  
    - **Métricas de Rendimiento:** Se registrarán diariamente los scores de Lighthouse para las páginas clave.  
    - **Métricas de Uso (Google Analytics):** Se monitoreará el número de usuarios activos, la duración de las sesiones y las tasas de conversión para acciones clave (ej. proyectos publicados, postulaciones enviadas).  
-   - **Métricas de Funcionalidad Específica:** Se registrará la adopción de las nuevas características (ej. número de eventos creados en el calendario, CTR de notificaciones).  
+   - **Métricas de Funcionalidad Específica:** Se registrará la adopción de las nuevas características (ej. mensajes del chat, CTR de notificaciones).  
    - **Análisis Comparativo:** Los datos se compararán con los resultados del experimento inicial para confirmar que el impacto positivo se mantiene en un entorno de producción a mayor escala.  
 
 2. **Seguimiento Continuo y Optimización Iterativa:**  
