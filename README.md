@@ -157,35 +157,48 @@
 - [Capítulo V: Product Implementation](#capítulo-v-product-implementation)
   - [5.1. Software Configuration Management.](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration.](#511-software-development-environment-configuration)
-      - [Project Management](#project-management)
-      - [Product UX/UI Design](#product-uxui-design)
-      - [Software Developement](#software-developement)
-      - [IDE's de desarrollo](#ides-de-desarrollo)
-      - [Software Testing](#software-testing)
-      - [Software Deployment](#software-deployment)
-      - [Software Documentation](#software-documentation)
     - [5.1.2. Source Code Management.](#512-source-code-management)
     - [5.1.3. Source Code Style Guide \& Conventions.](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration.](#514-software-deployment-configuration)
   - [5.2. Product Implementation \& Deployment.](#52-product-implementation--deployment)
     - [5.2.1. Sprint Backlogs.](#521-sprint-backlogs)
-  - [**Web Application Sprint Backlog**](#web-application-sprint-backlog)
-  - [**API Sprint Backlog**](#api-sprint-backlog)
-  - [**Mobile Application Sprint Backlog**](#mobile-application-sprint-backlog)
+      - [5.2.1.1 Sprint 1](#5211-sprint-1)
+      - [Sprint Backlog](#sprint-backlog)
+      - [5.2.1.2 Sprint 2](#5212-sprint-2)
+      - [Sprint Backlog](#sprint-backlog-1)
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
     - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
     - [5.2.4. Acuerdo de Servicio Saas](#524-acuerdo-de-servicio-saas)
-    - [5.2.5. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-    - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-    - [5.2.7. RESTful API documentation](#526-restful-api-documentation)
-    - [5.2.8. Team Collaboration Insights](#527-team-collaboration-insights)
+    - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+    - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+    - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
+    - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
   - [5.3. Video About-the-Product.](#53-video-about-the-product)
 - [Capítulo VI: Product Verfication \& Validation](#capítulo-vi-product-verfication--validation)
   - [6.1. Testing Suites \& Validation](#61-testing-suites--validation)
     - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
     - [6.1.2. Core Integration Tests](#612-core-integration-tests)
-    - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+    - [6.1.3 Core Behavior-Driven Development](#613-core-behavior-driven-development)
     - [6.1.4. Core System Tests](#614-core-system-tests)
+  - [6.2 Static tetsing \& Verification](#62-static-tetsing--verification)
+    - [6.2.1. Static Code Analysis](#621-static-code-analysis)
+      - [6.2.1.1. Coding standard \& Code conventions](#6211-coding-standard--code-conventions)
+      - [6.2.1.1. Coding Quality \& Code security](#6211-coding-quality--code-security)
+    - [6.2.2. Reviews](#622-reviews)
+  - [6.3. Validation Interviews](#63-validation-interviews)
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)
+    - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
+      - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
+      - [6.4.1.2. Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)
+      - [6.4.1.3. Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)
+    - [6.4.2. Auditoría recibida](#642-auditoría-recibida)
+      - [6.4.2.1. Información del grupo auditado](#6421-información-del-grupo-auditado)
+      - [6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)
+      - [6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)
+      - [6.4.2.4.Resumen de modificaciones para subsanar hallazgos](#6424resumen-de-modificaciones-para-subsanar-hallazgos)
 - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
   - [7.1. Continuous Integration](#71-continuous-integration)
     - [7.1.1. Tools and Practices](#711-tools-and-practices)
@@ -195,7 +208,27 @@
     - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
   - [7.3. Continuous Deployment](#73-continuous-deployment)
     - [7.3.1. Tools and Practices](#731-tools-and-practices)
-    - [7.2.2. Production Deployment Pipeline Components](#722-production-deployment-pipeline-components)
+    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+  - [7.4 Continuous Monitoring](#74-continuous-monitoring)
+    - [7.4.1. Tools and Practices](#741-tools-and-practices)
+    - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+    - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
+    - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
+- [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
+  - [8.1. Experiment Planning](#81-experiment-planning)
+    - [8.1.1. As-Is Summary](#811-as-is-summary)
+    - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+    - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
+    - [8.1.4. Question Backlog](#814-question-backlog)
+    - [8.1.5. Experiment Cards](#815-experiment-cards)
+  - [8.2. Experiment Design](#82-experiment-design)
+    - [8.2.1. Hypotheses](#821-hypotheses)
+    - [8.2.2. Measures](#822-measures)
+    - [8.2.3. Conditions](#823-conditions)
+    - [8.2.4. Scale Calculations and Decisions](#824-scale-calculations-and-decisions)
+    - [8.2.5. Method Selection](#825-method-selection)
+    - [8.2.6. Data Analytics: Goals, KPIs and Metrics Selection](#826-data-analytics-goals-kpis-and-metrics-selection)
+    - [8.2.7. Web and Mobile Tracking Plan](#827-web-and-mobile-tracking-plan)
 - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
@@ -226,14 +259,22 @@ Para esta entrega, el trabajo se desarrolló de forma cooperativa, involucrando 
 TP <br>
 En esta entrega, se tomaron decisiones fundamentadas sobre la codificación de las características esenciales de la aplicación, considerando su viabilidad técnica y su impacto en la organización del trabajo a través del sprint backlog. Estas decisiones se alinearon con una visión responsable del desarrollo, evaluando cómo las soluciones propuestas podrían influir en contextos globales, económicos y sociales, especialmente en términos de accesibilidad, sostenibilidad y escalabilidad del sistema.
 
+TB2 <br>
+En esta entrega, implementé análisis estático y evaluar heurísticas, que asegura nuestro código cumpliera con estándares internacionales de seguridad y calidad. Esto no solo previno vulnerabilidades con potencial impacto global (como brechas de datos), sino que también garantizó que la solución fuera accesible para usuarios en entornos con limitaciones tecnológicas. Al documentar entrevistas de validación, incorporé diversas perspectivas socioeconómicas, demostrando cómo la ingeniería rigurosa puede promover inclusión digital.
+
 Elias Sanchez, Harold Miguel <br>
 TB1 <br>
 Durante esta etapa del proyecto, trabajé en la construcción del Startup Profile y el Solution Profile, lo que implicó analizar los antecedentes y problemáticas de nuestro público objetivo, así como perfilar a los miembros del equipo y delimitar el impacto de la solución propuesta. A través de herramientas como el Lean UX Canvas y la formulación de hipótesis, se identificaron factores económicos y sociales clave que influyen en la problemática. Esta aproximación nos permitió comprender cómo una solución tecnológica puede generar valor real en distintos contextos, asegurando que las funcionalidades se alineen con necesidades concretas y con una visión responsable de su aplicación a nivel global. Esta experiencia me permitió emitir juicios informados y tomar decisiones con conciencia del impacto social de nuestro sistema.
 
+TB2 <br>
+Para esta entrega, diseñé KPIs para medir no solo rendimiento técnico, sino también adopción cultural en diferentes regiones. Al incluir planes de rastreo adaptables, demostré que el éxito del software depende de su capacidad para resolver problemas reales en contextos específicos, sin imponer modelos tecnoculturales homogenizados.
 
 Ramirez Contreras, Zaid Valentino <br>
 TB1 <br>
 Durante esta entrega, reforzamos nuestros conocimientos y conceptos necesarios para analizar la problemática en su contexto, lo que nos permitió identificar de manera crítica los segmentos objetivos y sus necesidades. Este análisis no solo nos permitirá desarrollar un proyecto bien estructurado y completo, sino también proponer soluciones de ingeniería de software que consideren su impacto en los ámbitos global, económico, ambiental y social, asegurando así una propuesta responsable, sostenible y contextualizada.
+
+TB2 <br>
+Durante esta entrega, integré métricas de costo-efectividad y escalabilidad para mercados emergentes. Esto nos permitió tomar decisiones informadas sobre funcionalidades clave, asegurando que la solución fuera viable tanto económica como técnicamente en diversos contextos globales, desde startups hasta grandes corporaciones.
 
 Meneses Arevalo, Victor Manuel <br>
 TB1 <br>
@@ -242,13 +283,21 @@ Durante la etapa de diseño del producto, se definieron guías de estilo y estru
 TP <br>
 En esta entrega, se implementó un esquema de validación robusto para la aplicación WebMaster, abarcando desde la verificación individual de sus componentes esenciales hasta la confirmación de la interacción fluida entre la interfaz y el almacenamiento de datos. Se emplearon herramientas especializadas para simular y probar las funcionalidades principales, asegurando que cada parte operara según lo previsto y que la comunicación entre ellas fuera efectiva. Además, para los aspectos cruciales del sistema, se definieron comportamientos esperados que fueron verificados automáticamente en cada etapa de desarrollo.
 
+TB2 <br>
+En esta entrega, configuré pipelines de monitoreo para optimizar el uso de recursos en la nube, reduciendo costos operativos y la huella ambiental del proyecto. Al diseñar alertas accesibles, aseguré que el sistema pueda implementarse en zonas con infraestructura limitada, probando que la eficiencia técnica puede impulsar equidad digital sin sacrificar rendimiento.
+
 Velasquez Pizarro Jair <br>
 TB1 <br>
 El desarrollo del proyecto se llevó a cabo bajo un enfoque colaborativo, donde cada integrante del equipo asumió un rol activo en la construcción de una solución tecnológica con impacto real. A través de entrevistas y análisis contextual, se identificaron necesidades concretas que guiaron la definición de funcionalidades alineadas con problemáticas sociales, económicas y globales. Se priorizó la toma de decisiones fundamentadas, considerando no solo la viabilidad técnica, sino también las consecuencias a largo plazo del sistema en los entornos donde será implementado. El uso de metodologías ágiles como Scrum, junto con un flujo de trabajo estructurado mediante Gitflow, permitió mantener una dinámica de desarrollo eficiente y sostenible, integrando buenas prácticas que refuerzan la calidad del software. Esta experiencia evidenció la importancia de construir soluciones de ingeniería de software responsables, con conciencia de su impacto en la sociedad y en el ecosistema tecnológico global.
 
+TB2 <br>
+Durante esta entrega, prioricé mejoras que equilibran rendimiento y cumplimiento normativo (como GDPR). Esto redujo riesgos legales y económicos para futuros usuarios, especialmente en regiones con regulaciones estrictas. Mi trabajo evidenció que las correcciones técnicas deben evaluarse también por su impacto en la confianza del usuario y la sostenibilidad del sistema a largo plazo.
 </td>
          <td> TB1:
          El equipo trabajó de manera colaborativa utilizando metodologías ágiles como **Scrum** y **Gitflow** para organizar el desarrollo del proyecto, asegurando eficiencia y sostenibilidad. Mediante entrevistas y herramientas como el **Lean UX Canvas**, analizaron las necesidades del público objetivo y definieron funcionalidades alineadas con problemáticas sociales, económicas y globales. Además, se enfocaron en el **diseño de interfaces accesibles e inclusivas** (web y móvil), priorizando la experiencia de usuario y la adaptabilidad en distintos contextos tecnoculturales. Todos los integrantes coincidieron en la importancia de crear una solución responsable, evaluando su impacto a largo plazo y tomando decisiones informadas para garantizar un software sostenible y con valor social.
+          <br>
+          TB2:
+          A través de esta entrega, el equipo demostró cómo la ingeniería de software responsable integra múltiples dimensiones de impacto. Implementamos análisis estáticos y heurísticas para garantizar seguridad global y accesibilidad en entornos vulnerables, mientras que los KPIs culturalmente adaptables aseguraron que la solución respetara diversidad tecnocultural. La optimización de recursos en la nube redujo tanto costos operativos como huella ambiental, y el estricto cumplimiento de normativas como GDPR protegió a usuarios en contextos regulatorios complejos. Estas acciones colectivas reflejan nuestro compromiso con un desarrollo técnico que no solo resuelve problemas inmediatos, sino que construye bases éticas y sostenibles para el futuro digital, priorizando siempre la equidad y el impacto social positivo.
           <br>
 </td>         
 
@@ -268,14 +317,22 @@ En este avance del trabajo, se realizó un análisis riguroso del estado actual 
 TP <br>
 En esta entrega, se asumió con responsabilidad ética y profesional la implementación de las características esenciales de la aplicación, priorizando buenas prácticas de codificación, organización del trabajo mediante el sprint backlog y asegurando la claridad y trazabilidad de las decisiones tomadas. Se consideraron aspectos como la mantenibilidad del código, la transparencia en la colaboración y el respeto por los compromisos asumidos dentro del equipo de desarrollo.
 
+TB2 <br>
+Al implementar análisis de código estático y evaluaciones de seguridad, asumí la responsabilidad ética de garantizar que nuestro software no solo fuera funcional, sino también seguro y accesible. Al adherirme a estándares internacionales, me aseguré de que nuestro trabajo no pusiera en riesgo la privacidad de los usuarios ni discriminara a comunidades con menos recursos tecnológicos. 
+
 Elias Sanchez, Harold Miguel <br>
 TB1 <br>
 Mi participación en el diseño y análisis de entrevistas, así como en la elaboración del Needfinding, me permitió asumir una postura ética y profesional al momento de recopilar, interpretar y aplicar información de usuarios reales. A través de herramientas como User Personas, Journey Maps y Empathy Maps, pude profundizar en las necesidades y emociones de los usuarios, respetando su contexto y tomando decisiones de diseño centradas en el bienestar y la equidad. Este enfoque permitió construir una solución con base en principios éticos y en la responsabilidad que conlleva desarrollar software que influya directamente en la vida de las personas. El análisis competitivo también reforzó mi capacidad de evaluar decisiones desde una perspectiva ética, comprendiendo el rol social del ingeniero de software en entornos reales.
 
+TB2 <br>
+Al diseñar KPIs y planes de rastreo, consideré las implicaciones éticas de recopilar y usar datos de usuarios. Me aseguré de que nuestras métricas no solo midieran el rendimiento, sino que también respetaran normas de privacidad y consentimiento. Este proceso reforzó mi compromiso con una ingeniería de software que priorice a las personas sobre los datos.
 
 Ramirez Contreras, Zaid Valentino <br>
 TB1 <br>
 En esta primera entrega, mantuve un enfoque en el aprendizaje continuo, tanto en la investigación de la problemática y su entorno como en el análisis de las tecnologías disponibles que serán necesarias para el desarrollo del proyecto. Este proceso implicó asumir una actitud responsable y profesional, reconociendo la importancia de tomar decisiones éticas en cada etapa del proyecto, considerando la calidad, la seguridad y el bienestar de los usuarios que se verán impactados por la solución de software propuesta.
+
+TB2 <br>
+Durante la planificación de experimentos, me enfoqué en cuestiones éticas como el sesgo en los datos y la escalabilidad justa. Al definir métricas inclusivas, me aseguré de que nuestras soluciones no perpetuaran desigualdades, especialmente en mercados emergentes. Este enfoque demostró mi responsabilidad profesional de desarrollar tecnología que beneficie a todos, sin importar su contexto económico.
 
 Meneses Arevalo, Victor Manuel <br>
 TB1 <br>
@@ -284,13 +341,22 @@ En el desarrollo de las interfaces gráficas y la arquitectura de información, 
 TP <br>
 En esta entrega, la planificación y ejecución de las actividades de prueba se llevaron a cabo de manera estratégica dentro del ciclo de desarrollo, reconociendo la importancia de la responsabilidad ética y profesional en cada decisión tomada durante la ingeniería de software. Se asignaron responsabilidades claras para la validación de los elementos centrales de la aplicación, y la elección de las pruebas se basó en la información obtenida del proceso de integración continua. Se realizaron ajustes continuos en la creación y aplicación de las pruebas hasta cumplir con los estándares de calidad establecidos, asegurando un enfoque ético en la entrega de un producto confiable y sostenible. Esta metodología garantizó una gestión consciente y progresiva en la entrega del producto, priorizando su estabilidad y capacidad de crecimiento, siempre considerando las implicaciones profesionales de cada acción.
 
+TB2 <br>
+Al configurar el monitoreo continuo, asumí la responsabilidad de optimizar recursos para minimizar el impacto ambiental de nuestra solución. Cada alerta que diseñé tuvo en cuenta no solo la eficiencia técnica, sino también el acceso equitativo para usuarios en zonas con conectividad limitada. Mi trabajo reflejó el compromiso ético de crear tecnología que no excluya ni dañe el medio ambiente.
+
 Velasquez Pizarro Jair <br>
 TB1 <br>
 En esta etapa del proyecto, se llevó a cabo un análisis detallado del panorama actual de las plataformas de contratación freelance, evaluando sus fortalezas, debilidades y estrategias competitivas con un enfoque ético y profesional. Se reconoció la responsabilidad que implica diseñar soluciones tecnológicas que impacten directamente en la forma en que las personas acceden a oportunidades laborales. A través de entrevistas dirigidas a desarrolladores freelance y empresarios, se recolectó información clave que permitió comprender sus contextos, necesidades reales y desafíos cotidianos. Este proceso, guiado por principios de respeto, inclusión y transparencia, dio lugar a un needfinding riguroso, sustentado en herramientas de mapeo y la construcción de user personas. Así, se aseguró que cada decisión de diseño se tome con un compromiso consciente hacia el bienestar de los usuarios y la equidad en el acceso a la tecnología, asumiendo plenamente el rol ético y profesional del ingeniero de software.
 
+TB2 <br>
+Al recibir y documentar auditorías externas, reconocí mi responsabilidad ética al priorizar hallazgos que afectaban directamente a los usuarios finales. Me comprometí a implementar mejoras que no solo resolvieran problemas técnicos, sino que también protegieran los datos sensibles de las personas, especialmente en regiones con regulaciones estrictas. 
+
 </td>
             <td>TB1: 
             En esta primera etapa del proyecto, se llevó a cabo un trabajo colaborativo fundamentado en principios éticos y profesionales, que permitió comprender de manera profunda el contexto del mercado de plataformas de contratación freelance. A través del análisis competitivo, entrevistas a usuarios clave y la aplicación de herramientas como User Personas, Journey Maps, Empathy Maps y wireflows, el equipo logró identificar las verdaderas necesidades, emociones y desafíos tanto de desarrolladores freelance como de empresarios. Este proceso riguroso de needfinding, sustentado en el respeto, la inclusión y la responsabilidad, garantizó que cada decisión de diseño y desarrollo estuviera centrada en el bienestar del usuario y la equidad en el acceso a la tecnología. Asimismo, se fortaleció el compromiso individual y colectivo del equipo con el rol social del ingeniero de software, reconociendo el impacto real que las soluciones tecnológicas tienen en la vida de las personas.
+            <br>
+            TB2:
+            Este proyecto consolidó nuestro compromiso con una ingeniería de software responsable, donde cada acción técnica estuvo guiada por principios éticos fundamentales. Desde el análisis de código seguro que protege la privacidad hasta los KPIs con enfoque humano que evitan sesgos, priorizamos el impacto social sobre la mera funcionalidad. Implementamos monitoreo ecoeficiente para reducir la huella ambiental y auditorías rigurosas que garantizan cumplimiento normativo global, demostrando que la excelencia técnica va de la mano con la integridad profesional. 
             <br>
           
 
@@ -2205,38 +2271,38 @@ Se utilizara como base de datos relacional el gestor de base de datos MySQL. A c
 
 ## 5.1. Software Configuration Management.
 ### 5.1.1. Software Development Environment Configuration.
-#### Project Management
+**Project Management**
 - Trello [https://trello.com](https://trello.com):
  Trello es una aplicación web de gestión de proyectos compatible con la mayoria de navegadores. Se utilizó Trello para la organización y registro de las tareas por hacer, las que están en proceso y las realizadas. De esta forma podemos tener control acerca del avance del proyecto y las actividades de cada uno de los miembros del equipo.
 
-#### Product UX/UI Design
+**Product UX/UI Design**
 - Miro [https://miro.com](https://miro.com):
  Miro ha sido empleado en el desarrollo de los escenarios mapping y escenario mapping para ambos segmentos objetivos.
 
 - Figma [https://figma.com](https://figma.com):
  Esta herramienta fue de vital importancia para la creación de los wireframes, mockups y mobile applications prototyping de manera colaborativa. Asimismo, su acceso es gratuito al contar con una cuenta registrada.
 
-#### Software Developement
+**Software Developement**
 - Landing Page:
 El desarrollo del landing page se llevó a cabo con las tecnologías básicas para esta misma: HTML5, CSS3 y JavaScript.
 - Frontend Web Application:
 Se ha utilizado a Vue como framework de Javascript. En adición, para la implementación de componentes reutilizables y accesibles se usó PrimeVue como biblioteca de componentes UI.
 
 
-#### IDE's de desarrollo
+**IDE's de desarrollo**
 - IntelliJ IDEA [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/):
 IntelliJ IDEA es un entorno de desarrollo integrado (IDE) creado por JetBrains. Este entorno de desarrollo nos proporcionará distintas herramientas para agilizar el proceso de desarrollo
 
 - WebStorm [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/): Para el front se utilizó WebStorm, un IDE de JavaScript y TypeScript. Este IDE es muy útil para el desarrollo de aplicaciones web, ya que cuenta con herramientas para la depuración, pruebas y análisis de código.
 
-#### Software Testing
+**Software Testing**
 - Para las pruebas de testeo software, tanto de la landing page como de la aplicación web, se emplearon las herramientas de desarrollador de los principales navegadores web como Google Chrome [https://www.google.com/chrome/](https://www.google.com/chrome/), Microsoft Edge [https://www.microsoft.com/en-us/edge](https://www.microsoft.com/en-us/edge) y Mozilla Firefox [https://www.mozilla.org/en-US/firefox/browsers/](https://www.mozilla.org/en-US/firefox/browsers/). Estos navegadores cuentan con aplicaciones desktop y móviles las cuáles son totalmente gratuitas. En el caso de desktop podemos instalarlos desde sus sitios oficiales, en el caso de móvil, desde la tienda de aplicaciones del sistema operativo en cuestión.
 
-#### Software Deployment
+**Software Deployment**
 - **Vercel** [https://vercel.com](https://vercel.com):
 es una plataforma en la nube que ofrece herramientas integrales para el desarrollo, implementación y alojamiento de aplicaciones web, permitiendo a los desarrolladores crear y lanzar sitios estáticos o dinámicos de manera eficiente y escalable.
 
-#### Software Documentation
+**Software Documentation**
 - Markdown [https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax):
 Markdown es un lenguaje de marcado ligero que nos permite formatear texto de manera sencilla utilizando un formato de texto plano. De esta forma documentamos la información importante acerca del contexto, organización, producción y creacíon del proyecto.
 - Structurizr [https://structurizr.com/](https://structurizr.com/):
@@ -2480,7 +2546,7 @@ WebMaster es una plataforma digital ofrecida bajo el modelo SaaS que permite a e
 - Recepción y evaluación de propuestas por parte de freelancers.
 - Gestión de entregables vinculados a proyectos.
 - Visualización de postulantes, sus perfiles y calificaciones.
-- Coordinación mediante un calendario colaborativo.
+- Coordinación entregables colaborativos.
 - Comunicación y seguimiento del estado del proyecto en tiempo real.
 - WebMaster actúa como facilitador tecnológico y no participa en la formalización contractual, ejecución técnica ni en la gestión de pagos entre usuarios.
 
@@ -2740,6 +2806,1101 @@ A continuacion se visualiza la ejecucion del test:
 
 ![10](./assets/Chapter%20VI/E4US103GestionarPerfil.png)
 
+## 6.2 Static tetsing & Verification
+### 6.2.1. Static Code Analysis
+Este apartado aborda los métodos y herramientas que se han utilizado en el proyecto para garantizar la calidad del código en etapas tempranas del desarrollo. Mediante el static code analysis, se busca asegurar que el código fuente actual cumpla con los estándares adecuados, disminuir la cantidad de errores y reducir las vulnerabilidades antes de llegar a etapas de producción.
+
+#### 6.2.1.1. Coding standard & Code conventions
+Los estándares y convenciones de condificación son una serie de pautas adoptadas por los desarrolladores para garantizar legibilidad, consistencia y mantenibilidad del código. Su aplicación mejora la eficiencia del software y reduce su complejidad, facilitando la colaboración y mantenimiento a largo plazo.
+
+Para el desarrollo de este proyecto, se siguieron los siguientes estilos:
+- **Java Code Conventions:** Se tienen convenciones para nombrar clases (PascalCase), métodos y variables (camelCase) y constantes (MAYÚSCULAS_CON_GUIONES_BAJOS). La indentación debe ser 4 espacios y las líneas de código deben evitar ser mayores a 80. Cada clase debe tener un propósito único, evitando lógica redundante, mientras que los métodos deben ser breves y realizar una única tarea. Estas y otras prácticas de esta convención facilitan el mantenimiento futuro.
+- **Clean Code:** Se usan nombres descriptivos para las clases, métodos y variables, evitando abreviaturas ambiguas. Se debe seguir el principio DRY (Don't Reap Yourself), eliminando o refactorizan todo el código duplicado. Así mismo, las funciones deben cumplir un unico propósito (Single Responsibility Principle). Estas prácticas buscan crear código mantenible y fácil de entender por otros desarrolladores.
+
+#### 6.2.1.1. Coding Quality & Code security
+La calidad del código mide la la fiabilidad, eficiencia y mantebilidad de un software en el tiempo sin caer en deuda técnica. Para ello, el código debe cumplir cuatro aspectos: ser eficiente, ampliable, reusable y testeable. Para garantizar la calidad del código, se usan diferentes herramientas como análisis estático, controles de estilo o pruebas automatizadas.
+
+Por otra parte, la seguridad del código se refiere a las prácticas y métodos implementadas durante el desarrollo de software para mitigar vulnerabilidades y amenazas que puedan poner en riesgo la integridad del sistema. Entre estas prácticas destacan: validación y sanitizacion de entradas (input sanitization), limitación de tasa de requests (rate limiting) y encriptación de datos sensibles, entre otras.
+Para garantizar su eficacia, se realizan pruebas de penetración (pentesting), así como escaneo de dependencias y análisis estático para detectar de manera temprana este tipo de vulnerabilidades.
+
+Para cumplir con ambos puntos, se han escogido dos herramientas que ayudan a garantizar la seguridad y calidad del código:
+
+- **Checkstyle** es una herramienta de análisis estático que verifica el cumplimiento de las convenciones de código definidas en el proyecto. Según la configuración, valida aspectos como el formato, nombrado e indentación. De esta manera se garantiza un código consistente y alineado con las buenas prácticas del lenguaje.
+<img src="./assets/Chapter VI/checkstyle.PNG">
+
+- **SonarQube** es una herramienta que evalúa el código de manera estática y dinámica para identificar vulnerabilidades de seguridad, bugs complejos, deuda técnica y otras malas prácticas que comrpometen la calidad del software. Realiza análisis y reportes priorizando los problemas por severidad.
+<img src="./assets/Chapter VI/sonarqube.PNG">
+  
+### 6.2.2. Reviews
+La revisión de código es una práctica esencial para asegurar tanto la calidad del software como el cumplimiento de estándares técnicos. Este procedimiento puede ser manual o automatizado y debe regirse por lineamientos específicos.
+
+**Tipos de Revisión**
+
+- **Revisión por Pares**: Un desarrollador evalúa el código de otro con el fin de verificar que sea legible y cumpla con los estándares establecidos.
+- **Revisión Formal**: Se realiza en sesiones estructuradas utilizando listas de verificación (checklists) para identificar problemas de manera colaborativa.
+- **Revisión Automatizada**: Se utilizan herramientas como **SonarLint** y **SonarQube** para detectar errores y problemas de calidad en tiempo real.
+
+**Proceso de Revisión**
+
+- **Creación de Pull Requests (PR)**: Todo cambio debe presentarse mediante un PR que describa claramente las modificaciones y pruebas realizadas.
+- **Lista de Verificación**: Debe utilizarse un checklist para evaluar aspectos como legibilidad, pruebas automatizadas y manejo de errores.
+- **Comentarios y Retroalimentación**: Los revisores deben brindar observaciones claras y constructivas. Los problemas detectados deben corregirse antes de aprobar el PR.
+- **Aprobación o Rechazo**: Cada PR debe ser revisado y aprobado por al menos otro desarrollador antes de integrarse a la rama principal.
+
+**Criterios de Aceptación**
+
+- **Calidad y Seguridad**: El código debe adherirse a los estándares de calidad y no introducir nuevas vulnerabilidades.
+- **Cobertura de Pruebas**: Se espera un nivel mínimo de cobertura de pruebas (por ejemplo, 80%) para garantizar la confiabilidad del nuevo código.
+
+**Frecuencia de Revisión**
+
+Las revisiones deben realizarse de forma constante, idealmente al final de cada sprint o en períodos predefinidos, para evitar acumulación de cambios y mantener la calidad del proyecto.
+
+## 6.3. Validation Interviews
+### 6.3.1. Diseño de Entrevistas
+**Segmento objetivo: Empresarios o emprendedores**
+
+  **Preguntas generales:**
+  1. ¿Cuál es su nombre? 
+  2. ¿Cuántos años tienes? 
+  3. ¿Dónde resides actualmente? 
+  4. ¿Cuál es el nombre de tu empresa o emprendimiento? 
+
+  **Preguntas de validación:**
+  1.	¿Qué opinión tiene con respecto al diseño de la aplicación?
+  2.	¿Le parece intuitiva y fácil de manejar?
+  3.	¿Cómo se siente en la parte de navegación, le es fácil ir de una pantalla a otra?
+  4.	¿Consideras que la aplicación te proporciona las suficientes herramientas para contratar freelancers y gestionar tus proyectos?
+  5.	¿Qué característica te llama más la atención de la aplicación? ¿Por qué?
+  6.	¿Cuál crees que es el punto fuerte de la aplicación?
+  7. ¿Cree que podrá encontrar a un freelancer para un hipotético proyecto utilizando nuestra aplicación?
+  8.	¿Estarías dispuesto/a a hacer uso de nuestra aplicación? ¿Por qué?
+  9.	¿Estaría dispuesto a suscribirse al plan de WebMaster?
+
+
+**Segmento objetivo: Desarrolladores freelance**
+
+  **Preguntas generales:**
+  1. ¿Cuál es su nombre? 
+  2. ¿Cuántos años tienes? 
+  3. ¿Dónde resides actualmente? 
+  4. ¿Cuál es tu área de especialidad en el desarrollo de software (móvil, escritorio, web, ciberseguridad, etc.)? 
+
+  **Preguntas de validación:**
+  1.	¿Qué opinión tiene con respecto al diseño de la aplicación?
+  2.	¿Le parece intuitiva y fácil de manejar?
+  3.	¿Cómo se siente en la parte de navegación, le es fácil ir de una pantalla a otra?
+  4.	¿Las pantallas contienen todas las opciones disponibles para ofrecer tus trabajos freelance?
+  5.	¿Qué característica te llama más la atención de la aplicación? ¿Por qué?
+  6.	¿Estarías dispuesto/a a hacer uso de nuestra aplicación? ¿Por qué?
+  7.	¿Cree que se hará fácil conseguir trabajo gracias a nuestra plataforma?
+  8.	¿Qué opinión tiene con respecto a la opción de publicar tu portafolio?
+  9.	¿Estaría dispuesto a registrarse a WebMaster?
+
+### 6.3.2 Registro de Entrevistas
+**Segmento 1: Segmento empresarios o emprendedores**
+
+**Entrevista 1** 
+
+  - Entrevistador: Zaid Ramirez
+  - Entrevistado: Maverick Mendoza
+  - Edad: 19 años
+  - Residencia: Lima 
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://youtu.be/rn22s0uMheg)
+
+<div style="display:flex;justify-content:center">
+<img src="./assets/interviews/Maverick2.png" alt="Entrevista a Maverick Mendoza" style="width:80%;">
+</div>
+Maverick nos comenta que considera que la aplicación es intuitiva y facil de usar. Del mismo modo, afirma que las vistas contienen toda la información que considera relevante al momento de definir programadores para su emprendimiento. A su vez comenta que e bajo coste del servicio es el punto fuerte de nuestra plataforma. Con estas observaciones, Maverick declará que estaría dispuesto a obtener una subscripcion a nuestra plataforma
+<br><br>
+
+**Entrevista 2** 
+
+  - Entrevistador: Jair Velasquez Pizarro
+  - Entrevistado: Alexandra Ñañez
+  - Edad: 22 años
+  - Residencia: Lima 
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/personal/u202218114_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218114_upc_edu_pe%2FDocuments%2FEntrevista%20Alexandra%20Webmaster%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ece709989-e2fd-48b0-8293-20a526c1ec71)
+
+<div style="display:flex;justify-content:center">
+<img src="./assets/interviews/Alexandra2.png" alt="Entrevista a Alexandra Ñañez" style="width:80%;">
+</div>
+Alexandra nos comenta que considera que la aplicación web es bastante intuitiva y fácil se usar. De igual forma, afirma que considera acertado la funcionalidad de contacto con los desarrolladores ya que así se podría realizar un proyecto de mejor forma gracias a la comunicación que habría. También resalta de forma positiva el agregado de cambio de idioma ya que esto permite ser más global. Por último nos confirma que si utilizaría la aplicación ya que al no tener muchos conocimientos del desarrollo de aplicaciones de software una página así le vendría bien si ocupa desarrollar una aplicación para su negocio.
+<br><br>
+
+
+**Segmento 2: Desarrolladores Freelancer**
+
+**Entrevista 1** 
+
+  - Entrevistador: Samira Jetzabel Alvarez Araguache 
+  - Entrevistado: Alessandro Medina Agnini
+  - Edad: 20 años
+  - Residencia: Lima - Surco
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a046_upc_edu_pe/EQs0p0bapO1GrR3b5FGP1BIBBGxIgMv7CmrOrKdy2CAoCg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8OHjW9)
+
+<img src="./assets/interviews/Alessandro2.PNG" alt="Entrevista 1 segmento desarrolladores freelance" style="width:60% align-center">
+	
+Resumen: 
+<br>
+Se entrevistó a Alessandro Medina, un joven de 20 años estudiante de Ciencias de la Computación quien se dedica al trabajo freelance. Alessandro se especializa en el desarrollo web como Front-End, con el uso de HTML5, CSS3, JS, React y Angular. utilizando tecnologías como HTML5, CSS3, JS, React y Angular. Él ha participado en diversos proyectos, principalmente en la creación de landing pages para emprendedores y pequeñas empresas.
+
+Resalta de manera positiva la parte visual de la aplicación, destacando su diseño intuitivo y su interfaz amigable, donde menciona que es lo suficientemente fácil de usar, incluso para usuarios con poca experiencia interactuando con tecnología. En cuanto a la navegación, considera que la toolbar facilita el flujo a través de la aplicación, permitiendo ir de manera fluida de pantalla en pantalla. También, considera que la app cuenta con todas las herramientas necesarias para trabajar en la plataforma como un desarrollador, como indicar el stack tecnológico y la posibilidad de mostrar tu portafolio. Destaca la personalización que tienen las empresas en cuanto a la descripción del proyecto y los entregables, lo que hace más facil considerar la postulación a este tipo de trabajos. Además, según las funcionalidades que ha podido observar en la aplicación, menciona que la plataforma sí le facilitaría la búsqueda de empleo en un proyecto de desarrollo de software. En conclusión, Alessandro dice estar dispuesto a registrarse a Webmaster. 
+
+**Entrevista 2**
+
+- Entrevistador: Victor Meneses
+- Entrevistado: Alejandro Barturen
+- Edad: 21 años
+- Residencia: Lima - San Miguel
+- Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212191_upc_edu_pe/ESSBVSmMguBNk8hg4xL1xHkBocNEIKitXl_U07DSStsXBg?e=EtiYBw&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<img src="./assets/Chapter%20VI/interview_barturen.png"  style="width:60% align-center">
+
+Resumen:</br>
+Alejandro Barturen, desarrollador web con enfoque en frontend, destacó que la aplicación presenta una combinación de colores adecuada y una interfaz que facilita la identificación de los botones y su función dentro de la navegación. Desde su perspectiva, la plataforma funcionó correctamente, especialmente en las secciones de "Home Developer" y "Explorar Proyectos", donde no encontró errores ni dificultades. Mencionó que la barra de navegación le resultó intuitiva y sencilla de usar, lo cual le permitió moverse por la aplicación sin complicaciones. Considera que la información mostrada en la pantalla principal del desarrollador es clara y relevante. Lo que más le llamó la atención fue la sección de "Explorar Proyectos", ya que le permite visualizar múltiples oportunidades laborales para freelancers. Alejandro comentó que definitivamente usaría esta aplicación, especialmente en momentos en los que buscar empleo puede ser más complicado, ya que le pareció una herramienta práctica y funcional para conectar con proyectos remunerados.
+
+**Entrevista 3**
+
+- Entrevistador: Harold Elias
+- Entrevistado: Christofer More
+- Edad: 20 años
+- Residencia: Lima - San Miguel
+- Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212684_upc_edu_pe/EUhG463DZARMsHTbpV3BgDgBmQbEBPCj_zDSJjSUkfpVWA?e=TwcyzC)
+
+<img src="./assets/Chapter%20VI/entrevista_freelancer.png"  style="width:60% align-center">
+
+Resumen:</br>
+Se entrevistó a Christofer More, un joven de 20 años que cursa el séptimo ciclo de Ingeniería de Software y trabaja de manera freelance. Christofer es desarrollador fullstack, con mayor experiencia en el backend, y ha participado en diversos proyectos, aportando principalmente en la lógica y arquitectura de servidor.
+Destaca especialmente el aspecto visual de la aplicación, señalando su diseño limpio e intuitivo y una interfaz muy amigable, lo cual la hace accesible incluso para quienes tienen poca experiencia tecnológica. En cuanto a la navegación, valora que la barra de herramientas (toolbar) permita un tránsito fluido entre pantallas. También resalta que la plataforma ofrece todas las funcionalidades clave para un desarrollador, como la posibilidad de indicar el stack tecnológico empleado y mostrar el portafolio de proyectos.
+Christofer aprecia la personalización que empresas y emprendedores pueden incluir en la descripción de sus proyectos y entregables, lo que facilita la toma de decisión al postularse. Según su experiencia explorando la aplicación, considera que Webmaster simplificaría la búsqueda de empleo en proyectos de software. Además, muestra interés en la opción de pagar por una mayor visibilidad dentro de la plataforma
+  
+### 6.3.3. Evaluaciones según heurísticas
+Con base a las diversas opiniones en las entrevistas realizadas, tanto de empresas como de desarrolladores freelancer se obtiene que:
+
+- La aplicación es intuitiva y fácil de usar.
+- La navegación es sencilla y permite ir de una vista a otra sin problemas.
+- Las vistas contienen toda la información necesaria para manejar los servicios contratados.
+- La aplicación es beneficiosa para las empresas y los desarrolladores, ya que facilita la contratación y prestación de servicios.
+- La información contenida en la aplicación es clara y completa.
+- La mayoría de los entrevistados estarían dispuestos a suscribirse o registrarse en Webmaster.
+## 6.4. Auditoría de Experiencias de Usuario
+### 6.4.1. Auditoría realizada
+#### 6.4.1.1. Información del grupo auditado
+
+<div>
+     <table>
+        <tr>
+            <th style="text-align:center;">Member</th>
+            <th style="text-align:center;">Roles</th>
+        </tr>
+        <tr>
+            <td>Ames Oviedo, Mariano Jose</td>
+            <td>Developer</td>
+        </tr>
+        <tr>
+            <td> Criollo de la Cruz, Diego Anderson</td>
+            <td> Developer</td>
+        </tr>
+        <tr>
+            <td>Lecca Choccare, Christopher Bryan</td>
+            <td>Product Owner</td>
+        </tr>
+        <tr>
+            <td>Valle Zuta, Abel Andrés</td>
+            <td>Developer</td>
+        </tr>
+         <tr>
+            <td>Sosa Colca, Angello Rodolfo</td>
+            <td>Scrum Master</td>
+        </tr>
+    </table>
+</div>
+
+#### 6.4.1.2. Cronograma de auditoría realizada
+
+<table class="cronograma-auditoria">
+  <thead>
+    <tr>
+      <th>Fase</th>
+      <th>Actividades</th>
+      <th>Fecha Inicio</th>
+      <th>Fecha Fin</th>
+      <th>Responsable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Recepción</td>
+      <td>
+        <ul>
+          <li>Solicitud formal de auditoría</li>
+          <li>Recopilación de documentación</li>
+          <li>Acceso a sistemas/producto</li>
+        </ul>
+      </td>
+      <td>12/06/2025</td>
+      <td>12/06/2025</td>
+      <td> Samira Alvarez </td>
+    </tr>
+    <tr>
+      <td>Planificación</td>
+      <td>
+        <ul>
+          <li>Revisión de requisitos</li>
+          <li>Definición de heurísticas</li>
+          <li>Elaboración de checklist</li>
+        </ul>
+      </td>
+      <td>12/06/2025</td>
+      <td>13/06/2025</td>
+      <td> Samira Alvarez </td>
+    </tr>
+    <tr>
+      <td>Ejecución</td>
+      <td>
+        <ul>
+          <li>Evaluación heurística</li>
+          <li>Pruebas de usabilidad</li>
+          <li>Análisis de accesibilidad</li>
+          <li>Registro de hallazgos</li>
+        </ul>
+      </td>
+      <td>14/06/2025</td>
+      <td>15/06/2025</td>
+      <td> Samira Alvarez </td>
+    </tr>
+    <tr>
+      <td>Reporte</td>
+      <td>
+        <ul>
+          <li>Redacción de informe</li>
+          <li>Diseño de recomendaciones</li>
+          <li>Revisión final</li>
+        </ul>
+      </td>
+      <td>04/06/2025</td>
+      <td>10/06/2025</td>
+      <td> Samira Alvarez </td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 6.4.1.3. Contenido de auditoría realizada
+
+**TAREAS A EVALUAR**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+- Navegación en la interfaz
+- Visualización de locales
+- Interacción en formularios
+- Accesibilidad general
+- Manejo de temas de color
+- Funcionalidad de contacto
+- Experiencia móvil (responsive)
+
+<br>
+
+**ESCALA DE SEVERIDAD**
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: ocurre con mayor frecuencia o es un poco más difícil de superar para el usuario. Prioridad baja para su corrección. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Prioridad alta para su corrección. |
+| 4 | Problema muy grave: error de gran impacto que impide al usuario continuar. Debe ser corregido antes del lanzamiento. |
+
+<br></br>
+
+**TABLA RESUMEN**
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Problema</th>
+      <th>Escala de severidad</th>
+      <th>Heurística/Principio violado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>No se puede adjuntar más de una imagen por local</td>
+      <td>3</td>
+      <td>Usability: Flexibilidad y eficiencia de uso</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>No hay opción de tema claro/oscuro</td>
+      <td>2</td>
+      <td>Usability: Preferencias del usuario</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>No hay forma de contactar al soporte desde la app</td>
+      <td>3</td>
+      <td>Usability: Ayuda y documentación</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Textos pequeños en dispositivos móviles</td>
+      <td>2</td>
+      <td>Inclusive Design: Accesibilidad visual</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Botón "Buscar" se confunde con "Publicar"</td>
+      <td>2</td>
+      <td>Usability: Consistencia y estándares</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>No hay confirmación al eliminar un local</td>
+      <td>3</td>
+      <td>Usability: Prevención de errores</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Falta de feedback al enviar un formulario</td>
+      <td>2</td>
+      <td>Usability: Visibilidad del estado del sistema</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+ **DESCRIPCIÓN DE PROBLEMAS**
+ **PROBLEMA #1: No se puede adjuntar más de una imagen por local**
+- **Severidad:** 3  
+- **Heurística violada:** Usability – Flexibilidad y eficiencia de uso  
+- **Problema:**  
+  El sistema permite subir únicamente una imagen por local, limitando la información visual que se puede proporcionar al usuario interesado. Esto afecta negativamente la experiencia de exploración de los espacios.  
+  <img src="./assets/Chapter VI/AlquilaFacil-Auditoria/Problema1.png">
+
+- **Recomendación:**  
+  Permitir adjuntar múltiples imágenes por local, con una interfaz que permita visualizarlas en carrusel o miniaturas.
+
+<br>
+
+ **PROBLEMA #2: No hay opción de tema claro/oscuro**
+- **Severidad:** 2  
+- **Heurística violada:** Usability – Preferencias del usuario  
+- **Problema:**  
+  La aplicación no cuenta con opción de personalización visual, como el modo claro y oscuro, lo cual limita la comodidad visual según preferencias o condiciones de iluminación.  
+  <img src="./assets/Chapter VI/AlquilaFacil-Auditoria/Problema2.png">
+
+- **Recomendación:**  
+  Implementar un selector de tema para que el usuario elija entre modo claro, oscuro o automático según el sistema operativo.
+
+<br>
+
+**PROBLEMA #3: No hay forma de contactar al soporte desde la app**
+- **Severidad:** 3  
+- **Heurística violada:** Usability – Ayuda y documentación  
+- **Problema:**  
+  No existe una sección visible para que los usuarios puedan contactar al equipo de soporte o enviar reportes de errores desde la aplicación.  
+  <img src="./assets/Chapter VI/AlquilaFacil-Auditoria/Problema3.png">
+
+- **Recomendación:**  
+  Añadir una sección de contacto o botón flotante que permita enviar correos o mensajes al equipo de soporte de forma directa.
+
+<br>
+
+ **PROBLEMA #4: Textos pequeños en dispositivos móviles**
+- **Severidad:** 2  
+- **Heurística violada:** Inclusive Design – Accesibilidad visual  
+- **Problema:**  
+  En algunos móviles, los textos aparecen demasiado pequeños, dificultando su lectura especialmente para personas con problemas visuales.  
+  <img src="./assets/Chapter VI/AlquilaFacil-Auditoria/Problema4.png">
+
+- **Recomendación:**  
+  Ajustar el tamaño mínimo de fuente en vistas móviles y permitir escalado de texto.
+<br>
+
+**PROBLEMA #5: Botón "Buscar" se confunde con "Publicar"**
+- **Severidad:** 2  
+- **Heurística violada:** Usability – Consistencia y estándares  
+- **Problema:**  
+  Los botones “Buscar” y “Publicar” están ubicados muy cerca uno del otro y tienen estilos similares, lo que puede causar errores de interacción.  
+  <img src="./assets/Chapter VI/AlquilaFacil-Auditoria/Problema5.png">
+
+- **Recomendación:**  
+  Diferenciar ambos botones por color, ícono o ubicación, y añadir un texto descriptivo más claro si es necesario.
+
+<br>
+
+**PROBLEMA #6: No hay confirmación al eliminar un local**
+- **Severidad:** 3  
+- **Heurística violada:** Usability – Prevención de errores  
+- **Problema:**  
+  Al eliminar un local, no se solicita confirmación previa, lo que puede derivar en la pérdida de datos por error involuntario.  
+  <img src="./assets/Chapter VI/AlquilaFacil-Auditoria/Problema6.png">
+
+- **Recomendación:**  
+  Mostrar una alerta de confirmación con opción de cancelar antes de ejecutar la acción de borrado.
+
+<br>
+
+**PROBLEMA #7: Falta de feedback al enviar un formulario**
+- **Severidad:** 2  
+- **Heurística violada:** Usability – Visibilidad del estado del sistema  
+- **Problema:**  
+  Cuando un usuario envía un formulario, no se muestra un mensaje de éxito o error, dejando incertidumbre sobre si la acción fue procesada.  
+  <img src="./assets/Chapter VI/AlquilaFacil-Auditoria/Problema7.png">
+
+- **Recomendación:**  
+  Añadir mensajes de retroalimentación visual como alertas, toast o loaders para informar al usuario del resultado.
+
+<br>
+
+### 6.4.2. Auditoría recibida
+#### 6.4.2.1. Información del grupo auditado
+
+<div>
+     <table>
+        <tr>
+            <th style="text-align:center;">Member</th>
+            <th style="text-align:center;">Roles</th>
+        </tr>
+        <tr>
+            <td>Alvarez Araguache, Samira Jetzabel</td>
+            <td>Developer</td>
+        </tr>
+        <tr>
+            <td> Elias Sanchez, Harold Miguel</td>
+            <td> Developer</td>
+        </tr>
+        <tr>
+            <td>Ramirez Contreras, Zaid Valentino</td>
+            <td>Product Owner</td>
+        </tr>
+        <tr>
+            <td>Meneses Arevalo, Victor Manuel</td>
+            <td>Developer</td>
+        </tr>
+         <tr>
+            <td>Velasquez Pizarro, Jair</td>
+            <td>Scrum Master</td>
+        </tr>
+    </table>
+</div>
+
+
+#### 6.4.2.2. Cronograma de auditoría recibida
+
+<table class="cronograma-auditoria">
+  <thead>
+    <tr>
+      <th>Fase</th>
+      <th>Actividades</th>
+      <th>Fecha Inicio</th>
+      <th>Fecha Fin</th>
+      <th>Responsable</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Recepción</td>
+      <td>
+        <ul>
+          <li>Solicitud formal de auditoría</li>
+          <li>Recopilación de documentación</li>
+          <li>Acceso a sistemas/producto</li>
+        </ul>
+      </td>
+      <td>16/05/2025</td>
+      <td>20/05/2025</td>
+      <td> Angello Sosa </td>
+    </tr>
+    <tr>
+      <td>Planificación</td>
+      <td>
+        <ul>
+          <li>Revisión de requisitos</li>
+          <li>Definición de heurísticas</li>
+          <li>Elaboración de checklist</li>
+        </ul>
+      </td>
+      <td>23/05/2025</td>
+      <td>27/05/2025</td>
+      <td> Angello Sosa </td>
+    </tr>
+    <tr>
+      <td>Ejecución</td>
+      <td>
+        <ul>
+          <li>Evaluación heurística</li>
+          <li>Pruebas de usabilidad</li>
+          <li>Análisis de accesibilidad</li>
+          <li>Registro de hallazgos</li>
+        </ul>
+      </td>
+      <td>01/06/2025</td>
+      <td>03/06/2025</td>
+      <td> Angello Sosa </td>
+    </tr>
+    <tr>
+      <td>Reporte</td>
+      <td>
+        <ul>
+          <li>Redacción de informe</li>
+          <li>Diseño de recomendaciones</li>
+          <li>Revisión final</li>
+        </ul>
+      </td>
+      <td>04/06/2025</td>
+      <td>10/06/2025</td>
+      <td> Angello Sosa </td>
+    </tr>
+  </tbody>
+</table>
+
+#### 6.4.2.3. Contenido de auditoría recibida
+
+**TAREAS A EVALUAR**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+- Registro de un usuario nuevo
+- Edición de perfil
+- Navegación en la interfaz
+- Visualización de proyectos
+- Creación de proyectos
+- Validación de formularios
+- Interacción con botones
+- Responsive design
+
+<br></br>
+
+**ESCALA DE SEVERIDAD**
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: ocurre con mayor frecuencia o es un poco más difícil de superar para el usuario. Prioridad baja para su corrección. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Prioridad alta para su corrección. |
+| 4 | Problema muy grave: error de gran impacto que impide al usuario continuar. Debe ser corregido antes del lanzamiento. |
+
+<br></br>
+
+**TABLA RESUMEN**
+
+| # | Problema | Escala de severidad | Heurística/Principio violado |
+|---|----------|----------------------|-------------------------------|
+| 1 | Elemento visual extraño en área de login | 1 | Usability: Consistencia y estándares |
+| 2 | Falta de contraste visual en las letras durante la carga de datos. | 2 | Inclusive Design: Proporcionar experiencias comparables |
+| 3 | Falta de indicadores para edición de imágenes | 2 | Usability: Visibilidad del estado del sistema |
+| 4 | Botón "Guardar cambios" no funciona correctamente | 3 | Usability: Retroalimentación y control del usuario |
+| 5 | Comportamiento inadecuado del footer | 2 | Information Architecture: Is it usable? |
+| 6 | Botón "Apply to Project" sin estados hover | 1 | Usability: Consistencia y estándares |
+| 7 | 	Fotografías de desarrolladores no visibles en la lista de desarrolladores | 2 | Information Architecture: Is it findable? |
+| 8 | Campos de formulario que se deforman | 2 | Usability: Prevención de errores |
+| 9 | Problemas de márgenes en navbar móvil | 2 | Usability: Flexibilidad y eficiencia de uso |
+| 10 | Logo no funciona como enlace en móvil | 3 | Usability: Libertad y control del usuario |
+| 11 | Alineación incorrecta en footer móvil | 1 | Usability: Consistencia y estándares |
+| 12 | Falta acceso rápido a creación de proyectos | 2 | Usability: Eficiencia y simplicidad |
+| 13 | Inconsistencia en fondos entre versión web y móvil | 2 | Usability - Consistencia y estándares   |
+| 14 | Falta de confirmación al crear proyectos | 3  | Usability - Prevención de errores  |
+| 15 | Espaciado inadecuado en menús desplegables | 2  | Usability - Flexibilidad y eficiencia de uso |
+| 16 | Inputs críticos con tamaño insuficiente | 3  | Usability - Inclusive Design - Tamaño objetivo táctil  |
+<br></br>
+
+**DESCRIPCIÓN DE PROBLEMAS**
+
+**PROBLEMA #1: Elemento visual extraño en área de login**
+
+- **Severidad:** 1
+- **Heurística violada:** Usability - Consistencia y estándares
+- **Problema:**
+  Se observa una línea horizontal innecesaria sobre el campo de login que no cumple ninguna función identificable y rompe con la estética del formulario. Este elemento no sigue patrones de diseño convencionales para interfaces de autenticación.
+<br></br>
+  <img src="./assets/Chapter VI/Problema1.PNG">
+
+- **Recomendación:**
+  Eliminar la línea para mantener la interfaz limpia y consistente.
+<br></br>
+
+**PROBLEMA #2: Falta de contraste en las letras durante la carga de datos**
+
+- **Severidad:** 2
+- **Heurística violada:** Inclusive Design - Proporcionar experiencias comparables
+- **Problema:**
+  Los mensajes indicadores de carga de datos no tiene suficiente contraste con el fondo, dificultando su lectura especialmente en condiciones de luminosidad ambiental alta o para usuarios con deficiencias visuales.
+<br></br>
+  <img src="./assets/Chapter VI/Problema2.PNG">
+
+- **Recomendación:**
+  Aumentar el contraste del texto o cambiar el color de fondo para mejorar la legibilidad.
+<br></br>
+
+**PROBLEMA #3: Falta de indicadores para edición de imágenes**
+
+- **Severidad:** 2
+- **Heurística violada:** Usability - Visibilidad del estado del sistema.
+- **Problema:**
+  Los usuarios no pueden identificar que una imagen es editable debido a la falta de iconos o indicadores visuales.
+<br></br>
+  <img src="./assets/Chapter VI/Problema3.1.PNG">
+  <img src="./assets/Chapter VI/Problema3.2.PNG">
+
+- **Recomendación:**
+  Añadir un ícono o tooltip que indique la posibilidad de edición.
+<br></br>
+
+**PROBLEMA #4:  Botón "Guardar cambios" no funciona correctamente**
+
+- **Severidad:** 3
+- **Heurística violada:** Usability - Retroalimentación y control del usuario.
+- **Problema:**
+  El botón "Guardar cambios" no ejecuta ninguna acción al ser clickeado y no proporciona feedback visual (hover).
+  <br></br>
+  <img src="./assets/Chapter VI/Problema4.PNG">
+
+- **Recomendación:**
+  Implementar la funcionalidad del botón y añadir un efecto hover para mejorar la experiencia del usuario.
+<br></br>
+
+**PROBLEMA #5: Comportamiento inadecuado del footer**
+
+- **Severidad:** 2
+- **Heurística violada:** Information Architecture - Is it usable?
+- **Problema:**
+  Cuando no hay contenido en la pantalla, el footer se expande abruptamente, cortando el fondo y creando un espacio vacío antiestético.
+<br></br>
+  <img src="./assets/Chapter VI/Problema5.PNG">
+
+- **Recomendación:**
+  Ajustar el footer para que se adapte dinámicamente al contenido disponible.
+<br></br>
+
+**PROBLEMA #6: Botón "Apply to Project" sin estados hover**
+
+- **Severidad:** 1
+- **Heurística violada:** Usability - Consistencia y estándares
+- **Problema:**
+  El botón "Apply to Project" no tiene un efecto hover, lo que rompe con la consistencia de otros botones interactivos en la aplicación.
+<br></br>
+  <img src="./assets/Chapter VI/Problema6.PNG">
+
+- **Recomendación:**
+  Añadir un efecto hover para indicar que el botón es interactivo y mantener la coherencia visual.
+<br></br>
+
+**PROBLEMA #7: Fotografías de desarrolladores no visibles en la lista de desarrolladores**
+
+- **Severidad:** 2
+- **Heurística violada:** Information Architecture - Is it findable?
+- **Problema:**
+  Las fotos de perfil de los desarrolladores no aparecen en la lista, lo que dificulta la identificación rápida de los usuarios.
+<br></br>
+  <img src="./assets/Chapter VI/Problema7.PNG">
+
+- **Recomendación:**
+  Asegurar que las imágenes se carguen correctamente y mostrar un placeholder si no están disponibles.
+<br></br>
+
+**PROBLEMA #8: Campos de formulario que se deforman**
+
+- **Severidad:** 2
+- **Heurística violada:** Usability - Prevención de errores.
+- **Problema:**
+  Al mostrar mensajes de validación, uno de los inputs reduce su tamaño, lo que afecta la legibilidad y el diseño.
+<br></br>
+  <img src="./assets/Chapter VI/Problema8.PNG">
+
+- **Recomendación:**
+  Ajustar el tamaño del input para que sea consistente con los demás campos sin afectar el layout.
+<br></br>
+
+**PROBLEMA #9: Problemas de márgenes en navbar móvil**
+
+- **Severidad:** 2
+- **Heurística violada:** Usability - Flexibilidad y eficiencia de uso
+- **Problema:**
+  En la versión móvil, la navbar no tiene márgenes laterales, lo que hace que los elementos toquen los bordes de la pantalla, dando una apariencia descuidada.
+  <br></br>
+  <img src="./assets/Chapter VI/Problema9.PNG">
+
+- **Recomendación:**
+  Añadir padding/margen en los laterales para mejorar el espaciado.
+<br></br>
+
+**PROBLEMA #10: Logo no funciona como enlace en móvil**
+
+- **Severidad:** 3
+- **Heurística violada:** Usability - Libertad y control del usuario.
+- **Problema:**
+  En móviles, hacer clic en el logo de la aplicación no redirige al inicio, lo que contradice el comportamiento esperado por los usuarios.
+<br></br>
+  <img src="./assets/Chapter VI/Problema10.PNG">
+
+- **Recomendación:**
+  Implementar la funcionalidad de redirección al home al hacer clic en el logo.
+<br></br>
+
+**PROBLEMA #11: Alineación incorrecta en footer móvil**
+
+- **Severidad:** 1
+- **Heurística violada:** Usability - Consistencia y estándares.
+- **Problema:**
+  En dispositivos móviles, el contenido del footer aparece alineado a la izquierda en lugar de centrado, lo que afecta la estética.
+<br></br>
+  <img src="./assets/Chapter VI/Problema11.PNG">
+
+- **Recomendación:**
+  Centrar el contenido del footer para mejorar la presentación en pantallas pequeñas.
+<br></br>
+
+**PROBLEMA #12: Falta acceso rápido a creación de proyectos**
+
+- **Severidad:** 2
+- **Heurística violada:** Usability - Eficiencia y simplicidad.
+- **Problema:**
+  Los usuarios deben navegar a "Publish Project" para crear un proyecto, lo que añade pasos innecesarios.
+  <br></br>
+  <img src="./assets/Chapter VI/Problema12.PNG">
+
+- **Recomendación:**
+  Añadir un botón "Crear proyecto" en la página de inicio de la empresa para acelerar el proceso.
+
+**PROBLEMA #13: Inconsistencia en fondos entre versión web y móvil**
+
+- **Severidad:** 2  
+- **Heurística violada:** Usability - Consistencia y estándares  
+- **Problema:**  
+  El fondo de la aplicación móvil difiere significativamente del diseño web. Esta inconsistencia visual afecta la identidad de marca y la familiaridad de la interfaz.  
+<br></br>  
+<img src="./assets/Chapter VI/Problema13.PNG">
+
+- **Recomendación:**  
+  Unificar los diseños de fondo entre ambas plataformas, manteniendo la paleta de colores y elementos gráficos corporativos. 
+<br></br>
+
+**PROBLEMA #14: Falta de confirmación al crear proyectos**
+
+- **Severidad:** 3  
+- **Heurística violada:** Usability - Prevención de errores  
+- **Problema:**  
+  No existe un modal de confirmación al crear un proyecto, aumentando el riesgo de acciones accidentales sin posibilidad de cancelación.
+<br></br>  
+<img src="./assets/Chapter VI/Problema14.PNG">
+
+- **Recomendación:**  
+  Implementar un modal con un mensaje claro y botones de acción,
+<br></br>
+
+**PROBLEMA #15: Espaciado inadecuado en menús desplegables**
+
+- **Severidad:** 2  
+- **Heurística violada:** Usability - Flexibilidad y eficiencia de uso  
+- **Problema:**  
+  Los ítems en menús desplegables tienen un padding que dificulta la interacción con estas opciones, haciendo que se sufra de na superposición visual del contenido.
+<br></br>  
+<img src="./assets/Chapter VI/Problema15.PNG">
+
+- **Recomendación:**  
+  Ajustar el espaciado entre los items del menú añadiendo más padding entre ellos. 
+<br></br>
+
+**PROBLEMA #16: Inputs críticos con tamaño insuficiente**
+
+- **Severidad:** 3  
+- **Heurística violada:** Inclusive Design - Tamaño objetivo táctil  
+- **Problema:**  
+  Campos como "Destinatario", "Título" y "Mensaje" tienen una altura reducida en relación al contenido, afectando su legibilidad en dispositivos pequeños.
+<br></br>  
+<img src="./assets/Chapter VI/Problema16.PNG">
+
+- **Recomendación:**  
+  Aumentar el tamaño de los inputs a una altura adecuada.
+
+#### 6.4.2.4.Resumen de modificaciones para subsanar hallazgos
+
+**PROBLEMA #1: Elemento visual extraño en área de login**
+
+- **Severidad:** 1  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability - Consistencia y estándares  
+
+**Problema:**  
+Se observaba una línea horizontal innecesaria sobre el campo de login que no cumplía ninguna función identificable y rompía con la estética del formulario.  
+
+**Modificación implementada:**  
+- Se eliminó la regla CSS `border-top` del contenedor del formulario.  
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion1.jpeg">
+
+<br></br> 
+
+**PROBLEMA #2: Falta de contraste en las letras durante la carga de datos**
+
+- **Severidad:** 2  
+- **Estado:** Resuelto  
+- **Heurística violada:** Inclusive Design - Proporcionar experiencias comparables  
+
+**Problema:**  
+Los mensajes indicadores de carga no tenían suficiente contraste con el fondo, dificultando la lectura.  
+
+**Modificación implementada:**  
+- Se agregó un card de color `#FFFFFF`, junto con un icono de alerta para indicar el error en la carga de datos.  
+
+**Evidencia de solución:** 
+<br> 
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion2.jpg">
+
+<br></br> 
+
+**PROBLEMA #3: Falta de indicadores para edición de imágenes**
+
+- **Severidad:** 2  
+- **Estado:**  Resuelto  
+- **Heurística violada:** Usability - Visibilidad del estado del sistema  
+
+**Problema:**  
+Los usuarios no podían identificar que una imagen era editable por falta de iconos.  
+
+**Modificación implementada:**  
+- Se agregó un overlay con `background: rgba(0, 0, 0, 0.6);`  con un mensaje de "editar foto".
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion3.PNG">
+
+<br></br> 
+
+**PROBLEMA #4: Botón "Guardar cambios" no funciona correctamente**
+
+- **Severidad:** 3  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability - Retroalimentación y control  
+
+**Problema:**  
+El botón no ejecutaba acciones ni mostraba feedback visual.  
+
+**Modificación implementada:**  
+Se implementó lógica para guardar cambios en BD. Se añadió efecto hover.
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion4.jpg">
+
+<br></br> 
+
+**PROBLEMA #5: Comportamiento inadecuado del footer**
+
+- **Severidad:** 2  
+- **Estado:** Resuelto  
+- **Heurística violada:** Information Architecture  
+
+**Problema:**  
+El footer se expandía abruptamente en pantallas vacías.  
+
+**Modificación implementada:**  
+Se ajustó `min-height` del contenedor principal.  
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion5.jpg">
+
+
+<br></br> 
+
+**PROBLEMA #6: Botón sin estados hover**
+
+- **Severidad:** 1  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability - Consistencia  
+
+**Problema:**  
+El botón "Apply to Project" no tenía efecto hover.  
+
+**Modificación implementada:**  
+Se añadió `:hover { transform: translateY(-3px); background: #b1b0b0; }` al botón de aplicar al proyecto.  
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion6.PNG">
+
+<br></br> 
+
+**PROBLEMA #7: Fotografías no visibles en lista**
+
+- **Severidad:** 2  
+- **Estado:**  Resuelto
+- **Heurística violada:** Information Architecture  
+
+**Problema:**  
+Las fotos de perfil no se cargaban correctamente.  
+
+**Modificación implementada:**  
+Corrección de rutas e implementación de placeholder.
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion7.PNG">
+
+<br></br>
+
+**PROBLEMA #8: Campos de formulario que se deforman**
+
+- **Severidad:** 2  
+- **Estado:** Resuelto
+- **Heurística violada:** Usability  
+
+**Problema:**  
+Inputs reducían tamaño durante validaciones.  
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion8.PNG">
+<br></br>
+
+
+**PROBLEMA #9: Márgenes en navbar móvil**
+
+- **Severidad:** 2  
+- **Estado:** Resuelto
+- **Heurística violada:** Usability  
+
+**Problema:**  
+Elementos tocaban bordes en móvil.  
+
+**Modificación implementada:**  
+Se implementó un `padding: 12 24px` 
+  
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion9.PNG">
+<br></br>
+
+**PROBLEMA #10: Logo no funciona como enlace en móvil**
+
+- **Severidad:** 3  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability  
+
+**Problema:**  
+Logo no redirigía en versión móvil.  
+
+**Modificación implementada:**  
+Se agregó evento `onClick` al logo, así como un `pointerClick`.  
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion10.PNG">
+<br></br>
+
+**PROBLEMA #11: Alineación incorrecta en footer móvil**
+
+- **Severidad:** 1  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability  
+
+**Problema:**  
+Contenido desalineado a la izquierda.  
+
+**Modificación implementada:**  
+Se aplicó `text-align: center` en media queries.  
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion11.PNG">
+<br></br>
+
+**PROBLEMA #12: Falta acceso rápido a creación de proyectos**
+
+- **Severidad:** 2  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability  
+
+**Problema:**  
+Flujo requería navegación innecesaria.  
+
+**Modificación implementada:**  
+Botón flotante (+) en página principal.  
+
+**Evidencia de solución:**  
+<br>
+<img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion12.PNG">
+<br></br>
+
+**PROBLEMA #13: Inconsistencia en fondos entre versión web y móvil**
+
+- **Severidad:** 2  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability - Consistencia y estándares  
+
+**Problema:**  
+El fondo de la aplicación móvil difería significativamente del diseño web, afectando la identidad de marca y la familiaridad de la interfaz.  
+
+**Modificación implementada:**  
+Se unificaron los assets gráficos y la paleta de colores para el fondo. 
+
+**Evidencia de solución:**  
+<br>
+ <img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion13.PNG">
+
+<br></br>
+
+**PROBLEMA #14: Falta de confirmación al crear proyectos**
+
+- **Severidad:** 3  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability - Prevención de errores  
+
+**Problema:**  
+No existía confirmación al crear proyectos, permitiendo acciones accidentales sin retroceso.  
+
+**Modificación implementada:**  
+Se implementó un modal con un botón de "Aceptar" e icono de advertencia para acciones críticas.  
+
+**Evidencia de solución:**  
+<br>
+ <img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion14.PNG">
+
+<br></br>
+
+**PROBLEMA #15: Espaciado inadecuado en menús desplegables**
+
+- **Severidad:** 2  
+- **Estado:** Resuelto  
+- **Heurística violada:** Usability - Flexibilidad y eficiencia  
+
+**Problema:**  
+Items con padding insuficiente causaban superposición visual y errores táctiles.  
+
+**Modificación implementada:**  
+Se ajustó el espaciado del padding y bottom-margin para cada uno de los items.
+
+**Evidencia de solución:**  
+<br>
+ <img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion15.PNG">
+
+<br></br>
+
+**PROBLEMA #16: Inputs críticos con tamaño insuficiente**
+
+- **Severidad:** 3  
+- **Estado:** Resuelto  
+- **Heurística violada:** Inclusive Design - Tamaño táctil  
+
+**Problema:**  
+Campos clave tenían altura reducida. 
+
+**Modificación implementada:**  
+- Se rediseñaron los inputs con mayor altura y tamaño de fuente
+
+**Evidencia de solución:**  
+<br>
+ <img src="./assets/Chapter VI/Modificaciones-Auditoria/Solucion16.PNG">
+
+<br></br>
 
 # Capítulo VII: DevOps Practices
 ## 7.1. Continuous Integration
@@ -2758,9 +3919,6 @@ A continuacion se visualiza la ejecucion del test:
 - **Test-Driven Development (TDD):** Se aplicó la metodología de Desarrollo Guiado por Pruebas, donde las pruebas unitarias se escriben antes del código funcional. Esta práctica mejora la calidad del software y facilita el mantenimiento al detectar errores de forma temprana.
 
 - **Behavior-Driven Development (BDD):** Se implementó el Desarrollo Orientado por Comportamiento para definir las funcionalidades desde la perspectiva del usuario. Esta práctica permite validar que el sistema cumple con las necesidades del negocio mediante escenarios claros y comprensibles.
-
-
-
 ### 7.1.2. Build & Test Suite Pipeline Components
 
 <img src="./assets/chapter-VII/test-pipeline-1.PNG">
@@ -2849,7 +4007,7 @@ En esta sección se describirán las herramientas y prácticas utilizadas para l
 
 - **Continuous Integration**: Se implementó un proceso de integración continua que se activa automáticamente al realizar cambios en el código. Esto incluye la ejecución de pruebas automatizadas y la creación de contenedores Docker para garantizar que la aplicación funcione correctamente en diferentes entornos.
 
-### 7.2.2. Production Deployment Pipeline Components
+### 7.3.2. Production Deployment Pipeline Components
 
 En esta sección se describirán los componentes del pipeline de implementación en producción.
 
@@ -2876,8 +4034,294 @@ En esta sección se describirán los componentes del pipeline de implementación
 
 5. **Hosting y CDN:** Netlify publica el frontend en su red global de CDN, lo que mejora el rendimiento y la disponibilidad del sitio. Esto permite a los usuarios acceder rápidamente desde cualquier ubicación.
 
+## 7.4 Continuous Monitoring
+### 7.4.1. Tools and Practices
+
+Para garantizar una supervisión constante de la calidad y rendimiento de nuestra plataforma WebMaster, se integraron diversas herramientas y buenas prácticas orientadas al monitoreo proactivo. A continuación, se describen las principales:
+
+* Pruebas de Comportamiento y Automatización Visual (Selenium + Cucumber): Se utilizó Selenium para la automatización de pruebas en interfaces gráficas, junto con Cucumber para definir comportamientos esperados mediante especificaciones BDD (Behavior-Driven Development). Esto permite monitorear de forma automatizada que las funcionalidades visibles sigan respondiendo como se espera ante cambios en el código.
+
+* Supervisión de APIs (Postman): Postman fue empleado no solo como herramienta de pruebas manuales e integración, sino también como recurso para validar continuamente la disponibilidad y correcto funcionamiento de nuestros endpoints RESTful. Esta práctica permite identificar problemas de conexión o respuestas inesperadas antes de que impacten a los usuarios.
+
+<div align="center">
+  <img src="assets/chapter-VII/postman.png" alt="Postman">
+</div>
+
+* Auditorías de Calidad Web (Lighthouse): Google Lighthouse fue incorporado para realizar auditorías periódicas sobre el rendimiento, accesibilidad y buenas prácticas de la plataforma. Gracias a esta herramienta, se logró identificar cuellos de botella y oportunidades de mejora en la experiencia digital.
+
+* Monitoreo de Experiencia del Usuario (Google Analytics): Google Analytics permitió analizar el comportamiento real de los usuarios en la plataforma, facilitando la toma de decisiones para optimizar flujos, identificar caídas en rutas críticas y mejorar la navegación en general.
+
+<div align="center">
+  <img src="assets/chapter-VII//google-analytics.png" alt="Google Analytics" width="350">
+</div>
+
+### 7.4.2. Monitoring Pipeline Components
+
+Un pipeline de monitoreo continuo fue diseñado para recoger y analizar información clave sobre el comportamiento del sistema en producción, garantizando así una evolución basada en evidencia y una experiencia digital consistente.
+
+* Google Lighthouse: Implementado como parte del pipeline para generar auditorías automatizadas sobre rendimiento, accesibilidad, SEO y otras métricas esenciales. Estos análisis se ejecutan de forma periódica para identificar problemas antes de que impacten negativamente a los usuarios.
+
+<div align="center">
+  <img src="assets/chapter-VII/google-lighthouse.jpeg" alt="Google Lighthouse" width="350">
+</div>
 
 
+* Google Analytics: Actúa como componente de análisis en tiempo real, recolectando datos sobre el tráfico, flujo de usuarios y puntos de salida críticos. Esta información se integra al pipeline para ayudar a visualizar cómo las decisiones técnicas afectan directamente la experiencia del usuario.
+
+### 7.4.3. Alerting Pipeline Components
+
+Los mecanismos de alerta permiten una respuesta rápida y oportuna ante eventos inesperados o caídas en la calidad del servicio. En nuestro caso, se utilizaron componentes y configuraciones para detectar fallos relevantes tanto a nivel funcional como de rendimiento:
+
+* JUnit5 + Mockito: Aunque tradicionalmente son usados para pruebas, estas herramientas también se incorporaron dentro del pipeline de CI/CD (integrado con GitHub Actions) para verificar continuamente que las funcionalidades básicas del backend operen correctamente. Al fallar alguna prueba crítica, se dispara automáticamente una alerta al equipo.
+
+* GitHub Actions: Configurado para ejecutar pruebas automáticas y mostrar fallos en tiempo real directamente en el repositorio, GitHub se convierte en el centro de control del equipo de desarrollo, quien recibe alertas ante cualquier error en las ejecuciones de los test suites, promoviendo respuestas rápidas ante regresiones.
+
+### 7.4.4. Notification Pipeline Components
+
+La automatización de notificaciones es crucial para mantener al equipo informado sobre el estado del sistema y de las pruebas a lo largo del ciclo de vida del desarrollo.
+
+* GitHub Actions + Railway + Firebase: Gracias a la integración entre GitHub Actions y los entornos de despliegue en Railway y Firebase, se configuraron notificaciones automáticas ante cada despliegue exitoso o fallido. Estas notificaciones incluyen el estado del build, el resultado de las pruebas y el entorno al que se desplegó.
+
+* Mensajería por correo (via GitHub): Se establecieron notificaciones por correo electrónico como mecanismo principal para mantener informados a los miembros del equipo sobre fallos críticos, fallos en builds o actualizaciones importantes, promoviendo una toma de decisiones ágil y colaborativa.
+
+# Capítulo VIII: Experiment-Driven Development
+## 8.1. Experiment Planning
+### 8.1.1. As-Is Summary
+Nuestra aplicación tiene como objetivo principal ofrecer una plataforma para que las pequeñas y medianas empresas puedan conseguir soluciones tecnologicas sencillas basadas en sus necesidades y presupuesto. A su vez, permite a los desarrolladores freelance encontrar proyectos que se alineen con sus habilidades y experiencia. Actualmente, la aplicación cuenta con funcionalidades básicas como el registro de usuarios, la publicación de proyectos y la postulación a estos por parte de los desarrolladores. Sin embargo, aún hay áreas que requieren mejoras y nuevas funcionalidades para optimizar la experiencia del usuario y aumentar la eficiencia del sistema.
+
+**Problemas Identificados:**
+- <u>Rendimiento:</u> la aplicación puede ser bastante lenta al momento de cargar los datos en la pantalla inicial, a su vez, la carga de los proyectos puede ser lenta y no se actualiza en tiempo real.
+
+-<u> Usabilidad:</u> la navegación por la aplicación puede ser confusa para los usuarios, especialmente para aquellos que no están familiarizados con el sistema. La interfaz de usuario necesita ser más intuitiva y amigable.
+
+- <u>Funcionalidades:</u> la aplicación carece de ciertas funcionalidades que podrían mejorar la experiencia del usuario, como un sistema de notificaciones, un chat para gestionar las entregas y una sección de perfil más completa.
+
+- <u>Seguridad:</u> la aplicación necesita mejorar sus medidas de seguridad para proteger la información de los usuarios y evitar posibles ataques cibernéticos.
+
+**Objetivos de Mejora:**
+- Mejorar el rendimiento de la aplicación para que sea más rápida y eficiente.
+- Optimizar la usabilidad de la aplicación para que sea más intuitiva y fácil de navegar.
+- Añadir nuevas funcionalidades que mejoren la experiencia del usuario, como un sistema de notificaciones, un chat para gestionar las entregas y una sección de perfil más completa.
+- Implementar medidas de seguridad más robustas para proteger la información de los usuarios y evitar posibles ataques cibernéticos.
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+**Assumptions:**  
+  - Los usuarios valoran una interfaz intuitiva y fácil de usar.
+  - La velocidad de carga de la aplicación es un factor crítico para la satisfacción del usuario.
+  - Los usuarios necesitan funcionalidades adicionales como notificaciones y chat  para mejorar su experiencia.
+
+**Knowledge Gaps:**
+  - No se ha realizado un análisis exhaustivo de las necesidades y expectativas de los usuarios.
+  - Falta información sobre las mejores prácticas de seguridad para aplicaciones web.
+  - Desconocimiento sobre las tecnologías más adecuadas para mejorar el rendimiento de la aplicación.
+
+**Ideas:**
+  - Implementar un sistema de notificaciones para mantener a los usuarios informados sobre actualizaciones y cambios en sus proyectos.
+  - Añadir un chat para comunnicarse y gestionar las entregas y plazos de los proyectos entre otras cosas.
+  - Realizar una auditoría de usabilidad para identificar áreas de mejora en la interfaz de usuario.
+  
+**Claims:**
+  - La implementación de un sistema de notificaciones mejorará la comunicación entre los usuarios y aumentará la retención de usuarios.
+  - Un chat integrado facilitará la coordinacion del proyectos y mejorará la planificación de tareas.
+  - Mejorar la usabilidad de la aplicación aumentará la satisfacción del usuario y reducirá la tasa de abandono.
+
+### 8.1.3. Experiment-Ready Questions
+|Question|Confidence|Risk|Impact|Interest|Total Score|
+|--------|----------|----|------|--------|-----------|
+| ¿Mejorará la experiencia del usuario si mejoramos la barra de navegacion y ajustamos las tonalidades del fondo? | 3 - Con una configuración mas agradable para la vista podemos asegurarnos que los usuarios permanezcan mas tiempo en ella | 1 - bajo riesgo ya que son configuraciones sencillas que no tomarian mucho en implementar o quitar si no son de agrado al publico| 2 - Podría mejorar la experiencia de usuario por no es critica | 2 - Interes bajo, pero presente en los usuarios | 9 | 
+| ¿Aumentará la retención de usuarios si implementamos un sistema de notificaciones? | 4 - Con un sistema de notificaciones, los usuarios estarán más informados y comprometidos con la plataforma | 2 - Riesgo moderado, ya que podría generar spam si no se gestiona adecuadamente | 5 - La retención de usuarios es crucial para el éxito a largo plazo | 6 - Alto interés, ya que los usuarios valoran estar informados sobre sus proyectos | 17 |
+| ¿Mejorará la planificación de proyectos si añadimos un chat para que los involucrados puedan comunicarse en tiempo real? | 6 - Un chat facilitará la organización y seguimiento de tareas | 4 - Riesgo moderado, ya que podría complicar la interfaz si no se implementa correctamente | 8 - La planificación es clave para el éxito de los proyectos | 6 - Alto interés, ya que los usuarios necesitan herramientas para gestionar sus proyectos | 24 |
+| ¿Aumentará la satisfacción del usuario si optimizamos la velocidad de carga de la aplicación? | 8 - La velocidad de carga es fundamental para una buena experiencia de usuario | 2 - Bajo riesgo, ya que se trata de optimizaciones técnicas | 7 - Una aplicación rápida mejora la percepción general del servicio | 9 - Muy alto interés, ya que los usuarios esperan un rendimiento óptimo | 26 |
+| ¿Mejorará el sentimiento de seguridad de los usuarios en la aplicación si implementamos medidas de seguridad más robustas, pero que puedan comprometer el rendimiento?| 6 - Con medidas de seguridad más robustas, los usuarios se sentirán más seguros al usar la aplicación | 6 - Riesgo alto, ya que las medidas de seguridad pueden afectar el rendimiento si no se implementan adecuadamente | 4 - La seguridad es una preocupación crítica para los usuarios | 5 - Muy alto interés, ya que la seguridad es un factor clave en la confianza del usuario | 21 |
+
+### 8.1.4. Question Backlog
+
+|Prioridad (1,2,3,5,8)|Pregunta|
+|--------|--------|
+| 1 | ¿Mejorará la experiencia del usuario si mejoramos la barra de navegación y ajustamos las tonalidades del fondo? |
+| 3 | ¿Aumentará la retención de usuarios si implementamos un sistema de notificaciones? |
+| 3 | ¿Mejorará la planificación de proyectos si añadimos un char para gestionar la coordinacion de los proyectos? |
+| 5 | ¿Mejorará el sentimiento de seguridad de los usuarios en la aplicación si implementamos medidas de seguridad más robustas, pero que puedan comprometer el rendimiento? |
+| 8 | ¿Aumentará la satisfacción del usuario si optimizamos la velocidad de carga de la aplicación? |
+
+### 8.1.5. Experiment Cards
+
+|Quesiton| ¿Mejorará la experiencia del usuario si mejoramos la barra de navegación y ajustamos las tonalidades del fondo?|
+|---|---|
+|Why?|Para mejorar la experiencia del usuario y hacer la aplicación más atractiva visualmente.|
+|What?|Mejorar la barra de navegación y ajustar las tonalidades del fondo.|
+|Hypothesis|Si mejoramos la barra de navegación y ajustamos las tonalidades del fondo, entonces los usuarios tendrán una experiencia más agradable y permanecerán más tiempo en la aplicación.|
+<br>
+
+|Question| ¿Aumentará la retención de usuarios si implementamos un sistema de notificaciones?|
+|---|---|
+|Why?|Para mantener a los usuarios informados sobre actualizaciones y cambios en sus proyectos, lo que puede aumentar su compromiso.|
+|What?|Implementar un sistema de notificaciones que informe a los usuarios sobre actualizaciones y cambios en sus proyectos.|
+|Hypothesis|Si implementamos un sistema de notificaciones, entonces los usuarios estarán más informados y comprometidos con la plataforma, lo que aumentará la retención de usuarios.|
+<br>
+
+|Question| ¿Mejorará la planificación de proyectos si añadimos un char para gestionar la coordinacion de los proyectos?|
+|---|---|
+|Why?|Para facilitar la organización y seguimiento de tareas, lo que puede mejorar la planificación de proyectos.|
+|What?|Añadir un chat que permita a los usuarios coordinar fechas de entrega, plazos y alcance de los entregables del proyecto.|
+|Hypothesis|Si añadimos un chat para coordinar la gestión el proyecto, entonces los usuarios podrán organizar y seguir sus tareas de manera más efectiva, lo que mejorará la planificación de proyectos.|
+<br>
+
+|Question| ¿Aumentará la satisfacción del usuario si optimizamos la velocidad de carga de la aplicación?|
+|---|---|
+|Why?|Para mejorar la experiencia del usuario, ya que una aplicación rápida es fundamental para una buena percepción del servicio.|
+|What?|Optimizar la velocidad de carga de la aplicación para que sea más rápida y eficiente.|
+|Hypothesis|Si optimizamos la velocidad de respuesta entre el front y back, entonces los usuarios tendrán una experiencia más fluida y satisfactoria, lo que aumentará su satisfacción.|
+<br>
+
+|Question| ¿Mejorará el sentimiento de seguridad de los usuarios en la aplicación si implementamos medidas de seguridad más robustas, pero que puedan comprometer el rendimiento?|
+|---|---|
+|Why?|Para proteger la información de los usuarios y evitar posibles ataques cibernéticos, lo que puede aumentar la confianza en la plataforma.|
+|What?|Implementar medidas de seguridad más robustas, como autenticación de dos factores y cifrado de datos, aunque esto pueda afectar el rendimiento.|
+|Hypothesis|Si implementamos medidas de seguridad más robustas, entonces los usuarios se sentirán más seguros al usar la aplicación, lo que aumentará su confianza en la plataforma.|
+
+## 8.2. Experiment Design
+### 8.2.1. Hypotheses
+
+| Question | ¿Mejorará la experiencia del usuario si mejoramos la barra de navegacion y ajustamos las tonalidades del fondo? |
+| --- | --- |
+| Belief | Una barra de navegación más clara y tonos de fondo agradables reducirán la fatiga visual y harán la aplicación más atractiva. |
+| Hypothesis | Ajustar la barra de navegación y las tonalidades del fondo incrementará el tiempo promedio de sesión en ≥10% y aumentará la valoración de satisfacción visual en ≥1 punto (escala 1–5). |
+| Null Hypothesis | No habrá cambios significativos en tiempo de sesión ni en valoración de satisfacción visual. |
+
+
+| Question | ¿Aumentará la retención de usuarios si implementamos un sistema de notificaciones? |
+| --- | --- |
+| Belief | Mantener informados a los usuarios con notificaciones incrementa su compromiso. |
+| Hypothesis | Implementar notificaciones push/email elevará la retención mensual de usuarios en ≥15%. |
+| Null Hypothesis | La retención mensual no variará de forma significativa. |
+
+
+| Question | ¿Mejorará la planificación de proyectos si añadimos un char para gestionar la coordinacion de los proyectos? |
+| --- | --- |
+| Belief | Un chat integrado facilita la organización y seguimiento de entregas. |
+| Hypothesis | Añadir un chat entrega incrementará la tasa de tareas completadas a tiempo en ≥20%. |
+| Null Hypothesis | La proporción de tareas completadas a tiempo no cambiará significativamente. |
+
+
+| Question | ¿Aumentará la satisfacción del usuario si optimizamos la velocidad de carga de la aplicación? |
+| --- | --- |
+| Belief | Una aplicación más rápida mejora la percepción y retención. |
+| Hypothesis | Reducir el tiempo de carga a <2s incrementará la satisfacción global en ≥1.5 puntos (escala 1–5). |
+| Null Hypothesis | La satisfacción global no mostrará diferencia significativa. |
+
+
+| Question | ¿Mejorará el sentimiento de seguridad de los usuarios en la aplicación si implementamos medidas de seguridad más robustas, pero que puedan comprometer el rendimiento? |
+| --- | --- |
+| Belief | Funciones como 2FA y cifrado generan mayor confianza. |
+| Hypothesis | Implementar autenticación de dos factores y cifrado avanzado elevará el índice de confianza en ≥20%. |
+| Null Hypothesis | La confianza del usuario no variará significativamente. |
+
+### 8.2.2. Measures
+| Question | ¿Mejorará la experiencia del usuario si mejoramos la barra de navegación y ajustamos las tonalidades del fondo? |
+| --- | --- |
+| Measure | Medir la puntuación de satisfacción del usuario (CSAT) a través de una encuesta (escala 1–5) y el tiempo promedio por sesión utilizando Google Analytics antes y después del cambio. |
+
+
+| Question | ¿Aumentará la retención de usuarios si implementamos un sistema de notificaciones? |
+| --- | --- |
+| Measure | Medir la tasa de retención de usuarios mensual (porcentaje de usuarios que regresan al mes siguiente) y la tasa de clics en notificaciones (CTR) para evaluar su relevancia. |
+
+
+| Question | ¿Mejorará la planificación de proyectos si añadimos un char para gestionar la coordinacion de los proyectos?|
+| --- | --- |
+| Measure | Medir el porcentaje de entregables completados a tiempo y la tasa de finalización de proyectos dentro del plazo estimado. Complementar con encuestas sobre la facilidad de gestión percibida. |
+
+
+| Question | ¿Mejorará el sentimiento de seguridad de los usuarios si implementamos medidas de seguridad más robustas? |
+| --- | --- |
+| Measure | Medir la puntuación de confianza en la seguridad mediante una encuesta (escala 1–10) y el tiempo de inicio de sesión promedio para cuantificar el impacto en el rendimiento. |
+
+
+| Question | ¿Aumentará la satisfacción del usuario si optimizamos la velocidad de carga de la aplicación? |
+| --- | --- |
+| Measure | Medir el Tiempo de Carga Promedio (Average Page Load Time) y el Time to Interactive (TTI) utilizando herramientas como Google Lighthouse. Medir la Calificación de Satisfacción del Usuario (CSAT) a través de encuestas. |
+
+### 8.2.3. Conditions
+| Question | ¿Mejorará la experiencia del usuario si mejoramos la barra de navegación y ajustamos las tonalidades del fondo? |
+| --- | --- |
+| Condición Experimental | Un grupo de usuarios interactuará con la versión de la aplicación que incluye la nueva barra de navegación y la paleta de colores actualizada. |
+| Condición de Control | Un grupo de usuarios utilizará la versión actual de la aplicación sin los cambios visuales. |
+
+| Question | ¿Aumentará la retención de usuarios si implementamos un sistema de notificaciones? |
+| --- | --- |
+| Condición Experimental | Se habilitará el sistema de notificaciones para un segmento de usuarios, quienes recibirán alertas sobre actividad relevante en sus proyectos. |
+| Condición de Control | El grupo de control no recibirá notificaciones, manteniendo la funcionalidad actual. |
+
+| Question | ¿Mejorará la planificación de proyectos si añadimos un char para gestionar la coordinacion de los proyectos? |
+| --- | --- |
+| Condición Experimental | Un grupo de usuarios tendrá acceso a la nueva funcionalidad de chat para comunicarse con los involucrados del proyecto. |
+| Condición de Control | El grupo de control seguirá gestionando sus plazos sin la herramienta de chat. |
+
+| Question | ¿Mejorará el sentimiento de seguridad de los usuarios en la aplicación si implementamos medidas de seguridad más robustas, pero que puedan comprometer el rendimiento? |
+| --- | --- |
+| Condición Experimental | Se activará la autenticación de dos factores (2FA) de forma opcional para un grupo de usuarios. |
+| Condición de Control | El grupo de control mantendrá el sistema de autenticación actual de usuario y contraseña. |
+
+| Question | ¿Aumentará la satisfacción del usuario si optimizamos la velocidad de carga de la aplicación? |
+| --- | --- |
+| Condición Experimental | Se desplegará la versión optimizada del backend y frontend para un grupo de usuarios. |
+| Condición de Control | Un grupo de usuarios seguirá utilizando la versión no optimizada de la aplicación para establecer una línea base. |
+### 8.2.4. Scale Calculations and Decisions
+Se define un marco de decisión para cada experimento, estableciendo de antemano los umbrales de éxito que determinarán si una funcionalidad se implementa, se revisa o se descarta.
+
+| Scale Calculation                                                                                                                                                         | Decision                                                                                                                    | Desfavorable | Aceptable | Ideal | Excelente |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|--------------|-----------|-------|-----------|
+| Creemos que mejorando la UI, la satisfacción aumentará un 15%. Sabremos que es cierto si observamos dicho aumento en las encuestas CSAT.                                    | Implementar los cambios de UI si el resultado es aceptable o superior.                                                      |              |           |   X   |           |
+| Creemos que las notificaciones aumentarán la retención en un 20%. Sabremos que es cierto si la tasa de retención mensual alcanza ese valor.                               | Lanzar las notificaciones a todos los usuarios si se cumple el objetivo ideal.                                              |              |           |   X   |           |
+| Creemos que el chat reducirá entregas tardías en un 25%. Sabremos que es cierto si el porcentaje de entregas funcionales a tiempo mejora en esa magnitud.                        | Integrar el chat como una funcionalidad principal si el resultado es ideal.                                           |              |           |   X   |           |
+| Creemos que las medidas de seguridad aumentarán la confianza en un 30% sin impactar el rendimiento en más de un 15%.                                                        | Implementar 2FA si la confianza aumenta de forma aceptable y el impacto en el rendimiento es mínimo.                        |              |     X     |       |           |
+| Creemos que la optimización del rendimiento reducirá el tiempo de carga en 50%. Sabremos que es cierto si las métricas de Lighthouse lo confirman.                         | Priorizar la implementación de las optimizaciones de rendimiento.                                                            |              |           |       |     X     |
+
+### 8.2.5. Method Selection
+Para recopilar los datos definidos en la sección de Measures, se seleccionarán y utilizarán las siguientes herramientas, evaluadas según su idoneidad para cada tarea.
+
+| Herramienta                 | Google Analytics                                                                                          | Google Lighthouse                                                        | Hotjar                                                                | Google Forms / SurveyMonkey                                                   |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| **Precio**                  | Gratuito (con límites)                                                                                    | Gratuito (integrado en Chrome)                                            | Freemium                                                              | Freemium                                                                       |
+| **Capacidad de Análisis**   | Análisis exhaustivo del comportamiento del usuario (sesiones, retención, flujo de usuarios).              | Análisis técnico de rendimiento, SEO, accesibilidad y PWA.                | Análisis cualitativo de usabilidad (mapas de calor, grabaciones).      | Recopilación de datos cualitativos y cuantitativos a través de encuestas.      |
+| **Sencillez**               | Curva de aprendizaje media. Requiere configuración.                                                       | Muy sencillo de usar y entender los reportes.                             | Fácil de configurar e interpretar los datos visuales.                 | Muy fácil de crear y distribuir encuestas.                                     |
+| **Ventajas**                | Ideal para medir métricas de negocio como retención y tiempo en la página. Se integra con otras herramientas de Google. | Proporciona métricas claras y accionables para desarrolladores sobre rendimiento técnico. | Ofrece insights visuales sobre cómo los usuarios interactúan con la interfaz. | Permite medir directamente la percepción y satisfacción del usuario (CSAT, confianza). |
+### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+<div align="center">
+  <img src="assets/chapter-VIII/data_analytics1.png" alt="dataAnalytics1">
+</div>
+<div align="center">
+  <img src="assets/chapter-VIII/data_analytic2.png" alt="dataAnalytics2">
+</div>
+<div align="center">
+  <img src="assets/chapter-VIII/data_analytic3.png" alt="dataAnalytics3">
+</div>
+<div align="center">
+  <img src="assets/chapter-VIII/data_analytic4.png" alt="dataAnalytics4">
+</div>
+
+### 8.2.7. Web and Mobile Tracking Plan
+Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para seguir optimizando la plataforma, se establece el siguiente plan de seguimiento.
+
+1. **Implementación Inicial y Establecimiento de Líneas Base:**  
+   Durante el primer mes posterior al lanzamiento de cada nueva funcionalidad (chat, notificaciones, etc.), nos enfocaremos en recopilar datos para establecer una nueva línea base de rendimiento y uso.  
+   **Recopilación de Datos:**  
+   - **Métricas de Rendimiento:** Se registrarán diariamente los scores de Lighthouse para las páginas clave.  
+   - **Métricas de Uso (Google Analytics):** Se monitoreará el número de usuarios activos, la duración de las sesiones y las tasas de conversión para acciones clave (ej. proyectos publicados, postulaciones enviadas).  
+   - **Métricas de Funcionalidad Específica:** Se registrará la adopción de las nuevas características (ej. mensajes del chat, CTR de notificaciones).  
+   - **Análisis Comparativo:** Los datos se compararán con los resultados del experimento inicial para confirmar que el impacto positivo se mantiene en un entorno de producción a mayor escala.  
+
+2. **Seguimiento Continuo y Optimización Iterativa:**  
+   Una vez establecida la nueva línea base, se iniciará un proceso de monitoreo continuo para identificar tendencias y oportunidades de mejora.  
+   **Recopilación de Datos Continuos:**  
+   - **Métricas en Tiempo Real:** Se configurarán dashboards en una herramienta como Google Data Studio o Grafana para visualizar KPIs en tiempo real (usuarios activos, errores de servidor, tiempos de carga).  
+   - **Segmentación de Usuarios:** Se analizará el comportamiento por segmento (Empresas vs. Desarrolladores) para entender cómo cada grupo interactúa con las nuevas funcionalidades y personalizar futuras mejoras.  
+   - **Feedback Cualitativo (Hotjar y Encuestas):** Se realizarán análisis periódicos con mapas de calor y se enviarán encuestas de satisfacción trimestrales para recopilar feedback directo de los usuarios.  
+
+3. **Evaluación y Ajustes:**  
+   - **Informes Mensuales:** El equipo revisará un informe mensual con los hallazgos clave y las tendencias observadas.  
+   - **Iteración Basada en Datos:** Las conclusiones de estos informes se utilizarán para generar nuevas ideas y poblar el Question Backlog para el siguiente ciclo de experimentación, asegurando que WebMaster evolucione de manera constante y basada en datos.  
 ---
 
 # Conclusiones y Recomendaciones
