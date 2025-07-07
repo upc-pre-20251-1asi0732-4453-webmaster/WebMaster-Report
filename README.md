@@ -4359,7 +4359,88 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
+* E2-US109 – Navegar por la aplicación como empresario
+
+![E2-US109](./assets/chapter-VIII/E2-US109_1.png)
+![E2-US109](./assets/chapter-VIII/E2-US109_2.png)
+![E2-US109](./assets/chapter-VIII/E2-US109_3.png)
+
+* E2-US102 – Gestionar una propuesta de proyecto de software
+
+![E2-US102](./assets/chapter-VIII/E2-US102_1.png)
+
+
+* E2-US106 – Crear y gestionar entregables
+
+![E2-US106](./assets/chapter-VIII/E2-US106_1.png)
+
+
+* E2-US101 – Visualizar proyectos en la pantalla de inicio
+
+![E2-US101](./assets/chapter-VIII/E2-US101_1.png)
+
+
+* E2-US104 – Visualizar a desarrolladores
+
+![E2-US104](./assets/chapter-VIII/E2-US104_1.png)
+
+
+* E1-US101 – Registrar usuario
+
+![E1-US101](./assets/chapter-VIII/E1-US101_1.png)
+
+* E1-US102 – Iniciar sesión
+
+![E1-US102](./assets/chapter-VIII/E1-US102_1.png)
+
+
+* E2-US103 – Gestionar lista de postulantes
+
+![E2-US103](./assets/chapter-VIII/E2-US103_1.png)
+
+
+* E5-US101 – Seleccionar fechas de entregables en el calendario
+
+![E5-US101](./assets/chapter-VIII/E5-US101_1.png)
+
+
+* E3-US104 – Navegar por la aplicación como freelancer
+
+![E3-US104](./assets/chapter-VIII/E3-US104_1.png)
+![E3-US104](./assets/chapter-VIII/E3-US104_2.png)
+
+
+* E3-US102 – Postular a proyectos de desarrollo de software
+
+![E3-US102](./assets/chapter-VIII/E3-US102_1.png)
+
+
+* E3-US101 – Visualizar y gestionar proyectos asignados
+
+![E3-US101](./assets/chapter-VIII/E3-US101_1.png)
+
+
+* E4-US101 – Seleccionar idioma
+
+![E4-US101](./assets/chapter-VIII/E4-US101_1.png)
+
+
+* E4-US102 – Manejar y reportar errores
+
+![E4-US102](./assets/chapter-VIII/E4-US102_1.png)
+
+
+
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+![backend](./assets/chapter-VIII/backend_1.png)
+
+![backend](./assets/chapter-VIII/backend_2.png)
+
+![backend](./assets/chapter-VIII/backend_3.png)
+
+![backend](./assets/chapter-VIII/backend_4.png)
+
 
 #### 8.3.3.6. Team Collaboration Insights
 
