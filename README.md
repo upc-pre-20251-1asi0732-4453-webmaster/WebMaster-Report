@@ -4447,6 +4447,26 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
 ### 8.3.4. To-Be Validation Interviews
 #### 8.3.4.1. Diseño de Entrevistas
 
+1. ¿Te resulta más intuitiva la navegación con la nueva barra y los cambios de color de fondo?
+
+2. ¿Los cambios visuales te motivan a permanecer más tiempo dentro de la aplicación?
+
+3. ¿Te gustaría recibir notificaciones sobre actualizaciones o avances en tus proyectos?
+
+4. ¿Qué tipo de notificaciones considerarías útiles y cuáles serían molestas o innecesarias?
+
+5. ¿Consideras útil tener un chat integrado para coordinar tareas y entregas con tu equipo?
+
+6. ¿Has tenido dificultades al coordinar entregables o fechas sin una herramienta de comunicación directa en la app?
+
+7. ¿Has notado mejoras en la velocidad de la aplicación? ¿Cómo afecta esto tu experiencia general?
+
+8. ¿Qué tan importante es para ti la rapidez de carga al usar herramientas como esta?
+
+9. ¿Te sentirías más seguro usando la app si incluye autenticación de dos factores y cifrado de datos?
+
+10. ¿Aceptarías tiempos de carga ligeramente más lentos a cambio de mayor seguridad en tu información?
+
 #### 8.3.4.2. Registro de Entrevistas
 
 ## 8.4. Experiment Aftermath & Analysis
