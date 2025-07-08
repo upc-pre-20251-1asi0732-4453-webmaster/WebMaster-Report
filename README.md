@@ -4476,9 +4476,22 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
 
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
+Uno de los artefactos son nuestros prototipos interactivos creados en Figma. En ellos, se visualizan las interfaces propuestas según el análisis de las necesidades y expectativas del usuario, así como la retroalimentación recibida a través de entrevistas de validación. De esta manera, se refleja la evolución de las aplicaciones y los ajustes visuales y funcionales durante el desarrollo del proyecto.
+
+**Aplicación Web**
+<img src="./assets/chapter-VIII/figma-web.PNG">
+<br>
+
+**Aplicación Mobile**
+<img src="./assets/chapter-VIII/figma-mobile.PNG">
+
+Link al Figma: https://www.figma.com/design/RAIUA3kH2FB3hlN6XqgNQu/Figma---Webmaster?node-id=4202-458&t=UgqfWrSclenj0HY1-1
+
 
 ## 8.6. To-Be Software Platform Pre-launch
 ### 8.6.1. About-the-Product Intro Video
+En el video About the product se presentan las funcionalidades de WebMaster, tanto en su versión web como móvil. Se destacan las distintas características de la aplicación, resaltando las ventajas que ofrece la plataforma frente a sus competidores. El propósito principal de este video es captar la atención de desarrolladores freelance y PYMES, invitándolos a para realizar y gestionar sus proyectos de desarrollo a través de WebMaster.
+<img src="./assets/chapter-VIII/about-the-product.PNG">
 
 # Conclusiones y Recomendaciones
 
