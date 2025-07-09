@@ -4598,7 +4598,7 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
 - Entrevistado: Alessandro Medina Agnini
 - Edad: 20 años
 - Residencia: Lima - Surco
-- Enlace del video: https://upcedupe-my.sharepoint.com
+- Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a046_upc_edu_pe/EQRzZEfOKy5Lk2GClrx_Yx4Bih1kYJl_lsVAT8Ru9I__5A?e=QgPaX2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <img src="./assets/interviews/Alessandro3.PNG">
 
