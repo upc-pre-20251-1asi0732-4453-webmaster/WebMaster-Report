@@ -299,6 +299,9 @@ Durante esta entrega, reforzamos nuestros conocimientos y conceptos necesarios p
 TB2 <br>
 Durante esta entrega, integré métricas de costo-efectividad y escalabilidad para mercados emergentes. Esto nos permitió tomar decisiones informadas sobre funcionalidades clave, asegurando que la solución fuera viable tanto económica como técnicamente en diversos contextos globales, desde startups hasta grandes corporaciones.
 
+TF<br>
+En esta entrega final, se priorizó la inclusión digital y la sostenibilidad en cada decisión técnica. Las To-Be Validation Interviews nos permitieron identificar y mitigar posibles sesgos en el diseño, asegurando que la solución fuera accesible para diversos contextos. A través del Learning Workflow, documentamos conscientemente cómo decisiones técnicas (como la optimización de performance para dispositivos limitados) promueven accesibilidad digital en entornos vulnerables.
+
 Meneses Arevalo, Victor Manuel <br>
 TB1 <br>
 Durante la etapa de diseño del producto, se definieron guías de estilo y estructuras de navegación tanto para plataformas web como móviles, asegurando una experiencia de usuario inclusiva y accesible. Al diseñar interfaces responsivas y funcionales, se consideraron buenas prácticas que permiten a los usuarios interactuar con el sistema sin barreras tecnológicas, promoviendo así la equidad digital. Asimismo, se aplicaron principios de arquitectura de la información para optimizar la estructura del contenido, pensando en contextos globales donde el acceso rápido y ordenado a la información es fundamental. Estas decisiones reflejan un juicio informado sobre el impacto social y económico de un software bien diseñado y adaptable a diversas realidades tecnológicas y culturales.
@@ -359,6 +362,9 @@ En esta primera entrega, mantuve un enfoque en el aprendizaje continuo, tanto en
 
 TB2 <br>
 Durante la planificación de experimentos, me enfoqué en cuestiones éticas como el sesgo en los datos y la escalabilidad justa. Al definir métricas inclusivas, me aseguré de que nuestras soluciones no perpetuaran desigualdades, especialmente en mercados emergentes. Este enfoque demostró mi responsabilidad profesional de desarrollar tecnología que beneficie a todos, sin importar su contexto económico.
+
+TF<br>
+En esta entrega final, asumí la responsabilidad de supervisar la implementacion de las tareas del To-Be Backlog y mitigar sesgos en el diseño, asegurando que la solución fuera accesible para diversos contextos. A través del Learning Workflow, documenté conscientemente cómo decisiones técnicas promueven accesibilidad digital en entornos vulnerables.
 
 Meneses Arevalo, Victor Manuel <br>
 TB1 <br>
