@@ -4808,6 +4808,7 @@ Link al Figma: https://www.figma.com/design/RAIUA3kH2FB3hlN6XqgNQu/Figma---Webma
 En el video About the product se presentan las funcionalidades de WebMaster, tanto en su versión web como móvil. Se destacan las distintas características de la aplicación, resaltando las ventajas que ofrece la plataforma frente a sus competidores. El propósito principal de este video es captar la atención de desarrolladores freelance y PYMES, invitándolos a para realizar y gestionar sus proyectos de desarrollo a través de WebMaster.
 <img src="./assets/chapter-VIII/about-the-product.PNG">
 
+Link al video About the Product: https://youtu.be/xDXGLswUvmk 
 # Conclusiones y Recomendaciones
 
 **Conclusiones:**
