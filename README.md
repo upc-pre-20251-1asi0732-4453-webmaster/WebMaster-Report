@@ -4363,9 +4363,9 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
 |-----------------------------|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | 1 | UA01 | Mejora en la barra de navegación | 2 |
 | 2 | UA02 | Notificaciones en tiempo real para usuarios | 5 |
-| 4 | UA03 | Optimización de velocidad de carga | 3 |
-| 7 | UA04 | Mejora en la navegación móvil | 3 |
-| 8 | UA05 | Ajuste de tonalidades para reducir fátiga visual | 2 |
+| 3 | UA03 | Optimización de velocidad de carga | 3 |
+| 4 | UA04 | Mejora en la navegación móvil | 3 |
+| 5 | UA05 | Ajuste de tonalidades para reducir fátiga visual | 2 |
 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 #### 8.3.3.1. To-Be Sprint Backlogs
