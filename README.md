@@ -4536,7 +4536,7 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
 * UA05 – Ajuste de tonalidades para reducir fatiga visual
-<img src="./assets/chapter-VIII/ToBe_WebApp/UA05.png"  width="600" 
+<img src="./assets/chapter-VIII/ToBe_WebApp/landing.png"  width="600" />
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
@@ -4830,6 +4830,11 @@ las decisiones estratégicas a medida que crece la startup
 
 - **Identificación de una Necesidad Clara:** La startup WebMaster ha identificado una necesidad creciente en el mercado, donde las empresas y emprendimientos requieren una presencia en línea sólida para potenciar sus estrategias de marketing digital. Esta identificación precisa de una necesidad puede ser un factor clave para el éxito, ya que abordar una demanda real puede generar un gran interés y participación.
 
+- **Cultura DevOps y la Experimentación Continua**
+La adopción de una cultura DevOps en el desarrollo de WebMaster ha sido fundamental para acelerar la entrega de valor y fomentar la mejora continua. La integración de prácticas como el Experiment-Driven Design ha permitido validar hipótesis de negocio y experiencia de usuario mediante experimentos controlados, asegurando que cada cambio esté respaldado por datos y feedback real. Esta mentalidad experimental, sumada a la colaboración entre equipos multidisciplinarios, ha facilitado la rápida iteración de funcionalidades, la detección temprana de problemas y la adaptación ágil a las necesidades del mercado.
+
+- **Automatización, Pruebas y CI/CD**
+La implementación de pipelines de integración y despliegue continuo (CI/CD) ha sido clave para garantizar la calidad y confiabilidad de la plataforma. Herramientas como GitHub Actions, Railway y Netlify han automatizado la construcción, pruebas y despliegue tanto del backend como del frontend, reduciendo errores manuales y acelerando la entrega de nuevas versiones. La integración de pruebas automatizadas (Selenium, Cucumber, JUnit, Mockito) y auditorías de calidad (Lighthouse, Postman) ha permitido mantener altos estándares de calidad, seguridad y rendimiento, asegurando que cada entrega cumpla con los requisitos funcionales y no funcionales definidos. Este enfoque DevOps ha fortalecido la robustez del sistema y la satisfacción de los usuarios finales.
 
 # Video About-the-Team
 
