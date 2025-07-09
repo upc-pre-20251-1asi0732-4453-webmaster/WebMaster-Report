@@ -4535,7 +4535,28 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
+* UA05 – Ajuste de tonalidades para reducir fatiga visual
+<img src="./assets/chapter-VIII/ToBe_WebApp/UA05.png"  width="600" 
+
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+* UA01 – Mejora en la barra de navegación
+<img src="./assets/chapter-VIII/ToBe_WebApp/UA01.png"  width="600" />
+
+* UA02 – Notificaciones en tiempo real para desarrolladores
+<img src="./assets/chapter-VIII/ToBe_WebApp/UA02.png"  width="600" />
+
+* UA03 – Optimización de velocidad de carga
+<img src="./assets/chapter-VIII/ToBe_WebApp/UA03.png"  width="600" />
+
+
+* UA05 – Ajuste de tonalidades para reducir fatiga visual
+<img src="./assets/chapter-VIII/ToBe_WebApp/UA05.png"  width="600" />
+
+* UA06 – Chat integrado para coordinación de proyectos
+<img src="./assets/chapter-VIII/ToBe_WebApp/UA06.png"  width="600" />
+
+
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
