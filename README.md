@@ -4666,7 +4666,7 @@ Alessandro Medina es un estudiante de Ciencias de la Computación y desarrollado
 - Entrevistado: Alejandro Barturen
 - Edad: 21 años
 - Residencia: Lima - San Miguel
-- Enlace del video: [https://upcedupe-my.sharepoint.com]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a046_upc_edu_pe/EQRzZEfOKy5Lk2GClrx_Yx4Bih1kYJl_lsVAT8Ru9I__5A?e=QgPaX2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212191_upc_edu_pe/EcQh2GZMvitJo4P6NQyzZQ8BJQ9vjjSLhFBfNGTj5ynb3g?e=WQpu7Q&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
+- Enlace del video: [Ver video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212191_upc_edu_pe/EcQh2GZMvitJo4P6NQyzZQ8BJQ9vjjSLhFBfNGTj5ynb3g?e=WQpu7Q)
 
 <img src="./assets/interviews/Alejandro5.png">
 
