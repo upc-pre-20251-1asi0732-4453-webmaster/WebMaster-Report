@@ -4362,6 +4362,7 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
 |UA03|Optimización de velocidad de carga|Como usuario, quiero que las páginas carguen rápido, para tener una experiencia fluida sin interrupciones ni demoras|<p>**Escenario 1: Mejora en tiempo de carga**</p><p></p><p>**Given** que un usuario accede a cualquier sección</p><p></p><p>**When** se mide el tiempo de carga</p><p></p><p>**Then** no debe superar los 2 segundos en condiciones normales</p><p></p><p>**Escenario 2: Comparación de rendimiento**</p><p></p><p>**Given** que se implementaron optimizaciones</p><p></p><p>**When** se comparan métricas antes y después</p><p></p><p>**Then** debe evidenciarse al menos un 30% de mejora en el rendimiento</p>|E02|
 |UA04|Mejora en la navegación móvil|Como usuario que accede desde la aplicación móvil, quiero que la navegación sea optimizada para usar todas las funciones cómodamente desde el móvil.|<p>**Escenario 1: Accesibilidad total**</p><p></p><p>**Given** que el usuario navega desde el móvil</p><p></p><p>**When** intenta usar funciones clave como postular a un proyecto o enviar mensajes</p><p></p><p>**Then** debe poder realizarlas sin errores ni restricciones</p>|E03|
 |UA05|Ajuste de tonalidades para reducir fatiga visual|Como usuario frecuente, quiero que los colores de la interfaz sean suaves y no muy claros, para reducir la fatiga visual durante el uso prolongado.|<p>**Escenario 1: Implementación de tonalidades suaves**</p><p>**Given** que el usuario accede a la plataforma</p><p>**When** navega por las diferentes secciones</p><p>**Then** los colores de fondo y componentes deben evitar blancos intensos y usar tonalidades suaves</p><p></p><p>**Escenario 2: Validación de accesibilidad visual**</p><p>**Given** que se evalúa el diseño con criterios de accesibilidad</p><p>**When** se revisa el contraste y la legibilidad</p><p>**Then** debe cumplirse con el nivel AA de las pautas WCAG en toda la plataforma</p>|E04|
+|UA06|Chat integrado para coordinación de proyectos|Como usuario desarrollador, quiero un chat integrado con el cliente del proyecto, para poder coordinar entregas, plazos y entregables sin salir de la plataforma.|<p>**Escenario 1: Envío y recepción de mensajes**</p><p></p><p>**Given** que dos usuarios están en el mismo proyecto</p><p></p><p>**When** uno de ellos envía un mensaje</p><p></p><p>**Then** el otro debe recibirlo en tiempo real y poder responder</p><p></p><p>**Escenario 2: Almacenamiento del historial**</p><p></p><p>**Given** que los usuarios han intercambiado mensajes</p><p></p><p>**When** se consulta en la pestaña de mensajes</p><p></p><p>**Then** deben mostrarse todos los mensajes anteriores de manera cronológica</p>|E04|
 
 ### 8.3.2. To-Be Product Backlog
 
@@ -4372,6 +4373,7 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
 | 3 | UA03 | Optimización de velocidad de carga | 3 |
 | 4 | UA04 | Mejora en la navegación móvil | 3 |
 | 5 | UA05 | Ajuste de tonalidades para reducir fátiga visual | 2 |
+| 6 | UA06 | Chat integrado para coordinación de proyectos | 5 | 
 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 #### 8.3.3.1. To-Be Sprint Backlogs
@@ -4481,7 +4483,7 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
             <td>Pruebas Cross-Device</td>
             <td>Validar en 5 dispositivos móviles diferentes</td>
             <td>4</td>
-            <td>Jair Velasquez</td>
+            <td>Samira Alvarez</td>
             <td>Done</td>
         </tr>
         <tr>
@@ -4500,6 +4502,32 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
             <td>Actualizar estilos con nueva paleta</td>
             <td>4</td>
             <td>Harold Elias</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">UA06</td>
+            <td rowspan="3">Chat integrado</td>
+            <td>ET06-01</td>
+            <td>WebSocket Service</td>
+            <td>Implementar websocket para mensajería</td>
+            <td>6</td>
+            <td>Jair Velasquez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>ET03-02</td>
+            <td>UI Chat</td>
+            <td>Crear interfaz de chat</td>
+            <td>4</td>
+            <td>Harold Elías</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>ET03-03</td>
+            <td>Persistencia Mensajes</td>
+            <td>Almacenar conversaciones en Postgresql</td>
+            <td>8</td>
+            <td>Jair Velasquez</td>
             <td>Done</td>
         </tr>
     </tbody>
