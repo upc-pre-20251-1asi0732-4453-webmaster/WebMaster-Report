@@ -282,6 +282,9 @@ En esta entrega, se tomaron decisiones fundamentadas sobre la codificación de l
 TB2 <br>
 En esta entrega, implementé análisis estático y evaluar heurísticas, que asegura nuestro código cumpliera con estándares internacionales de seguridad y calidad. Esto no solo previno vulnerabilidades con potencial impacto global (como brechas de datos), sino que también garantizó que la solución fuera accesible para usuarios en entornos con limitaciones tecnológicas. Al documentar entrevistas de validación, incorporé diversas perspectivas socioeconómicas, demostrando cómo la ingeniería rigurosa puede promover inclusión digital.
 
+TF<br>
+En esta entrega, el desarrollo de las To-Be User Stories, Sprint Backlogs y Validation Interviews permitió evaluar el impacto global de nuestras soluciones de software, asegurando no solo su eficiencia técnica, sino también su adaptabilidad en entornos con limitaciones tecnológicas. A través de las Shareback Sessions y el Learning Workflow, optimizamos el uso de recursos para reducir costos y huella ambiental, mientras que el Intro Video evidenció nuestro compromiso con la inclusión digital.
+
 Elias Sanchez, Harold Miguel <br>
 TB1 <br>
 Durante esta etapa del proyecto, trabajé en la construcción del Startup Profile y el Solution Profile, lo que implicó analizar los antecedentes y problemáticas de nuestro público objetivo, así como perfilar a los miembros del equipo y delimitar el impacto de la solución propuesta. A través de herramientas como el Lean UX Canvas y la formulación de hipótesis, se identificaron factores económicos y sociales clave que influyen en la problemática. Esta aproximación nos permitió comprender cómo una solución tecnológica puede generar valor real en distintos contextos, asegurando que las funcionalidades se alineen con necesidades concretas y con una visión responsable de su aplicación a nivel global. Esta experiencia me permitió emitir juicios informados y tomar decisiones con conciencia del impacto social de nuestro sistema.
@@ -339,6 +342,9 @@ En esta entrega, se asumió con responsabilidad ética y profesional la implemen
 
 TB2 <br>
 Al implementar análisis de código estático y evaluaciones de seguridad, asumí la responsabilidad ética de garantizar que nuestro software no solo fuera funcional, sino también seguro y accesible. Al adherirme a estándares internacionales, me aseguré de que nuestro trabajo no pusiera en riesgo la privacidad de los usuarios ni discriminara a comunidades con menos recursos tecnológicos. 
+
+TF <br>
+En esta entrega final, asumí la responsabilidad ética y profesional al priorizar la inclusión digital y la sostenibilidad en cada decisión técnica. Las To-Be Validation Interviews nos permitieron identificar y mitigar posibles sesgos en el diseño, asegurando que la solución fuera accesible para diversos contextos. A través del Learning Workflow, documentamos conscientemente cómo decisiones técnicas (como la optimización de performance para dispositivos limitados) promueven accesibilidad digital en entornos vulnerables. 
 
 Elias Sanchez, Harold Miguel <br>
 TB1 <br>
@@ -4370,6 +4376,127 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 #### 8.3.3.1. To-Be Sprint Backlogs
 
+<table border="1" style="width:100%; border-collapse:collapse; text-align:center;">
+    <thead>
+        <tr>
+            <th colspan="9">Sprint Backlog - Mejoras UX/Performance</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Engineering Tasks</th>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation (Hours)</th>
+            <th>Assigned to</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">UA01</td>
+            <td rowspan="2">Mejora en la barra de navegación</td>
+            <td>ET01-01</td>
+            <td>Rediseño Componente NavBar</td>
+            <td>Crear nuevo diseño más accesible</td>
+            <td>4</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        <tr>
+            <td>ET01-02</td>
+            <td>Implementación Vue.js</td>
+            <td>Implementar la nueva barra de navegación en la aplicación Web</td>
+            <td>4</td>
+            <td>Harold Elías</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="3">UA02</td>
+            <td rowspan="3">Notificaciones en tiempo real</td>
+            <td>ET02-01</td>
+            <td>Modelado Base de Datos</td>
+            <td>Diseñar schema para preferencias de notificación</td>
+            <td>5</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>ET02-02</td>
+            <td>Servicio de Notificaciones</td>
+            <td>Implementar lógica de envío</td>
+            <td>8</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>ET02-03</td>
+            <td>Integración Email</td>
+            <td>Conectar con servicio SendGrid de correo</td>
+            <td>6</td>
+            <td>Samira Alvarez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">UA03</td>
+            <td rowspan="2">Optimización velocidad de carga</td>
+            <td>ET03-01</td>
+            <td>Auditoría Performance</td>
+            <td>Ejecutar Lighthouse y WebPageTest</td>
+            <td>4</td>
+            <td>Victor Meneses</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>ET03-02</td>
+            <td>Lazy Loading</td>
+            <td>Reestructurar carga de componentes en frontend</td>
+            <td>8</td>
+            <td>Victor Meneses</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">UA04</td>
+            <td rowspan="2">Mejora en navegación móvil</td>
+            <td>ET04-01</td>
+            <td>Implementación Responsive</td>
+            <td>Adaptar componentes para touch (min 48px)</td>
+            <td>4</td>
+            <td>Jair Velasquez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>ET04-02</td>
+            <td>Pruebas Cross-Device</td>
+            <td>Validar en 5 dispositivos móviles diferentes</td>
+            <td>4</td>
+            <td>Jair Velasquez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td rowspan="2">UA05</td>
+            <td rowspan="2">Ajuste de tonalidades</td>
+            <td>ET05-01</td>
+            <td>Diseño Sistema de Color</td>
+            <td>Crear paleta accesible </td>
+            <td>6</td>
+            <td>Zaid Ramirez</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>ET05-02</td>
+            <td>Implementación CSS Variables</td>
+            <td>Actualizar estilos con nueva paleta</td>
+            <td>4</td>
+            <td>Harold Elias</td>
+            <td>Done</td>
+        </tr>
+    </tbody>
+</table>
+
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
@@ -4455,6 +4582,21 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
 
 #### 8.3.4.2. Registro de Entrevistas
 
+**Segmento 2: Desarrolladores Freelancer**
+
+**Entrevista 1**
+
+- Entrevistador: Samira Jetzabel Alvarez Araguache
+- Entrevistado: Alessandro Medina Agnini
+- Edad: 20 años
+- Residencia: Lima - Surco
+- Enlace del video: https://upcedupe-my.sharepoint.com
+
+<img src="./assets/interviews/Alessandro3.PNG">
+
+Resumen:
+Alessandro Medina es un estudiante de Ciencias de la Computación y desarrollador front-end freelance. Menciona de manera positiva los ajustes de la interfaz de Webmaster, destacando la nueva barra de navegación. Mencionó que estas mejoras lo motivan a usar por más tiempo la aplicación. Considera últil recibir notificaciones relacionadas con avances, entregas o mensajes del equipo, pero que solo estén relacionadas al proyecto y no sean promocionales. También menciona que la incorporación de un chat es bastante útil, ya que la falta de un medio de comunicación fijo es algo que le ha dado problemas en proyectos anteriores. Aprecia la velocidad de carga actual, y está dispuesto a aceptar pequeñas demoras si es por mayor seguridad. En general, considera que la plataforma cuenta con las herramientas necesarias para desarrolladores como él y que efectivamente le facilitaría encontrar proyectos, así como las mejoras que se han realizado en la aplicación lo hacen estar aún más dispuesto a registrarse.
+
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
 
@@ -4490,6 +4632,11 @@ las decisiones estratégicas a medida que crece la startup
 
 
 # Video About-the-Team
+
+<img src="./assets/chapter-VIII/about-the-team.PNG">
+
+Link al video About the Team: https://www.youtube.com/watch?v=sLdjEB3_3Kk 
+
 
 # Bibliografía
 ```
