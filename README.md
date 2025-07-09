@@ -4506,7 +4506,7 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
         </tr>
         <tr>
             <td rowspan="3">UA06</td>
-            <td rowspan="3">Chat integrado</td>
+            <td rowspan="3">Chat integrado en la Web App</td>
             <td>ET06-01</td>
             <td>WebSocket Service</td>
             <td>Implementar websocket para mensajería</td>
@@ -4823,18 +4823,23 @@ En el video About the product se presentan las funcionalidades de WebMaster, tan
 
 # Conclusiones y Recomendaciones
 
-- **Impacto en el Entorno Digital:** La visión de convertirnos en una plataforma de elección para empresas y emprendimientos que buscan destacar en el entorno digital y el puente para que desarrolladores freelance puedan participar en proyectos que los ayuden tanto en sus conocimientos como financieramente, refleja una ambición significativa. Esta aspiración puede ser un motor motivador para nuestro equipo y un objetivo que guíe
-las decisiones estratégicas a medida que crece la startup
+**Conclusiones:**
+- **Impacto en el Entorno Digital:** La visión de convertirnos en una plataforma de elección para empresas y emprendimientos, así como un puente para desarrolladores freelance, refleja una ambición significativa. Esta aspiración actúa como motor motivador y guía estratégica para el crecimiento de la startup.
 
-- **Equipo Multidisciplinario:** El hecho de que la startup esté compuesta por nosotros 5 esto le da un enfoque multidisciplinario y fresco. Esto puede ser una ventaja ya que cada miembro del equipo puede aportar perspectivas únicas y habilidades complementarias, enriqueciendo así la oferta de servicio, originalidad y eficacia de este proyecto
+- **Identificación de una Necesidad Clara:** La startup ha detectado una necesidad creciente en el mercado: la importancia de contar con una presencia en línea sólida. Abordar esta demanda real es un factor clave para atraer el interés de potenciales clientes y posicionarse competitivamente.
 
-- **Identificación de una Necesidad Clara:** La startup WebMaster ha identificado una necesidad creciente en el mercado, donde las empresas y emprendimientos requieren una presencia en línea sólida para potenciar sus estrategias de marketing digital. Esta identificación precisa de una necesidad puede ser un factor clave para el éxito, ya que abordar una demanda real puede generar un gran interés y participación.
+- **Cultura DevOps y Experimentación Continua:** La adopción de prácticas DevOps ha permitido una entrega de valor más rápida, validación constante de hipótesis y mejoras continuas. Esto ha favorecido una iteración ágil y adaptativa frente a los cambios del mercado, minimizando errores y optimizando la experiencia del usuario.
 
-- **Cultura DevOps y la Experimentación Continua:**
-La adopción de una cultura DevOps en el desarrollo de WebMaster ha sido fundamental para acelerar la entrega de valor y fomentar la mejora continua. La integración de prácticas como el Experiment-Driven Design ha permitido validar hipótesis de negocio y experiencia de usuario mediante experimentos controlados, asegurando que cada cambio esté respaldado por datos y feedback real. Esta mentalidad experimental, sumada a la colaboración entre equipos multidisciplinarios, ha facilitado la rápida iteración de funcionalidades, la detección temprana de problemas y la adaptación ágil a las necesidades del mercado.
+**Recomendaciones:**
+- Fortalecer la Visión Estratégica: Continuar alimentando la visión planteada, alineando todas las decisiones clave con los objetivos de impacto en el entorno digital y crecimiento sostenible de la comunidad freelance.
 
-- **Automatización, Pruebas y CI/CD:**
-La implementación de pipelines de integración y despliegue continuo (CI/CD) ha sido clave para garantizar la calidad y confiabilidad de la plataforma. Herramientas como GitHub Actions, Railway y Netlify han automatizado la construcción, pruebas y despliegue tanto del backend como del frontend, reduciendo errores manuales y acelerando la entrega de nuevas versiones. La integración de pruebas automatizadas (Selenium, Cucumber, JUnit, Mockito) y auditorías de calidad (Lighthouse, Postman) ha permitido mantener altos estándares de calidad, seguridad y rendimiento, asegurando que cada entrega cumpla con los requisitos funcionales y no funcionales definidos. Este enfoque DevOps ha fortalecido la robustez del sistema y la satisfacción de los usuarios finales.
+- **Aprovechar al Máximo la Multidisciplinariedad:** Fomentar el intercambio de ideas y experiencias dentro del equipo para seguir capitalizando el valor de sus diferentes perspectivas. Espacios regulares de retroalimentación pueden potenciar aún más la colaboración.
+
+- **Expandir el Modelo de Validación Continua:** Seguir utilizando el enfoque de experimentación como base para decisiones estratégicas, no solo en desarrollo, sino también en marketing, diseño y atención al cliente.
+
+- **Escalar las Prácticas DevOps:** Consolidar y escalar los procesos de CI/CD, automatización de pruebas y auditorías de calidad. Evaluar nuevas herramientas y prácticas que puedan integrarse a medida que aumente la complejidad de la plataforma.
+
+- **Medir Impacto y Satisfacción:** Implementar métricas claras de éxito técnico y de experiencia del usuario que permitan medir el impacto real de cada iteración, asegurando que las mejoras estén alineadas con las necesidades reales del público objetivo.
 
 # Video About-the-Team
 
