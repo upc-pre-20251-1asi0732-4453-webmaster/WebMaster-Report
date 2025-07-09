@@ -4441,8 +4441,8 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
             <td>Done</td>
         </tr>
         <tr>
-            <td rowspan="2">UA03</td>
-            <td rowspan="2">Optimización velocidad de carga</td>
+            <td rowspan="3">UA03</td>
+            <td rowspan="3">Optimización velocidad de carga</td>
             <td>ET03-01</td>
             <td>Auditoría Performance</td>
             <td>Ejecutar Lighthouse y WebPageTest</td>
@@ -4456,6 +4456,14 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
             <td>Reestructurar carga de componentes en frontend</td>
             <td>8</td>
             <td>Victor Meneses</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>ET03-03</td>
+            <td>Migración a Microservicios</td>
+            <td>Refactorizar arquitectura monolítica a microservicios para mejorar escalabilidad</td>
+            <td>8</td>
+            <td>Jair Velasquez</td>
             <td>Done</td>
         </tr>
         <tr>
