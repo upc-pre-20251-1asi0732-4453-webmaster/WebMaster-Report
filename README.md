@@ -4660,6 +4660,21 @@ Maverick nos comenta que considera que la aplicación es intuitiva y facil de us
 Resumen:
 Alessandro Medina es un estudiante de Ciencias de la Computación y desarrollador front-end freelance. Menciona de manera positiva los ajustes de la interfaz de Webmaster, destacando la nueva barra de navegación. Mencionó que estas mejoras lo motivan a usar por más tiempo la aplicación. Considera últil recibir notificaciones relacionadas con avances, entregas o mensajes del equipo, pero que solo estén relacionadas al proyecto y no sean promocionales. También menciona que la incorporación de un chat es bastante útil, ya que la falta de un medio de comunicación fijo es algo que le ha dado problemas en proyectos anteriores. Aprecia la velocidad de carga actual, y está dispuesto a aceptar pequeñas demoras si es por mayor seguridad. En general, considera que la plataforma cuenta con las herramientas necesarias para desarrolladores como él y que efectivamente le facilitaría encontrar proyectos, así como las mejoras que se han realizado en la aplicación lo hacen estar aún más dispuesto a registrarse.
 
+**Entrevista 2**
+
+- Entrevistador: Victor Manuel Meneses Arevalo
+- Entrevistado: Alejandro Barturen
+- Edad: 21 años
+- Residencia: Lima - San Miguel
+- Enlace del video: [https://upcedupe-my.sharepoint.com]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a046_upc_edu_pe/EQRzZEfOKy5Lk2GClrx_Yx4Bih1kYJl_lsVAT8Ru9I__5A?e=QgPaX2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212191_upc_edu_pe/EcQh2GZMvitJo4P6NQyzZQ8BJQ9vjjSLhFBfNGTj5ynb3g?e=WQpu7Q&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
+
+<img src="./assets/interviews/Alejandro5.png">
+
+Resumen:
+Alejandro Bartturen, un estudiante de 21 años de Ingeniería de Software y desarrollador front-end freelance, valoró de forma positiva los recientes cambios en la interfaz de Webmaster, resaltando especialmente la nueva barra de navegación, la cual considera que mejora su experiencia y lo anima a utilizar la plataforma durante más tiempo.
+Comentó que sería de gran ayuda recibir notificaciones vinculadas exclusivamente al proyecto, como avances, entregas o mensajes del equipo, evitando que sean de carácter promocional. También destacó la utilidad de contar con un chat integrado, pues en proyectos anteriores le resultó complicado no tener un canal de comunicación fijo.
+Por otro lado, mencionó que aprecia la rapidez de carga que tiene actualmente la aplicación y que no tendría inconvenientes en tolerar ligeras demoras si estas se deben a reforzar la seguridad. En términos generales, Alejandro percibe que la plataforma ofrece las funcionalidades necesarias para perfiles como el suyo, facilitando el acceso a proyectos y reforzando su interés en registrarse gracias a las mejoras implementadas.
+
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
 En este estudio, las preguntas originales planteadas en las entrevistas iniciales fueron reformuladas y estructuradas con el objetivo de captar respuestas claras y relevantes para el análisis de la experiencia del usuario con el producto. Este enfoque permitió identificar con mayor precisión las percepciones, preferencias y necesidades de los participantes respecto a las funcionalidades clave de la aplicación.
