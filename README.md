@@ -4630,6 +4630,21 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
 
 #### 8.3.4.2. Registro de Entrevistas
 
+**Segmento 1: Empresas**
+**Entrevista 1** 
+
+  - Entrevistador: Zaid Ramirez
+  - Entrevistado: Maverick Mendoza
+  - Edad: 20 años
+  - Residencia: Lima 
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://youtu.be/rn22s0uMheg)
+
+<div style="display:flex;justify-content:center">
+<img src="./assets/interviews/Maverick3.png" alt="Entrevista a Maverick Mendoza" style="width:80%;">
+</div>
+Maverick nos comenta que considera que la aplicación es intuitiva y facil de usar, especialmente gracias a las mejoras visuales implementadas. Tambien piensa que la barra de navegación es clara y le permite acceder a las secciones principales sin complicaciones. Menciona que las notificaciones son útiles para mantenerse al tanto de los avances del proyecto, pero que no le gustaría recibir notificaciones promocionales. Aprecia la incorporación de un chat, ya que le ha dado problemas en proyectos anteriores no contar con un medio de comunicación fijo. En cuanto a la velocidad de carga, considera que es adecuada y está dispuesto a aceptar pequeñas demoras si esto significa mayor seguridad. En general, cree que la plataforma tiene las herramientas necesarias para facilitar la búsqueda de proyectos y mejorar la experiencia del usuario.
+<br><br>
+
 **Segmento 2: Desarrolladores Freelancer**
 
 **Entrevista 1**
