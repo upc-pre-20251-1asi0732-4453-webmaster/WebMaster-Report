@@ -4593,6 +4593,18 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
 
 #### 8.3.3.6. Team Collaboration Insights
 
+![alt text](./assets/chapter-VIII/team-col-insights-1.png)
+
+![alt text](./assets/chapter-VIII/team-col-insights-2.png)
+
+![alt text](./assets/chapter-VIII/team-col-insights-3.png)
+
+![alt text](./assets/chapter-VIII/team-col-insights-mob-1.png)
+
+![alt text](./assets/chapter-VIII/team-col-insights-mob-2.png)
+
+![alt text](./assets/chapter-VIII/team-col-insights-mob-3.png)
+
 ### 8.3.4. To-Be Validation Interviews
 #### 8.3.4.1. Diseño de Entrevistas
 
@@ -4635,8 +4647,109 @@ Alessandro Medina es un estudiante de Ciencias de la Computación y desarrollado
 
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
+En este estudio, las preguntas originales planteadas en las entrevistas iniciales fueron reformuladas y estructuradas con el objetivo de captar respuestas claras y relevantes para el análisis de la experiencia del usuario con el producto. Este enfoque permitió identificar con mayor precisión las percepciones, preferencias y necesidades de los participantes respecto a las funcionalidades clave de la aplicación.
+
+##### **Preguntas Formuladas**
+
+Se realizaron las siguientes preguntas para evaluar la experiencia de los usuarios con el producto:
+
+* 1	¿Qué opinión tiene del diseño visual y la barra de navegación?
+* 2	¿La interfaz le parece intuitiva y fácil de usar?
+* 3	¿Qué tan clara es la navegación entre secciones/pantallas?
+* 4	¿Qué tan útil es la funcionalidad de chat para coordinar proyectos?
+* 5	¿Qué tan importante considera recibir notificaciones sobre actividades del proyecto?
+* 6	¿Qué tan seguro se siente usando la plataforma (registro, login, 2FA)?
+* 7	¿Qué tan útil encuentra el sistema de verificación de perfiles (empresa/freelancer)?
+* 8	¿Qué tan clara le resulta la sección de búsqueda y selección de freelancers/proyectos?
+* 9	¿Qué tan útil considera la opción de selección de idioma?
+* 10 ¿Recomendaría usar WebMaster para contratar o trabajar como freelancer?
+
+La mayoría de las entrevistas se realizó a representantes de empresas (60%) y el 40% a desarrolladores freelance, asegurando retroalimentación equilibrada.
+
+* **Diseño visual y barra de navegación**
+
+    El 80% evaluó positivamente el diseño y la barra de navegación. Esto respalda la hipótesis de que una navegación clara mejora la experiencia.
+
+    <img src="./assets/chapter-VIII/analysis_1_int_res.png" style="border: 2px solid black;"  />
+
+* **Interfaz intuitiva y facilidad de uso**
+
+    El 95% considera la interfaz intuitiva o muy intuitiva, validando la estructura actual del flujo de navegación.
+
+    <img src="./assets/chapter-VIII/analysis_2_int_res.png" style="border: 2px solid black;"  />
+
+* **Claridad de navegación entre secciones**
+
+    Un 70% considera la navegación muy clara. Es un punto fuerte a mantener y optimizar.
+
+    <img src="./assets/chapter-VIII/analysis_3_int_res.png" style="border: 2px solid black;"  />
+
+* **Utilidad de la función de chat**
+
+    El 95% percibe la función de chat como una herramienta clave para coordinar proyectos.
+
+    <img src="./assets/chapter-VIII/analysis_4_int_res.png"  style="border: 2px solid black;"  />
+
+* **Importancia de recibir notificaciones**
+
+    El 90% valora recibir alertas para mantenerse actualizado sobre actividades clave.
+
+    <img src="./assets/chapter-VIII/analysis_5_int_res.png"  style="border: 2px solid black;"  />
+
+* **Nivel de confianza en seguridad**
+
+    El 95% siente confianza gracias a medidas como autenticación y cifrado. Esto valida la hipótesis de robustecer la seguridad.
+
+    <img src="./assets/chapter-VIII/analysis_6_int_res.png"  style="border: 2px solid black;"  />
+
+* **Utilidad del sistema de verificación de perfiles**
+
+    El 95% valora que empresas y freelancers estén verificados, aumentando la confianza en el proceso de contratación.
+
+    <img src="./assets/chapter-VIII/analysis_7_int_res.png" style="border: 2px solid black;"  />
+
+* **Claridad en la búsqueda y selección**
+
+    La mayoría encuentra clara la sección de búsqueda y filtrado, pero hay margen para afinarla.
+
+    <img src="./assets/chapter-VIII/analysis_8_int_res.png"  style="border: 2px solid black;"  />
+
+* **Utilidad de la opción de idioma**
+
+    El 90% considera valiosa la opción multilingüe, reforzando la proyección de expansión global.
+
+    <img src="./assets/chapter-VIII/analysis_9_int_res.png" style="border: 2px solid black;"  />
+
+* **Probabilidad de recomendación**
+
+    Un 80% afirma que recomendaría la plataforma, confirmando su potencial de adopción.
+
+    <img src="./assets/chapter-VIII/analysis_10_int_res.png"  style="border: 2px solid black;"  />
+
+##### **Recomendaciones de los Usuarios**
+
+Entre las características adicionales que los usuarios creen que mejorarán significativamente la usabilidad, destacan:  
+
+* La optimización de la barra de navegación y la claridad del diseño visual.  
+* La implementación de notificaciones push y correos para mantenerse informado de avances y propuestas.  
+* La funcionalidad de chat integrado para coordinar proyectos en tiempo real.  
+* Los usuarios también resaltaron la importancia de robustecer las medidas de seguridad mediante autenticación de dos factores (2FA) y mejorar la gestión de perfiles verificados.  
+* Además, algunos recomendaron ampliar las opciones de idioma para facilitar la adopción internacional de la plataforma.
+
+
+##### **Conclusión**
+
+Los resultados de la validación evidencian un alto nivel de aceptación general de la plataforma WebMaster, destacando la claridad de la navegación, la interfaz intuitiva y funcionalidades clave como el chat integrado y el sistema de verificación de perfiles. Las recomendaciones y sugerencias obtenidas permiten identificar oportunidades de mejora en aspectos como la optimización de la seguridad, la implementación de notificaciones y la ampliación de opciones de idioma. Todo esto servirá como base para futuras iteraciones que fortalezcan la experiencia del usuario.
 
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+| Prioridad (1,2,3,5,8) | Pregunta                                                                                                                                |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | ¿Mejorará la experiencia del usuario implementar un sistema de reputación basado en calificaciones y reseñas entre empresas y desarrolladores?                                                           |
+| 5         | ¿Incrementará la retención de usuarios integrar notificaciones personalizadas sobre nuevos proyectos o cambios en postulaciones?                                                    |
+| 0      | ¿Aumentará el alcance y la usabilidad agregar soporte multilenguaje, especialmente en portugués?                               |
+| 2         | ¿Generará mayor compromiso la inclusión de una sección de comunidad o foro para compartir experiencias y recomendaciones?       |
+| 5         | ¿Facilitará la monetización permitir una pasarela de pago integrada para gestionar contratos y pagos entre partes? |
 
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
