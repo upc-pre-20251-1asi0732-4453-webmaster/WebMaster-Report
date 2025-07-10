@@ -4697,6 +4697,20 @@ Alejandro Bartturen, un estudiante de 21 años de Ingeniería de Software y desa
 Comentó que sería de gran ayuda recibir notificaciones vinculadas exclusivamente al proyecto, como avances, entregas o mensajes del equipo, evitando que sean de carácter promocional. También destacó la utilidad de contar con un chat integrado, pues en proyectos anteriores le resultó complicado no tener un canal de comunicación fijo.
 Por otro lado, mencionó que aprecia la rapidez de carga que tiene actualmente la aplicación y que no tendría inconvenientes en tolerar ligeras demoras si estas se deben a reforzar la seguridad. En términos generales, Alejandro percibe que la plataforma ofrece las funcionalidades necesarias para perfiles como el suyo, facilitando el acceso a proyectos y reforzando su interés en registrarse gracias a las mejoras implementadas.
 
+**Entrevista 3**
+
+- Entrevistador: Harold Miguel Elías Sánchez
+- Entrevistado: Christofer More
+- Edad: 20 años
+- Residencia: Lima - San Miguel
+- Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212684_upc_edu_pe/EbXd5nLAvAJBs7uScP2HJGQBGMXTlYtCek6RXqcphm3LVA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=pOdwqu)
+
+<img src="./assets/chapter-VIII/entrevista_chris_seg2.png">
+
+Resumen:
+Christofer More, estudiante de 20 años residente en San Miguel, valoró positivamente los recientes cambios en la plataforma Webmaster. Señaló que el diseño actual le parece más atractivo visualmente y que la navegación dentro de la página se ha vuelto más fluida e intuitiva. Mencionó que estaría de acuerdo con recibir notificaciones, siempre que estén enfocadas en temas del proyecto como entregas, avances o mensajes relevantes, evitando contenido promocional. Además, destacó la importancia de tener reuniones periódicas como parte de la organización del equipo, ya que considera que son clave para coordinar y mejorar los sprints de trabajo. En general, opinó que los ajustes realizados no solo mejoran la usabilidad, sino que también aumentan su disposición a registrarse y participar activamente en la plataforma.
+
+
 ## 8.4. Experiment Aftermath & Analysis
 ### 8.4.1. Analysis and Interpretation of Results
 En este estudio, las preguntas originales planteadas en las entrevistas iniciales fueron reformuladas y estructuradas con el objetivo de captar respuestas claras y relevantes para el análisis de la experiencia del usuario con el producto. Este enfoque permitió identificar con mayor precisión las percepciones, preferencias y necesidades de los participantes respecto a las funcionalidades clave de la aplicación.
