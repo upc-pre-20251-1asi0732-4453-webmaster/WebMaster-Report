@@ -286,11 +286,20 @@ TF<br>
 En esta entrega, el desarrollo de las To-Be User Stories, Sprint Backlogs y Validation Interviews permitió evaluar el impacto global de nuestras soluciones de software, asegurando no solo su eficiencia técnica, sino también su adaptabilidad en entornos con limitaciones tecnológicas. A través de las Shareback Sessions y el Learning Workflow, optimizamos el uso de recursos para reducir costos y huella ambiental, mientras que el Intro Video evidenció nuestro compromiso con la inclusión digital.
 
 Elias Sanchez, Harold Miguel <br>
+
 TB1 <br>
 Durante esta etapa del proyecto, trabajé en la construcción del Startup Profile y el Solution Profile, lo que implicó analizar los antecedentes y problemáticas de nuestro público objetivo, así como perfilar a los miembros del equipo y delimitar el impacto de la solución propuesta. A través de herramientas como el Lean UX Canvas y la formulación de hipótesis, se identificaron factores económicos y sociales clave que influyen en la problemática. Esta aproximación nos permitió comprender cómo una solución tecnológica puede generar valor real en distintos contextos, asegurando que las funcionalidades se alineen con necesidades concretas y con una visión responsable de su aplicación a nivel global. Esta experiencia me permitió emitir juicios informados y tomar decisiones con conciencia del impacto social de nuestro sistema.
 
+TP <br>
+En esta entrega, trabajé en la definición y documentación de las características esenciales de la aplicación, alineándolas con los objetivos del sprint backlog. Analicé cómo estas funcionalidades podían afectar la accesibilidad y el rendimiento del sistema en distintos contextos, priorizando aquellas que ofrecieran mayor valor social y económico. Asimismo, colaboré en evaluar el impacto potencial de las decisiones técnicas, considerando aspectos como escalabilidad, sostenibilidad y adaptabilidad a diferentes realidades culturales y tecnológicas.
+
 TB2 <br>
 Para esta entrega, diseñé KPIs para medir no solo rendimiento técnico, sino también adopción cultural en diferentes regiones. Al incluir planes de rastreo adaptables, demostré que el éxito del software depende de su capacidad para resolver problemas reales en contextos específicos, sin imponer modelos tecnoculturales homogenizados.
+
+TF <br>
+En esta fase final del proyecto, me encargué de refinar y validar las To-Be User Stories y los Sprint Backlogs, asegurándome de que respondieran a necesidades reales detectadas durante el proceso de investigación. Junto con el equipo, utilicé el Learning Workflow y las Shareback Sessions para analizar de manera crítica el impacto social, económico y ambiental de cada decisión técnica, priorizando siempre la inclusión digital y la sostenibilidad. Asimismo, participé en la elaboración del Intro Video, destacando cómo nuestra solución puede adaptarse a contextos con diferentes realidades culturales y limitaciones tecnológicas.
+
+
 
 Ramirez Contreras, Zaid Valentino <br>
 TB1 <br>
@@ -360,8 +369,14 @@ Elias Sanchez, Harold Miguel <br>
 TB1 <br>
 Mi participación en el diseño y análisis de entrevistas, así como en la elaboración del Needfinding, me permitió asumir una postura ética y profesional al momento de recopilar, interpretar y aplicar información de usuarios reales. A través de herramientas como User Personas, Journey Maps y Empathy Maps, pude profundizar en las necesidades y emociones de los usuarios, respetando su contexto y tomando decisiones de diseño centradas en el bienestar y la equidad. Este enfoque permitió construir una solución con base en principios éticos y en la responsabilidad que conlleva desarrollar software que influya directamente en la vida de las personas. El análisis competitivo también reforzó mi capacidad de evaluar decisiones desde una perspectiva ética, comprendiendo el rol social del ingeniero de software en entornos reales.
 
+TP <br>
+Durante esta entrega, colaboré activamente en la planificación y organización del sprint backlog, asegurando que las tareas estuvieran alineadas con buenas prácticas éticas y profesionales. Verifiqué la coherencia entre los requerimientos técnicos y las necesidades detectadas en entrevistas previas, priorizando la claridad, la trazabilidad y la responsabilidad en la asignación de tareas. También ayudé a garantizar que las decisiones técnicas tomadas respetaran principios de privacidad, accesibilidad y sostenibilidad a largo plazo.
+
 TB2 <br>
 Al diseñar KPIs y planes de rastreo, consideré las implicaciones éticas de recopilar y usar datos de usuarios. Me aseguré de que nuestras métricas no solo midieran el rendimiento, sino que también respetaran normas de privacidad y consentimiento. Este proceso reforzó mi compromiso con una ingeniería de software que priorice a las personas sobre los datos.
+
+TF <br>
+Durante la etapa final del proyecto, asumí la responsabilidad ética de revisar y ajustar las métricas y validaciones para evitar sesgos, garantizando que el sistema fuera accesible y útil para diversos grupos de usuarios, incluyendo aquellos en contextos con menor conectividad. Documenté de forma clara las decisiones técnicas en el Learning Workflow, asegurando transparencia y trazabilidad en el desarrollo. Además, verifiqué que los indicadores y funcionalidades clave respetaran principios de privacidad y equidad, evitando recopilar o procesar datos sensibles de manera innecesaria.
 
 Ramirez Contreras, Zaid Valentino <br>
 TB1 <br>
