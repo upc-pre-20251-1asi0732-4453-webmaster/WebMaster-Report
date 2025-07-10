@@ -318,6 +318,10 @@ El desarrollo del proyecto se llevó a cabo bajo un enfoque colaborativo, donde 
 
 TB2 <br>
 Durante esta entrega, prioricé mejoras que equilibran rendimiento y cumplimiento normativo (como GDPR). Esto redujo riesgos legales y económicos para futuros usuarios, especialmente en regiones con regulaciones estrictas. Mi trabajo evidenció que las correcciones técnicas deben evaluarse también por su impacto en la confianza del usuario y la sostenibilidad del sistema a largo plazo.
+
+TF <br>
+En esta fase, la elaboración de las To-Be User Stories, los Sprint Backlogs y las Validation Interviews nos permitió analizar el impacto general de nuestras soluciones de software, garantizando no solo su eficacia técnica, sino también su capacidad de adaptación en entornos con restricciones tecnológicas. Mediante las Shareback Sessions y el Learning Workflow, logramos optimizar el uso de recursos para minimizar costos y la huella ambiental, mientras que el Intro Video destacó nuestro compromiso con la inclusión digital.
+
 </td>
          <td> TB1:
          El equipo trabajó de manera colaborativa utilizando metodologías ágiles como **Scrum** y **Gitflow** para organizar el desarrollo del proyecto, asegurando eficiencia y sostenibilidad. Mediante entrevistas y herramientas como el **Lean UX Canvas**, analizaron las necesidades del público objetivo y definieron funcionalidades alineadas con problemáticas sociales, económicas y globales. Además, se enfocaron en el **diseño de interfaces accesibles e inclusivas** (web y móvil), priorizando la experiencia de usuario y la adaptabilidad en distintos contextos tecnoculturales. Todos los integrantes coincidieron en la importancia de crear una solución responsable, evaluando su impacto a largo plazo y tomando decisiones informadas para garantizar un software sostenible y con valor social.
@@ -382,6 +386,10 @@ En esta etapa del proyecto, se llevó a cabo un análisis detallado del panorama
 
 TB2 <br>
 Al recibir y documentar auditorías externas, reconocí mi responsabilidad ética al priorizar hallazgos que afectaban directamente a los usuarios finales. Me comprometí a implementar mejoras que no solo resolvieran problemas técnicos, sino que también protegieran los datos sensibles de las personas, especialmente en regiones con regulaciones estrictas. 
+
+TF <br>
+En esta fase final, asumí la responsabilidad ética y profesional al poner en primer plano la inclusión digital y la sostenibilidad en cada elección técnica. Las To-Be Validation Interviews nos facilitaron la identificación y mitigación de posibles sesgos en el diseño, garantizando que la solución fuera accesible en diferentes contextos. Mediante el Learning Workflow, documentamos de manera deliberada cómo decisiones técnicas (como la optimización del rendimiento para dispositivos con recursos limitados) favorecen la accesibilidad digital en entornos vulnerables.
+
 
 </td>
             <td>TB1: 
