@@ -244,6 +244,9 @@
       - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
   - [8.4. Experiment Aftermath \& Analysis](#84-experiment-aftermath--analysis)
     - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
+        - [**Preguntas Formuladas**](#preguntas-formuladas)
+        - [**Recomendaciones de los Usuarios**](#recomendaciones-de-los-usuarios)
+        - [**Conclusión**](#conclusión)
     - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
   - [8.5. Continuous Learning](#85-continuous-learning)
     - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
@@ -4648,6 +4651,14 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
 
 ![alt text](./assets/chapter-VIII/team-col-insights-mob-3.png)
 
+**Repositorio Front-end**
+![alt text](./assets/chapter-VIII/insights.png)
+
+**Repositorio Back-end**
+![alt text](./assets/chapter-VIII/insights2.PNG)
+
+![alt text](./assets/chapter-VIII/insights3.png)
+
 ### 8.3.4. To-Be Validation Interviews
 #### 8.3.4.1. Diseño de Entrevistas
 
@@ -4865,6 +4876,16 @@ Uno de los artefactos son nuestros prototipos interactivos creados en Figma. En 
 
 Link al Figma: https://www.figma.com/design/RAIUA3kH2FB3hlN6XqgNQu/Figma---Webmaster?node-id=4202-458&t=UgqfWrSclenj0HY1-1
 
+
+Otro artefacto fueron las encuestas diseñadas en Google Forms. Por este medio se recopilaba la retroalimentación de los usuarios y validar la experiencia del usuario de manera más estructurada. De esta forma, se detectaron puntos de mejora en las funciones e interfaz de la aplicación y se hicieron los ajustes respectivos gracias a las respuestas de los entrevistados.
+
+<img src="./assets/chapter-VIII/google-forms.PNG">
+
+Link a la primera encuesta de desarrolladores: https://docs.google.com/forms/d/e/1FAIpQLSfcMKqT7p5zibkjfW6E2qjOIfPhwDvQiZ-cbLXtmOy1SXxzAQ/viewform?usp=dialog
+
+Link a la primera encuesta de empresas: https://docs.google.com/forms/d/e/1FAIpQLSdIjgH9zOf-y8eNuiP7_iwmkomvl4tUXuFoJV77l8nc6WJsWA/viewform 
+
+Link a la encuesta final: https://docs.google.com/forms/d/e/1FAIpQLSddNp3Fjv8ruwEJyx7yOVZFAGx-YObe37lDkHwks6Jyt86swQ/viewform
 
 ## 8.6. To-Be Software Platform Pre-launch
 ### 8.6.1. About-the-Product Intro Video
