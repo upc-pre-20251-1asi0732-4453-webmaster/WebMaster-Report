@@ -344,6 +344,8 @@ En esta fase, la elaboración de las To-Be User Stories, los Sprint Backlogs y l
           TB2:
           A través de esta entrega, el equipo demostró cómo la ingeniería de software responsable integra múltiples dimensiones de impacto. Implementamos análisis estáticos y heurísticas para garantizar seguridad global y accesibilidad en entornos vulnerables, mientras que los KPIs culturalmente adaptables aseguraron que la solución respetara diversidad tecnocultural. La optimización de recursos en la nube redujo tanto costos operativos como huella ambiental, y el estricto cumplimiento de normativas como GDPR protegió a usuarios en contextos regulatorios complejos. Estas acciones colectivas reflejan nuestro compromiso con un desarrollo técnico que no solo resuelve problemas inmediatos, sino que construye bases éticas y sostenibles para el futuro digital, priorizando siempre la equidad y el impacto social positivo.
           <br>
+          TF:
+          En esta fase final del proyecto se diseñaron, refinaron y validaron las To-Be User Stories, los Sprint Backlogs y las Validation Interviews para asegurar soluciones de software eficientes, sostenibles y adaptables en contextos con limitaciones tecnológicas. A través del Learning Workflow y las Shareback Sessions, se analizó críticamente el impacto social, económico y ambiental de las decisiones técnicas, priorizando la inclusión digital y la optimización de recursos para reducir costos y huella de carbono. Además, la elaboración del Intro Video evidenció el compromiso del proyecto con la equidad digital y su capacidad de adaptarse a distintas realidades culturales y socioeconómicas.
 </td>         
 
   <tr>
