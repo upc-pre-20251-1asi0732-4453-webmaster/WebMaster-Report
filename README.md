@@ -946,6 +946,104 @@ Además, ambos desarrolladores valoran el uso de plataformas de contratación fr
 
 Sus principales preocupaciones incluyen la eficiencia en la selección de proyectos, la comunicación transparente durante todo el proceso y la retroalimentación sobre el progreso del trabajo. En conjunto, estas entrevistas reflejan la importancia de estrategias efectivas de presentación, comunicación clara y selección inteligente de plataformas para maximizar las oportunidades y la satisfacción como desarrolladores freelance.
 
+
+### Analysis and Interpretation of Results
+
+En esta etapa inicial del estudio, las primeras entrevistas realizadas sirvieron como base para reformular y estructurar las preguntas, con el propósito de obtener respuestas más claras y útiles para analizar la experiencia del usuario con el producto. Gracias a este enfoque, fue posible comprender de manera más precisa las percepciones, preferencias y necesidades de los participantes en relación con las funciones principales de la aplicación.
+
+## Métricas Segmento Freelancers
+
+* **Opinión sobre el diseño visual y navegación**
+
+    <img src="./assets/chapter-VIII/analysis_1_dev.png" style="border: 2px solid black;"  />
+
+* **Facilidad de uso de la interfaz**
+
+    <img src="./assets/chapter-VIII/analysis_2_dev.png" style="border: 2px solid black;"  />
+
+* **Claridad al navegar entre secciones**
+
+    <img src="./assets/chapter-VIII/analysis_3_dev.png" style="border: 2px solid black;"  />
+
+* **Utilidad del chat para coordinar proyectos**
+
+    <img src="./assets/chapter-VIII/analysis_4_dev.png" style="border: 2px solid black;"  />
+
+* **Preferencia por recibir notificaciones del proyecto**
+
+    <img src="./assets/chapter-VIII/analysis_5_dev.png" style="border: 2px solid black;"  />
+
+* **Sensación de seguridad con el inicio de sesión**
+
+    <img src="./assets/chapter-VIII/analysis_6_dev.png" style="border: 2px solid black;"  />
+
+* **Claridad en la búsqueda y postulación a proyectos**
+
+    <img src="./assets/chapter-VIII/analysis_7_dev.png" style="border: 2px solid black;"  />
+
+* **Utilidad de mostrar el portafolio personal**
+
+    <img src="./assets/chapter-VIII/analysis_8_dev.png" style="border: 2px solid black;"  />
+
+* **Percepción sobre oportunidades laborales**
+    <img src="./assets/chapter-VIII/analysis_9_dev.png" style="border: 2px solid black;"  />
+
+* **Intención de recomendar la plataforma a otros freelancers**
+
+    <img src="./assets/chapter-VIII/analysis_10_dev.png" style="border: 2px solid black;"  />
+
+## Métricas Segmento Enterprises
+
+* **Percepción profesional del diseño visual**
+
+    <img src="./assets/chapter-VIII/analysis_1_enter.png" style="border: 2px solid black;"  />
+
+* **Interfaz para publicar y gestionar proyectos**
+
+    <img src="./assets/chapter-VIII/analysis_2_enter.png" style="border: 2px solid black;"  />
+
+
+* **Facilidad para navegar entre secciones clave**
+
+    <img src="./assets/chapter-VIII/analysis_3_enter.png" style="border: 2px solid black;"  />
+
+
+* **Utilidad del chat para comunicación con freelancers**
+
+    <img src="./assets/chapter-VIII/analysis_4_enter.png" style="border: 2px solid black;"  />
+
+
+* **Confianza al gestionar proyectos y datos**
+
+    <img src="./assets/chapter-VIII/analysis_5_enter.png" style="border: 2px solid black;"  />
+
+
+* **Importancia de las notificaciones del proyecto**
+
+    <img src="./assets/chapter-VIII/analysis_6_enter.png" style="border: 2px solid black;"  />
+
+
+* **Claridad en el proceso de selección de freelancers**
+
+    <img src="./assets/chapter-VIII/analysis_7_enter.png" style="border: 2px solid black;"  />
+
+
+* **Suficiencia de la información en perfiles de freelancers**
+
+    <img src="./assets/chapter-VIII/analysis_8_enter.png" style="border: 2px solid black;"  />
+
+
+* **Facilidad para gestionar proyectos en la plataforma**
+
+    <img src="./assets/chapter-VIII/analysis_9_enter.png" style="border: 2px solid black;"  />
+
+
+* **Disposición a suscribirse a un plan empresarial**
+
+    <img src="./assets/chapter-VIII/analysis_10_enter.png" style="border: 2px solid black;"  />
+
+
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
