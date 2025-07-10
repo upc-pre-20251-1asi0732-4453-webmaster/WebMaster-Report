@@ -4734,43 +4734,43 @@ La mayoría de las entrevistas se realizó a representantes de empresas (60%) y 
 
 * **Diseño visual y barra de navegación**
 
-    El 80% evaluó positivamente el diseño y la barra de navegación. Esto respalda la hipótesis de que una navegación clara mejora la experiencia.
+    El 50% evaluó positivamente el diseño y la barra de navegación. Esto respalda la hipótesis de que una navegación clara mejora la experiencia.
 
     <img src="./assets/chapter-VIII/analysis_1_int_res.png" style="border: 2px solid black;"  />
 
 * **Interfaz intuitiva y facilidad de uso**
 
-    El 95% considera la interfaz intuitiva o muy intuitiva, validando la estructura actual del flujo de navegación.
+    El 50% considera la interfaz intuitiva o muy intuitiva, validando la estructura actual del flujo de navegación.
 
     <img src="./assets/chapter-VIII/analysis_2_int_res.png" style="border: 2px solid black;"  />
 
 * **Claridad de navegación entre secciones**
 
-    Un 70% considera la navegación muy clara. Es un punto fuerte a mantener y optimizar.
+    Un 50% considera la navegación muy clara. Es un punto fuerte a mantener y optimizar.
 
     <img src="./assets/chapter-VIII/analysis_3_int_res.png" style="border: 2px solid black;"  />
 
 * **Utilidad de la función de chat**
 
-    El 95% percibe la función de chat como una herramienta clave para coordinar proyectos.
+    El 60% percibe la función de chat como una herramienta clave para coordinar proyectos.
 
     <img src="./assets/chapter-VIII/analysis_4_int_res.png"  style="border: 2px solid black;"  />
 
 * **Importancia de recibir notificaciones**
 
-    El 90% valora recibir alertas para mantenerse actualizado sobre actividades clave.
+    El 60% valora recibir alertas para mantenerse actualizado sobre actividades clave.
 
     <img src="./assets/chapter-VIII/analysis_5_int_res.png"  style="border: 2px solid black;"  />
 
 * **Nivel de confianza en seguridad**
 
-    El 95% siente confianza gracias a medidas como autenticación y cifrado. Esto valida la hipótesis de robustecer la seguridad.
+    El 43.3% siente confianza gracias a medidas como autenticación y cifrado. Esto valida la hipótesis de robustecer la seguridad.
 
     <img src="./assets/chapter-VIII/analysis_6_int_res.png"  style="border: 2px solid black;"  />
 
 * **Utilidad del sistema de verificación de perfiles**
 
-    El 95% valora que empresas y freelancers estén verificados, aumentando la confianza en el proceso de contratación.
+    El 56.7% valora que empresas y freelancers estén verificados, aumentando la confianza en el proceso de contratación.
 
     <img src="./assets/chapter-VIII/analysis_7_int_res.png" style="border: 2px solid black;"  />
 
@@ -4782,13 +4782,13 @@ La mayoría de las entrevistas se realizó a representantes de empresas (60%) y 
 
 * **Utilidad de la opción de idioma**
 
-    El 90% considera valiosa la opción multilingüe, reforzando la proyección de expansión global.
+    El 56.7% considera valiosa la opción multilingüe, reforzando la proyección de expansión global.
 
     <img src="./assets/chapter-VIII/analysis_9_int_res.png" style="border: 2px solid black;"  />
 
 * **Probabilidad de recomendación**
 
-    Un 80% afirma que recomendaría la plataforma, confirmando su potencial de adopción.
+    Un 53.3% afirma que recomendaría la plataforma, confirmando su potencial de adopción.
 
     <img src="./assets/chapter-VIII/analysis_10_int_res.png"  style="border: 2px solid black;"  />
 
