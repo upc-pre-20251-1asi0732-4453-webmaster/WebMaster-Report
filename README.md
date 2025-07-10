@@ -312,6 +312,9 @@ En esta entrega, se implementó un esquema de validación robusto para la aplica
 TB2 <br>
 En esta entrega, configuré pipelines de monitoreo para optimizar el uso de recursos en la nube, reduciendo costos operativos y la huella ambiental del proyecto. Al diseñar alertas accesibles, aseguré que el sistema pueda implementarse en zonas con infraestructura limitada, probando que la eficiencia técnica puede impulsar equidad digital sin sacrificar rendimiento.
 
+TF <br> 
+En esta fase final del proyecto, diseñé y documenté detalladamente las To-Be User Stories, los Sprint Backlogs y las Validation Interviews, priorizando funcionalidades que fomenten la inclusión digital y sean sostenibles en distintos contextos globales. A través del Learning Workflow y las Shareback Sessions, reflexioné junto al equipo sobre el impacto económico y ambiental de cada decisión técnica, buscando siempre optimizar recursos y minimizar la huella de carbono. La creación del Intro Video también sirvió para difundir la visión de equidad digital del proyecto, asegurando que la solución sea adaptable a entornos con limitaciones tecnológicas y accesible para diferentes realidades culturales y socioeconómicas.
+
 Velasquez Pizarro Jair <br>
 TB1 <br>
 El desarrollo del proyecto se llevó a cabo bajo un enfoque colaborativo, donde cada integrante del equipo asumió un rol activo en la construcción de una solución tecnológica con impacto real. A través de entrevistas y análisis contextual, se identificaron necesidades concretas que guiaron la definición de funcionalidades alineadas con problemáticas sociales, económicas y globales. Se priorizó la toma de decisiones fundamentadas, considerando no solo la viabilidad técnica, sino también las consecuencias a largo plazo del sistema en los entornos donde será implementado. El uso de metodologías ágiles como Scrum, junto con un flujo de trabajo estructurado mediante Gitflow, permitió mantener una dinámica de desarrollo eficiente y sostenible, integrando buenas prácticas que refuerzan la calidad del software. Esta experiencia evidenció la importancia de construir soluciones de ingeniería de software responsables, con conciencia de su impacto en la sociedad y en el ecosistema tecnológico global.
@@ -379,6 +382,9 @@ En esta entrega, la planificación y ejecución de las actividades de prueba se 
 
 TB2 <br>
 Al configurar el monitoreo continuo, asumí la responsabilidad de optimizar recursos para minimizar el impacto ambiental de nuestra solución. Cada alerta que diseñé tuvo en cuenta no solo la eficiencia técnica, sino también el acceso equitativo para usuarios en zonas con conectividad limitada. Mi trabajo reflejó el compromiso ético de crear tecnología que no excluya ni dañe el medio ambiente.
+
+TF <br> 
+Durante la fase final del proyecto, asumí la responsabilidad ética de diseñar soluciones que consideraran tanto la sostenibilidad ambiental como la inclusión digital. Implementé alertas y validaciones que priorizan la accesibilidad para usuarios en zonas con conectividad limitada, además de documentar cuidadosamente las decisiones técnicas en el Learning Workflow para garantizar transparencia y trazabilidad. Las entrevistas de validación finales (To-Be Validation Interviews) se enfocaron en mitigar sesgos y asegurar que el producto beneficiara a diversos perfiles de usuarios sin excluir a grupos vulnerables.
 
 Velasquez Pizarro Jair <br>
 TB1 <br>
