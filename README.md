@@ -4855,13 +4855,23 @@ Los resultados de la validación evidencian un alto nivel de aceptación general
 
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
+Con base en los resultados cuantitativos de las entrevistas, se ha ajustado la priorización de las preguntas‑hipótesis del backlog. Las nuevas prioridades reflejan el nivel de validación de cada hipótesis, su impacto percibido en la experiencia del usuario y el valor estratégico para la plataforma.
+
 | Prioridad (1,2,3,5,8) | Pregunta                                                                                                                                |
 | --------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| 1         | ¿Mejorará la experiencia del usuario implementar un sistema de reputación basado en calificaciones y reseñas entre empresas y desarrolladores?                                                           |
-| 5         | ¿Incrementará la retención de usuarios integrar notificaciones personalizadas sobre nuevos proyectos o cambios en postulaciones?                                                    |
-| 0      | ¿Aumentará el alcance y la usabilidad agregar soporte multilenguaje, especialmente en portugués?                               |
-| 2         | ¿Generará mayor compromiso la inclusión de una sección de comunidad o foro para compartir experiencias y recomendaciones?       |
-| 5         | ¿Facilitará la monetización permitir una pasarela de pago integrada para gestionar contratos y pagos entre partes? |
+| 2         | 	¿Reducirá la curva de aprendizaje si se simplifica el flujo inicial y se ofrecen micro‑tutoriales contextuales en la interfaz?                                                           |
+| 8         | ¿Mejorará la coordinación de proyectos si se integra un chat en tiempo real con confirmaciones de lectura?                                                    |
+| 1      | 	¿Reducirá las dudas sobre privacidad si se refuerza la autenticación de dos factores y el cifrado de datos en el registro y login?                               |
+| 5         | 	¿Mejorará el engagement de los usuarios si se implementan notificaciones push y correos automáticos sobre actividades del proyecto?       |
+| 3         | 	¿Mejorará la confianza de los usuarios si se incorpora un sistema de verificación documental automática y distintivos visuales? |
+
+### Cambios clave:
+
+* La hipótesis del chat en tiempo real se eleva a prioridad 8, dado que el 60 % de usuarios la considera clave para coordinar proyectos de forma fluida.
+* La implementación de notificaciones push y correos automáticos sube a prioridad 5, pues un 60 % de participantes valora mantenerse informado al instante.
+* El sistema de verificación documental automática y distintivos visuales avanza a prioridad 3 tras obtener un 56,7 % de aprobación, reforzando la percepción de credibilidad.
+* La simplificación del flujo inicial junto con micro‑tutoriales contextuales se coloca en prioridad 2, dado el 50 % de usuarios que señala la curva de aprendizaje como área a optimizar.
+* El refuerzo de la autenticación de dos factores y cifrado desciende a prioridad 1, pues sólo el 43,3 % se siente realmente seguro bajo el esquema actual, aunque sigue siendo fundamental reducir dudas de privacidad.
 
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
