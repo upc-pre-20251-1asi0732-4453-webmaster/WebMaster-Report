@@ -4688,6 +4688,20 @@ Para asegurar que las mejoras implementadas sean efectivas a largo plazo y para 
 Maverick nos comenta que considera que la aplicación es intuitiva y facil de usar, especialmente gracias a las mejoras visuales implementadas. Tambien piensa que la barra de navegación es clara y le permite acceder a las secciones principales sin complicaciones. Menciona que las notificaciones son útiles para mantenerse al tanto de los avances del proyecto, pero que no le gustaría recibir notificaciones promocionales. Aprecia la incorporación de un chat, ya que le ha dado problemas en proyectos anteriores no contar con un medio de comunicación fijo. En cuanto a la velocidad de carga, considera que es adecuada y está dispuesto a aceptar pequeñas demoras si esto significa mayor seguridad. En general, cree que la plataforma tiene las herramientas necesarias para facilitar la búsqueda de proyectos y mejorar la experiencia del usuario.
 <br><br>
 
+**Entrevista 2** 
+
+  - Entrevistador: Jair Velasquez Pizarro
+  - Entrevistado: Alexandra Ñañez
+  - Edad: 22 años
+  - Residencia: Lima 
+  - Enlace del video: [https://upcedupe-my.sharepoint.com](https://upcedupe-my.sharepoint.com/personal/u202218114_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218114_upc_edu_pe%2FDocuments%2FEntrevista%20Alexandra%20Webmaster%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ece709989-e2fd-48b0-8293-20a526c1ec71)
+
+<div style="display:flex;justify-content:center">
+<img src="./assets/interviews/Alexandra2.png" alt="Entrevista a Alexandra Ñañez" style="width:80%;">
+</div>
+Alexandra menciona que la aplicación web presenta una navegación muy intuitiva, lo que facilita su uso. Además, destaca la importancia de la implementación de un chat para la comunicación directa con los desarrolladores, lo que mejoraría la coordinación y aseguraría una mejor ejecución del proyecto. También resalta de manera positiva la adición de la funcionalidad de cambio de idioma, lo cual amplía el alcance global de la aplicación. Finalmente, confirma que utilizaría la plataforma, ya que, al no tener profundos conocimientos en desarrollo de software, considera que una herramienta como esta sería de gran utilidad para crear una aplicación para su negocio.
+<br><br>
+
 **Segmento 2: Desarrolladores Freelancer**
 
 **Entrevista 1**
